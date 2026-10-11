@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 60/82 recipes complete; 183/244 principles covered.**
+**Progress: 61/82 recipes complete; 186/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -107,7 +107,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R60. Launch Gates, Staged Rollout, Health Checks, and Rollback** — NEW (3 principles). [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md).
 ### Operations and evaluation
 
-- [ ] **R61. Question-Driven Telemetry, Correlation, and Actionable Alerts** — NEW (3 principles).
+- [x] **R61. Question-Driven Telemetry, Correlation, and Actionable Alerts** — NEW (3 principles). [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md).
 - [ ] **R62. Controlled Skill Evaluations, Observable Traces, and Repeated Trials** — NEW (5 principles).
 - [ ] **R63. Pressure Tests for Instruction Compliance** — NEW (1 principles).
 ### Documentation and evidence
@@ -631,9 +631,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md).
-- [ ] **Propagate correlation and entry-point identity while bounding telemetry label cardinality** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md).
-- [ ] **Make alerts actionable with runbooks and verify telemetry and notification delivery** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md).
+- [x] **Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately** — [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md).
+- [x] **Propagate correlation and entry-point identity while bounding telemetry label cardinality** — [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md).
+- [x] **Make alerts actionable with runbooks and verify telemetry and notification delivery** — [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md).
 
 ### R62. Controlled Skill Evaluations, Observable Traces, and Repeated Trials
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 183 |
-| Principles still awaiting coverage | 61 |
+| Already covered principles | 186 |
+| Principles still awaiting coverage | 58 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

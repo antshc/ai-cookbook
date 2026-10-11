@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 183 covered, 61 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 186 covered, 58 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -36,7 +36,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Git and workspace safety](#git-and-workspace-safety) | 5 | 5 | 0 |
 | [Migration and deprecation](#migration-and-deprecation) | 6 | 6 | 0 |
 | [Release and rollout](#release-and-rollout) | 5 | 5 | 0 |
-| [Operational evidence](#operational-evidence) | 3 | 0 | 3 |
+| [Operational evidence](#operational-evidence) | 3 | 3 | 0 |
 | [Skill evaluation](#skill-evaluation) | 6 | 0 | 6 |
 | [Documentation and provenance](#documentation-and-provenance) | 10 | 0 | 10 |
 | [External-write consistency](#external-write-consistency) | 3 | 0 | 3 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **183** | **61** |
+| **Total** | **244** | **186** | **58** |
 
 ## Completion checks
 
@@ -353,9 +353,9 @@ Is release readiness proven, is rollout controlled, and do critical flows remain
 
 Can telemetry and actionable alerts answer the questions needed to operate the system?
 
-- [ ] **Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
-- [ ] **Propagate correlation and entry-point identity while bounding telemetry label cardinality** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
-- [ ] **Make alerts actionable with runbooks and verify telemetry and notification delivery** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
+- [x] **Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately** — [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md)
+- [x] **Propagate correlation and entry-point identity while bounding telemetry label cardinality** — [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md)
+- [x] **Make alerts actionable with runbooks and verify telemetry and notification delivery** — [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md)
 
 ## Skill evaluation
 

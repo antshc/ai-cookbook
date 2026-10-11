@@ -36,6 +36,7 @@ Define observable completion and account for every obligation.
 - [Safe Feature Flags and Post-Rollout Cleanup](../safe-feature-flags-and-post-rollout-cleanup.md)
 - [Semantic Releases, Tags, and Human Changelogs](../semantic-releases-tags-and-human-changelogs.md)
 - [Launch Gates, Staged Rollout, Health Checks, and Rollback](../launch-gates-staged-rollout-health-checks-and-rollback.md)
+- [Question-Driven Telemetry, Correlation, and Actionable Alerts](../question-driven-telemetry-correlation-and-actionable-alerts.md)
 
 ## References
 
@@ -60,8 +61,6 @@ Define observable completion and account for every obligation.
 - [Verify browser changes against live DOM, console, network, and before-after screenshots](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Refactor incrementally without changing test expectations to force a pass](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Run non-bypassable CI quality gates and feed failures back into agent correction](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
-- [Propagate correlation and entry-point identity while bounding telemetry label cardinality](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
-- [Make alerts actionable with runbooks and verify telemetry and notification delivery](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
 - [Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

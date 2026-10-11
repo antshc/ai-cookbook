@@ -44,6 +44,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Task-Scoped Staging and Atomic Verified Commits](../task-scoped-staging-and-atomic-verified-commits.md)
 - [Consumer Migration, Safe Deprecation, and Legacy Retirement](../consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [Additive Schema Migration and Tested Rollback](../additive-schema-migration-and-tested-rollback.md)
+- [Question-Driven Telemetry, Correlation, and Actionable Alerts](../question-driven-telemetry-correlation-and-actionable-alerts.md)
 
 ## References
 
@@ -75,7 +76,6 @@ No materials yet.
 - [Treat a quality guard that could not run as a blocking failure rather than a clean result](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)
 - [Understand why existing code exists before simplifying or deleting it](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Automate wide mechanical refactors instead of hand-editing large change sets](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
-- [Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
 - [Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once](https://github.com/addyosmani/agent-skills/blob/main/docs/adoption-guide.md)
 - [Check existing skills, active proposals, and rejected changes before introducing a new skill](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 

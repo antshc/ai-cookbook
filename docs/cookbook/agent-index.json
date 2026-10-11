@@ -3029,123 +3029,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-choose-telemetry-from-explicit-on-call-questions-instead-of-instrumenting-indiscriminately",
-      "title": "Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately",
-      "principle": "Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "choose",
-        "telemetry",
-        "from",
-        "explicit",
-        "on",
-        "call",
-        "questions",
-        "instead",
-        "of",
-        "instrumenting",
-        "indiscriminately"
-      ],
-      "use_when": "Use when defining agent behavior to choose telemetry from explicit on-call questions instead of instrumenting indiscriminately.",
-      "provides": [
-        "Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-propagate-correlation-and-entry-point-identity-while-bounding-telemetry-label-cardinality",
-      "title": "Propagate correlation and entry-point identity while bounding telemetry label cardinality",
-      "principle": "Propagate correlation and entry-point identity while bounding telemetry label cardinality",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "propagate",
-        "correlation",
-        "and",
-        "entry",
-        "point",
-        "identity",
-        "while",
-        "bounding",
-        "telemetry",
-        "label",
-        "cardinality"
-      ],
-      "use_when": "Use when defining agent behavior to propagate correlation and entry-point identity while bounding telemetry label cardinality.",
-      "provides": [
-        "Propagate correlation and entry-point identity while bounding telemetry label cardinality"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-make-alerts-actionable-with-runbooks-and-verify-telemetry-and-notification-delivery",
-      "title": "Make alerts actionable with runbooks and verify telemetry and notification delivery",
-      "principle": "Make alerts actionable with runbooks and verify telemetry and notification delivery",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "make",
-        "alerts",
-        "actionable",
-        "with",
-        "runbooks",
-        "and",
-        "verify",
-        "telemetry",
-        "and",
-        "notification",
-        "delivery"
-      ],
-      "use_when": "Use when defining agent behavior to make alerts actionable with runbooks and verify telemetry and notification delivery.",
-      "provides": [
-        "Make alerts actionable with runbooks and verify telemetry and notification delivery"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-introduce-quality-checks-incrementally-in-legacy-projects-rather-than-enabling-the-entire-lifecycle-at-once",
       "title": "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once",
       "principle": "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once",
@@ -6044,6 +5927,48 @@
         "Use prelaunch gates, staged rollout thresholds, and tested rollback triggers",
         "Verify critical user flows and health signals after deployment",
         "Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk"
+      ]
+    },
+    {
+      "id": "question-driven-telemetry-correlation-and-actionable-alerts",
+      "title": "Question-Driven Telemetry, Correlation, and Actionable Alerts",
+      "path": "docs/cookbook/question-driven-telemetry-correlation-and-actionable-alerts.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "question",
+        "driven",
+        "telemetry",
+        "correlation",
+        "and",
+        "actionable",
+        "alerts"
+      ],
+      "use_when": "Indiscriminate logs and noisy alerts do not answer incident questions. Missing correlation or entry-point identity obstructs diagnosis, and unbounded metric labels overload telemetry systems.",
+      "provides": [
+        "Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately",
+        "Propagate correlation and entry-point identity while bounding telemetry label cardinality",
+        "Make alerts actionable with runbooks and verify telemetry and notification delivery"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/question-driven-telemetry-correlation-and-actionable-alerts.html",
+      "covered_principles": [
+        "Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately",
+        "Propagate correlation and entry-point identity while bounding telemetry label cardinality",
+        "Make alerts actionable with runbooks and verify telemetry and notification delivery"
       ]
     }
   ]
