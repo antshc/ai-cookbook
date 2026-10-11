@@ -3066,47 +3066,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-migrate-schemas-additively-before-destructive-changes-and-test-the-rollback-path",
-      "title": "Migrate schemas additively before destructive changes and test the rollback path",
-      "principle": "Migrate schemas additively before destructive changes and test the rollback path",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "output-contracts",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "migrate",
-        "schemas",
-        "additively",
-        "before",
-        "destructive",
-        "changes",
-        "and",
-        "test",
-        "the",
-        "rollback",
-        "path"
-      ],
-      "use_when": "Use when defining agent behavior to migrate schemas additively before destructive changes and test the rollback path.",
-      "provides": [
-        "Migrate schemas additively before destructive changes and test the rollback path"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-record-architecture-decisions-with-alternatives-and-supersede-rather-than-erase-old-adrs",
       "title": "Record architecture decisions with alternatives and supersede rather than erase old ADRs",
       "principle": "Record architecture decisions with alternatives and supersede rather than erase old ADRs",
@@ -6167,6 +6126,43 @@
         "Optimize planned migrations for a verified final state",
         "Prefer advisory deprecation and provide a production-proven replacement plus migration guidance",
         "Verify old consumers are inactive before deleting a deprecated interface or system"
+      ]
+    },
+    {
+      "id": "additive-schema-migration-and-tested-rollback",
+      "title": "Additive Schema Migration and Tested Rollback",
+      "path": "docs/cookbook/additive-schema-migration-and-tested-rollback.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "output-contracts",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation"
+      ],
+      "keywords": [
+        "additive",
+        "schema",
+        "migration",
+        "and",
+        "tested",
+        "rollback"
+      ],
+      "use_when": "A schema rename or drop can break older application instances during rollout. Unbounded backfills can lock production tables, and an untested down migration leaves recovery uncertain.",
+      "provides": [
+        "Migrate schemas additively before destructive changes and test the rollback path"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/additive-schema-migration-and-tested-rollback.html",
+      "covered_principles": [
+        "Migrate schemas additively before destructive changes and test the rollback path"
       ]
     }
   ]

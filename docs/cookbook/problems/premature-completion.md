@@ -32,6 +32,7 @@ Define observable completion and account for every obligation.
 - [Version-Matched Official Sources and Cache Revalidation](../version-matched-official-sources-and-cache-revalidation.md)
 - [Task-Scoped Staging and Atomic Verified Commits](../task-scoped-staging-and-atomic-verified-commits.md)
 - [Consumer Migration, Safe Deprecation, and Legacy Retirement](../consumer-migration-safe-deprecation-and-legacy-retirement.md)
+- [Additive Schema Migration and Tested Rollback](../additive-schema-migration-and-tested-rollback.md)
 
 ## References
 
@@ -59,7 +60,6 @@ Define observable completion and account for every obligation.
 - [Version consumer-facing releases with tags, semantic versions, and human changelogs](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
 - [Run non-bypassable CI quality gates and feed failures back into agent correction](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
 - [Remove feature flags and dead branches after their rollout finishes](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
-- [Migrate schemas additively before destructive changes and test the rollback path](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md)
 - [Propagate correlation and entry-point identity while bounding telemetry label cardinality](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
 - [Make alerts actionable with runbooks and verify telemetry and notification delivery](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
 - [Use prelaunch gates, staged rollout thresholds, and tested rollback triggers](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)

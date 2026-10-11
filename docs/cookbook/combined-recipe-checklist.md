@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 56/82 recipes complete; 176/244 principles covered.**
+**Progress: 57/82 recipes complete; 177/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -101,7 +101,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Migration and release
 
 - [x] **R56. Consumer Migration, Safe Deprecation, and Legacy Retirement** — NEW (4 principles). [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
-- [ ] **R57. Additive Schema Migration and Tested Rollback** — NEW (1 principles).
+- [x] **R57. Additive Schema Migration and Tested Rollback** — NEW (1 principles). [recipe](additive-schema-migration-and-tested-rollback.md).
 - [ ] **R58. Safe Feature Flags and Post-Rollout Cleanup** — NEW (2 principles).
 - [ ] **R59. Semantic Releases, Tags, and Human Changelogs** — NEW (1 principles).
 - [ ] **R60. Launch Gates, Staged Rollout, Health Checks, and Rollback** — NEW (3 principles).
@@ -604,7 +604,7 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Migrate schemas additively before destructive changes and test the rollback path** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md).
+- [x] **Migrate schemas additively before destructive changes and test the rollback path** — [recipe](additive-schema-migration-and-tested-rollback.md).
 
 ### R58. Safe Feature Flags and Post-Rollout Cleanup
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 176 |
-| Principles still awaiting coverage | 68 |
+| Already covered principles | 177 |
+| Principles still awaiting coverage | 67 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
