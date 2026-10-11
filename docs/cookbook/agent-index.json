@@ -6110,50 +6110,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-place-verification-checks-according-to-execution-cost-and-scope-expensive-checks-to-changed-code",
-      "title": "Place verification checks according to execution cost and scope expensive checks to changed code",
-      "principle": "Place verification checks according to execution cost and scope expensive checks to changed code",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning",
-        "implementation"
-      ],
-      "keywords": [
-        "place",
-        "verification",
-        "checks",
-        "according",
-        "to",
-        "execution",
-        "cost",
-        "and",
-        "scope",
-        "expensive",
-        "checks",
-        "to",
-        "changed",
-        "code"
-      ],
-      "use_when": "Use when defining agent behavior to place verification checks according to execution cost and scope expensive checks to changed code.",
-      "provides": [
-        "Place verification checks according to execution cost and scope expensive checks to changed code"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-build-dependency-ordered-verifiable-task-slices-without-implementing-during-planning",
       "title": "Build dependency-ordered, verifiable task slices without implementing during planning",
       "principle": "Build dependency-ordered, verifiable task slices without implementing during planning",
@@ -6385,43 +6341,6 @@
       "use_when": "Use when defining agent behavior to keep incomplete capabilities behind safe defaults or feature flags.",
       "provides": [
         "Keep incomplete capabilities behind safe defaults or feature flags"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-do-not-repeat-unchanged-verification-commands-without-intervening-changes",
-      "title": "Do not repeat unchanged verification commands without intervening changes",
-      "principle": "Do not repeat unchanged verification commands without intervening changes",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "do",
-        "not",
-        "repeat",
-        "unchanged",
-        "verification",
-        "commands",
-        "without",
-        "intervening",
-        "changes"
-      ],
-      "use_when": "Use when defining agent behavior to do not repeat unchanged verification commands without intervening changes.",
-      "provides": [
-        "Do not repeat unchanged verification commands without intervening changes"
       ],
       "related": [],
       "status": "recipe-needed",
@@ -9901,6 +9820,47 @@
         "Test observable behavior with exact expected results",
         "Test observable state with descriptive tests and minimize interaction mocks",
         "Choose test sizes by real resource boundaries and preserve the repository test conventions"
+      ]
+    },
+    {
+      "id": "verification-cost-changed-scope-and-avoiding-redundant-runs",
+      "title": "Verification Cost, Changed Scope, and Avoiding Redundant Runs",
+      "path": "docs/cookbook/verification-cost-changed-scope-and-avoiding-redundant-runs.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "planning"
+      ],
+      "keywords": [
+        "verification",
+        "cost",
+        "changed",
+        "scope",
+        "and",
+        "avoiding",
+        "redundant",
+        "runs"
+      ],
+      "use_when": "Repeated green checks waste time while slow checks in the edit loop encourage bypasses. Verification must remain complete without rerunning unchanged work for reassurance.",
+      "provides": [
+        "Place verification checks according to execution cost and scope expensive checks to changed code",
+        "Do not repeat unchanged verification commands without intervening changes"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/verification-cost-changed-scope-and-avoiding-redundant-runs.html",
+      "covered_principles": [
+        "Place verification checks according to execution cost and scope expensive checks to changed code",
+        "Do not repeat unchanged verification commands without intervening changes"
       ]
     }
   ]

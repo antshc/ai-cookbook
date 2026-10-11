@@ -28,7 +28,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R03. Live Verification Harness, Feature Maps, and Instance Lifecycle** — NEW (4 principles). [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md).
 - [x] **R04. Independent Patch Verification and Baseline Comparison** — NEW (3 principles). [recipe](independent-patch-verification-and-baseline-comparison.md).
 - [x] **R05. Functional-Slice Tests, Observable Results, and Test Boundaries** — NEW (4 principles). [recipe](functional-slice-tests-observable-results-and-test-boundaries.md).
-- [ ] **R06. Verification Cost, Changed Scope, and Avoiding Redundant Runs** — NEW (2 principles).
+- [x] **R06. Verification Cost, Changed Scope, and Avoiding Redundant Runs** — NEW (2 principles). [recipe](verification-cost-changed-scope-and-avoiding-redundant-runs.md).
 - [ ] **R07. Red-Green-Refactor and Failing Regression Tests** — NEW (3 principles).
 - [ ] **R08. Live Bug Reproduction and Verification of Existing Fixes** — NEW (2 principles).
 ### Diagnosis
@@ -193,8 +193,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Place verification checks according to execution cost and scope expensive checks to changed code** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md).
-- [ ] **Do not repeat unchanged verification commands without intervening changes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md).
+- [x] **Place verification checks according to execution cost and scope expensive checks to changed code** — [recipe](verification-cost-changed-scope-and-avoiding-redundant-runs.md).
+- [x] **Do not repeat unchanged verification commands without intervening changes** — [recipe](verification-cost-changed-scope-and-avoiding-redundant-runs.md).
 
 ### R07. Red-Green-Refactor and Failing Regression Tests
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 23 |
-| Principles still awaiting coverage | 221 |
+| Already covered principles | 25 |
+| Principles still awaiting coverage | 219 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

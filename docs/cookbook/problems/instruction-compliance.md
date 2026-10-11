@@ -8,6 +8,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Direct Evidence, Safety Assumptions, and Risk-Based Verification](../direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [Independent Patch Verification and Baseline Comparison](../independent-patch-verification-and-baseline-comparison.md)
 - [Functional-Slice Tests, Observable Results, and Test Boundaries](../functional-slice-tests-observable-results-and-test-boundaries.md)
+- [Verification Cost, Changed Scope, and Avoiding Redundant Runs](../verification-cost-changed-scope-and-avoiding-redundant-runs.md)
 
 ## References
 
@@ -75,7 +76,6 @@ No materials yet.
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Update the living specification before implementing changed decisions](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Apply a minimum quality floor in noninteractive runs when project thresholds are absent](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
-- [Place verification checks according to execution cost and scope expensive checks to changed code](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Build dependency-ordered, verifiable task slices without implementing during planning](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
 - [Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
 - [Trim context proactively while preserving active constraints, errors, and decisions](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
