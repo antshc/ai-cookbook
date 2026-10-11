@@ -2269,40 +2269,6 @@
       "related": []
     },
     {
-      "id": "principle-keep-autonomous-iterations-bound-to-an-unchanged-stop-predicate",
-      "title": "Keep autonomous iterations bound to an unchanged stop predicate",
-      "principle": "Keep autonomous iterations bound to an unchanged stop predicate",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "keep",
-        "autonomous",
-        "iterations",
-        "bound",
-        "to",
-        "an",
-        "unchanged",
-        "stop",
-        "predicate"
-      ],
-      "use_when": "Use when defining agent behavior to keep autonomous iterations bound to an unchanged stop predicate.",
-      "provides": [
-        "Keep autonomous iterations bound to an unchanged stop predicate"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-keep-append-only-decision-records-linked-to-real-evidence",
       "title": "Keep append-only decision records linked to real evidence",
       "principle": "Keep append-only decision records linked to real evidence",
@@ -2546,45 +2512,6 @@
       "use_when": "Use when defining agent behavior to independently review long-running decision trails with a different model family.",
       "provides": [
         "Independently review long-running decision trails with a different model family"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-propagate-operator-stop-orders-to-all-active-agents-as-an-immediate-no-writes-hold",
-      "title": "Propagate operator stop orders to all active agents as an immediate no-writes hold",
-      "principle": "Propagate operator stop orders to all active agents as an immediate no-writes hold",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "propagate",
-        "operator",
-        "stop",
-        "orders",
-        "to",
-        "all",
-        "active",
-        "agents",
-        "as",
-        "an",
-        "immediate",
-        "no",
-        "writes",
-        "hold"
-      ],
-      "use_when": "Use when defining agent behavior to propagate operator stop orders to all active agents as an immediate no-writes hold.",
-      "provides": [
-        "Propagate operator stop orders to all active agents as an immediate no-writes hold"
       ],
       "related": []
     },
@@ -6918,6 +6845,38 @@
       "use_when": "Parallel PR owners can corrupt a dependent stack by rebasing or retargeting it independently. Stack topology needs one coordinator.",
       "provides": [
         "Keep stack topology updates under one coordinator while PR owners work in parallel"
+      ],
+      "related": []
+    },
+    {
+      "id": "fixed-stop-conditions-and-immediate-stop-propagation",
+      "title": "Fixed Stop Conditions and Immediate Stop Propagation",
+      "path": "fixed-stop-conditions-and-immediate-stop-propagation.md",
+      "kind": "recipe",
+      "problems": [
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "fixed",
+        "stop",
+        "conditions",
+        "and",
+        "immediate",
+        "stop",
+        "propagation"
+      ],
+      "use_when": "An autonomous loop can lower its completion bar or continue writing after an operator stop. Finish conditions and stop propagation must remain explicit.",
+      "provides": [
+        "Propagate operator stop orders to all active agents as an immediate no-writes hold",
+        "Keep autonomous iterations bound to an unchanged stop predicate"
       ],
       "related": []
     }

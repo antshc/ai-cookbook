@@ -23,6 +23,7 @@ Define observable completion and account for every obligation.
 - [Progressive Disclosure, Targeted Context, and Safe Trimming](../progressive-disclosure-targeted-context-and-safe-trimming.md)
 - [Scoped Parallel Workers, Bounded Implementation, and Aggregation](../scoped-parallel-workers-bounded-implementation-and-aggregation.md)
 - [Delegated Worker Permissions and Centralized External Writes](../delegated-worker-permissions-and-centralized-external-writes.md)
+- [Fixed Stop Conditions and Immediate Stop Propagation](../fixed-stop-conditions-and-immediate-stop-propagation.md)
 
 ## References
 
@@ -39,8 +40,6 @@ Define observable completion and account for every obligation.
 - [Optimize planned migrations for a verified final state](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-outcome-oriented-execution/SKILL.md)
 - [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
 - [Keep PR summaries short with observable verification evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
-- [Keep autonomous iterations bound to an unchanged stop predicate](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md)
-- [Propagate operator stop orders to all active agents as an immediate no-writes hold](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md)
 - [Gate automatic bug fixing on a trusted triage verdict and ownership checks](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Frame agent delivery for both the user and the future maintainer](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
 - [Surface assumptions and stop when requirements conflict or remain uncertain](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md)

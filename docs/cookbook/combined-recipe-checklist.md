@@ -66,7 +66,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R31. Worker Configuration, Fresh Sessions, and Standing Orders** — NEW (3 principles). [recipe](worker-configuration-fresh-sessions-and-standing-orders.md).
 - [x] **R32. Pilot Runs, Rolling Worker Windows, and Progress Monitoring** — NEW (4 principles). [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
 - [x] **R33. Single Coordinator for Shared PR Stack Topology** — NEW (1 principles). [recipe](single-coordinator-for-shared-pr-stack-topology.md).
-- [ ] **R34. Fixed Stop Conditions and Immediate Stop Propagation** — NEW (2 principles).
+- [x] **R34. Fixed Stop Conditions and Immediate Stop Propagation** — NEW (2 principles). [recipe](fixed-stop-conditions-and-immediate-stop-propagation.md).
 - [ ] **R35. Reversible Autonomy, Approval Gates, and Uncertain Targets** — NEW (6 principles).
 ### Intent and design
 
@@ -413,8 +413,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Propagate operator stop orders to all active agents as an immediate no-writes hold** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md).
-- [ ] **Keep autonomous iterations bound to an unchanged stop predicate** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md).
+- [x] **Propagate operator stop orders to all active agents as an immediate no-writes hold** — [recipe](fixed-stop-conditions-and-immediate-stop-propagation.md).
+- [x] **Keep autonomous iterations bound to an unchanged stop predicate** — [recipe](fixed-stop-conditions-and-immediate-stop-propagation.md).
 
 ### R35. Reversible Autonomy, Approval Gates, and Uncertain Targets
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 100 |
-| Principles still awaiting coverage | 144 |
+| Already covered principles | 102 |
+| Principles still awaiting coverage | 142 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
