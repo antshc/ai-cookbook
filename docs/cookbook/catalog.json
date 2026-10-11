@@ -1145,41 +1145,6 @@
       "related": []
     },
     {
-      "id": "principle-keep-append-only-decision-records-linked-to-real-evidence",
-      "title": "Keep append-only decision records linked to real evidence",
-      "principle": "Keep append-only decision records linked to real evidence",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "research"
-      ],
-      "keywords": [
-        "keep",
-        "append",
-        "only",
-        "decision",
-        "records",
-        "linked",
-        "to",
-        "real",
-        "evidence"
-      ],
-      "use_when": "Use when defining agent behavior to keep append-only decision records linked to real evidence.",
-      "provides": [
-        "Keep append-only decision records linked to real evidence"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-validate-multi-phase-plans-with-an-executable-checker-before-handoff",
       "title": "Validate multi-phase plans with an executable checker before handoff",
       "principle": "Validate multi-phase plans with an executable checker before handoff",
@@ -1211,81 +1176,6 @@
       "use_when": "Use when defining agent behavior to validate multi-phase plans with an executable checker before handoff.",
       "provides": [
         "Validate multi-phase plans with an executable checker before handoff"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-audit-decision-logs-against-transcripts-and-correct-false-or-omitted-claims-by-appending-rows",
-      "title": "Audit decision logs against transcripts and correct false or omitted claims by appending rows",
-      "principle": "Audit decision logs against transcripts and correct false or omitted claims by appending rows",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "audit",
-        "decision",
-        "logs",
-        "against",
-        "transcripts",
-        "and",
-        "correct",
-        "false",
-        "or",
-        "omitted",
-        "claims",
-        "by",
-        "appending",
-        "rows"
-      ],
-      "use_when": "Use when defining agent behavior to audit decision logs against transcripts and correct false or omitted claims by appending rows.",
-      "provides": [
-        "Audit decision logs against transcripts and correct false or omitted claims by appending rows"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-independently-review-long-running-decision-trails-with-a-different-model-family",
-      "title": "Independently review long-running decision trails with a different model family",
-      "principle": "Independently review long-running decision trails with a different model family",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "independently",
-        "review",
-        "long",
-        "running",
-        "decision",
-        "trails",
-        "with",
-        "a",
-        "different",
-        "model",
-        "family"
-      ],
-      "use_when": "Use when defining agent behavior to independently review long-running decision trails with a different model family.",
-      "provides": [
-        "Independently review long-running decision trails with a different model family"
       ],
       "related": []
     },
@@ -4532,6 +4422,43 @@
       "provides": [
         "Keep PR summaries short with observable verification evidence",
         "Frame agent delivery for both the user and the future maintainer"
+      ],
+      "related": []
+    },
+    {
+      "id": "append-only-decision-trails-audit-and-independent-review",
+      "title": "Append-Only Decision Trails, Audit, and Independent Review",
+      "path": "append-only-decision-trails-audit-and-independent-review.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "instruction-compliance",
+        "missing-context"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "research",
+        "review"
+      ],
+      "keywords": [
+        "append",
+        "only",
+        "decision",
+        "trails",
+        "audit",
+        "and",
+        "independent",
+        "review"
+      ],
+      "use_when": "A long-running agent can rewrite history, omit failed choices, or cite evidence that never existed. A decision trail needs append-only correction and independent scrutiny.",
+      "provides": [
+        "Keep append-only decision records linked to real evidence",
+        "Audit decision logs against transcripts and correct false or omitted claims by appending rows",
+        "Independently review long-running decision trails with a different model family"
       ],
       "related": []
     }

@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 65/82 recipes complete; 198/244 principles covered.**
+**Progress: 66/82 recipes complete; 201/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -114,7 +114,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 
 - [x] **R64. Audience-Focused Documentation, Clear Prose, and Preserved Facts** — NEW (4 principles). [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
 - [x] **R65. Concise Delivery Reports for Users and Maintainers** — NEW (2 principles). [recipe](concise-delivery-reports-for-users-and-maintainers.md).
-- [ ] **R66. Append-Only Decision Trails, Audit, and Independent Review** — NEW (3 principles).
+- [x] **R66. Append-Only Decision Trails, Audit, and Independent Review** — NEW (3 principles). [recipe](append-only-decision-trails-audit-and-independent-review.md).
 - [ ] **R67. Architecture Decision Records, Alternatives, and Supersession** — NEW (1 principles).
 - [ ] **R68. Code-Path Investigation and Evidence-Calibrated Rationale** — NEW (3 principles).
 - [ ] **R69. Scoped Evidence Collection, Query Logs, and Contradictions** — NEW (2 principles).
@@ -671,9 +671,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Keep append-only decision records linked to real evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md).
-- [ ] **Audit decision logs against transcripts and correct false or omitted claims by appending rows** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md).
-- [ ] **Independently review long-running decision trails with a different model family** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md).
+- [x] **Keep append-only decision records linked to real evidence** — [recipe](append-only-decision-trails-audit-and-independent-review.md).
+- [x] **Audit decision logs against transcripts and correct false or omitted claims by appending rows** — [recipe](append-only-decision-trails-audit-and-independent-review.md).
+- [x] **Independently review long-running decision trails with a different model family** — [recipe](append-only-decision-trails-audit-and-independent-review.md).
 
 ### R67. Architecture Decision Records, Alternatives, and Supersession
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 198 |
-| Principles still awaiting coverage | 46 |
+| Already covered principles | 201 |
+| Principles still awaiting coverage | 43 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
