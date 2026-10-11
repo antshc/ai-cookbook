@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 68/82 recipes complete; 205/244 principles covered.**
+**Progress: 69/82 recipes complete; 207/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -117,7 +117,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R66. Append-Only Decision Trails, Audit, and Independent Review** — NEW (3 principles). [recipe](append-only-decision-trails-audit-and-independent-review.md).
 - [x] **R67. Architecture Decision Records, Alternatives, and Supersession** — NEW (1 principles). [recipe](architecture-decision-records-alternatives-and-supersession.md).
 - [x] **R68. Code-Path Investigation and Evidence-Calibrated Rationale** — NEW (3 principles). [recipe](code-path-investigation-and-evidence-calibrated-rationale.md).
-- [ ] **R69. Scoped Evidence Collection, Query Logs, and Contradictions** — NEW (2 principles).
+- [x] **R69. Scoped Evidence Collection, Query Logs, and Contradictions** — NEW (2 principles). [recipe](scoped-evidence-collection-query-logs-and-contradictions.md).
 ### External writes and quality
 
 - [ ] **R70. Trusted Triage, Provenance, Deduplication, and Compensating Writes** — NEW (3 principles).
@@ -693,8 +693,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Separate evidence collection from synthesis and keep investigators within their assigned sources** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md).
-- [ ] **Record exact investigation queries, empty results, and contradictory evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md).
+- [x] **Separate evidence collection from synthesis and keep investigators within their assigned sources** — [recipe](scoped-evidence-collection-query-logs-and-contradictions.md).
+- [x] **Record exact investigation queries, empty results, and contradictory evidence** — [recipe](scoped-evidence-collection-query-logs-and-contradictions.md).
 
 ### R70. Trusted Triage, Provenance, Deduplication, and Compensating Writes
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 205 |
-| Principles still awaiting coverage | 39 |
+| Already covered principles | 207 |
+| Principles still awaiting coverage | 37 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

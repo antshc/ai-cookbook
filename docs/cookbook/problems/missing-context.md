@@ -29,6 +29,7 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Concise Delivery Reports for Users and Maintainers](../concise-delivery-reports-for-users-and-maintainers.md)
 - [Append-Only Decision Trails, Audit, and Independent Review](../append-only-decision-trails-audit-and-independent-review.md)
 - [Code-Path Investigation and Evidence-Calibrated Rationale](../code-path-investigation-and-evidence-calibrated-rationale.md)
+- [Scoped Evidence Collection, Query Logs, and Contradictions](../scoped-evidence-collection-query-logs-and-contradictions.md)
 
 ## References
 
@@ -41,8 +42,6 @@ Specify inputs, configuration, evidence and resource resolution.
 
 ## Principles awaiting recipes
 
-- [Separate evidence collection from synthesis and keep investigators within their assigned sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
-- [Record exact investigation queries, empty results, and contradictory evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
 - [Honor idempotency keys across retries, payload mismatches, and unknown outcomes](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
 - [Mask protected source blocks during agent simplification and restore them from verified placeholders or backups](https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md)
 - [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)

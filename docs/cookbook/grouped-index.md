@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 205 covered, 39 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 207 covered, 37 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -42,13 +42,13 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [External-write consistency](#external-write-consistency) | 3 | 0 | 3 |
 | [Quality thresholds and gates](#quality-thresholds-and-gates) | 6 | 0 | 6 |
 | [UI contracts and verification](#ui-contracts-and-verification) | 4 | 0 | 4 |
-| [Investigation and source evidence](#investigation-and-source-evidence) | 7 | 5 | 2 |
+| [Investigation and source evidence](#investigation-and-source-evidence) | 7 | 7 | 0 |
 | [Safe simplification](#safe-simplification) | 8 | 0 | 8 |
 | [Retries and shared state](#retries-and-shared-state) | 3 | 0 | 3 |
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **205** | **39** |
+| **Total** | **244** | **207** | **37** |
 
 ## Completion checks
 
@@ -418,8 +418,8 @@ Which sources and queries support an explanation, and what remains inferred, con
 - [x] **Investigate the current code path before explaining it** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md)
 - [x] **Reconstruct design rationale across independent evidence sources** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md)
 - [x] **Calibrate rationale claims to direct, supported, inferred, or unknown evidence** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md)
-- [ ] **Separate evidence collection from synthesis and keep investigators within their assigned sources** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
-- [ ] **Record exact investigation queries, empty results, and contradictory evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
+- [x] **Separate evidence collection from synthesis and keep investigators within their assigned sources** — [recipe](scoped-evidence-collection-query-logs-and-contradictions.md)
+- [x] **Record exact investigation queries, empty results, and contradictory evidence** — [recipe](scoped-evidence-collection-query-logs-and-contradictions.md)
 - [x] **Verify framework-specific decisions against version-matched official documentation** — [recipe](version-matched-official-sources-and-cache-revalidation.md)
 - [x] **Cite authoritative implementation sources and label unverifiable patterns explicitly** — [recipe](version-matched-official-sources-and-cache-revalidation.md)
 

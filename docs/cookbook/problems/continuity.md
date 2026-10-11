@@ -20,6 +20,7 @@ Preserve useful lessons and resume from verified state.
 - [Isolated Worktrees and Safe Workspace Cleanup](../isolated-worktrees-and-safe-workspace-cleanup.md)
 - [Append-Only Decision Trails, Audit, and Independent Review](../append-only-decision-trails-audit-and-independent-review.md)
 - [Architecture Decision Records, Alternatives, and Supersession](../architecture-decision-records-alternatives-and-supersession.md)
+- [Scoped Evidence Collection, Query Logs, and Contradictions](../scoped-evidence-collection-query-logs-and-contradictions.md)
 
 ## References
 
@@ -33,7 +34,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Record exact investigation queries, empty results, and contradictory evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
 - [Define measurable project quality thresholds and record exceptions with owners and expiry](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 

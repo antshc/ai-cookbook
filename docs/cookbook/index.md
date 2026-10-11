@@ -104,8 +104,8 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Convert traces to queryable data and attribute findings to source symbols** — [recipe](queryable-traces-and-source-attribution.md)
 - [x] **Keep suspected causes out of the initial agent task brief** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 
-- [ ] **Separate evidence collection from synthesis and keep investigators within their assigned sources** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
-- [ ] **Record exact investigation queries, empty results, and contradictory evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
+- [x] **Separate evidence collection from synthesis and keep investigators within their assigned sources** — [recipe](scoped-evidence-collection-query-logs-and-contradictions.md)
+- [x] **Record exact investigation queries, empty results, and contradictory evidence** — [recipe](scoped-evidence-collection-query-logs-and-contradictions.md)
 - [x] **Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md)
 - [x] **Limit retrospective skill changes to demonstrated use or missed triggers** — [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md)
 - [x] **Resume from the prior execution trail rather than repeating completed work** — [recipe](safe-pause-context-recovery-and-verified-resume.md)

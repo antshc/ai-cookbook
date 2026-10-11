@@ -1478,84 +1478,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-separate-evidence-collection-from-synthesis-and-keep-investigators-within-their-assigned-sources",
-      "title": "Separate evidence collection from synthesis and keep investigators within their assigned sources",
-      "principle": "Separate evidence collection from synthesis and keep investigators within their assigned sources",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "research"
-      ],
-      "keywords": [
-        "separate",
-        "evidence",
-        "collection",
-        "from",
-        "synthesis",
-        "and",
-        "keep",
-        "investigators",
-        "within",
-        "their",
-        "assigned",
-        "sources"
-      ],
-      "use_when": "Use when defining agent behavior to separate evidence collection from synthesis and keep investigators within their assigned sources.",
-      "provides": [
-        "Separate evidence collection from synthesis and keep investigators within their assigned sources"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-record-exact-investigation-queries-empty-results-and-contradictory-evidence",
-      "title": "Record exact investigation queries, empty results, and contradictory evidence",
-      "principle": "Record exact investigation queries, empty results, and contradictory evidence",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "research"
-      ],
-      "keywords": [
-        "record",
-        "exact",
-        "investigation",
-        "queries",
-        "empty",
-        "results",
-        "and",
-        "contradictory",
-        "evidence"
-      ],
-      "use_when": "Use when defining agent behavior to record exact investigation queries, empty results, and contradictory evidence.",
-      "provides": [
-        "Record exact investigation queries, empty results, and contradictory evidence"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-pin-existing-behavior-before-structural-refactoring",
       "title": "Pin existing behavior before structural refactoring",
       "principle": "Pin existing behavior before structural refactoring",
@@ -5511,6 +5433,45 @@
         "Investigate the current code path before explaining it",
         "Reconstruct design rationale across independent evidence sources",
         "Calibrate rationale claims to direct, supported, inferred, or unknown evidence"
+      ]
+    },
+    {
+      "id": "scoped-evidence-collection-query-logs-and-contradictions",
+      "title": "Scoped Evidence Collection, Query Logs, and Contradictions",
+      "path": "docs/cookbook/scoped-evidence-collection-query-logs-and-contradictions.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "missing-context"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "research"
+      ],
+      "keywords": [
+        "scoped",
+        "evidence",
+        "collection",
+        "query",
+        "logs",
+        "and",
+        "contradictions"
+      ],
+      "use_when": "Investigators can duplicate searches, follow unrelated sources, or select only evidence supporting a neat story. Without exact queries and contradictions, synthesis cannot distinguish missing evidence from an incomplete search.",
+      "provides": [
+        "Separate evidence collection from synthesis and keep investigators within their assigned sources",
+        "Record exact investigation queries, empty results, and contradictory evidence"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/scoped-evidence-collection-query-logs-and-contradictions.html",
+      "covered_principles": [
+        "Separate evidence collection from synthesis and keep investigators within their assigned sources",
+        "Record exact investigation queries, empty results, and contradictory evidence"
       ]
     }
   ]
