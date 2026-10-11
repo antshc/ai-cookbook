@@ -1261,43 +1261,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-explain-measured-results-with-evidence-and-limiting-factors",
-      "title": "Explain measured results with evidence and limiting factors",
-      "principle": "Explain measured results with evidence and limiting factors",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-explain-the-number/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "research"
-      ],
-      "keywords": [
-        "explain",
-        "measured",
-        "results",
-        "with",
-        "evidence",
-        "and",
-        "limiting",
-        "factors"
-      ],
-      "use_when": "Use when defining agent behavior to explain measured results with evidence and limiting factors.",
-      "provides": [
-        "Explain measured results with evidence and limiting factors"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-explain-the-number/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-prefer-the-smallest-change-and-shallowest-useful-abstraction",
       "title": "Prefer the smallest change and shallowest useful abstraction",
       "principle": "Prefer the smallest change and shallowest useful abstraction",
@@ -1959,42 +1922,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-freeze-an-evaluation-harness-and-revert-unsupported-iterations",
-      "title": "Freeze an evaluation harness and revert unsupported iterations",
-      "principle": "Freeze an evaluation harness and revert unsupported iterations",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/hillclimb.md",
-      "kind": "source-only",
-      "problems": [
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "freeze",
-        "an",
-        "evaluation",
-        "harness",
-        "and",
-        "revert",
-        "unsupported",
-        "iterations"
-      ],
-      "use_when": "Use when defining agent behavior to freeze an evaluation harness and revert unsupported iterations.",
-      "provides": [
-        "Freeze an evaluation harness and revert unsupported iterations"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/hillclimb.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-prove-visual-parity-against-an-unchanged-screenshot-baseline",
       "title": "Prove visual parity against an unchanged screenshot baseline",
       "principle": "Prove visual parity against an unchanged screenshot baseline",
@@ -2067,44 +1994,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-compare-performance-under-production-equivalent-conditions-and-repeated-alternating-runs",
-      "title": "Compare performance under production-equivalent conditions and repeated alternating runs",
-      "principle": "Compare performance under production-equivalent conditions and repeated alternating runs",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/benchmark-checklist/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "compare",
-        "performance",
-        "under",
-        "production",
-        "equivalent",
-        "conditions",
-        "and",
-        "repeated",
-        "alternating",
-        "runs"
-      ],
-      "use_when": "Use when defining agent behavior to compare performance under production-equivalent conditions and repeated alternating runs.",
-      "provides": [
-        "Compare performance under production-equivalent conditions and repeated alternating runs"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/benchmark-checklist/SKILL.md",
       "covered_principles": []
     },
     {
@@ -4154,45 +4043,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-compare-one-optimization-against-an-equivalent-baseline-and-revert-unproven-changes",
-      "title": "Compare one optimization against an equivalent baseline and revert unproven changes",
-      "principle": "Compare one optimization against an equivalent baseline and revert unproven changes",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "compare",
-        "one",
-        "optimization",
-        "against",
-        "an",
-        "equivalent",
-        "baseline",
-        "and",
-        "revert",
-        "unproven",
-        "changes"
-      ],
-      "use_when": "Use when defining agent behavior to compare one optimization against an equivalent baseline and revert unproven changes.",
-      "provides": [
-        "Compare one optimization against an equivalent baseline and revert unproven changes"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-record-rejected-optimizations-and-install-regression-monitors-for-measured-gains",
       "title": "Record rejected optimizations and install regression monitors for measured gains",
       "principle": "Record rejected optimizations and install regression monitors for measured gains",
@@ -4230,43 +4080,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-never-invent-web-performance-scores-without-actual-measurement-artifacts",
-      "title": "Never invent web performance scores without actual measurement artifacts",
-      "principle": "Never invent web performance scores without actual measurement artifacts",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/agents/web-performance-auditor.md",
-      "kind": "source-only",
-      "problems": [
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "never",
-        "invent",
-        "web",
-        "performance",
-        "scores",
-        "without",
-        "actual",
-        "measurement",
-        "artifacts"
-      ],
-      "use_when": "Use when defining agent behavior to never invent web performance scores without actual measurement artifacts.",
-      "provides": [
-        "Never invent web performance scores without actual measurement artifacts"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/agents/web-performance-auditor.md",
       "covered_principles": []
     },
     {
@@ -7106,6 +6919,53 @@
       "covered_principles": [
         "Classify CI failures and review comments before modifying a PR",
         "Review comments as evidence rather than automatically obeying them"
+      ]
+    },
+    {
+      "id": "reproducible-benchmarks-frozen-baselines-and-honest-metrics",
+      "title": "Reproducible Benchmarks, Frozen Baselines, and Honest Metrics",
+      "path": "docs/cookbook/reproducible-benchmarks-frozen-baselines-and-honest-metrics.md",
+      "kind": "recipe",
+      "problems": [
+        "guidance-evaluation",
+        "instruction-compliance",
+        "missing-context"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "research",
+        "review"
+      ],
+      "keywords": [
+        "reproducible",
+        "benchmarks",
+        "frozen",
+        "baselines",
+        "and",
+        "honest",
+        "metrics"
+      ],
+      "use_when": "A speedup can measure skipped work, cached inputs, errors, or a saturated load generator. Benchmarks need fixed conditions and evidence that explains the number.",
+      "provides": [
+        "Explain measured results with evidence and limiting factors",
+        "Freeze an evaluation harness and revert unsupported iterations",
+        "Compare performance under production-equivalent conditions and repeated alternating runs",
+        "Compare one optimization against an equivalent baseline and revert unproven changes",
+        "Never invent web performance scores without actual measurement artifacts"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/reproducible-benchmarks-frozen-baselines-and-honest-metrics.html",
+      "covered_principles": [
+        "Explain measured results with evidence and limiting factors",
+        "Freeze an evaluation harness and revert unsupported iterations",
+        "Compare performance under production-equivalent conditions and repeated alternating runs",
+        "Compare one optimization against an equivalent baseline and revert unproven changes",
+        "Never invent web performance scores without actual measurement artifacts"
       ]
     }
   ]

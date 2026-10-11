@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 138 covered, 106 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 143 covered, 101 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -30,7 +30,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Intent and assumption discovery](#intent-and-assumption-discovery) | 7 | 7 | 0 |
 | [Design before implementation](#design-before-implementation) | 13 | 13 | 0 |
 | [Independent review](#independent-review) | 9 | 9 | 0 |
-| [Measured performance](#measured-performance) | 8 | 0 | 8 |
+| [Measured performance](#measured-performance) | 8 | 5 | 3 |
 | [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 0 | 14 |
 | [Configuration and distribution](#configuration-and-distribution) | 8 | 3 | 5 |
 | [Git and workspace safety](#git-and-workspace-safety) | 5 | 0 | 5 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **138** | **106** |
+| **Total** | **244** | **143** | **101** |
 
 ## Completion checks
 
@@ -277,14 +277,14 @@ Which findings survive independent judgment, and what severity and evidence supp
 
 Is the measured improvement reproducible, comparable, user-relevant, and explained by a bottleneck?
 
-- [ ] **Explain measured results with evidence and limiting factors** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-explain-the-number/SKILL.md)
-- [ ] **Freeze an evaluation harness and revert unsupported iterations** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/hillclimb.md)
-- [ ] **Compare performance under production-equivalent conditions and repeated alternating runs** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/benchmark-checklist/SKILL.md)
+- [x] **Explain measured results with evidence and limiting factors** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
+- [x] **Freeze an evaluation harness and revert unsupported iterations** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
+- [x] **Compare performance under production-equivalent conditions and repeated alternating runs** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
 - [ ] **Remove unnecessary work before optimizing remaining performance cost** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/perf-issue.md)
 - [ ] **Measure user-visible performance and identify its bottleneck before optimizing** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md)
-- [ ] **Compare one optimization against an equivalent baseline and revert unproven changes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md)
+- [x] **Compare one optimization against an equivalent baseline and revert unproven changes** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
 - [ ] **Record rejected optimizations and install regression monitors for measured gains** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md)
-- [ ] **Never invent web performance scores without actual measurement artifacts** — [source](https://github.com/addyosmani/agent-skills/blob/main/agents/web-performance-auditor.md)
+- [x] **Never invent web performance scores without actual measurement artifacts** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
 
 ## Trust and security boundaries
 

@@ -20,6 +20,7 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Explore Alternatives and Test MVP Assumptions](../explore-alternatives-and-test-mvp-assumptions.md)
 - [Independent Evidence-Based Review, Severity, and Reconciliation](../independent-evidence-based-review-severity-and-reconciliation.md)
 - [CI Failure Classification and Review Comment Triage](../ci-failure-classification-and-review-comment-triage.md)
+- [Reproducible Benchmarks, Frozen Baselines, and Honest Metrics](../reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
 
 ## References
 
@@ -33,7 +34,6 @@ Specify inputs, configuration, evidence and resource resolution.
 ## Principles awaiting recipes
 
 - [Per-repository configuration resolution](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md)
-- [Explain measured results with evidence and limiting factors](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-explain-the-number/SKILL.md)
 - [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
 - [Reconstruct design rationale across independent evidence sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)
 - [Calibrate rationale claims to direct, supported, inferred, or unknown evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md)

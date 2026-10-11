@@ -82,7 +82,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R43. CI Failure Classification and Review Comment Triage** — NEW (2 principles). [recipe](ci-failure-classification-and-review-comment-triage.md).
 ### Performance
 
-- [ ] **R44. Reproducible Benchmarks, Frozen Baselines, and Honest Metrics** — NEW (5 principles).
+- [x] **R44. Reproducible Benchmarks, Frozen Baselines, and Honest Metrics** — NEW (5 principles). [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
 - [ ] **R45. User-Visible Bottlenecks, Work Elimination, and Regression Monitoring** — NEW (3 principles).
 ### Trust and security
 
@@ -501,11 +501,11 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Explain measured results with evidence and limiting factors** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-explain-the-number/SKILL.md).
-- [ ] **Freeze an evaluation harness and revert unsupported iterations** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/hillclimb.md).
-- [ ] **Compare performance under production-equivalent conditions and repeated alternating runs** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/benchmark-checklist/SKILL.md).
-- [ ] **Compare one optimization against an equivalent baseline and revert unproven changes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md).
-- [ ] **Never invent web performance scores without actual measurement artifacts** — [source](https://github.com/addyosmani/agent-skills/blob/main/agents/web-performance-auditor.md).
+- [x] **Explain measured results with evidence and limiting factors** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
+- [x] **Freeze an evaluation harness and revert unsupported iterations** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
+- [x] **Compare performance under production-equivalent conditions and repeated alternating runs** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
+- [x] **Compare one optimization against an equivalent baseline and revert unproven changes** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
+- [x] **Never invent web performance scores without actual measurement artifacts** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
 
 ### R45. User-Visible Bottlenecks, Work Elimination, and Regression Monitoring
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 138 |
-| Principles still awaiting coverage | 106 |
+| Already covered principles | 143 |
+| Principles still awaiting coverage | 101 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
