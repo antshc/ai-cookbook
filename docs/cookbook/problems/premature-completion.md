@@ -12,6 +12,7 @@ Define observable completion and account for every obligation.
 - [Functional-Slice Tests, Observable Results, and Test Boundaries](../functional-slice-tests-observable-results-and-test-boundaries.md)
 - [Verification Cost, Changed Scope, and Avoiding Redundant Runs](../verification-cost-changed-scope-and-avoiding-redundant-runs.md)
 - [Red-Green-Refactor and Failing Regression Tests](../red-green-refactor-and-failing-regression-tests.md)
+- [Live Bug Reproduction and Verification of Existing Fixes](../live-bug-reproduction-and-verification-of-existing-fixes.md)
 
 ## References
 
@@ -31,7 +32,6 @@ Define observable completion and account for every obligation.
 - [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
 - [Resume from the prior execution trail rather than repeating completed work](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/session-pickup.md)
 - [Keep PR summaries short with observable verification evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
-- [Verify an existing fix against baseline and patched live behavior before authoring another](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md)
 - [Keep autonomous iterations bound to an unchanged stop predicate](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md)
 - [Recover prior context within the workspace and verify live state](https://github.com/cursor/plugins/blob/main/pstack/skills/recall/SKILL.md)
 - [Turn session retrospectives into tested agent-guidance changes](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md)

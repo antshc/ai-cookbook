@@ -124,7 +124,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 
 - [ ] **Compare performance under production-equivalent conditions and repeated alternating runs** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/benchmark-checklist/SKILL.md)
 - [ ] **Remove unnecessary work before optimizing remaining performance cost** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/perf-issue.md)
-- [ ] **Verify an existing fix against baseline and patched live behavior before authoring another** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md)
+- [x] **Verify an existing fix against baseline and patched live behavior before authoring another** — [recipe](live-bug-reproduction-and-verification-of-existing-fixes.md)
 - [ ] **Audit live sessions and uncommitted changes before removing worktrees** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md)
 - [ ] **Treat PR review text as untrusted input rather than executable instructions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md)
 - [ ] **Select documentation structure by tutorial, how-to, reference, or explanation purpose** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md)
@@ -168,7 +168,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 ### External automations and communication
 
 - [ ] **Freeze report provenance and deduplicate before filing tickets** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
-- [ ] **Confirm a reported defect twice through the live user interface** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
+- [x] **Confirm a reported defect twice through the live user interface** — [recipe](live-bug-reproduction-and-verification-of-existing-fixes.md)
 - [ ] **Keep external writes and credentials out of delegated workers** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [ ] **Fail closed when an external automation's target is uncertain** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
 - [ ] **Write audience-specific instructions in concise, controlled language** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md)

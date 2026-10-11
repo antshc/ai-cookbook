@@ -3117,45 +3117,6 @@
       "related": []
     },
     {
-      "id": "principle-verify-an-existing-fix-against-baseline-and-patched-live-behavior-before-authoring-another",
-      "title": "Verify an existing fix against baseline and patched live behavior before authoring another",
-      "principle": "Verify an existing fix against baseline and patched live behavior before authoring another",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion",
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "verify",
-        "an",
-        "existing",
-        "fix",
-        "against",
-        "baseline",
-        "and",
-        "patched",
-        "live",
-        "behavior",
-        "before",
-        "authoring",
-        "another"
-      ],
-      "use_when": "Use when defining agent behavior to verify an existing fix against baseline and patched live behavior before authoring another.",
-      "provides": [
-        "Verify an existing fix against baseline and patched live behavior before authoring another"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-audit-live-sessions-and-uncommitted-changes-before-removing-worktrees",
       "title": "Audit live sessions and uncommitted changes before removing worktrees",
       "principle": "Audit live sessions and uncommitted changes before removing worktrees",
@@ -4188,41 +4149,6 @@
       "use_when": "Use when defining agent behavior to freeze report provenance and deduplicate before filing tickets.",
       "provides": [
         "Freeze report provenance and deduplicate before filing tickets"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-confirm-a-reported-defect-twice-through-the-live-user-interface",
-      "title": "Confirm a reported defect twice through the live user interface",
-      "principle": "Confirm a reported defect twice through the live user interface",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "confirm",
-        "a",
-        "reported",
-        "defect",
-        "twice",
-        "through",
-        "the",
-        "live",
-        "user",
-        "interface"
-      ],
-      "use_when": "Use when defining agent behavior to confirm a reported defect twice through the live user interface.",
-      "provides": [
-        "Confirm a reported defect twice through the live user interface"
       ],
       "related": []
     },
@@ -8541,6 +8467,42 @@
         "Run a failing regression check before fixing a bug",
         "Use the red-green-refactor cycle for behavior-changing implementation",
         "Reproduce a reported bug with a failing regression test before applying the fix"
+      ],
+      "related": []
+    },
+    {
+      "id": "live-bug-reproduction-and-verification-of-existing-fixes",
+      "title": "Live Bug Reproduction and Verification of Existing Fixes",
+      "path": "live-bug-reproduction-and-verification-of-existing-fixes.md",
+      "kind": "recipe",
+      "problems": [
+        "guidance-evaluation",
+        "output-contracts",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "live",
+        "bug",
+        "reproduction",
+        "and",
+        "verification",
+        "of",
+        "existing",
+        "fixes"
+      ],
+      "use_when": "A tracker claim can lead an agent to accept an unproven fix or create a competing patch. Existing fixes need the same live before-and-after reproduction as new fixes.",
+      "provides": [
+        "Verify an existing fix against baseline and patched live behavior before authoring another",
+        "Confirm a reported defect twice through the live user interface"
       ],
       "related": []
     }

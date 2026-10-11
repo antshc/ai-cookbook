@@ -4,8 +4,7 @@ Evaluate observable behavior and improve guidance from evidence.
 
 ## Recipes
 
-No materials yet.
-
+- [Live Bug Reproduction and Verification of Existing Fixes](../live-bug-reproduction-and-verification-of-existing-fixes.md)
 
 ## References
 
@@ -27,7 +26,6 @@ No materials yet.
 - [Convert traces to queryable data and attribute findings to source symbols](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/trace-forensics.md)
 - [Freeze an evaluation harness and revert unsupported iterations](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/hillclimb.md)
 - [Prove visual parity against an unchanged screenshot baseline](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md)
-- [Verify an existing fix against baseline and patched live behavior before authoring another](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md)
 - [Evaluate agent instructions with blinded candidates and judges](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/eval.md)
 - [Diverge into alternatives before converging on an evaluated idea](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md)
 - [Revalidate cached official documentation with origin validators before using it across sessions](https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md)

@@ -30,7 +30,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R05. Functional-Slice Tests, Observable Results, and Test Boundaries** — NEW (4 principles). [recipe](functional-slice-tests-observable-results-and-test-boundaries.md).
 - [x] **R06. Verification Cost, Changed Scope, and Avoiding Redundant Runs** — NEW (2 principles). [recipe](verification-cost-changed-scope-and-avoiding-redundant-runs.md).
 - [x] **R07. Red-Green-Refactor and Failing Regression Tests** — NEW (3 principles). [recipe](red-green-refactor-and-failing-regression-tests.md).
-- [ ] **R08. Live Bug Reproduction and Verification of Existing Fixes** — NEW (2 principles).
+- [x] **R08. Live Bug Reproduction and Verification of Existing Fixes** — NEW (2 principles). [recipe](live-bug-reproduction-and-verification-of-existing-fixes.md).
 ### Diagnosis
 
 - [ ] **R09. Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks** — NEW (6 principles).
@@ -208,8 +208,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Verify an existing fix against baseline and patched live behavior before authoring another** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md).
-- [ ] **Confirm a reported defect twice through the live user interface** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md).
+- [x] **Verify an existing fix against baseline and patched live behavior before authoring another** — [recipe](live-bug-reproduction-and-verification-of-existing-fixes.md).
+- [x] **Confirm a reported defect twice through the live user interface** — [recipe](live-bug-reproduction-and-verification-of-existing-fixes.md).
 
 ### R09. Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 28 |
-| Principles still awaiting coverage | 216 |
+| Already covered principles | 30 |
+| Principles still awaiting coverage | 214 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
