@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 92 covered, 152 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 95 covered, 149 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -25,7 +25,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Context management](#context-management) | 5 | 5 | 0 |
 | [Ownership and composition](#ownership-and-composition) | 11 | 10 | 1 |
 | [Delegation contracts](#delegation-contracts) | 7 | 7 | 0 |
-| [Worker lifecycle](#worker-lifecycle) | 9 | 0 | 9 |
+| [Worker lifecycle](#worker-lifecycle) | 9 | 3 | 6 |
 | [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 0 | 7 |
 | [Intent and assumption discovery](#intent-and-assumption-discovery) | 7 | 0 | 7 |
 | [Design before implementation](#design-before-implementation) | 13 | 0 | 13 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **92** | **152** |
+| **Total** | **244** | **95** | **149** |
 
 ## Completion checks
 
@@ -208,9 +208,9 @@ What scope, inputs, outputs, restrictions, and review duties govern delegated wo
 How are workers configured, started, replenished, monitored, replaced, and stopped?
 
 - [ ] **Pilot a full work unit before scaling a multi-agent program** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
-- [ ] **Configure model selection per agent responsibility** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/setup-pstack/SKILL.md)
-- [ ] **Start fresh subagents with consolidated instructions unless local state requires a resume** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
-- [ ] **Carry immutable standing orders into every worker spawn and resume** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
+- [x] **Configure model selection per agent responsibility** — [recipe](worker-configuration-fresh-sessions-and-standing-orders.md)
+- [x] **Start fresh subagents with consolidated instructions unless local state requires a resume** — [recipe](worker-configuration-fresh-sessions-and-standing-orders.md)
+- [x] **Carry immutable standing orders into every worker spawn and resume** — [recipe](worker-configuration-fresh-sessions-and-standing-orders.md)
 - [ ] **Refill a rolling worker window instead of waiting for whole batches** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
 - [ ] **Judge agent progress by actual side effects and replace stalled workers** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
 - [ ] **Propagate operator stop orders to all active agents as an immediate no-writes hold** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md)

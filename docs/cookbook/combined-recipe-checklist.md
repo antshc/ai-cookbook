@@ -63,7 +63,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R30. Delegated Worker Permissions and Centralized External Writes** — NEW (1 principles). [recipe](delegated-worker-permissions-and-centralized-external-writes.md).
 ### Worker lifecycle and autonomy
 
-- [ ] **R31. Worker Configuration, Fresh Sessions, and Standing Orders** — NEW (3 principles).
+- [x] **R31. Worker Configuration, Fresh Sessions, and Standing Orders** — NEW (3 principles). [recipe](worker-configuration-fresh-sessions-and-standing-orders.md).
 - [ ] **R32. Pilot Runs, Rolling Worker Windows, and Progress Monitoring** — NEW (4 principles).
 - [ ] **R33. Single Coordinator for Shared PR Stack Topology** — NEW (1 principles).
 - [ ] **R34. Fixed Stop Conditions and Immediate Stop Propagation** — NEW (2 principles).
@@ -390,9 +390,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Configure model selection per agent responsibility** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/setup-pstack/SKILL.md).
-- [ ] **Start fresh subagents with consolidated instructions unless local state requires a resume** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md).
-- [ ] **Carry immutable standing orders into every worker spawn and resume** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md).
+- [x] **Configure model selection per agent responsibility** — [recipe](worker-configuration-fresh-sessions-and-standing-orders.md).
+- [x] **Start fresh subagents with consolidated instructions unless local state requires a resume** — [recipe](worker-configuration-fresh-sessions-and-standing-orders.md).
+- [x] **Carry immutable standing orders into every worker spawn and resume** — [recipe](worker-configuration-fresh-sessions-and-standing-orders.md).
 
 ### R32. Pilot Runs, Rolling Worker Windows, and Progress Monitoring
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 92 |
-| Principles still awaiting coverage | 152 |
+| Already covered principles | 95 |
+| Principles still awaiting coverage | 149 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

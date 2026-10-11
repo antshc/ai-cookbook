@@ -2407,110 +2407,6 @@
       "related": []
     },
     {
-      "id": "principle-configure-model-selection-per-agent-responsibility",
-      "title": "Configure model selection per agent responsibility",
-      "principle": "Configure model selection per agent responsibility",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/setup-pstack/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "configure",
-        "model",
-        "selection",
-        "per",
-        "agent",
-        "responsibility"
-      ],
-      "use_when": "Use when defining agent behavior to configure model selection per agent responsibility.",
-      "provides": [
-        "Configure model selection per agent responsibility"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-start-fresh-subagents-with-consolidated-instructions-unless-local-state-requires-a-resume",
-      "title": "Start fresh subagents with consolidated instructions unless local state requires a resume",
-      "principle": "Start fresh subagents with consolidated instructions unless local state requires a resume",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "start",
-        "fresh",
-        "subagents",
-        "with",
-        "consolidated",
-        "instructions",
-        "unless",
-        "local",
-        "state",
-        "requires",
-        "a",
-        "resume"
-      ],
-      "use_when": "Use when defining agent behavior to start fresh subagents with consolidated instructions unless local state requires a resume.",
-      "provides": [
-        "Start fresh subagents with consolidated instructions unless local state requires a resume"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-carry-immutable-standing-orders-into-every-worker-spawn-and-resume",
-      "title": "Carry immutable standing orders into every worker spawn and resume",
-      "principle": "Carry immutable standing orders into every worker spawn and resume",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "carry",
-        "immutable",
-        "standing",
-        "orders",
-        "into",
-        "every",
-        "worker",
-        "spawn",
-        "and",
-        "resume"
-      ],
-      "use_when": "Use when defining agent behavior to carry immutable standing orders into every worker spawn and resume.",
-      "provides": [
-        "Carry immutable standing orders into every worker spawn and resume"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-refill-a-rolling-worker-window-instead-of-waiting-for-whole-batches",
       "title": "Refill a rolling worker window instead of waiting for whole batches",
       "principle": "Refill a rolling worker window instead of waiting for whole batches",
@@ -7103,6 +6999,41 @@
       "use_when": "A delegated worker can publish to the wrong external thread or leak credentials if analysis and external writes share authority. The coordinator must retain write capability.",
       "provides": [
         "Keep external writes and credentials out of delegated workers"
+      ],
+      "related": []
+    },
+    {
+      "id": "worker-configuration-fresh-sessions-and-standing-orders",
+      "title": "Worker Configuration, Fresh Sessions, and Standing Orders",
+      "path": "worker-configuration-fresh-sessions-and-standing-orders.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "delegation-handoffs",
+        "missing-context"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "worker",
+        "configuration",
+        "fresh",
+        "sessions",
+        "and",
+        "standing",
+        "orders"
+      ],
+      "use_when": "Worker behavior drifts when models are chosen ad hoc or follow-ups omit later instructions. Fresh work needs consolidated scope and unchanged standing orders.",
+      "provides": [
+        "Configure model selection per agent responsibility",
+        "Start fresh subagents with consolidated instructions unless local state requires a resume",
+        "Carry immutable standing orders into every worker spawn and resume"
       ],
       "related": []
     }
