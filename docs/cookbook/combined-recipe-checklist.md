@@ -24,7 +24,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R01. Verification, Exit Criteria, Completeness Sweep, and Definition of Done** — EXTEND (5 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/verification-exit-criteria-completeness-sweep.md). [recipe](verification-exit-criteria-completeness-sweep.md).
 ### Verification and testing
 
-- [ ] **R02. Direct Evidence, Safety Assumptions, and Risk-Based Verification** — NEW (4 principles).
+- [x] **R02. Direct Evidence, Safety Assumptions, and Risk-Based Verification** — NEW (4 principles). [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md).
 - [ ] **R03. Live Verification Harness, Feature Maps, and Instance Lifecycle** — NEW (4 principles).
 - [ ] **R04. Independent Patch Verification and Baseline Comparison** — NEW (3 principles).
 - [ ] **R05. Functional-Slice Tests, Observable Results, and Test Boundaries** — NEW (4 principles).
@@ -158,10 +158,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Prove the real artifact rather than trusting proxies or reports** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-prove-it-works/SKILL.md).
-- [ ] **Scale verification rigor to impact and reversibility** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/figure-it-out/SKILL.md).
-- [ ] **Prove the key safety assumption behind a change** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/blast-radius/SKILL.md).
-- [ ] **Verify dry-run claims by inspecting actual network, file, and repository effects** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md).
+- [x] **Prove the real artifact rather than trusting proxies or reports** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md).
+- [x] **Scale verification rigor to impact and reversibility** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md).
+- [x] **Prove the key safety assumption behind a change** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md).
+- [x] **Verify dry-run claims by inspecting actual network, file, and repository effects** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md).
 
 ### R03. Live Verification Harness, Feature Maps, and Instance Lifecycle
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 8 |
-| Principles still awaiting coverage | 236 |
+| Already covered principles | 12 |
+| Principles still awaiting coverage | 232 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

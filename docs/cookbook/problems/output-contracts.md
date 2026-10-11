@@ -4,8 +4,7 @@ Define what the consumer receives and who owns its format.
 
 ## Recipes
 
-No materials yet.
-
+- [Direct Evidence, Safety Assumptions, and Risk-Based Verification](../direct-evidence-safety-assumptions-and-risk-based-verification.md)
 
 ## References
 
@@ -32,7 +31,6 @@ No materials yet.
 ## Principles awaiting recipes
 
 - [Template ownership of rendering](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md)
-- [Prove the real artifact rather than trusting proxies or reports](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-prove-it-works/SKILL.md)
 - [Write a consumer usage guide before implementing a shared API](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md)
 - [Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md)
 - [Reconstruct design rationale across independent evidence sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)

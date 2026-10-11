@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 8 covered, 236 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 12 covered, 232 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -14,7 +14,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | Group | Items | Covered | Awaiting recipes |
 |---|---:|---:|---:|
 | [Completion checks](#completion-checks) | 5 | 5 | 0 |
-| [Proof of actual behavior](#proof-of-actual-behavior) | 11 | 0 | 11 |
+| [Proof of actual behavior](#proof-of-actual-behavior) | 11 | 4 | 7 |
 | [Focused testing](#focused-testing) | 6 | 0 | 6 |
 | [Regression protection](#regression-protection) | 6 | 0 | 6 |
 | [Root-cause diagnosis](#root-cause-diagnosis) | 7 | 0 | 7 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **8** | **236** |
+| **Total** | **244** | **12** | **232** |
 
 ## Completion checks
 
@@ -66,13 +66,13 @@ Verification asks whether the implemented behavior works. Exit criteria ask whet
 
 Does direct evidence from the real artifact prove the claimed behavior?
 
-- [ ] **Prove the real artifact rather than trusting proxies or reports** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-prove-it-works/SKILL.md)
-- [ ] **Scale verification rigor to impact and reversibility** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/figure-it-out/SKILL.md)
-- [ ] **Prove the key safety assumption behind a change** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/blast-radius/SKILL.md)
+- [x] **Prove the real artifact rather than trusting proxies or reports** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md)
+- [x] **Scale verification rigor to impact and reversibility** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md)
+- [x] **Prove the key safety assumption behind a change** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [ ] **Create a repository-specific live verification harness** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md)
 - [ ] **Maintain verification feature maps with source and live checks** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/maintain-verification-skill/SKILL.md)
 - [ ] **Verify each PR independently at the reviewed patch before merging** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/shipping.md)
-- [ ] **Verify dry-run claims by inspecting actual network, file, and repository effects** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md)
+- [x] **Verify dry-run claims by inspecting actual network, file, and repository effects** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [ ] **Health-check and reset verification instances after unexpected drive failures** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/maintain-verification-skill/SKILL.md)
 - [ ] **Clean up only owned verification processes and preserve collected proof artifacts** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md)
 - [ ] **Compare changed behavior with current trunk on the same user-visible path** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md)

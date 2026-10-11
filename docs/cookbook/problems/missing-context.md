@@ -4,8 +4,7 @@ Specify inputs, configuration, evidence and resource resolution.
 
 ## Recipes
 
-No materials yet.
-
+- [Direct Evidence, Safety Assumptions, and Risk-Based Verification](../direct-evidence-safety-assumptions-and-risk-based-verification.md)
 
 ## References
 
@@ -25,7 +24,6 @@ No materials yet.
 - [Review the implementation against declared intent and require concrete evidence per finding](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/references/reviewer-prompt.md)
 - [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
 - [Reconstruct design rationale across independent evidence sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)
-- [Prove the key safety assumption behind a change](https://github.com/cursor/plugins/blob/main/pstack/skills/blast-radius/SKILL.md)
 - [Calibrate rationale claims to direct, supported, inferred, or unknown evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md)
 - [Eliminate debugging hypotheses using runtime observations](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/bug-fix.md)
 - [Convert traces to queryable data and attribute findings to source symbols](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/trace-forensics.md)

@@ -2466,44 +2466,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-prove-the-real-artifact-rather-than-trusting-proxies-or-reports",
-      "title": "Prove the real artifact rather than trusting proxies or reports",
-      "principle": "Prove the real artifact rather than trusting proxies or reports",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-prove-it-works/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "prove",
-        "the",
-        "real",
-        "artifact",
-        "rather",
-        "than",
-        "trusting",
-        "proxies",
-        "or",
-        "reports"
-      ],
-      "use_when": "Use when defining agent behavior to prove the real artifact rather than trusting proxies or reports.",
-      "provides": [
-        "Prove the real artifact rather than trusting proxies or reports"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-prove-it-works/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-redesign-new-requirements-as-foundational-constraints",
       "title": "Redesign new requirements as foundational constraints",
       "principle": "Redesign new requirements as foundational constraints",
@@ -3314,78 +3276,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/prototype.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-scale-verification-rigor-to-impact-and-reversibility",
-      "title": "Scale verification rigor to impact and reversibility",
-      "principle": "Scale verification rigor to impact and reversibility",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/figure-it-out/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "scale",
-        "verification",
-        "rigor",
-        "to",
-        "impact",
-        "and",
-        "reversibility"
-      ],
-      "use_when": "Use when defining agent behavior to scale verification rigor to impact and reversibility.",
-      "provides": [
-        "Scale verification rigor to impact and reversibility"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/figure-it-out/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-prove-the-key-safety-assumption-behind-a-change",
-      "title": "Prove the key safety assumption behind a change",
-      "principle": "Prove the key safety assumption behind a change",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/blast-radius/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "prove",
-        "the",
-        "key",
-        "safety",
-        "assumption",
-        "behind",
-        "a",
-        "change"
-      ],
-      "use_when": "Use when defining agent behavior to prove the key safety assumption behind a change.",
-      "provides": [
-        "Prove the key safety assumption behind a change"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/blast-radius/SKILL.md",
       "covered_principles": []
     },
     {
@@ -4376,46 +4266,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-verify-dry-run-claims-by-inspecting-actual-network-file-and-repository-effects",
-      "title": "Verify dry-run claims by inspecting actual network, file, and repository effects",
-      "principle": "Verify dry-run claims by inspecting actual network, file, and repository effects",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "verify",
-        "dry",
-        "run",
-        "claims",
-        "by",
-        "inspecting",
-        "actual",
-        "network",
-        "file",
-        "and",
-        "repository",
-        "effects"
-      ],
-      "use_when": "Use when defining agent behavior to verify dry-run claims by inspecting actual network, file, and repository effects.",
-      "provides": [
-        "Verify dry-run claims by inspecting actual network, file, and repository effects"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md",
       "covered_principles": []
     },
     {
@@ -10292,6 +10142,53 @@
       "status": "reference",
       "url": "docs/cookbook/combined-recipe-checklist.html",
       "covered_principles": []
+    },
+    {
+      "id": "direct-evidence-safety-assumptions-and-risk-based-verification",
+      "title": "Direct Evidence, Safety Assumptions, and Risk-Based Verification",
+      "path": "docs/cookbook/direct-evidence-safety-assumptions-and-risk-based-verification.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "missing-context",
+        "output-contracts",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "direct",
+        "evidence",
+        "safety",
+        "assumptions",
+        "and",
+        "risk",
+        "based",
+        "verification"
+      ],
+      "use_when": "Agents can mistake a green build or a dry-run label for proof of safe behavior. Risky changes need direct evidence of the artifact and the assumption that limits harm.",
+      "provides": [
+        "Prove the real artifact rather than trusting proxies or reports",
+        "Scale verification rigor to impact and reversibility",
+        "Prove the key safety assumption behind a change",
+        "Verify dry-run claims by inspecting actual network, file, and repository effects"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/direct-evidence-safety-assumptions-and-risk-based-verification.html",
+      "covered_principles": [
+        "Prove the real artifact rather than trusting proxies or reports",
+        "Scale verification rigor to impact and reversibility",
+        "Prove the key safety assumption behind a change",
+        "Verify dry-run claims by inspecting actual network, file, and repository effects"
+      ]
     }
   ]
 }

@@ -6,6 +6,7 @@ Define observable completion and account for every obligation.
 
 - [Verification, Exit Criteria, Completeness Sweep, and Definition of Done](../verification-exit-criteria-completeness-sweep.md)
 - [Checklist-driven workflow](../checklist-driven-workflow.md)
+- [Direct Evidence, Safety Assumptions, and Risk-Based Verification](../direct-evidence-safety-assumptions-and-risk-based-verification.md)
 
 ## References
 
@@ -25,7 +26,6 @@ Define observable completion and account for every obligation.
 - [Test observable behavior with exact expected results](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-test-behavior-not-implementation/SKILL.md)
 - [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
 - [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
-- [Scale verification rigor to impact and reversibility](https://github.com/cursor/plugins/blob/main/pstack/skills/figure-it-out/SKILL.md)
 - [Resume from the prior execution trail rather than repeating completed work](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/session-pickup.md)
 - [Run a failing regression check before fixing a bug](https://github.com/cursor/plugins/blob/main/pstack/skills/tdd/SKILL.md)
 - [Create a repository-specific live verification harness](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md)
@@ -33,7 +33,6 @@ Define observable completion and account for every obligation.
 - [Verify each PR independently at the reviewed patch before merging](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/shipping.md)
 - [Keep PR summaries short with observable verification evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
 - [Verify an existing fix against baseline and patched live behavior before authoring another](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md)
-- [Verify dry-run claims by inspecting actual network, file, and repository effects](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md)
 - [Health-check and reset verification instances after unexpected drive failures](https://github.com/cursor/plugins/blob/main/pstack/skills/maintain-verification-skill/SKILL.md)
 - [Clean up only owned verification processes and preserve collected proof artifacts](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md)
 - [Keep autonomous iterations bound to an unchanged stop predicate](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md)

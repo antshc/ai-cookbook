@@ -5,6 +5,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 ## Recipes
 
 - [Checklist-driven workflow](../checklist-driven-workflow.md)
+- [Direct Evidence, Safety Assumptions, and Risk-Based Verification](../direct-evidence-safety-assumptions-and-risk-based-verification.md)
 
 ## References
 
@@ -49,7 +50,6 @@ No materials yet.
 - [Compare independent design candidates with cross-judging](https://github.com/cursor/plugins/blob/main/pstack/skills/arena/SKILL.md)
 - [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
 - [Classify adversarial review findings with independent judgment](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/SKILL.md)
-- [Prove the key safety assumption behind a change](https://github.com/cursor/plugins/blob/main/pstack/skills/blast-radius/SKILL.md)
 - [Keep suspected causes out of the initial agent task brief](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md)
 - [Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md)
 - [Pin existing behavior before structural refactoring](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)
