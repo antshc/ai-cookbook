@@ -2419,45 +2419,6 @@
       "related": []
     },
     {
-      "id": "principle-pressure-test-skill-compliance-against-shortcuts-justified-by-urgency-authority-or-sunk-cost",
-      "title": "Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost",
-      "principle": "Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/evals/README.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion",
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "pressure",
-        "test",
-        "skill",
-        "compliance",
-        "against",
-        "shortcuts",
-        "justified",
-        "by",
-        "urgency",
-        "authority",
-        "or",
-        "sunk",
-        "cost"
-      ],
-      "use_when": "Use when defining agent behavior to pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost.",
-      "provides": [
-        "Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost"
-      ],
-      "related": []
-    },
-    {
       "id": "authors-and-sources",
       "title": "Authors & Sources",
       "path": "authors-and-sources.md",
@@ -4678,6 +4639,36 @@
         "Use dialogue-only evaluations only when conversation itself is the skill's deliverable",
         "Run skill-on versus skill-off evaluations and score observable output rather than invocation alone",
         "Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing"
+      ],
+      "related": []
+    },
+    {
+      "id": "pressure-tests-for-instruction-compliance",
+      "title": "Pressure Tests for Instruction Compliance",
+      "path": "pressure-tests-for-instruction-compliance.md",
+      "kind": "recipe",
+      "problems": [
+        "guidance-evaluation",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation"
+      ],
+      "keywords": [
+        "pressure",
+        "tests",
+        "for",
+        "instruction",
+        "compliance"
+      ],
+      "use_when": "An instruction can appear reliable on a neutral prompt yet collapse when urgency, authority, or prior effort encourages skipping its required checks.",
+      "provides": [
+        "Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost"
       ],
       "related": []
     }

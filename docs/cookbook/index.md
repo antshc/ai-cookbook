@@ -312,7 +312,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **For negative routing tests, require the intended owner skill to outrank the wrong skill** — [recipe](positive-and-negative-skill-routing-tests.md)
 - [x] **Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 - [x] **Use dialogue-only evaluations only when conversation itself is the skill's deliverable** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
-- [ ] **Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
+- [x] **Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost** — [recipe](pressure-tests-for-instruction-compliance.md)
 - [x] **Run skill-on versus skill-off evaluations and score observable output rather than invocation alone** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 - [x] **Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 - [x] **Validate that equivalent host command adapters stay semantically aligned** — [recipe](repository-adapters-resource-access-and-portable-skills.md)

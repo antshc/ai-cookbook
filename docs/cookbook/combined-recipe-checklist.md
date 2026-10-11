@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 62/82 recipes complete; 191/244 principles covered.**
+**Progress: 63/82 recipes complete; 192/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -109,7 +109,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 
 - [x] **R61. Question-Driven Telemetry, Correlation, and Actionable Alerts** — NEW (3 principles). [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md).
 - [x] **R62. Controlled Skill Evaluations, Observable Traces, and Repeated Trials** — NEW (5 principles). [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
-- [ ] **R63. Pressure Tests for Instruction Compliance** — NEW (1 principles).
+- [x] **R63. Pressure Tests for Instruction Compliance** — NEW (1 principles). [recipe](pressure-tests-for-instruction-compliance.md).
 ### Documentation and evidence
 
 - [ ] **R64. Audience-Focused Documentation, Clear Prose, and Preserved Facts** — NEW (4 principles).
@@ -649,7 +649,7 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
+- [x] **Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost** — [recipe](pressure-tests-for-instruction-compliance.md).
 
 ### R64. Audience-Focused Documentation, Clear Prose, and Preserved Facts
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 191 |
-| Principles still awaiting coverage | 53 |
+| Already covered principles | 192 |
+| Principles still awaiting coverage | 52 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
