@@ -60,7 +60,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R27. Repository Adapters, Resource Access, and Portable Skills** — NEW (6 principles). [recipe](repository-adapters-resource-access-and-portable-skills.md).
 - [x] **R28. Agent-Agnostic Contracts and Structured CLI Handoffs** — NEW (2 principles). [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md).
 - [x] **R29. Scoped Parallel Workers, Bounded Implementation, and Aggregation** — NEW (4 principles). [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md).
-- [ ] **R30. Delegated Worker Permissions and Centralized External Writes** — NEW (1 principles).
+- [x] **R30. Delegated Worker Permissions and Centralized External Writes** — NEW (1 principles). [recipe](delegated-worker-permissions-and-centralized-external-writes.md).
 ### Worker lifecycle and autonomy
 
 - [ ] **R31. Worker Configuration, Fresh Sessions, and Standing Orders** — NEW (3 principles).
@@ -384,7 +384,7 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Keep external writes and credentials out of delegated workers** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md).
+- [x] **Keep external writes and credentials out of delegated workers** — [recipe](delegated-worker-permissions-and-centralized-external-writes.md).
 
 ### R31. Worker Configuration, Fresh Sessions, and Standing Orders
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 91 |
-| Principles still awaiting coverage | 153 |
+| Already covered principles | 92 |
+| Principles still awaiting coverage | 152 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

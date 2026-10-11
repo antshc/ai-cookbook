@@ -3659,44 +3659,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-keep-external-writes-and-credentials-out-of-delegated-workers",
-      "title": "Keep external writes and credentials out of delegated workers",
-      "principle": "Keep external writes and credentials out of delegated workers",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "keep",
-        "external",
-        "writes",
-        "and",
-        "credentials",
-        "out",
-        "of",
-        "delegated",
-        "workers"
-      ],
-      "use_when": "Use when defining agent behavior to keep external writes and credentials out of delegated workers.",
-      "provides": [
-        "Keep external writes and credentials out of delegated workers"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-fail-closed-when-an-external-automation-s-target-is-uncertain",
       "title": "Fail closed when an external automation's target is uncertain",
       "principle": "Fail closed when an external automation's target is uncertain",
@@ -8305,6 +8267,43 @@
         "Delegate implementation with bounded files and success criteria, then review the diff",
         "Parallelize independent specialist reviews, but keep aggregation with the orchestrator",
         "Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out"
+      ]
+    },
+    {
+      "id": "delegated-worker-permissions-and-centralized-external-writes",
+      "title": "Delegated Worker Permissions and Centralized External Writes",
+      "path": "docs/cookbook/delegated-worker-permissions-and-centralized-external-writes.md",
+      "kind": "recipe",
+      "problems": [
+        "delegation-handoffs",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "delegated",
+        "worker",
+        "permissions",
+        "and",
+        "centralized",
+        "external",
+        "writes"
+      ],
+      "use_when": "A delegated worker can publish to the wrong external thread or leak credentials if analysis and external writes share authority. The coordinator must retain write capability.",
+      "provides": [
+        "Keep external writes and credentials out of delegated workers"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/delegated-worker-permissions-and-centralized-external-writes.html",
+      "covered_principles": [
+        "Keep external writes and credentials out of delegated workers"
       ]
     }
   ]
