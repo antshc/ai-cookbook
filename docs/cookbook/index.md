@@ -34,14 +34,14 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 - [x] **Skill composition and single ownership** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 - [x] **Cross-scope specialist discovery** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
 - [x] **Delegation engine isolation** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
-- [ ] **Agent-agnostic handoff contracts** — [source](https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md)
+- [x] **Agent-agnostic handoff contracts** — [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md)
 - [x] **Session ledger** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 - [x] **Trigger indexing** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
 - [ ] **Per-repository configuration resolution** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md)
 - [x] **Repository adapter skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Resource access skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Skill-owned code** — [recipe](skill-owned-code-and-supporting-files.md)
-- [ ] **CLI JSON handoff** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/str-cli-json-handoff.md)
+- [x] **CLI JSON handoff** — [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md)
 
 ## External scan: cursor/plugins/pstack
 

@@ -7,6 +7,7 @@ Define bounded assignments and verifiable handoff contracts.
 - [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 - [Delegate Bulk Exploration to Preserve Context](../delegate-bulk-exploration-to-preserve-context.md)
 - [Bounded Agent Roles, Single Ownership, and Composition](../bounded-agent-roles-single-ownership-and-composition.md)
+- [Agent-Agnostic Contracts and Structured CLI Handoffs](../agent-agnostic-contracts-and-structured-cli-handoffs.md)
 
 ## References
 
@@ -19,8 +20,6 @@ Define bounded assignments and verifiable handoff contracts.
 
 ## Principles awaiting recipes
 
-- [Agent-agnostic handoff contracts](https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md)
-- [CLI JSON handoff](https://github.com/antshc/brain/blob/main/docs/concepts/str-cli-json-handoff.md)
 - [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
 - [Audit live sessions and uncommitted changes before removing worktrees](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md)
 - [Pilot a full work unit before scaling a multi-agent program](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)

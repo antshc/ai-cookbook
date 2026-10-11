@@ -1159,39 +1159,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-agent-agnostic-handoff-contracts",
-      "title": "Agent-agnostic handoff contracts",
-      "principle": "Agent-agnostic handoff contracts",
-      "path": "https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap",
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "agent",
-        "agnostic",
-        "handoff",
-        "contracts"
-      ],
-      "use_when": "Use when defining agent behavior to agent-agnostic handoff contracts.",
-      "provides": [
-        "Agent-agnostic handoff contracts"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-per-repository-configuration-resolution",
       "title": "Per-repository configuration resolution",
       "principle": "Per-repository configuration resolution",
@@ -1221,37 +1188,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-cli-json-handoff",
-      "title": "CLI JSON handoff",
-      "principle": "CLI JSON handoff",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/str-cli-json-handoff.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "cli",
-        "json",
-        "handoff"
-      ],
-      "use_when": "Use when defining agent behavior to cLI JSON handoff.",
-      "provides": [
-        "CLI JSON handoff"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/docs/concepts/str-cli-json-handoff.md",
       "covered_principles": []
     },
     {
@@ -8444,6 +8380,45 @@
         "Include required shared references when distributing an individual skill outside its original pack",
         "Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter",
         "Validate that equivalent host command adapters stay semantically aligned"
+      ]
+    },
+    {
+      "id": "agent-agnostic-contracts-and-structured-cli-handoffs",
+      "title": "Agent-Agnostic Contracts and Structured CLI Handoffs",
+      "path": "docs/cookbook/agent-agnostic-contracts-and-structured-cli-handoffs.md",
+      "kind": "recipe",
+      "problems": [
+        "delegation-handoffs",
+        "responsibility-overlap"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "agent",
+        "agnostic",
+        "contracts",
+        "and",
+        "structured",
+        "cli",
+        "handoffs"
+      ],
+      "use_when": "An orchestrator coupled to agent internals or free-form CLI output breaks when implementations change. Handoffs need explicit invocation and data contracts.",
+      "provides": [
+        "Agent-agnostic handoff contracts",
+        "CLI JSON handoff"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/agent-agnostic-contracts-and-structured-cli-handoffs.html",
+      "covered_principles": [
+        "Agent-agnostic handoff contracts",
+        "CLI JSON handoff"
       ]
     }
   ]

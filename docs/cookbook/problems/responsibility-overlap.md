@@ -9,6 +9,7 @@ Give each procedure and responsibility one clear owner.
 - [Bounded Agent Roles, Single Ownership, and Composition](../bounded-agent-roles-single-ownership-and-composition.md)
 - [Template Ownership of Rendering](../template-ownership-of-rendering.md)
 - [Repository Adapters, Resource Access, and Portable Skills](../repository-adapters-resource-access-and-portable-skills.md)
+- [Agent-Agnostic Contracts and Structured CLI Handoffs](../agent-agnostic-contracts-and-structured-cli-handoffs.md)
 
 ## References
 
@@ -22,7 +23,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Agent-agnostic handoff contracts](https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md)
 - [Choose core data shapes and shared foundations before features](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-foundational-thinking/SKILL.md)
 - [Prefer the smallest change and shallowest useful abstraction](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-laziness-protocol/SKILL.md)
 - [Redesign new requirements as foundational constraints](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-redesign-from-first-principles/SKILL.md)

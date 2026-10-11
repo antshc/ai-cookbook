@@ -58,7 +58,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R25. Template Ownership of Rendering** — NEW (1 principles). [recipe](template-ownership-of-rendering.md).
 - [x] **R26. Skill-Owned Code and Supporting Files** — NEW (1 principles). [recipe](skill-owned-code-and-supporting-files.md).
 - [x] **R27. Repository Adapters, Resource Access, and Portable Skills** — NEW (6 principles). [recipe](repository-adapters-resource-access-and-portable-skills.md).
-- [ ] **R28. Agent-Agnostic Contracts and Structured CLI Handoffs** — NEW (2 principles).
+- [x] **R28. Agent-Agnostic Contracts and Structured CLI Handoffs** — NEW (2 principles). [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md).
 - [ ] **R29. Scoped Parallel Workers, Bounded Implementation, and Aggregation** — NEW (4 principles).
 - [ ] **R30. Delegated Worker Permissions and Centralized External Writes** — NEW (1 principles).
 ### Worker lifecycle and autonomy
@@ -368,8 +368,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Agent-agnostic handoff contracts** — [source](https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md).
-- [ ] **CLI JSON handoff** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/str-cli-json-handoff.md).
+- [x] **Agent-agnostic handoff contracts** — [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md).
+- [x] **CLI JSON handoff** — [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md).
 
 ### R29. Scoped Parallel Workers, Bounded Implementation, and Aggregation
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 85 |
-| Principles still awaiting coverage | 159 |
+| Already covered principles | 87 |
+| Principles still awaiting coverage | 157 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
