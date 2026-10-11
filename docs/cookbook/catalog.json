@@ -2689,76 +2689,6 @@
       "related": []
     },
     {
-      "id": "principle-guard-destructive-operations-against-paths-controlled-by-untrusted-upstream-processes",
-      "title": "Guard destructive operations against paths controlled by untrusted upstream processes",
-      "principle": "Guard destructive operations against paths controlled by untrusted upstream processes",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "guard",
-        "destructive",
-        "operations",
-        "against",
-        "paths",
-        "controlled",
-        "by",
-        "untrusted",
-        "upstream",
-        "processes"
-      ],
-      "use_when": "Use when defining agent behavior to guard destructive operations against paths controlled by untrusted upstream processes.",
-      "provides": [
-        "Guard destructive operations against paths controlled by untrusted upstream processes"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-block-unreviewed-dependency-install-scripts-and-audit-the-committed-lockfile",
-      "title": "Block unreviewed dependency install scripts and audit the committed lockfile",
-      "principle": "Block unreviewed dependency install scripts and audit the committed lockfile",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "block",
-        "unreviewed",
-        "dependency",
-        "install",
-        "scripts",
-        "and",
-        "audit",
-        "the",
-        "committed",
-        "lockfile"
-      ],
-      "use_when": "Use when defining agent behavior to block unreviewed dependency install scripts and audit the committed lockfile.",
-      "provides": [
-        "Block unreviewed dependency install scripts and audit the committed lockfile"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-create-atomic-reviewed-commits-and-verify-tests-types-lint-and-secrets-before-commit",
       "title": "Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit",
       "principle": "Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit",
@@ -5441,6 +5371,38 @@
       "provides": [
         "Isolate automated browser tests from personal signed-in browser profiles",
         "Keep browser JavaScript inspection read-only unless mutations are explicitly authorized"
+      ],
+      "related": []
+    },
+    {
+      "id": "safe-destructive-paths-and-dependency-install-controls",
+      "title": "Safe Destructive Paths and Dependency Install Controls",
+      "path": "safe-destructive-paths-and-dependency-install-controls.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "safe",
+        "destructive",
+        "paths",
+        "and",
+        "dependency",
+        "install",
+        "controls"
+      ],
+      "use_when": "A well-formed cleanup path may still be attacker-selected, and dependency installation can execute unreviewed scripts before an audit. Both operations need checks before side effects.",
+      "provides": [
+        "Guard destructive operations against paths controlled by untrusted upstream processes",
+        "Block unreviewed dependency install scripts and audit the committed lockfile"
       ],
       "related": []
     }

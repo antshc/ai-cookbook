@@ -38,6 +38,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Boundary Validation, Threat Models, and Abuse Cases](../boundary-validation-threat-models-and-abuse-cases.md)
 - [Secret Protection, Resource Authorization, and Personal Data Minimization](../secret-protection-resource-authorization-and-personal-data-minimization.md)
 - [Isolated Browser Profiles and Read-Only Inspection](../isolated-browser-profiles-and-read-only-inspection.md)
+- [Safe Destructive Paths and Dependency Install Controls](../safe-destructive-paths-and-dependency-install-controls.md)
 
 ## References
 
@@ -73,8 +74,6 @@ No materials yet.
 - [Treat a quality guard that could not run as a blocking failure rather than a clean result](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)
 - [Understand why existing code exists before simplifying or deleting it](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Automate wide mechanical refactors instead of hand-editing large change sets](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
-- [Guard destructive operations against paths controlled by untrusted upstream processes](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
-- [Block unreviewed dependency install scripts and audit the committed lockfile](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
 - [Migrate schemas additively before destructive changes and test the rollback path](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md)
 - [Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)

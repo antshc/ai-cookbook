@@ -271,8 +271,8 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 
 - [x] **Threat-model system boundaries and write abuse cases before hardening a feature** — [recipe](boundary-validation-threat-models-and-abuse-cases.md)
 - [x] **Validate external and model-generated data at the boundary before using it as code or decisions** — [recipe](boundary-validation-threat-models-and-abuse-cases.md)
-- [ ] **Guard destructive operations against paths controlled by untrusted upstream processes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
-- [ ] **Block unreviewed dependency install scripts and audit the committed lockfile** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
+- [x] **Guard destructive operations against paths controlled by untrusted upstream processes** — [recipe](safe-destructive-paths-and-dependency-install-controls.md)
+- [x] **Block unreviewed dependency install scripts and audit the committed lockfile** — [recipe](safe-destructive-paths-and-dependency-install-controls.md)
 - [x] **Review authorization for every protected resource and prevent secrets entering code or logs** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md)
 - [x] **Classify personal data by purpose and exclude unnecessary personal information from telemetry** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md)
 
