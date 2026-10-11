@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 57/82 recipes complete; 177/244 principles covered.**
+**Progress: 58/82 recipes complete; 179/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -102,7 +102,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 
 - [x] **R56. Consumer Migration, Safe Deprecation, and Legacy Retirement** — NEW (4 principles). [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
 - [x] **R57. Additive Schema Migration and Tested Rollback** — NEW (1 principles). [recipe](additive-schema-migration-and-tested-rollback.md).
-- [ ] **R58. Safe Feature Flags and Post-Rollout Cleanup** — NEW (2 principles).
+- [x] **R58. Safe Feature Flags and Post-Rollout Cleanup** — NEW (2 principles). [recipe](safe-feature-flags-and-post-rollout-cleanup.md).
 - [ ] **R59. Semantic Releases, Tags, and Human Changelogs** — NEW (1 principles).
 - [ ] **R60. Launch Gates, Staged Rollout, Health Checks, and Rollback** — NEW (3 principles).
 ### Operations and evaluation
@@ -610,8 +610,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Remove feature flags and dead branches after their rollout finishes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md).
-- [ ] **Keep incomplete capabilities behind safe defaults or feature flags** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md).
+- [x] **Remove feature flags and dead branches after their rollout finishes** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md).
+- [x] **Keep incomplete capabilities behind safe defaults or feature flags** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md).
 
 ### R59. Semantic Releases, Tags, and Human Changelogs
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 177 |
-| Principles still awaiting coverage | 67 |
+| Already covered principles | 179 |
+| Principles still awaiting coverage | 65 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

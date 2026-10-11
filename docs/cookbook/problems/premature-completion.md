@@ -33,6 +33,7 @@ Define observable completion and account for every obligation.
 - [Task-Scoped Staging and Atomic Verified Commits](../task-scoped-staging-and-atomic-verified-commits.md)
 - [Consumer Migration, Safe Deprecation, and Legacy Retirement](../consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [Additive Schema Migration and Tested Rollback](../additive-schema-migration-and-tested-rollback.md)
+- [Safe Feature Flags and Post-Rollout Cleanup](../safe-feature-flags-and-post-rollout-cleanup.md)
 
 ## References
 
@@ -53,13 +54,11 @@ Define observable completion and account for every obligation.
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Detect attempts to weaken checks, tests, suppressions, or quality thresholds](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Implement complete vertical slices with test, verification, and commit gates](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
-- [Keep incomplete capabilities behind safe defaults or feature flags](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
 - [Verify responsive and accessible UI states including empty, loading, and error flows](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 - [Verify browser changes against live DOM, console, network, and before-after screenshots](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Refactor incrementally without changing test expectations to force a pass](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Version consumer-facing releases with tags, semantic versions, and human changelogs](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
 - [Run non-bypassable CI quality gates and feed failures back into agent correction](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
-- [Remove feature flags and dead branches after their rollout finishes](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
 - [Propagate correlation and entry-point identity while bounding telemetry label cardinality](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
 - [Make alerts actionable with runbooks and verify telemetry and notification delivery](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
 - [Use prelaunch gates, staged rollout thresholds, and tested rollback triggers](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)

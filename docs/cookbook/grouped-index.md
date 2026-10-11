@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 177 covered, 67 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 179 covered, 65 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -34,8 +34,8 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 14 | 0 |
 | [Configuration and distribution](#configuration-and-distribution) | 8 | 8 | 0 |
 | [Git and workspace safety](#git-and-workspace-safety) | 5 | 5 | 0 |
-| [Migration and deprecation](#migration-and-deprecation) | 6 | 5 | 1 |
-| [Release and rollout](#release-and-rollout) | 5 | 0 | 5 |
+| [Migration and deprecation](#migration-and-deprecation) | 6 | 6 | 0 |
+| [Release and rollout](#release-and-rollout) | 5 | 1 | 4 |
 | [Operational evidence](#operational-evidence) | 3 | 0 | 3 |
 | [Skill evaluation](#skill-evaluation) | 6 | 0 | 6 |
 | [Documentation and provenance](#documentation-and-provenance) | 10 | 0 | 10 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **177** | **67** |
+| **Total** | **244** | **179** | **65** |
 
 ## Completion checks
 
@@ -334,7 +334,7 @@ Have consumers moved to the replacement, can the transition roll back, and is re
 
 - [x] **Migrate callers and delete obsolete internal APIs together** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [x] **Optimize planned migrations for a verified final state** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
-- [ ] **Remove feature flags and dead branches after their rollout finishes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
+- [x] **Remove feature flags and dead branches after their rollout finishes** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md)
 - [x] **Prefer advisory deprecation and provide a production-proven replacement plus migration guidance** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [x] **Migrate schemas additively before destructive changes and test the rollback path** — [recipe](additive-schema-migration-and-tested-rollback.md)
 - [x] **Verify old consumers are inactive before deleting a deprecated interface or system** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
@@ -343,7 +343,7 @@ Have consumers moved to the replacement, can the transition roll back, and is re
 
 Is release readiness proven, is rollout controlled, and do critical flows remain healthy?
 
-- [ ] **Keep incomplete capabilities behind safe defaults or feature flags** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
+- [x] **Keep incomplete capabilities behind safe defaults or feature flags** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md)
 - [ ] **Version consumer-facing releases with tags, semantic versions, and human changelogs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
 - [ ] **Use prelaunch gates, staged rollout thresholds, and tested rollback triggers** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)
 - [ ] **Verify critical user flows and health signals after deployment** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)

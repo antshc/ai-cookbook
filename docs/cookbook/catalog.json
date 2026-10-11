@@ -1894,40 +1894,6 @@
       "related": []
     },
     {
-      "id": "principle-keep-incomplete-capabilities-behind-safe-defaults-or-feature-flags",
-      "title": "Keep incomplete capabilities behind safe defaults or feature flags",
-      "principle": "Keep incomplete capabilities behind safe defaults or feature flags",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "keep",
-        "incomplete",
-        "capabilities",
-        "behind",
-        "safe",
-        "defaults",
-        "or",
-        "feature",
-        "flags"
-      ],
-      "use_when": "Use when defining agent behavior to keep incomplete capabilities behind safe defaults or feature flags.",
-      "provides": [
-        "Keep incomplete capabilities behind safe defaults or feature flags"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-honor-idempotency-keys-across-retries-payload-mismatches-and-unknown-outcomes",
       "title": "Honor idempotency keys across retries, payload mismatches, and unknown outcomes",
       "principle": "Honor idempotency keys across retries, payload mismatches, and unknown outcomes",
@@ -2330,41 +2296,6 @@
       "use_when": "Use when defining agent behavior to run non-bypassable CI quality gates and feed failures back into agent correction.",
       "provides": [
         "Run non-bypassable CI quality gates and feed failures back into agent correction"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-remove-feature-flags-and-dead-branches-after-their-rollout-finishes",
-      "title": "Remove feature flags and dead branches after their rollout finishes",
-      "principle": "Remove feature flags and dead branches after their rollout finishes",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "remove",
-        "feature",
-        "flags",
-        "and",
-        "dead",
-        "branches",
-        "after",
-        "their",
-        "rollout",
-        "finishes"
-      ],
-      "use_when": "Use when defining agent behavior to remove feature flags and dead branches after their rollout finishes.",
-      "provides": [
-        "Remove feature flags and dead branches after their rollout finishes"
       ],
       "related": []
     },
@@ -5024,6 +4955,38 @@
       "use_when": "A schema rename or drop can break older application instances during rollout. Unbounded backfills can lock production tables, and an untested down migration leaves recovery uncertain.",
       "provides": [
         "Migrate schemas additively before destructive changes and test the rollback path"
+      ],
+      "related": []
+    },
+    {
+      "id": "safe-feature-flags-and-post-rollout-cleanup",
+      "title": "Safe Feature Flags and Post-Rollout Cleanup",
+      "path": "safe-feature-flags-and-post-rollout-cleanup.md",
+      "kind": "recipe",
+      "problems": [
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "safe",
+        "feature",
+        "flags",
+        "and",
+        "post",
+        "rollout",
+        "cleanup"
+      ],
+      "use_when": "Incomplete behavior can reach users without a safe default, while completed rollouts leave permanent flag branches that multiply test paths and maintenance work.",
+      "provides": [
+        "Remove feature flags and dead branches after their rollout finishes",
+        "Keep incomplete capabilities behind safe defaults or feature flags"
       ],
       "related": []
     }

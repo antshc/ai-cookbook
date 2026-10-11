@@ -213,7 +213,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 ### Implementation, context, and independent judgment
 
 - [ ] **Implement complete vertical slices with test, verification, and commit gates** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
-- [ ] **Keep incomplete capabilities behind safe defaults or feature flags** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
+- [x] **Keep incomplete capabilities behind safe defaults or feature flags** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md)
 - [x] **Do not repeat unchanged verification commands without intervening changes** — [recipe](verification-cost-changed-scope-and-avoiding-redundant-runs.md)
 - [x] **Load relevant implementation, tests, types, and precedent instead of entire context dumps** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md)
 - [x] **Trim context proactively while preserving active constraints, errors, and decisions** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md)
@@ -286,7 +286,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Use isolated worktrees when parallel agents would otherwise share a working tree** — [recipe](isolated-worktrees-and-safe-workspace-cleanup.md)
 - [ ] **Version consumer-facing releases with tags, semantic versions, and human changelogs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
 - [ ] **Run non-bypassable CI quality gates and feed failures back into agent correction** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
-- [ ] **Remove feature flags and dead branches after their rollout finishes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
+- [x] **Remove feature flags and dead branches after their rollout finishes** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md)
 - [x] **Prefer advisory deprecation and provide a production-proven replacement plus migration guidance** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [x] **Migrate schemas additively before destructive changes and test the rollback path** — [recipe](additive-schema-migration-and-tested-rollback.md)
 - [x] **Verify old consumers are inactive before deleting a deprecated interface or system** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
