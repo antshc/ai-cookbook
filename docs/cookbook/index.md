@@ -15,7 +15,7 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 - [x] **Checklist-driven workflow** — [recipe](checklist-driven-workflow.md)
 - [ ] **Improvement flywheel (classify and fix observed failures)** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-improvement-flywheel.md)
 - [ ] **Canary rule verification** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-canary-rule-verification.md)
-- [ ] **Focused functional-slice testing** — [source](https://github.com/antshc/brain/blob/main/docs/adr/crew-is-agnostic.md)
+- [x] **Focused functional-slice testing** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
 - [ ] **Behavior-preserving agent review** — [source](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md)
 
 ## Instructions and drafting
@@ -71,7 +71,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [ ] **Separate shared mutable state before using locks** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md)
 - [ ] **Sequence changes as independently verifiable units** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
 - [ ] **Remove dead or redundant complexity before additions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-subtract-before-you-add/SKILL.md)
-- [ ] **Test observable behavior with exact expected results** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-test-behavior-not-implementation/SKILL.md)
+- [x] **Test observable behavior with exact expected results** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
 - [ ] **Use types to exclude invalid states and exhaust variants** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-type-system-discipline/SKILL.md)
 
 - [ ] **Derive architecture contracts from caller usage before implementing** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md)
@@ -240,8 +240,8 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 
 - [ ] **Use the red-green-refactor cycle for behavior-changing implementation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
 - [ ] **Reproduce a reported bug with a failing regression test before applying the fix** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
-- [ ] **Test observable state with descriptive tests and minimize interaction mocks** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
-- [ ] **Choose test sizes by real resource boundaries and preserve the repository test conventions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
+- [x] **Test observable state with descriptive tests and minimize interaction mocks** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
+- [x] **Choose test sizes by real resource boundaries and preserve the repository test conventions** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
 - [ ] **Stop further feature work on broken tests or builds until the failure is resolved** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [ ] **Isolate and reduce failures before root-cause fixes, using history bisect when useful** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [x] **Verify repaired behavior with focused tests, full regression checks, and runtime checks** — [recipe](independent-patch-verification-and-baseline-comparison.md)

@@ -6,6 +6,7 @@ Specify inputs, configuration, evidence and resource resolution.
 
 - [Direct Evidence, Safety Assumptions, and Risk-Based Verification](../direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [Live Verification Harness, Feature Maps, and Instance Lifecycle](../live-verification-harness-feature-maps-and-instance-lifecycle.md)
+- [Functional-Slice Tests, Observable Results, and Test Boundaries](../functional-slice-tests-observable-results-and-test-boundaries.md)
 
 ## References
 
@@ -46,7 +47,6 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Cite authoritative implementation sources and label unverifiable patterns explicitly](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Honor idempotency keys across retries, payload mismatches, and unknown outcomes](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
 - [Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
-- [Choose test sizes by real resource boundaries and preserve the repository test conventions](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
 - [Classify review findings by severity and lead with required, evidenced changes](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
 - [Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md)
 - [Mask protected source blocks during agent simplification and restore them from verified placeholders or backups](https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md)

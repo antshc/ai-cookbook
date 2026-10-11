@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 19 covered, 225 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 23 covered, 221 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -15,7 +15,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 |---|---:|---:|---:|
 | [Completion checks](#completion-checks) | 5 | 5 | 0 |
 | [Proof of actual behavior](#proof-of-actual-behavior) | 11 | 11 | 0 |
-| [Focused testing](#focused-testing) | 6 | 0 | 6 |
+| [Focused testing](#focused-testing) | 6 | 4 | 2 |
 | [Regression protection](#regression-protection) | 6 | 0 | 6 |
 | [Root-cause diagnosis](#root-cause-diagnosis) | 7 | 0 | 7 |
 | [Learning from failures](#learning-from-failures) | 9 | 2 | 7 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **19** | **225** |
+| **Total** | **244** | **23** | **221** |
 
 ## Completion checks
 
@@ -82,12 +82,12 @@ Does direct evidence from the real artifact prove the claimed behavior?
 
 Which observable boundary and smallest relevant checks prove the outcome?
 
-- [ ] **Focused functional-slice testing** — [source](https://github.com/antshc/brain/blob/main/docs/adr/crew-is-agnostic.md)
-- [ ] **Test observable behavior with exact expected results** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-test-behavior-not-implementation/SKILL.md)
+- [x] **Focused functional-slice testing** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
+- [x] **Test observable behavior with exact expected results** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
 - [ ] **Place verification checks according to execution cost and scope expensive checks to changed code** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [ ] **Do not repeat unchanged verification commands without intervening changes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
-- [ ] **Test observable state with descriptive tests and minimize interaction mocks** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
-- [ ] **Choose test sizes by real resource boundaries and preserve the repository test conventions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
+- [x] **Test observable state with descriptive tests and minimize interaction mocks** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
+- [x] **Choose test sizes by real resource boundaries and preserve the repository test conventions** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
 
 ## Regression protection
 

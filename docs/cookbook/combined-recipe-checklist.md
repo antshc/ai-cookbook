@@ -27,7 +27,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R02. Direct Evidence, Safety Assumptions, and Risk-Based Verification** — NEW (4 principles). [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md).
 - [x] **R03. Live Verification Harness, Feature Maps, and Instance Lifecycle** — NEW (4 principles). [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md).
 - [x] **R04. Independent Patch Verification and Baseline Comparison** — NEW (3 principles). [recipe](independent-patch-verification-and-baseline-comparison.md).
-- [ ] **R05. Functional-Slice Tests, Observable Results, and Test Boundaries** — NEW (4 principles).
+- [x] **R05. Functional-Slice Tests, Observable Results, and Test Boundaries** — NEW (4 principles). [recipe](functional-slice-tests-observable-results-and-test-boundaries.md).
 - [ ] **R06. Verification Cost, Changed Scope, and Avoiding Redundant Runs** — NEW (2 principles).
 - [ ] **R07. Red-Green-Refactor and Failing Regression Tests** — NEW (3 principles).
 - [ ] **R08. Live Bug Reproduction and Verification of Existing Fixes** — NEW (2 principles).
@@ -184,10 +184,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Focused functional-slice testing** — [source](https://github.com/antshc/brain/blob/main/docs/adr/crew-is-agnostic.md).
-- [ ] **Test observable behavior with exact expected results** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-test-behavior-not-implementation/SKILL.md).
-- [ ] **Test observable state with descriptive tests and minimize interaction mocks** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md).
-- [ ] **Choose test sizes by real resource boundaries and preserve the repository test conventions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md).
+- [x] **Focused functional-slice testing** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md).
+- [x] **Test observable behavior with exact expected results** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md).
+- [x] **Test observable state with descriptive tests and minimize interaction mocks** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md).
+- [x] **Choose test sizes by real resource boundaries and preserve the repository test conventions** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md).
 
 ### R06. Verification Cost, Changed Scope, and Avoiding Redundant Runs
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 19 |
-| Principles still awaiting coverage | 225 |
+| Already covered principles | 23 |
+| Principles still awaiting coverage | 221 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

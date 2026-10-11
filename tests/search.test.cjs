@@ -7,7 +7,12 @@ const root = path.resolve(__dirname, '..');
 const context = {window:{COOKBOOK:{prefix:'../',problem:'skill-routing'}}, document:{querySelectorAll:()=>[],getElementById:()=>null}, location:{href:'https://example.com/ai-cookbook/problems/skill-routing.html'}, URLSearchParams};
 vm.createContext(context);
 vm.runInContext(fs.readFileSync(path.join(root,'site/app.js'),'utf8'),context);
-const materials = JSON.parse(fs.readFileSync(path.join(root,'dist/search-index.json'),'utf8')).materials;
+const materials = [
+  {title:'Verification',content:'completeness sweep Reconstruct all obligations',kind:'recipe',problems:['skill-routing'],applies_to:['skill'],task_types:['review'],keywords:[]},
+  {title:'Memory',content:'completeness sweep blocked or partial',kind:'recipe',problems:['continuity'],applies_to:['agent'],task_types:['review'],keywords:[]},
+  {title:'Checklist',content:'completeness sweep',kind:'recipe',problems:['instruction-compliance'],applies_to:['instruction'],task_types:['implementation'],keywords:[]},
+  {title:'Pending routing',content:'routing',kind:'source-only',problems:['skill-routing'],applies_to:['skill'],task_types:['review'],keywords:[]}
+];
 const state = {q:'',problem:'',artifact:'',task:'',kind:''};
 const find = s => materials.filter(m => context.matches(m,{...state,...s}));
 assert.equal(find({kind:'recipe'}).length,3);
@@ -21,3 +26,4 @@ assert.equal(context.stateFromURL(new URLSearchParams()).problem,'skill-routing'
 assert.equal(context.stateFromURL(new URLSearchParams('problem=&q=memory')).problem,''); // cleared chapter survives reload
 assert.equal(context.stateFromURL(new URLSearchParams('problem=continuity&kind=recipe')).kind,'recipe');
 console.log('Search checks passed: full text, combined filters, empty results and URL state.');
+

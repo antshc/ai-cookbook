@@ -9,6 +9,7 @@ Define observable completion and account for every obligation.
 - [Direct Evidence, Safety Assumptions, and Risk-Based Verification](../direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [Live Verification Harness, Feature Maps, and Instance Lifecycle](../live-verification-harness-feature-maps-and-instance-lifecycle.md)
 - [Independent Patch Verification and Baseline Comparison](../independent-patch-verification-and-baseline-comparison.md)
+- [Functional-Slice Tests, Observable Results, and Test Boundaries](../functional-slice-tests-observable-results-and-test-boundaries.md)
 
 ## References
 
@@ -23,9 +24,7 @@ Define observable completion and account for every obligation.
 ## Principles awaiting recipes
 
 - [Canary rule verification](https://github.com/antshc/brain/blob/main/docs/concepts/ops-canary-rule-verification.md)
-- [Focused functional-slice testing](https://github.com/antshc/brain/blob/main/docs/adr/crew-is-agnostic.md)
 - [Optimize planned migrations for a verified final state](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-outcome-oriented-execution/SKILL.md)
-- [Test observable behavior with exact expected results](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-test-behavior-not-implementation/SKILL.md)
 - [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
 - [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
 - [Resume from the prior execution trail rather than repeating completed work](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/session-pickup.md)
@@ -57,8 +56,6 @@ Define observable completion and account for every obligation.
 - [Verify framework-specific decisions against version-matched official documentation](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Verify responsive and accessible UI states including empty, loading, and error flows](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 - [Reproduce a reported bug with a failing regression test before applying the fix](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
-- [Test observable state with descriptive tests and minimize interaction mocks](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
-- [Choose test sizes by real resource boundaries and preserve the repository test conventions](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
 - [Stop further feature work on broken tests or builds until the failure is resolved](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [Verify browser changes against live DOM, console, network, and before-after screenshots](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Isolate automated browser tests from personal signed-in browser profiles](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)

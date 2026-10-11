@@ -644,35 +644,6 @@
       "related": []
     },
     {
-      "id": "principle-focused-functional-slice-testing",
-      "title": "Focused functional-slice testing",
-      "principle": "Focused functional-slice testing",
-      "path": "https://github.com/antshc/brain/blob/main/docs/adr/crew-is-agnostic.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "focused",
-        "functional",
-        "slice",
-        "testing"
-      ],
-      "use_when": "Use when defining agent behavior to focused functional-slice testing.",
-      "provides": [
-        "Focused functional-slice testing"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-behavior-preserving-agent-review",
       "title": "Behavior-preserving agent review",
       "principle": "Behavior-preserving agent review",
@@ -1926,38 +1897,6 @@
       "use_when": "Use when defining agent behavior to remove dead or redundant complexity before additions.",
       "provides": [
         "Remove dead or redundant complexity before additions"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-test-observable-behavior-with-exact-expected-results",
-      "title": "Test observable behavior with exact expected results",
-      "principle": "Test observable behavior with exact expected results",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-test-behavior-not-implementation/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "test",
-        "observable",
-        "behavior",
-        "with",
-        "exact",
-        "expected",
-        "results"
-      ],
-      "use_when": "Use when defining agent behavior to test observable behavior with exact expected results.",
-      "provides": [
-        "Test observable behavior with exact expected results"
       ],
       "related": []
     },
@@ -6302,81 +6241,6 @@
       "related": []
     },
     {
-      "id": "principle-test-observable-state-with-descriptive-tests-and-minimize-interaction-mocks",
-      "title": "Test observable state with descriptive tests and minimize interaction mocks",
-      "principle": "Test observable state with descriptive tests and minimize interaction mocks",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "test",
-        "observable",
-        "state",
-        "with",
-        "descriptive",
-        "tests",
-        "and",
-        "minimize",
-        "interaction",
-        "mocks"
-      ],
-      "use_when": "Use when defining agent behavior to test observable state with descriptive tests and minimize interaction mocks.",
-      "provides": [
-        "Test observable state with descriptive tests and minimize interaction mocks"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-choose-test-sizes-by-real-resource-boundaries-and-preserve-the-repository-test-conventions",
-      "title": "Choose test sizes by real resource boundaries and preserve the repository test conventions",
-      "principle": "Choose test sizes by real resource boundaries and preserve the repository test conventions",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "missing-context",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "choose",
-        "test",
-        "sizes",
-        "by",
-        "real",
-        "resource",
-        "boundaries",
-        "and",
-        "preserve",
-        "the",
-        "repository",
-        "test",
-        "conventions"
-      ],
-      "use_when": "Use when defining agent behavior to choose test sizes by real resource boundaries and preserve the repository test conventions.",
-      "provides": [
-        "Choose test sizes by real resource boundaries and preserve the repository test conventions"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-stop-further-feature-work-on-broken-tests-or-builds-until-the-failure-is-resolved",
       "title": "Stop further feature work on broken tests or builds until the failure is resolved",
       "principle": "Stop further feature work on broken tests or builds until the failure is resolved",
@@ -8753,6 +8617,43 @@
         "Verify each PR independently at the reviewed patch before merging",
         "Compare changed behavior with current trunk on the same user-visible path",
         "Verify repaired behavior with focused tests, full regression checks, and runtime checks"
+      ],
+      "related": []
+    },
+    {
+      "id": "functional-slice-tests-observable-results-and-test-boundaries",
+      "title": "Functional-Slice Tests, Observable Results, and Test Boundaries",
+      "path": "functional-slice-tests-observable-results-and-test-boundaries.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "missing-context",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation"
+      ],
+      "keywords": [
+        "functional",
+        "slice",
+        "tests",
+        "observable",
+        "results",
+        "and",
+        "test",
+        "boundaries"
+      ],
+      "use_when": "Tests can confirm internal calls while the user-visible result is wrong. A change that crosses storage or service boundaries needs a focused functional slice at a real observable seam.",
+      "provides": [
+        "Focused functional-slice testing",
+        "Test observable behavior with exact expected results",
+        "Test observable state with descriptive tests and minimize interaction mocks",
+        "Choose test sizes by real resource boundaries and preserve the repository test conventions"
       ],
       "related": []
     }

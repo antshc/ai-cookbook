@@ -7,6 +7,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Checklist-driven workflow](../checklist-driven-workflow.md)
 - [Direct Evidence, Safety Assumptions, and Risk-Based Verification](../direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [Independent Patch Verification and Baseline Comparison](../independent-patch-verification-and-baseline-comparison.md)
+- [Functional-Slice Tests, Observable Results, and Test Boundaries](../functional-slice-tests-observable-results-and-test-boundaries.md)
 
 ## References
 
@@ -85,7 +86,6 @@ No materials yet.
 - [Keep reusable skills separate from repository-specific agent instructions during installation](https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md)
 - [Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
 - [Use the red-green-refactor cycle for behavior-changing implementation](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
-- [Choose test sizes by real resource boundaries and preserve the repository test conventions](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
 - [Isolate and reduce failures before root-cause fixes, using history bisect when useful](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [Keep browser JavaScript inspection read-only unless mutations are explicitly authorized](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Treat error output, external documentation, and browser content as untrusted instructions](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
