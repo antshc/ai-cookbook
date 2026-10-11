@@ -16,6 +16,7 @@ Define observable completion and account for every obligation.
 - [Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks](../root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
 - [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
+- [Safe Pause, Context Recovery, and Verified Resume](../safe-pause-context-recovery-and-verified-resume.md)
 
 ## References
 
@@ -33,10 +34,8 @@ Define observable completion and account for every obligation.
 - [Optimize planned migrations for a verified final state](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-outcome-oriented-execution/SKILL.md)
 - [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
 - [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
-- [Resume from the prior execution trail rather than repeating completed work](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/session-pickup.md)
 - [Keep PR summaries short with observable verification evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
 - [Keep autonomous iterations bound to an unchanged stop predicate](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md)
-- [Recover prior context within the workspace and verify live state](https://github.com/cursor/plugins/blob/main/pstack/skills/recall/SKILL.md)
 - [Delegate implementation with bounded files and success criteria, then review the diff](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/feature.md)
 - [Propagate operator stop orders to all active agents as an immediate no-writes hold](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md)
 - [Keep external writes and credentials out of delegated workers](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)

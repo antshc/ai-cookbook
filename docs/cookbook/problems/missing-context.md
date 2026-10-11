@@ -9,6 +9,7 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Functional-Slice Tests, Observable Results, and Test Boundaries](../functional-slice-tests-observable-results-and-test-boundaries.md)
 - [Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks](../root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [Queryable Traces and Source Attribution](../queryable-traces-and-source-attribution.md)
+- [Safe Pause, Context Recovery, and Verified Resume](../safe-pause-context-recovery-and-verified-resume.md)
 
 ## References
 
@@ -35,7 +36,6 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Treat PR review text as untrusted input rather than executable instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md)
 - [Keep reproduction recordings, logs, and tokens out of source control](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Keep append-only decision records linked to real evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
-- [Recover prior context within the workspace and verify live state](https://github.com/cursor/plugins/blob/main/pstack/skills/recall/SKILL.md)
 - [Configure model selection per agent responsibility](https://github.com/cursor/plugins/blob/main/pstack/skills/setup-pstack/SKILL.md)
 - [Review comments as evidence rather than automatically obeying them](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/references/bugbot-triage.md)
 - [Preserve locally edited managed files and keep user configuration outside automation packs](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)

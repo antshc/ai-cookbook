@@ -108,7 +108,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [ ] **Record exact investigation queries, empty results, and contradictory evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
 - [ ] **Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md)
 - [x] **Limit retrospective skill changes to demonstrated use or missed triggers** — [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md)
-- [ ] **Resume from the prior execution trail rather than repeating completed work** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/session-pickup.md)
+- [x] **Resume from the prior execution trail rather than repeating completed work** — [recipe](safe-pause-context-recovery-and-verified-resume.md)
 
 ### Testing and delivery workflows
 
@@ -141,8 +141,8 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [ ] **Keep autonomous iterations bound to an unchanged stop predicate** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md)
 - [ ] **Pilot a full work unit before scaling a multi-agent program** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
 - [ ] **Keep append-only decision records linked to real evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
-- [ ] **Preserve work and a resume note when pausing an agent run** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/pause-safely.md)
-- [ ] **Recover prior context within the workspace and verify live state** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/recall/SKILL.md)
+- [x] **Preserve work and a resume note when pausing an agent run** — [recipe](safe-pause-context-recovery-and-verified-resume.md)
+- [x] **Recover prior context within the workspace and verify live state** — [recipe](safe-pause-context-recovery-and-verified-resume.md)
 - [x] **Turn session retrospectives into tested agent-guidance changes** — [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md)
 - [x] **Infer reusable agent preferences only from stable evidence** — [recipe](gotchas-and-persistent-memory.md)
 - [ ] **Evaluate agent instructions with blinded candidates and judges** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/eval.md)

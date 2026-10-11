@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 49 covered, 195 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 52 covered, 192 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -19,7 +19,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Regression protection](#regression-protection) | 6 | 5 | 1 |
 | [Root-cause diagnosis](#root-cause-diagnosis) | 7 | 7 | 0 |
 | [Learning from failures](#learning-from-failures) | 9 | 9 | 0 |
-| [Resumable execution](#resumable-execution) | 9 | 6 | 3 |
+| [Resumable execution](#resumable-execution) | 9 | 9 | 0 |
 | [Instruction enforcement](#instruction-enforcement) | 7 | 0 | 7 |
 | [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 0 | 8 |
 | [Context management](#context-management) | 5 | 0 | 5 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **49** | **195** |
+| **Total** | **244** | **52** | **192** |
 
 ## Completion checks
 
@@ -134,9 +134,9 @@ What progress, decisions, open questions, and remaining work must survive a sess
 - [x] **Open-question markers** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 - [x] **Session ledger** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 - [x] **Summarize session progress as outcomes and human-owned decisions** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
-- [ ] **Resume from the prior execution trail rather than repeating completed work** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/session-pickup.md)
-- [ ] **Preserve work and a resume note when pausing an agent run** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/pause-safely.md)
-- [ ] **Recover prior context within the workspace and verify live state** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/recall/SKILL.md)
+- [x] **Resume from the prior execution trail rather than repeating completed work** — [recipe](safe-pause-context-recovery-and-verified-resume.md)
+- [x] **Preserve work and a resume note when pausing an agent run** — [recipe](safe-pause-context-recovery-and-verified-resume.md)
+- [x] **Recover prior context within the workspace and verify live state** — [recipe](safe-pause-context-recovery-and-verified-resume.md)
 - [x] **Preserve incomplete plans and use the project's designated task tracker** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 - [x] **Persist restartable session handoffs with decisions, changed files, verification, and next work** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 

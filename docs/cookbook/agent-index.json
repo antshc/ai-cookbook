@@ -3165,46 +3165,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-resume-from-the-prior-execution-trail-rather-than-repeating-completed-work",
-      "title": "Resume from the prior execution trail rather than repeating completed work",
-      "principle": "Resume from the prior execution trail rather than repeating completed work",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/session-pickup.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "resume",
-        "from",
-        "the",
-        "prior",
-        "execution",
-        "trail",
-        "rather",
-        "than",
-        "repeating",
-        "completed",
-        "work"
-      ],
-      "use_when": "Use when defining agent behavior to resume from the prior execution trail rather than repeating completed work.",
-      "provides": [
-        "Resume from the prior execution trail rather than repeating completed work"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/session-pickup.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-pin-existing-behavior-before-structural-refactoring",
       "title": "Pin existing behavior before structural refactoring",
       "principle": "Pin existing behavior before structural refactoring",
@@ -3730,84 +3690,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-preserve-work-and-a-resume-note-when-pausing-an-agent-run",
-      "title": "Preserve work and a resume note when pausing an agent run",
-      "principle": "Preserve work and a resume note when pausing an agent run",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/pause-safely.md",
-      "kind": "source-only",
-      "problems": [
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "preserve",
-        "work",
-        "and",
-        "a",
-        "resume",
-        "note",
-        "when",
-        "pausing",
-        "an",
-        "agent",
-        "run"
-      ],
-      "use_when": "Use when defining agent behavior to preserve work and a resume note when pausing an agent run.",
-      "provides": [
-        "Preserve work and a resume note when pausing an agent run"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/pause-safely.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-recover-prior-context-within-the-workspace-and-verify-live-state",
-      "title": "Recover prior context within the workspace and verify live state",
-      "principle": "Recover prior context within the workspace and verify live state",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/recall/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "recover",
-        "prior",
-        "context",
-        "within",
-        "the",
-        "workspace",
-        "and",
-        "verify",
-        "live",
-        "state"
-      ],
-      "use_when": "Use when defining agent behavior to recover prior context within the workspace and verify live state.",
-      "provides": [
-        "Recover prior context within the workspace and verify live state"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/recall/SKILL.md",
       "covered_principles": []
     },
     {
@@ -9259,6 +9141,49 @@
         "Summarize session progress as outcomes and human-owned decisions",
         "Preserve incomplete plans and use the project's designated task tracker",
         "Persist restartable session handoffs with decisions, changed files, verification, and next work"
+      ]
+    },
+    {
+      "id": "safe-pause-context-recovery-and-verified-resume",
+      "title": "Safe Pause, Context Recovery, and Verified Resume",
+      "path": "docs/cookbook/safe-pause-context-recovery-and-verified-resume.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "missing-context",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "safe",
+        "pause",
+        "context",
+        "recovery",
+        "and",
+        "verified",
+        "resume"
+      ],
+      "use_when": "A resumed agent can repeat finished work or overwrite newer state. Safe interruption needs a durable checkpoint and a verified restart position.",
+      "provides": [
+        "Resume from the prior execution trail rather than repeating completed work",
+        "Preserve work and a resume note when pausing an agent run",
+        "Recover prior context within the workspace and verify live state"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/safe-pause-context-recovery-and-verified-resume.html",
+      "covered_principles": [
+        "Resume from the prior execution trail rather than repeating completed work",
+        "Preserve work and a resume note when pausing an agent run",
+        "Recover prior context within the workspace and verify live state"
       ]
     }
   ]

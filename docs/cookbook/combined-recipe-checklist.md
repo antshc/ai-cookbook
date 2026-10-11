@@ -42,7 +42,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R13. Evidence-Based Retrospectives and Approved Guidance Repairs** — NEW (4 principles). [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md).
 - [x] **R14. Checklist-Driven Workflow** — KEEP (1 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/checklist-driven-workflow.md).
 - [x] **R15. Session Ledger, Open Questions, and Restartable Handoffs** — NEW (5 principles). [recipe](session-ledger-open-questions-and-restartable-handoffs.md).
-- [ ] **R16. Safe Pause, Context Recovery, and Verified Resume** — NEW (3 principles).
+- [x] **R16. Safe Pause, Context Recovery, and Verified Resume** — NEW (3 principles). [recipe](safe-pause-context-recovery-and-verified-resume.md).
 ### Instructions and routing
 
 - [ ] **R17. Constraint-First Instructions and Anti-Rationalization Rules** — NEW (3 principles).
@@ -272,9 +272,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Resume from the prior execution trail rather than repeating completed work** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/session-pickup.md).
-- [ ] **Preserve work and a resume note when pausing an agent run** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/pause-safely.md).
-- [ ] **Recover prior context within the workspace and verify live state** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/recall/SKILL.md).
+- [x] **Resume from the prior execution trail rather than repeating completed work** — [recipe](safe-pause-context-recovery-and-verified-resume.md).
+- [x] **Preserve work and a resume note when pausing an agent run** — [recipe](safe-pause-context-recovery-and-verified-resume.md).
+- [x] **Recover prior context within the workspace and verify live state** — [recipe](safe-pause-context-recovery-and-verified-resume.md).
 
 ### R17. Constraint-First Instructions and Anti-Rationalization Rules
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 49 |
-| Principles still awaiting coverage | 195 |
+| Already covered principles | 52 |
+| Principles still awaiting coverage | 192 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
