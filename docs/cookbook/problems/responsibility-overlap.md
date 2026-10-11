@@ -10,6 +10,7 @@ Give each procedure and responsibility one clear owner.
 - [Template Ownership of Rendering](../template-ownership-of-rendering.md)
 - [Repository Adapters, Resource Access, and Portable Skills](../repository-adapters-resource-access-and-portable-skills.md)
 - [Agent-Agnostic Contracts and Structured CLI Handoffs](../agent-agnostic-contracts-and-structured-cli-handoffs.md)
+- [Single Coordinator for Shared PR Stack Topology](../single-coordinator-for-shared-pr-stack-topology.md)
 
 ## References
 
@@ -31,7 +32,6 @@ No materials yet.
 - [Write a consumer usage guide before implementing a shared API](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md)
 - [Make module internals inaccessible and expose only one supported operation path](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/design-red-flags.md)
 - [Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md)
-- [Keep stack topology updates under one coordinator while PR owners work in parallel](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
 - [Gate automatic bug fixing on a trusted triage verdict and ownership checks](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Approve the capability dependency map before specifying a multi-module initiative](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Define measurable project quality thresholds and record exceptions with owners and expiry](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)

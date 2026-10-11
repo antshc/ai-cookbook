@@ -163,7 +163,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [ ] **Independently review long-running decision trails with a different model family** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
 - [ ] **Propagate operator stop orders to all active agents as an immediate no-writes hold** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md)
 - [x] **Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md)
-- [ ] **Keep stack topology updates under one coordinator while PR owners work in parallel** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
+- [x] **Keep stack topology updates under one coordinator while PR owners work in parallel** — [recipe](single-coordinator-for-shared-pr-stack-topology.md)
 
 ### External automations and communication
 

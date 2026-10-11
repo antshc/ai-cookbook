@@ -65,7 +65,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 
 - [x] **R31. Worker Configuration, Fresh Sessions, and Standing Orders** — NEW (3 principles). [recipe](worker-configuration-fresh-sessions-and-standing-orders.md).
 - [x] **R32. Pilot Runs, Rolling Worker Windows, and Progress Monitoring** — NEW (4 principles). [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
-- [ ] **R33. Single Coordinator for Shared PR Stack Topology** — NEW (1 principles).
+- [x] **R33. Single Coordinator for Shared PR Stack Topology** — NEW (1 principles). [recipe](single-coordinator-for-shared-pr-stack-topology.md).
 - [ ] **R34. Fixed Stop Conditions and Immediate Stop Propagation** — NEW (2 principles).
 - [ ] **R35. Reversible Autonomy, Approval Gates, and Uncertain Targets** — NEW (6 principles).
 ### Intent and design
@@ -407,7 +407,7 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Keep stack topology updates under one coordinator while PR owners work in parallel** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md).
+- [x] **Keep stack topology updates under one coordinator while PR owners work in parallel** — [recipe](single-coordinator-for-shared-pr-stack-topology.md).
 
 ### R34. Fixed Stop Conditions and Immediate Stop Propagation
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 99 |
-| Principles still awaiting coverage | 145 |
+| Already covered principles | 100 |
+| Principles still awaiting coverage | 144 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

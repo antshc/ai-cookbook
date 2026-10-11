@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 99 covered, 145 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 100 covered, 144 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -25,7 +25,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Context management](#context-management) | 5 | 5 | 0 |
 | [Ownership and composition](#ownership-and-composition) | 11 | 10 | 1 |
 | [Delegation contracts](#delegation-contracts) | 7 | 7 | 0 |
-| [Worker lifecycle](#worker-lifecycle) | 9 | 7 | 2 |
+| [Worker lifecycle](#worker-lifecycle) | 9 | 8 | 1 |
 | [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 0 | 7 |
 | [Intent and assumption discovery](#intent-and-assumption-discovery) | 7 | 0 | 7 |
 | [Design before implementation](#design-before-implementation) | 13 | 0 | 13 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **99** | **145** |
+| **Total** | **244** | **100** | **144** |
 
 ## Completion checks
 
@@ -215,7 +215,7 @@ How are workers configured, started, replenished, monitored, replaced, and stopp
 - [x] **Judge agent progress by actual side effects and replace stalled workers** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md)
 - [ ] **Propagate operator stop orders to all active agents as an immediate no-writes hold** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md)
 - [x] **Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md)
-- [ ] **Keep stack topology updates under one coordinator while PR owners work in parallel** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
+- [x] **Keep stack topology updates under one coordinator while PR owners work in parallel** — [recipe](single-coordinator-for-shared-pr-stack-topology.md)
 
 ## Autonomous execution boundaries
 

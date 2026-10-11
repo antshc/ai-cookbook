@@ -12,6 +12,7 @@ Define bounded assignments and verifiable handoff contracts.
 - [Delegated Worker Permissions and Centralized External Writes](../delegated-worker-permissions-and-centralized-external-writes.md)
 - [Worker Configuration, Fresh Sessions, and Standing Orders](../worker-configuration-fresh-sessions-and-standing-orders.md)
 - [Pilot Runs, Rolling Worker Windows, and Progress Monitoring](../pilot-runs-rolling-worker-windows-and-progress-monitoring.md)
+- [Single Coordinator for Shared PR Stack Topology](../single-coordinator-for-shared-pr-stack-topology.md)
 
 ## References
 
@@ -26,7 +27,6 @@ Define bounded assignments and verifiable handoff contracts.
 
 - [Audit live sessions and uncommitted changes before removing worktrees](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md)
 - [Validate multi-phase plans with an executable checker before handoff](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md)
-- [Keep stack topology updates under one coordinator while PR owners work in parallel](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
 - [Compensate cross-system ticket writes when the final handoff fails](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
 - [Use isolated worktrees when parallel agents would otherwise share a working tree](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
 

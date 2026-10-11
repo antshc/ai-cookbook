@@ -2589,45 +2589,6 @@
       "related": []
     },
     {
-      "id": "principle-keep-stack-topology-updates-under-one-coordinator-while-pr-owners-work-in-parallel",
-      "title": "Keep stack topology updates under one coordinator while PR owners work in parallel",
-      "principle": "Keep stack topology updates under one coordinator while PR owners work in parallel",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap",
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "keep",
-        "stack",
-        "topology",
-        "updates",
-        "under",
-        "one",
-        "coordinator",
-        "while",
-        "pr",
-        "owners",
-        "work",
-        "in",
-        "parallel"
-      ],
-      "use_when": "Use when defining agent behavior to keep stack topology updates under one coordinator while PR owners work in parallel.",
-      "provides": [
-        "Keep stack topology updates under one coordinator while PR owners work in parallel"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-freeze-report-provenance-and-deduplicate-before-filing-tickets",
       "title": "Freeze report provenance and deduplicate before filing tickets",
       "principle": "Freeze report provenance and deduplicate before filing tickets",
@@ -6925,6 +6886,38 @@
         "Refill a rolling worker window instead of waiting for whole batches",
         "Judge agent progress by actual side effects and replace stalled workers",
         "Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling"
+      ],
+      "related": []
+    },
+    {
+      "id": "single-coordinator-for-shared-pr-stack-topology",
+      "title": "Single Coordinator for Shared PR Stack Topology",
+      "path": "single-coordinator-for-shared-pr-stack-topology.md",
+      "kind": "recipe",
+      "problems": [
+        "delegation-handoffs",
+        "responsibility-overlap"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "single",
+        "coordinator",
+        "for",
+        "shared",
+        "pr",
+        "stack",
+        "topology"
+      ],
+      "use_when": "Parallel PR owners can corrupt a dependent stack by rebasing or retargeting it independently. Stack topology needs one coordinator.",
+      "provides": [
+        "Keep stack topology updates under one coordinator while PR owners work in parallel"
       ],
       "related": []
     }
