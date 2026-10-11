@@ -74,7 +74,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R37. Explore Alternatives and Test MVP Assumptions** — NEW (2 principles). [recipe](explore-alternatives-and-test-mvp-assumptions.md).
 - [x] **R38. Consumer-First Design, Public Contracts, and Usage Guides** — NEW (4 principles). [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
 - [x] **R39. Domain Models, Foundational Constraints, and Invalid States** — NEW (4 principles). [recipe](domain-models-foundational-constraints-and-invalid-states.md).
-- [ ] **R40. Competing Designs, Prototype Experiments, and Cross-Judging** — NEW (3 principles).
+- [x] **R40. Competing Designs, Prototype Experiments, and Cross-Judging** — NEW (3 principles). [recipe](competing-designs-prototype-experiments-and-cross-judging.md).
 - [ ] **R41. Architecture Sketches, Structural Red Flags, and Design Rationale** — NEW (3 principles).
 ### Review
 
@@ -466,9 +466,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Compare competing prototypes for novel designs** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-exhaust-the-design-space/SKILL.md).
-- [ ] **Compare independent design candidates with cross-judging** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/arena/SKILL.md).
-- [ ] **Resolve observable decisions with throwaway experiments** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/prototype.md).
+- [x] **Compare competing prototypes for novel designs** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md).
+- [x] **Compare independent design candidates with cross-judging** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md).
+- [x] **Resolve observable decisions with throwaway experiments** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md).
 
 ### R41. Architecture Sketches, Structural Red Flags, and Design Rationale
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 123 |
-| Principles still awaiting coverage | 121 |
+| Already covered principles | 126 |
+| Principles still awaiting coverage | 118 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

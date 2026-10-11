@@ -28,6 +28,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Clarify Intent, Surface Assumptions, and Challenge Scope](../clarify-intent-surface-assumptions-and-challenge-scope.md)
 - [Consumer-First Design, Public Contracts, and Usage Guides](../consumer-first-design-public-contracts-and-usage-guides.md)
 - [Domain Models, Foundational Constraints, and Invalid States](../domain-models-foundational-constraints-and-invalid-states.md)
+- [Competing Designs, Prototype Experiments, and Cross-Judging](../competing-designs-prototype-experiments-and-cross-judging.md)
 
 ## References
 
@@ -51,7 +52,6 @@ No materials yet.
 - [Sequence changes as independently verifiable units](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
 - [Validate authored skills, referenced files, and structural examples](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md)
 - [Sketch architecture first and redo it when structural red flags appear](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md)
-- [Compare independent design candidates with cross-judging](https://github.com/cursor/plugins/blob/main/pstack/skills/arena/SKILL.md)
 - [Classify adversarial review findings with independent judgment](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/SKILL.md)
 - [Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md)
 - [Pin existing behavior before structural refactoring](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)

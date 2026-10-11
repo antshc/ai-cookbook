@@ -705,38 +705,6 @@
       "related": []
     },
     {
-      "id": "principle-compare-competing-prototypes-for-novel-designs",
-      "title": "Compare competing prototypes for novel designs",
-      "principle": "Compare competing prototypes for novel designs",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-exhaust-the-design-space/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning",
-        "research"
-      ],
-      "keywords": [
-        "compare",
-        "competing",
-        "prototypes",
-        "for",
-        "novel",
-        "designs"
-      ],
-      "use_when": "Use when defining agent behavior to compare competing prototypes for novel designs.",
-      "provides": [
-        "Compare competing prototypes for novel designs"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-explain-measured-results-with-evidence-and-limiting-factors",
       "title": "Explain measured results with evidence and limiting factors",
       "principle": "Explain measured results with evidence and limiting factors",
@@ -1316,38 +1284,6 @@
       "related": []
     },
     {
-      "id": "principle-compare-independent-design-candidates-with-cross-judging",
-      "title": "Compare independent design candidates with cross-judging",
-      "principle": "Compare independent design candidates with cross-judging",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/arena/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "compare",
-        "independent",
-        "design",
-        "candidates",
-        "with",
-        "cross",
-        "judging"
-      ],
-      "use_when": "Use when defining agent behavior to compare independent design candidates with cross-judging.",
-      "provides": [
-        "Compare independent design candidates with cross-judging"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-classify-adversarial-review-findings-with-independent-judgment",
       "title": "Classify adversarial review findings with independent judgment",
       "principle": "Classify adversarial review findings with independent judgment",
@@ -1376,37 +1312,6 @@
       "use_when": "Use when defining agent behavior to classify adversarial review findings with independent judgment.",
       "provides": [
         "Classify adversarial review findings with independent judgment"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-resolve-observable-decisions-with-throwaway-experiments",
-      "title": "Resolve observable decisions with throwaway experiments",
-      "principle": "Resolve observable decisions with throwaway experiments",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/prototype.md",
-      "kind": "source-only",
-      "problems": [
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "research"
-      ],
-      "keywords": [
-        "resolve",
-        "observable",
-        "decisions",
-        "with",
-        "throwaway",
-        "experiments"
-      ],
-      "use_when": "Use when defining agent behavior to resolve observable decisions with throwaway experiments.",
-      "provides": [
-        "Resolve observable decisions with throwaway experiments"
       ],
       "related": []
     },
@@ -6332,6 +6237,41 @@
         "Represent domain invariants in explicit data structures",
         "Redesign new requirements as foundational constraints",
         "Use types to exclude invalid states and exhaust variants"
+      ],
+      "related": []
+    },
+    {
+      "id": "competing-designs-prototype-experiments-and-cross-judging",
+      "title": "Competing Designs, Prototype Experiments, and Cross-Judging",
+      "path": "competing-designs-prototype-experiments-and-cross-judging.md",
+      "kind": "recipe",
+      "problems": [
+        "guidance-evaluation",
+        "instruction-compliance"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "planning",
+        "research"
+      ],
+      "keywords": [
+        "competing",
+        "designs",
+        "prototype",
+        "experiments",
+        "and",
+        "cross",
+        "judging"
+      ],
+      "use_when": "A team can commit to the first plausible design without comparing different shapes or measuring the disputed behavior. Prototypes need a decision and a common rubric.",
+      "provides": [
+        "Compare competing prototypes for novel designs",
+        "Compare independent design candidates with cross-judging",
+        "Resolve observable decisions with throwaway experiments"
       ],
       "related": []
     }

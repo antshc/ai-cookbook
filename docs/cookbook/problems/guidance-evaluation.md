@@ -8,6 +8,7 @@ Evaluate observable behavior and improve guidance from evidence.
 - [Queryable Traces and Source Attribution](../queryable-traces-and-source-attribution.md)
 - [Instruction Loading and Canary Checks](../instruction-loading-and-canary-checks.md)
 - [Explore Alternatives and Test MVP Assumptions](../explore-alternatives-and-test-mvp-assumptions.md)
+- [Competing Designs, Prototype Experiments, and Cross-Judging](../competing-designs-prototype-experiments-and-cross-judging.md)
 
 ## References
 
@@ -22,9 +23,7 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Compare competing prototypes for novel designs](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-exhaust-the-design-space/SKILL.md)
 - [Explain measured results with evidence and limiting factors](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-explain-the-number/SKILL.md)
-- [Resolve observable decisions with throwaway experiments](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/prototype.md)
 - [Freeze an evaluation harness and revert unsupported iterations](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/hillclimb.md)
 - [Prove visual parity against an unchanged screenshot baseline](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md)
 - [Evaluate agent instructions with blinded candidates and judges](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/eval.md)

@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 123 covered, 121 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 126 covered, 118 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -28,7 +28,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Worker lifecycle](#worker-lifecycle) | 9 | 9 | 0 |
 | [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 7 | 0 |
 | [Intent and assumption discovery](#intent-and-assumption-discovery) | 7 | 7 | 0 |
-| [Design before implementation](#design-before-implementation) | 13 | 8 | 5 |
+| [Design before implementation](#design-before-implementation) | 13 | 11 | 2 |
 | [Independent review](#independent-review) | 9 | 0 | 9 |
 | [Measured performance](#measured-performance) | 8 | 0 | 8 |
 | [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 0 | 14 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **123** | **121** |
+| **Total** | **244** | **126** | **118** |
 
 ## Completion checks
 
@@ -245,7 +245,7 @@ What does the user mean, which assumptions need evidence, and is the requested s
 
 Which consumer contracts, domain invariants, alternatives, and foundations should guide implementation?
 
-- [ ] **Compare competing prototypes for novel designs** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-exhaust-the-design-space/SKILL.md)
+- [x] **Compare competing prototypes for novel designs** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md)
 - [x] **Prioritize consumer experience over implementation convenience** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
 - [x] **Choose core data shapes and shared foundations before features** — [recipe](domain-models-foundational-constraints-and-invalid-states.md)
 - [x] **Represent domain invariants in explicit data structures** — [recipe](domain-models-foundational-constraints-and-invalid-states.md)
@@ -255,8 +255,8 @@ Which consumer contracts, domain invariants, alternatives, and foundations shoul
 - [x] **Write a consumer usage guide before implementing a shared API** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
 - [ ] **Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md)
 - [ ] **Sketch architecture first and redo it when structural red flags appear** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md)
-- [ ] **Compare independent design candidates with cross-judging** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/arena/SKILL.md)
-- [ ] **Resolve observable decisions with throwaway experiments** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/prototype.md)
+- [x] **Compare independent design candidates with cross-judging** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md)
+- [x] **Resolve observable decisions with throwaway experiments** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md)
 - [x] **Define public contracts before implementation and preserve observable consumer behavior** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
 
 ## Independent review
