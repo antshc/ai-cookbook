@@ -1,8 +1,8 @@
-# Combined Recipe Checklist — Proposal
+# Combined Recipe Checklist
 
-**82 recipes total: 79 new, 2 existing recipes to extend, 1 existing recipe to retain.**
+**Progress: 2/82 recipes complete; 8/244 principles covered.**
 
-This proposal maps all 244 original principles exactly once: 6 already covered and 238 awaiting coverage. Writing work consists of 79 new recipes and 2 extensions. Existing coverage remains unchanged until the corresponding recipe actually contains actionable instructions for every assigned principle.
+This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
 ## Grouping rule
 
@@ -21,7 +21,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 
 ### Completion
 
-- [ ] **R01. Verification, Exit Criteria, Completeness Sweep, and Definition of Done** — EXTEND (5 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/verification-exit-criteria-completeness-sweep.md).
+- [x] **R01. Verification, Exit Criteria, Completeness Sweep, and Definition of Done** — EXTEND (5 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/verification-exit-criteria-completeness-sweep.md). [recipe](verification-exit-criteria-completeness-sweep.md).
 ### Verification and testing
 
 - [ ] **R02. Direct Evidence, Safety Assumptions, and Risk-Based Verification** — NEW (4 principles).
@@ -148,11 +148,11 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Extend existing recipe.
 
-- [x] **Verification** — [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/verification-exit-criteria-completeness-sweep.md).
-- [x] **Exit criteria (completeness verification)** — [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/verification-exit-criteria-completeness-sweep.md).
-- [x] **Completeness sweep** — [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/verification-exit-criteria-completeness-sweep.md).
-- [ ] **Route tasks through explicit, falsifiable finish conditions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md).
-- [ ] **Apply standing definition-of-done checks separately from task acceptance criteria** — [source](https://github.com/addyosmani/agent-skills/blob/main/references/definition-of-done.md).
+- [x] **Verification** — [recipe](verification-exit-criteria-completeness-sweep.md).
+- [x] **Exit criteria (completeness verification)** — [recipe](verification-exit-criteria-completeness-sweep.md).
+- [x] **Completeness sweep** — [recipe](verification-exit-criteria-completeness-sweep.md).
+- [x] **Route tasks through explicit, falsifiable finish conditions** — [recipe](verification-exit-criteria-completeness-sweep.md).
+- [x] **Apply standing definition-of-done checks separately from task acceptance criteria** — [recipe](verification-exit-criteria-completeness-sweep.md).
 
 ### R02. Direct Evidence, Safety Assumptions, and Risk-Based Verification
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 6 |
-| Principles still awaiting coverage | 238 |
+| Already covered principles | 8 |
+| Principles still awaiting coverage | 236 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
@@ -819,4 +819,5 @@ Every original principle appears below once. Links retain the original recipe or
 - [Original principle checklist](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/index.md).
 - [Combined verification recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/verification-exit-criteria-completeness-sweep.md).
 
-This is a proposed writing backlog for approval. No recipe or repository coverage status was changed while preparing it.
+Each completed recipe is committed and pushed separately with its coverage and navigation updates.
+

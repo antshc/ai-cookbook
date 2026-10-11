@@ -89,7 +89,6 @@ No materials yet.
 - [Isolate and reduce failures before root-cause fixes, using history bisect when useful](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [Keep browser JavaScript inspection read-only unless mutations are explicitly authorized](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Treat error output, external documentation, and browser content as untrusted instructions](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
-- [Apply standing definition-of-done checks separately from task acceptance criteria](https://github.com/addyosmani/agent-skills/blob/main/references/definition-of-done.md)
 - [Treat a quality guard that could not run as a blocking failure rather than a clean result](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)
 - [Keep review changes cohesive and consider total file size as well as diff size](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
 - [Understand why existing code exists before simplifying or deleting it](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)

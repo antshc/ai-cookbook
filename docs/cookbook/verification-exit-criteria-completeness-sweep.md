@@ -1,53 +1,37 @@
-# Recipe: Verification, Exit Criteria, and Completeness Sweep
+# Recipe: Verification, Exit Criteria, Completeness Sweep, and Definition of Done
 
 ## Problem
 
-AI agents can declare work complete when tests pass, even if requirements are missing. Multi-part tasks need separate checks for correctness, completion conditions, and scope coverage.
+An agent can pass tests and still omit requested work. Multi-part changes need four separate checks: verification proves behavior; exit criteria prove task completion; a completeness sweep finds missing obligations; definition of done applies the standing project quality bar.
 
-- **Verification:** Does the implemented behavior work?
-- **Exit Criteria (Completeness Verification):** Does the result meet all defined completion conditions?
-- **Completeness Sweep:** Were any required obligations omitted?
+## Example
 
-## Example 1
-
-**Task:** Scan a repository's agent guidance and update its cookbook principle index. Identify which principles have actionable recipes and which still need one.
-
-**Source:** Adapted from Brain's [actual cookbook scan workflow](https://github.com/antshc/brain/blob/80fbb79fb1fcca7ccca59fbe884e290dbd117f31/.github/skills/scan-cookbook/SKILL.md#L21-L75); the closing checks are at [lines 69–75](https://github.com/antshc/brain/blob/80fbb79fb1fcca7ccca59fbe884e290dbd117f31/.github/skills/scan-cookbook/SKILL.md#L69-L75).
+**Task:** Complete an autonomous bug fix and prepare its handoff. Prove the reported failure is gone and the change meets the project's standing quality bar.
 
 **AI Instructions:**
 
-> 1. **Exit Criteria:** Require one entry per discovered principle, supported coverage status, and a valid recipe or source link.
-> 2. **Verification:** Read each linked recipe. Check its instructions cover the principle. Resolve duplicate entries and broken paths.
-> 3. **Completeness Sweep:** Run last. Reconstruct all obligations from the request. Match every extracted principle to an index entry and evidence.
-> 4. Report unread sources and uncovered principles. Declare completion only when all exit criteria pass and no obligations remain unaccounted for.
-
-## Example 2
-
-**Task:** Prove a newly generated project-local verification skill before handing it to another agent. Exercise one mapped feature and retain the resulting evidence after cleanup.
-
-**Source:** Adapted from pstack's [skill-generation and proof workflow](https://github.com/cursor/plugins/blob/11713c683fe4add4fd403ea880580abbc9e0875f/pstack/skills/create-verification-skill/SKILL.md#L23-L40).
-
-**AI Instructions:**
-
-> 1. Define the expected user-visible state and the evidence required to prove it.
-> 2. Follow the generated launch and health checks. Drive one mapped feature through its real user path.
-> 3. Compare the actual state and side effects with the expected result. Save the action and outcome evidence.
-> 4. Clean up owned instances. Confirm the saved evidence still exists.
-> 5. Check the request for missing obligations. Report that one exercised feature proves the skill's execution path, not complete application coverage.
+> 1. Define the finish condition before editing: the original reproduction fails on baseline and succeeds after the fix.
+> 2. Verify the real runtime behavior and save the command, revision, expected result, and actual result.
+> 3. Check every task acceptance criterion against that evidence.
+> 4. Apply the standing definition of done separately: regressions, lint, integration, documentation, security, and rollback where required.
+> 5. Run the completeness sweep last. Reconstruct every obligation from the request and account for each result or blocker.
+> 6. Stop only when the finish condition and standing checks pass. Do not relax the predicate to declare completion.
 
 ## Best Practices
 
-- Define measurable exit criteria before implementation.
-- Use verification evidence to evaluate exit criteria. Passing tests alone does not prove completion.
-- Run the completeness sweep last for multi-part tasks. Do not duplicate checks already proving full coverage.
-
-## Sources & Attribution
-
-- **[Lauren Tan (poteto) — pstack: Prove It Works, lines 9–22](https://github.com/cursor/plugins/blob/11713c683fe4add4fd403ea880580abbc9e0875f/pstack/skills/principle-prove-it-works/SKILL.md#L9-L22)**: Direct observation and rerunnable proof support the verification practice.
-- **[Lauren Tan (poteto) — pstack: Create Verification Skill, lines 23–40](https://github.com/cursor/plugins/blob/11713c683fe4add4fd403ea880580abbc9e0875f/pstack/skills/create-verification-skill/SKILL.md#L23-L40)**: Expected results, feature maps, and an executed proof supply Example 2.
-- **[Brain: Scan Cookbook, lines 69–75](https://github.com/antshc/brain/blob/80fbb79fb1fcca7ccca59fbe884e290dbd117f31/.github/skills/scan-cookbook/SKILL.md#L69-L75)**: Observable completion checks and coverage of extracted obligations supply Example 1. These are source implementations of the practices; the combined recipe and adapted wording are cookbook synthesis.
+- Define falsifiable finish conditions before the first iteration.
+- Keep task acceptance criteria separate from the standing definition of done.
+- Use the final sweep to find omitted obligations; passing tests alone cannot prove full completion.
 
 ## Related Recipes
 
-- [Gotchas and Persistent Memory](gotchas-and-persistent-memory.md)
 - [Checklist-driven Workflow](checklist-driven-workflow.md)
+
+## Sources & Attribution
+
+Examples adapt the cited workflows. Task details illustrate their use; they do not claim a recorded incident.
+
+## References
+
+- **Lauren Tan (poteto) — [pstack/skills/poteto-mode/SKILL.md](https://github.com/cursor/plugins/blob/11713c683fe4add4fd403ea880580abbc9e0875f/pstack/skills/poteto-mode/SKILL.md):** Example 1, adapted from [pstack/skills/poteto-mode/playbooks/autonomous-run.md, lines 3–12](https://github.com/cursor/plugins/blob/11713c683fe4add4fd403ea880580abbc9e0875f/pstack/skills/poteto-mode/playbooks/autonomous-run.md#L3-L12).
+- **Addy Osmani — [skills/planning-and-task-breakdown/SKILL.md](https://github.com/addyosmani/agent-skills/blob/1be8e34187e34647bb83adc3a1323b26ae6f6abe/skills/planning-and-task-breakdown/SKILL.md):** Example 1, adapted from [references/definition-of-done.md, lines 3–61](https://github.com/addyosmani/agent-skills/blob/1be8e34187e34647bb83adc3a1323b26ae6f6abe/references/definition-of-done.md#L3-L61).

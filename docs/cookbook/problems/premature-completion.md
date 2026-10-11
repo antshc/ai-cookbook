@@ -4,7 +4,7 @@ Define observable completion and account for every obligation.
 
 ## Recipes
 
-- [Verification, Exit Criteria, and Completeness Sweep](../verification-exit-criteria-completeness-sweep.md)
+- [Verification, Exit Criteria, Completeness Sweep, and Definition of Done](../verification-exit-criteria-completeness-sweep.md)
 - [Checklist-driven workflow](../checklist-driven-workflow.md)
 
 ## References
@@ -36,7 +36,6 @@ Define observable completion and account for every obligation.
 - [Verify dry-run claims by inspecting actual network, file, and repository effects](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md)
 - [Health-check and reset verification instances after unexpected drive failures](https://github.com/cursor/plugins/blob/main/pstack/skills/maintain-verification-skill/SKILL.md)
 - [Clean up only owned verification processes and preserve collected proof artifacts](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md)
-- [Route tasks through explicit, falsifiable finish conditions](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
 - [Keep autonomous iterations bound to an unchanged stop predicate](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md)
 - [Recover prior context within the workspace and verify live state](https://github.com/cursor/plugins/blob/main/pstack/skills/recall/SKILL.md)
 - [Turn session retrospectives into tested agent-guidance changes](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md)

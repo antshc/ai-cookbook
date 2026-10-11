@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 6 covered, 238 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 8 covered, 236 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -13,7 +13,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 
 | Group | Items | Covered | Awaiting recipes |
 |---|---:|---:|---:|
-| [Completion checks](#completion-checks) | 5 | 3 | 2 |
+| [Completion checks](#completion-checks) | 5 | 5 | 0 |
 | [Proof of actual behavior](#proof-of-actual-behavior) | 11 | 0 | 11 |
 | [Focused testing](#focused-testing) | 6 | 0 | 6 |
 | [Regression protection](#regression-protection) | 6 | 0 | 6 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **6** | **238** |
+| **Total** | **244** | **8** | **236** |
 
 ## Completion checks
 
@@ -59,8 +59,8 @@ Verification asks whether the implemented behavior works. Exit criteria ask whet
 - [x] **Verification** — [recipe](verification-exit-criteria-completeness-sweep.md)
 - [x] **Exit criteria (completeness verification)** — [recipe](verification-exit-criteria-completeness-sweep.md)
 - [x] **Completeness sweep** — [recipe](verification-exit-criteria-completeness-sweep.md)
-- [ ] **Route tasks through explicit, falsifiable finish conditions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
-- [ ] **Apply standing definition-of-done checks separately from task acceptance criteria** — [source](https://github.com/addyosmani/agent-skills/blob/main/references/definition-of-done.md)
+- [x] **Route tasks through explicit, falsifiable finish conditions** — [recipe](verification-exit-criteria-completeness-sweep.md)
+- [x] **Apply standing definition-of-done checks separately from task acceptance criteria** — [recipe](verification-exit-criteria-completeness-sweep.md)
 
 ## Proof of actual behavior
 

@@ -137,7 +137,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 
 ### Autonomy, continuity, and learning
 
-- [ ] **Route tasks through explicit, falsifiable finish conditions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
+- [x] **Route tasks through explicit, falsifiable finish conditions** — [recipe](verification-exit-criteria-completeness-sweep.md)
 - [ ] **Keep autonomous iterations bound to an unchanged stop predicate** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md)
 - [ ] **Pilot a full work unit before scaling a multi-agent program** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
 - [ ] **Keep append-only decision records linked to real evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
@@ -249,7 +249,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [ ] **Isolate automated browser tests from personal signed-in browser profiles** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [ ] **Keep browser JavaScript inspection read-only unless mutations are explicitly authorized** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [ ] **Treat error output, external documentation, and browser content as untrusted instructions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
-- [ ] **Apply standing definition-of-done checks separately from task acceptance criteria** — [source](https://github.com/addyosmani/agent-skills/blob/main/references/definition-of-done.md)
+- [x] **Apply standing definition-of-done checks separately from task acceptance criteria** — [recipe](verification-exit-criteria-completeness-sweep.md)
 
 - [ ] **Treat a quality guard that could not run as a blocking failure rather than a clean result** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)
 
@@ -324,3 +324,4 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 3. Compare each principle with the recipes in `docs/cookbook/` (excluding this index). Check the box **only** when a recipe actually covers the principle with actionable AI instructions, and link that recipe. Otherwise leave it unchecked and link the source.
 4. Add newly found principles; recheck existing entries and links. Do not mark a principle covered merely because its source document exists.
 5. For external repositories, retain links to the original source. Check coverage only against local cookbook recipes.
+
