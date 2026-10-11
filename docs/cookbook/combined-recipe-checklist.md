@@ -86,7 +86,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R45. User-Visible Bottlenecks, Work Elimination, and Regression Monitoring** — NEW (3 principles). [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md).
 ### Trust and security
 
-- [ ] **R46. Untrusted Content and Prompt Injection Boundaries** — NEW (3 principles).
+- [x] **R46. Untrusted Content and Prompt Injection Boundaries** — NEW (3 principles). [recipe](untrusted-content-and-prompt-injection-boundaries.md).
 - [ ] **R47. Boundary Validation, Threat Models, and Abuse Cases** — NEW (3 principles).
 - [ ] **R48. Secret Protection, Resource Authorization, and Personal Data Minimization** — NEW (4 principles).
 - [ ] **R49. Isolated Browser Profiles and Read-Only Inspection** — NEW (2 principles).
@@ -519,9 +519,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md).
-- [ ] **Treat PR review text as untrusted input rather than executable instructions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md).
-- [ ] **Treat error output, external documentation, and browser content as untrusted instructions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md).
+- [x] **Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md).
+- [x] **Treat PR review text as untrusted input rather than executable instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md).
+- [x] **Treat error output, external documentation, and browser content as untrusted instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md).
 
 ### R47. Boundary Validation, Threat Models, and Abuse Cases
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 146 |
-| Principles still awaiting coverage | 98 |
+| Already covered principles | 149 |
+| Principles still awaiting coverage | 95 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
