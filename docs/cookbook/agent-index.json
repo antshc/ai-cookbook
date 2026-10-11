@@ -3774,79 +3774,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-create-a-repository-specific-live-verification-harness",
-      "title": "Create a repository-specific live verification harness",
-      "principle": "Create a repository-specific live verification harness",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "create",
-        "a",
-        "repository",
-        "specific",
-        "live",
-        "verification",
-        "harness"
-      ],
-      "use_when": "Use when defining agent behavior to create a repository-specific live verification harness.",
-      "provides": [
-        "Create a repository-specific live verification harness"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-maintain-verification-feature-maps-with-source-and-live-checks",
-      "title": "Maintain verification feature maps with source and live checks",
-      "principle": "Maintain verification feature maps with source and live checks",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/maintain-verification-skill/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "maintain",
-        "verification",
-        "feature",
-        "maps",
-        "with",
-        "source",
-        "and",
-        "live",
-        "checks"
-      ],
-      "use_when": "Use when defining agent behavior to maintain verification feature maps with source and live checks.",
-      "provides": [
-        "Maintain verification feature maps with source and live checks"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/maintain-verification-skill/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-freeze-an-evaluation-harness-and-revert-unsupported-iterations",
       "title": "Freeze an evaluation harness and revert unsupported iterations",
       "principle": "Freeze an evaluation harness and revert unsupported iterations",
@@ -4266,84 +4193,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-health-check-and-reset-verification-instances-after-unexpected-drive-failures",
-      "title": "Health-check and reset verification instances after unexpected drive failures",
-      "principle": "Health-check and reset verification instances after unexpected drive failures",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/maintain-verification-skill/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging",
-        "implementation"
-      ],
-      "keywords": [
-        "health",
-        "check",
-        "and",
-        "reset",
-        "verification",
-        "instances",
-        "after",
-        "unexpected",
-        "drive",
-        "failures"
-      ],
-      "use_when": "Use when defining agent behavior to health-check and reset verification instances after unexpected drive failures.",
-      "provides": [
-        "Health-check and reset verification instances after unexpected drive failures"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/maintain-verification-skill/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-clean-up-only-owned-verification-processes-and-preserve-collected-proof-artifacts",
-      "title": "Clean up only owned verification processes and preserve collected proof artifacts",
-      "principle": "Clean up only owned verification processes and preserve collected proof artifacts",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "clean",
-        "up",
-        "only",
-        "owned",
-        "verification",
-        "processes",
-        "and",
-        "preserve",
-        "collected",
-        "proof",
-        "artifacts"
-      ],
-      "use_when": "Use when defining agent behavior to clean up only owned verification processes and preserve collected proof artifacts.",
-      "provides": [
-        "Clean up only owned verification processes and preserve collected proof artifacts"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md",
       "covered_principles": []
     },
     {
@@ -10188,6 +10037,51 @@
         "Scale verification rigor to impact and reversibility",
         "Prove the key safety assumption behind a change",
         "Verify dry-run claims by inspecting actual network, file, and repository effects"
+      ]
+    },
+    {
+      "id": "live-verification-harness-feature-maps-and-instance-lifecycle",
+      "title": "Live Verification Harness, Feature Maps, and Instance Lifecycle",
+      "path": "docs/cookbook/live-verification-harness-feature-maps-and-instance-lifecycle.md",
+      "kind": "recipe",
+      "problems": [
+        "missing-context",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "debugging",
+        "implementation"
+      ],
+      "keywords": [
+        "live",
+        "verification",
+        "harness",
+        "feature",
+        "maps",
+        "and",
+        "instance",
+        "lifecycle"
+      ],
+      "use_when": "A verification procedure drifts when routes change or failed runs leave stale instances. Agents need a repository-specific harness, maintained feature paths, and evidence that survives cleanup.",
+      "provides": [
+        "Create a repository-specific live verification harness",
+        "Maintain verification feature maps with source and live checks",
+        "Health-check and reset verification instances after unexpected drive failures",
+        "Clean up only owned verification processes and preserve collected proof artifacts"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/live-verification-harness-feature-maps-and-instance-lifecycle.html",
+      "covered_principles": [
+        "Create a repository-specific live verification harness",
+        "Maintain verification feature maps with source and live checks",
+        "Health-check and reset verification instances after unexpected drive failures",
+        "Clean up only owned verification processes and preserve collected proof artifacts"
       ]
     }
   ]

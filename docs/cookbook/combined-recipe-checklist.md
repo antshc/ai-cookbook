@@ -25,7 +25,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Verification and testing
 
 - [x] **R02. Direct Evidence, Safety Assumptions, and Risk-Based Verification** — NEW (4 principles). [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md).
-- [ ] **R03. Live Verification Harness, Feature Maps, and Instance Lifecycle** — NEW (4 principles).
+- [x] **R03. Live Verification Harness, Feature Maps, and Instance Lifecycle** — NEW (4 principles). [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md).
 - [ ] **R04. Independent Patch Verification and Baseline Comparison** — NEW (3 principles).
 - [ ] **R05. Functional-Slice Tests, Observable Results, and Test Boundaries** — NEW (4 principles).
 - [ ] **R06. Verification Cost, Changed Scope, and Avoiding Redundant Runs** — NEW (2 principles).
@@ -167,10 +167,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Create a repository-specific live verification harness** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md).
-- [ ] **Maintain verification feature maps with source and live checks** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/maintain-verification-skill/SKILL.md).
-- [ ] **Health-check and reset verification instances after unexpected drive failures** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/maintain-verification-skill/SKILL.md).
-- [ ] **Clean up only owned verification processes and preserve collected proof artifacts** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/create-verification-skill/SKILL.md).
+- [x] **Create a repository-specific live verification harness** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md).
+- [x] **Maintain verification feature maps with source and live checks** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md).
+- [x] **Health-check and reset verification instances after unexpected drive failures** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md).
+- [x] **Clean up only owned verification processes and preserve collected proof artifacts** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md).
 
 ### R04. Independent Patch Verification and Baseline Comparison
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 12 |
-| Principles still awaiting coverage | 232 |
+| Already covered principles | 16 |
+| Principles still awaiting coverage | 228 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
