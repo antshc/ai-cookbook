@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 67/82 recipes complete; 202/244 principles covered.**
+**Progress: 68/82 recipes complete; 205/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -116,7 +116,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R65. Concise Delivery Reports for Users and Maintainers** — NEW (2 principles). [recipe](concise-delivery-reports-for-users-and-maintainers.md).
 - [x] **R66. Append-Only Decision Trails, Audit, and Independent Review** — NEW (3 principles). [recipe](append-only-decision-trails-audit-and-independent-review.md).
 - [x] **R67. Architecture Decision Records, Alternatives, and Supersession** — NEW (1 principles). [recipe](architecture-decision-records-alternatives-and-supersession.md).
-- [ ] **R68. Code-Path Investigation and Evidence-Calibrated Rationale** — NEW (3 principles).
+- [x] **R68. Code-Path Investigation and Evidence-Calibrated Rationale** — NEW (3 principles). [recipe](code-path-investigation-and-evidence-calibrated-rationale.md).
 - [ ] **R69. Scoped Evidence Collection, Query Logs, and Contradictions** — NEW (2 principles).
 ### External writes and quality
 
@@ -685,9 +685,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Investigate the current code path before explaining it** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md).
-- [ ] **Reconstruct design rationale across independent evidence sources** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md).
-- [ ] **Calibrate rationale claims to direct, supported, inferred, or unknown evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md).
+- [x] **Investigate the current code path before explaining it** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md).
+- [x] **Reconstruct design rationale across independent evidence sources** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md).
+- [x] **Calibrate rationale claims to direct, supported, inferred, or unknown evidence** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md).
 
 ### R69. Scoped Evidence Collection, Query Logs, and Contradictions
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 202 |
-| Principles still awaiting coverage | 42 |
+| Already covered principles | 205 |
+| Principles still awaiting coverage | 39 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

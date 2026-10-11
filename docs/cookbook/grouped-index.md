@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 202 covered, 42 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 205 covered, 39 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -42,13 +42,13 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [External-write consistency](#external-write-consistency) | 3 | 0 | 3 |
 | [Quality thresholds and gates](#quality-thresholds-and-gates) | 6 | 0 | 6 |
 | [UI contracts and verification](#ui-contracts-and-verification) | 4 | 0 | 4 |
-| [Investigation and source evidence](#investigation-and-source-evidence) | 7 | 2 | 5 |
+| [Investigation and source evidence](#investigation-and-source-evidence) | 7 | 5 | 2 |
 | [Safe simplification](#safe-simplification) | 8 | 0 | 8 |
 | [Retries and shared state](#retries-and-shared-state) | 3 | 0 | 3 |
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **202** | **42** |
+| **Total** | **244** | **205** | **39** |
 
 ## Completion checks
 
@@ -415,9 +415,9 @@ Does the interface match its visual contract and support responsive, accessible,
 
 Which sources and queries support an explanation, and what remains inferred, contradictory, or unknown?
 
-- [ ] **Investigate the current code path before explaining it** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
-- [ ] **Reconstruct design rationale across independent evidence sources** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)
-- [ ] **Calibrate rationale claims to direct, supported, inferred, or unknown evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md)
+- [x] **Investigate the current code path before explaining it** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md)
+- [x] **Reconstruct design rationale across independent evidence sources** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md)
+- [x] **Calibrate rationale claims to direct, supported, inferred, or unknown evidence** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md)
 - [ ] **Separate evidence collection from synthesis and keep investigators within their assigned sources** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
 - [ ] **Record exact investigation queries, empty results, and contradictory evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
 - [x] **Verify framework-specific decisions against version-matched official documentation** — [recipe](version-matched-official-sources-and-cache-revalidation.md)

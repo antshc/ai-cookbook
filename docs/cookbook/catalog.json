@@ -904,111 +904,6 @@
       "related": []
     },
     {
-      "id": "principle-investigate-the-current-code-path-before-explaining-it",
-      "title": "Investigate the current code path before explaining it",
-      "principle": "Investigate the current code path before explaining it",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "research",
-        "implementation"
-      ],
-      "keywords": [
-        "investigate",
-        "the",
-        "current",
-        "code",
-        "path",
-        "before",
-        "explaining",
-        "it"
-      ],
-      "use_when": "Use when defining agent behavior to investigate the current code path before explaining it.",
-      "provides": [
-        "Investigate the current code path before explaining it"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-reconstruct-design-rationale-across-independent-evidence-sources",
-      "title": "Reconstruct design rationale across independent evidence sources",
-      "principle": "Reconstruct design rationale across independent evidence sources",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning",
-        "research"
-      ],
-      "keywords": [
-        "reconstruct",
-        "design",
-        "rationale",
-        "across",
-        "independent",
-        "evidence",
-        "sources"
-      ],
-      "use_when": "Use when defining agent behavior to reconstruct design rationale across independent evidence sources.",
-      "provides": [
-        "Reconstruct design rationale across independent evidence sources"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-calibrate-rationale-claims-to-direct-supported-inferred-or-unknown-evidence",
-      "title": "Calibrate rationale claims to direct, supported, inferred, or unknown evidence",
-      "principle": "Calibrate rationale claims to direct, supported, inferred, or unknown evidence",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "research"
-      ],
-      "keywords": [
-        "calibrate",
-        "rationale",
-        "claims",
-        "to",
-        "direct",
-        "supported",
-        "inferred",
-        "or",
-        "unknown",
-        "evidence"
-      ],
-      "use_when": "Use when defining agent behavior to calibrate rationale claims to direct, supported, inferred, or unknown evidence.",
-      "provides": [
-        "Calibrate rationale claims to direct, supported, inferred, or unknown evidence"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-separate-evidence-collection-from-synthesis-and-keep-investigators-within-their-assigned-sources",
       "title": "Separate evidence collection from synthesis and keep investigators within their assigned sources",
       "principle": "Separate evidence collection from synthesis and keep investigators within their assigned sources",
@@ -4452,6 +4347,43 @@
       "use_when": "A significant design choice can lose its constraints and rejected alternatives, forcing later engineers to repeat the debate. Deleting an old decision record erases the context for a changed architecture.",
       "provides": [
         "Record architecture decisions with alternatives and supersede rather than erase old ADRs"
+      ],
+      "related": []
+    },
+    {
+      "id": "code-path-investigation-and-evidence-calibrated-rationale",
+      "title": "Code-Path Investigation and Evidence-Calibrated Rationale",
+      "path": "code-path-investigation-and-evidence-calibrated-rationale.md",
+      "kind": "recipe",
+      "problems": [
+        "missing-context",
+        "output-contracts",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "planning",
+        "research"
+      ],
+      "keywords": [
+        "code",
+        "path",
+        "investigation",
+        "and",
+        "evidence",
+        "calibrated",
+        "rationale"
+      ],
+      "use_when": "A plausible explanation can describe stale code or invent author intent from implementation mechanics. Current behavior and historical rationale require different evidence and confidence labels.",
+      "provides": [
+        "Investigate the current code path before explaining it",
+        "Reconstruct design rationale across independent evidence sources",
+        "Calibrate rationale claims to direct, supported, inferred, or unknown evidence"
       ],
       "related": []
     }

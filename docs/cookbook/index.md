@@ -87,8 +87,8 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 
 ### Understanding and design workflows
 
-- [ ] **Investigate the current code path before explaining it** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
-- [ ] **Reconstruct design rationale across independent evidence sources** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)
+- [x] **Investigate the current code path before explaining it** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md)
+- [x] **Reconstruct design rationale across independent evidence sources** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md)
 - [x] **Sketch architecture first and redo it when structural red flags appear** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md)
 - [x] **Compare independent design candidates with cross-judging** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md)
 - [x] **Decompose parallel work into scoped workers and aggregate results** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md)
@@ -97,7 +97,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Scale verification rigor to impact and reversibility** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [x] **Prove the key safety assumption behind a change** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md)
 
-- [ ] **Calibrate rationale claims to direct, supported, inferred, or unknown evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md)
+- [x] **Calibrate rationale claims to direct, supported, inferred, or unknown evidence** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md)
 - [x] **Eliminate debugging hypotheses using runtime observations** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [x] **Teach behavior and rationale through incremental explanations and diagrams** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md)
 - [x] **Summarize session progress as outcomes and human-owned decisions** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)

@@ -19,6 +19,7 @@ Define what the consumer receives and who owns its format.
 - [Controlled Skill Evaluations, Observable Traces, and Repeated Trials](../controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 - [Audience-Focused Documentation, Clear Prose, and Preserved Facts](../audience-focused-documentation-clear-prose-and-preserved-facts.md)
 - [Concise Delivery Reports for Users and Maintainers](../concise-delivery-reports-for-users-and-maintainers.md)
+- [Code-Path Investigation and Evidence-Calibrated Rationale](../code-path-investigation-and-evidence-calibrated-rationale.md)
 
 ## References
 
@@ -44,8 +45,6 @@ Define what the consumer receives and who owns its format.
 
 ## Principles awaiting recipes
 
-- [Reconstruct design rationale across independent evidence sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)
-- [Calibrate rationale claims to direct, supported, inferred, or unknown evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md)
 - [Freeze report provenance and deduplicate before filing tickets](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

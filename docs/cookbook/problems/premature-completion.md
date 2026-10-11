@@ -39,6 +39,7 @@ Define observable completion and account for every obligation.
 - [Question-Driven Telemetry, Correlation, and Actionable Alerts](../question-driven-telemetry-correlation-and-actionable-alerts.md)
 - [Pressure Tests for Instruction Compliance](../pressure-tests-for-instruction-compliance.md)
 - [Concise Delivery Reports for Users and Maintainers](../concise-delivery-reports-for-users-and-maintainers.md)
+- [Code-Path Investigation and Evidence-Calibrated Rationale](../code-path-investigation-and-evidence-calibrated-rationale.md)
 
 ## References
 
@@ -52,7 +53,6 @@ Define observable completion and account for every obligation.
 
 ## Principles awaiting recipes
 
-- [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
 - [Gate automatic bug fixing on a trusted triage verdict and ownership checks](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Detect attempts to weaken checks, tests, suppressions, or quality thresholds](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
