@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 63/82 recipes complete; 192/244 principles covered.**
+**Progress: 64/82 recipes complete; 196/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -112,7 +112,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R63. Pressure Tests for Instruction Compliance** — NEW (1 principles). [recipe](pressure-tests-for-instruction-compliance.md).
 ### Documentation and evidence
 
-- [ ] **R64. Audience-Focused Documentation, Clear Prose, and Preserved Facts** — NEW (4 principles).
+- [x] **R64. Audience-Focused Documentation, Clear Prose, and Preserved Facts** — NEW (4 principles). [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
 - [ ] **R65. Concise Delivery Reports for Users and Maintainers** — NEW (2 principles).
 - [ ] **R66. Append-Only Decision Trails, Audit, and Independent Review** — NEW (3 principles).
 - [ ] **R67. Architecture Decision Records, Alternatives, and Supersession** — NEW (1 principles).
@@ -655,10 +655,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Teach behavior and rationale through incremental explanations and diagrams** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/teach/SKILL.md).
-- [ ] **Select documentation structure by tutorial, how-to, reference, or explanation purpose** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md).
-- [ ] **Remove generic AI phrasing while preserving the intended meaning** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md).
-- [ ] **Preserve factual details and uncertainty when simplifying documentation prose** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md).
+- [x] **Teach behavior and rationale through incremental explanations and diagrams** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
+- [x] **Select documentation structure by tutorial, how-to, reference, or explanation purpose** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
+- [x] **Remove generic AI phrasing while preserving the intended meaning** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
+- [x] **Preserve factual details and uncertainty when simplifying documentation prose** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
 
 ### R65. Concise Delivery Reports for Users and Maintainers
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 192 |
-| Principles still awaiting coverage | 52 |
+| Already covered principles | 196 |
+| Principles still awaiting coverage | 48 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

@@ -1592,43 +1592,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-teach-behavior-and-rationale-through-incremental-explanations-and-diagrams",
-      "title": "Teach behavior and rationale through incremental explanations and diagrams",
-      "principle": "Teach behavior and rationale through incremental explanations and diagrams",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/teach/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "teach",
-        "behavior",
-        "and",
-        "rationale",
-        "through",
-        "incremental",
-        "explanations",
-        "and",
-        "diagrams"
-      ],
-      "use_when": "Use when defining agent behavior to teach behavior and rationale through incremental explanations and diagrams.",
-      "provides": [
-        "Teach behavior and rationale through incremental explanations and diagrams"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/teach/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-separate-evidence-collection-from-synthesis-and-keep-investigators-within-their-assigned-sources",
       "title": "Separate evidence collection from synthesis and keep investigators within their assigned sources",
       "principle": "Separate evidence collection from synthesis and keep investigators within their assigned sources",
@@ -1813,45 +1776,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-select-documentation-structure-by-tutorial-how-to-reference-or-explanation-purpose",
-      "title": "Select documentation structure by tutorial, how-to, reference, or explanation purpose",
-      "principle": "Select documentation structure by tutorial, how-to, reference, or explanation purpose",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "select",
-        "documentation",
-        "structure",
-        "by",
-        "tutorial",
-        "how",
-        "to",
-        "reference",
-        "or",
-        "explanation",
-        "purpose"
-      ],
-      "use_when": "Use when defining agent behavior to select documentation structure by tutorial, how-to, reference, or explanation purpose.",
-      "provides": [
-        "Select documentation structure by tutorial, how-to, reference, or explanation purpose"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md",
       "covered_principles": []
     },
     {
@@ -2124,43 +2048,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-remove-generic-ai-phrasing-while-preserving-the-intended-meaning",
-      "title": "Remove generic AI phrasing while preserving the intended meaning",
-      "principle": "Remove generic AI phrasing while preserving the intended meaning",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "remove",
-        "generic",
-        "ai",
-        "phrasing",
-        "while",
-        "preserving",
-        "the",
-        "intended",
-        "meaning"
-      ],
-      "use_when": "Use when defining agent behavior to remove generic AI phrasing while preserving the intended meaning.",
-      "provides": [
-        "Remove generic AI phrasing while preserving the intended meaning"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md",
       "covered_principles": []
     },
     {
@@ -2949,43 +2836,6 @@
       "use_when": "Use when defining agent behavior to record architecture decisions with alternatives and supersede rather than erase old ADRs.",
       "provides": [
         "Record architecture decisions with alternatives and supersede rather than erase old ADRs"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-preserve-factual-details-and-uncertainty-when-simplifying-documentation-prose",
-      "title": "Preserve factual details and uncertainty when simplifying documentation prose",
-      "principle": "Preserve factual details and uncertainty when simplifying documentation prose",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "preserve",
-        "factual",
-        "details",
-        "and",
-        "uncertainty",
-        "when",
-        "simplifying",
-        "documentation",
-        "prose"
-      ],
-      "use_when": "Use when defining agent behavior to preserve factual details and uncertainty when simplifying documentation prose.",
-      "provides": [
-        "Preserve factual details and uncertainty when simplifying documentation prose"
       ],
       "related": [],
       "status": "recipe-needed",
@@ -5802,6 +5652,51 @@
       "url": "docs/cookbook/pressure-tests-for-instruction-compliance.html",
       "covered_principles": [
         "Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost"
+      ]
+    },
+    {
+      "id": "audience-focused-documentation-clear-prose-and-preserved-facts",
+      "title": "Audience-Focused Documentation, Clear Prose, and Preserved Facts",
+      "path": "docs/cookbook/audience-focused-documentation-clear-prose-and-preserved-facts.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "output-contracts"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "planning",
+        "review"
+      ],
+      "keywords": [
+        "audience",
+        "focused",
+        "documentation",
+        "clear",
+        "prose",
+        "and",
+        "preserved",
+        "facts"
+      ],
+      "use_when": "Documentation can mix learning and reference needs, bury behavior under function lists, or simplify prose by dropping important facts and uncertainty. Readers need an appropriate structure and faithful explanations.",
+      "provides": [
+        "Teach behavior and rationale through incremental explanations and diagrams",
+        "Select documentation structure by tutorial, how-to, reference, or explanation purpose",
+        "Remove generic AI phrasing while preserving the intended meaning",
+        "Preserve factual details and uncertainty when simplifying documentation prose"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/audience-focused-documentation-clear-prose-and-preserved-facts.html",
+      "covered_principles": [
+        "Teach behavior and rationale through incremental explanations and diagrams",
+        "Select documentation structure by tutorial, how-to, reference, or explanation purpose",
+        "Remove generic AI phrasing while preserving the intended meaning",
+        "Preserve factual details and uncertainty when simplifying documentation prose"
       ]
     }
   ]

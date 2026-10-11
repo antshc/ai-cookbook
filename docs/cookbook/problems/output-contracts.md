@@ -17,6 +17,7 @@ Define what the consumer receives and who owns its format.
 - [Version-Matched Official Sources and Cache Revalidation](../version-matched-official-sources-and-cache-revalidation.md)
 - [Additive Schema Migration and Tested Rollback](../additive-schema-migration-and-tested-rollback.md)
 - [Controlled Skill Evaluations, Observable Traces, and Repeated Trials](../controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
+- [Audience-Focused Documentation, Clear Prose, and Preserved Facts](../audience-focused-documentation-clear-prose-and-preserved-facts.md)
 
 ## References
 
@@ -44,10 +45,7 @@ Define what the consumer receives and who owns its format.
 
 - [Reconstruct design rationale across independent evidence sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)
 - [Calibrate rationale claims to direct, supported, inferred, or unknown evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md)
-- [Teach behavior and rationale through incremental explanations and diagrams](https://github.com/cursor/plugins/blob/main/pstack/skills/teach/SKILL.md)
 - [Keep PR summaries short with observable verification evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
-- [Select documentation structure by tutorial, how-to, reference, or explanation purpose](https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md)
 - [Freeze report provenance and deduplicate before filing tickets](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
-- [Preserve factual details and uncertainty when simplifying documentation prose](https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)
