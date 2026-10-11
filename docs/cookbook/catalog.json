@@ -1961,44 +1961,6 @@
       "related": []
     },
     {
-      "id": "principle-inspect-working-tree-changes-before-autonomous-execution-and-stop-on-unrelated-dirty-files",
-      "title": "Inspect working-tree changes before autonomous execution and stop on unrelated dirty files",
-      "principle": "Inspect working-tree changes before autonomous execution and stop on unrelated dirty files",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "inspect",
-        "working",
-        "tree",
-        "changes",
-        "before",
-        "autonomous",
-        "execution",
-        "and",
-        "stop",
-        "on",
-        "unrelated",
-        "dirty",
-        "files"
-      ],
-      "use_when": "Use when defining agent behavior to inspect working-tree changes before autonomous execution and stop on unrelated dirty files.",
-      "provides": [
-        "Inspect working-tree changes before autonomous execution and stop on unrelated dirty files"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-implement-complete-vertical-slices-with-test-verification-and-commit-gates",
       "title": "Implement complete vertical slices with test, verification, and commit gates",
       "principle": "Implement complete vertical slices with test, verification, and commit gates",
@@ -2171,46 +2133,6 @@
       "use_when": "Use when defining agent behavior to verify responsive and accessible UI states including empty, loading, and error flows.",
       "provides": [
         "Verify responsive and accessible UI states including empty, loading, and error flows"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-stage-only-files-belonging-to-the-current-autonomous-task-rather-than-blindly-staging-every-change",
-      "title": "Stage only files belonging to the current autonomous task rather than blindly staging every change",
-      "principle": "Stage only files belonging to the current autonomous task rather than blindly staging every change",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "stage",
-        "only",
-        "files",
-        "belonging",
-        "to",
-        "the",
-        "current",
-        "autonomous",
-        "task",
-        "rather",
-        "than",
-        "blindly",
-        "staging",
-        "every",
-        "change"
-      ],
-      "use_when": "Use when defining agent behavior to stage only files belonging to the current autonomous task rather than blindly staging every change.",
-      "provides": [
-        "Stage only files belonging to the current autonomous task rather than blindly staging every change"
       ],
       "related": []
     },
@@ -2436,46 +2358,6 @@
       "use_when": "Use when defining agent behavior to mask protected source blocks during agent simplification and restore them from verified placeholders or backups.",
       "provides": [
         "Mask protected source blocks during agent simplification and restore them from verified placeholders or backups"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-create-atomic-reviewed-commits-and-verify-tests-types-lint-and-secrets-before-commit",
-      "title": "Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit",
-      "principle": "Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review",
-        "implementation"
-      ],
-      "keywords": [
-        "create",
-        "atomic",
-        "reviewed",
-        "commits",
-        "and",
-        "verify",
-        "tests",
-        "types",
-        "lint",
-        "and",
-        "secrets",
-        "before",
-        "commit"
-      ],
-      "use_when": "Use when defining agent behavior to create atomic, reviewed commits and verify tests, types, lint, and secrets before commit.",
-      "provides": [
-        "Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit"
       ],
       "related": []
     },
@@ -5258,6 +5140,41 @@
         "Revalidate cached official documentation with origin validators before using it across sessions",
         "Verify framework-specific decisions against version-matched official documentation",
         "Cite authoritative implementation sources and label unverifiable patterns explicitly"
+      ],
+      "related": []
+    },
+    {
+      "id": "task-scoped-staging-and-atomic-verified-commits",
+      "title": "Task-Scoped Staging and Atomic Verified Commits",
+      "path": "task-scoped-staging-and-atomic-verified-commits.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "task",
+        "scoped",
+        "staging",
+        "and",
+        "atomic",
+        "verified",
+        "commits"
+      ],
+      "use_when": "A broad stage command can absorb unrelated edits into an autonomous task. Commits need an inspected baseline, scoped changes, and verified behavior.",
+      "provides": [
+        "Inspect working-tree changes before autonomous execution and stop on unrelated dirty files",
+        "Stage only files belonging to the current autonomous task rather than blindly staging every change",
+        "Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit"
       ],
       "related": []
     }

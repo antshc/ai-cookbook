@@ -96,7 +96,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R51. Repository Configuration, Local Edits, and Committed Automation Files** — NEW (3 principles). [recipe](repository-configuration-local-edits-and-committed-automation-files.md).
 - [x] **R52. Least-Privilege Tool Restrictions versus Preapproval** — NEW (1 principles). [recipe](least-privilege-tool-restrictions-versus-preapproval.md).
 - [x] **R53. Version-Matched Official Sources and Cache Revalidation** — NEW (3 principles). [recipe](version-matched-official-sources-and-cache-revalidation.md).
-- [ ] **R54. Task-Scoped Staging and Atomic Verified Commits** — NEW (3 principles).
+- [x] **R54. Task-Scoped Staging and Atomic Verified Commits** — NEW (3 principles). [recipe](task-scoped-staging-and-atomic-verified-commits.md).
 - [ ] **R55. Isolated Worktrees and Safe Workspace Cleanup** — NEW (2 principles).
 ### Migration and release
 
@@ -580,9 +580,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Inspect working-tree changes before autonomous execution and stop on unrelated dirty files** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md).
-- [ ] **Stage only files belonging to the current autonomous task rather than blindly staging every change** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md).
-- [ ] **Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md).
+- [x] **Inspect working-tree changes before autonomous execution and stop on unrelated dirty files** — [recipe](task-scoped-staging-and-atomic-verified-commits.md).
+- [x] **Stage only files belonging to the current autonomous task rather than blindly staging every change** — [recipe](task-scoped-staging-and-atomic-verified-commits.md).
+- [x] **Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit** — [recipe](task-scoped-staging-and-atomic-verified-commits.md).
 
 ### R55. Isolated Worktrees and Safe Workspace Cleanup
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 167 |
-| Principles still awaiting coverage | 77 |
+| Already covered principles | 170 |
+| Principles still awaiting coverage | 74 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
