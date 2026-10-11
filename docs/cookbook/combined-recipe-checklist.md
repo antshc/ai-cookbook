@@ -46,7 +46,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Instructions and routing
 
 - [x] **R17. Constraint-First Instructions and Anti-Rationalization Rules** — NEW (3 principles). [recipe](constraint-first-instructions-and-anti-rationalization-rules.md).
-- [ ] **R18. Concise Instructions, Explicit Goals, and Model-Neutral Procedures** — NEW (3 principles).
+- [x] **R18. Concise Instructions, Explicit Goals, and Model-Neutral Procedures** — NEW (3 principles). [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md).
 - [ ] **R19. Instruction Loading and Canary Checks** — NEW (2 principles).
 - [ ] **R20. Skill Discovery, Trigger Indexing, and Native Routing** — NEW (5 principles).
 - [ ] **R21. Positive and Negative Skill Routing Tests** — NEW (2 principles).
@@ -288,9 +288,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Write audience-specific instructions in concise, controlled language** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md).
-- [ ] **Describe goals, proof, and constraints without prescribing skill choreography** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md).
-- [ ] **Write skill procedures in model-neutral capabilities instead of model-specific workarounds** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md).
+- [x] **Write audience-specific instructions in concise, controlled language** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md).
+- [x] **Describe goals, proof, and constraints without prescribing skill choreography** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md).
+- [x] **Write skill procedures in model-neutral capabilities instead of model-specific workarounds** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md).
 
 ### R19. Instruction Loading and Canary Checks
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 55 |
-| Principles still awaiting coverage | 189 |
+| Already covered principles | 58 |
+| Principles still awaiting coverage | 186 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

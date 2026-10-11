@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 55 covered, 189 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 58 covered, 186 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -20,7 +20,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Root-cause diagnosis](#root-cause-diagnosis) | 7 | 7 | 0 |
 | [Learning from failures](#learning-from-failures) | 9 | 9 | 0 |
 | [Resumable execution](#resumable-execution) | 9 | 9 | 0 |
-| [Instruction enforcement](#instruction-enforcement) | 7 | 3 | 4 |
+| [Instruction enforcement](#instruction-enforcement) | 7 | 6 | 1 |
 | [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 0 | 8 |
 | [Context management](#context-management) | 5 | 0 | 5 |
 | [Ownership and composition](#ownership-and-composition) | 11 | 0 | 11 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **55** | **189** |
+| **Total** | **244** | **58** | **186** |
 
 ## Completion checks
 
@@ -147,9 +147,9 @@ Which constraints must the agent follow, and how is actual compliance made obser
 - [ ] **Canary rule verification** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-canary-rule-verification.md)
 - [x] **Instruction robustness** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
 - [x] **Constraint-first reasoning** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
-- [ ] **Write audience-specific instructions in concise, controlled language** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md)
-- [ ] **Describe goals, proof, and constraints without prescribing skill choreography** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md)
-- [ ] **Write skill procedures in model-neutral capabilities instead of model-specific workarounds** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md)
+- [x] **Write audience-specific instructions in concise, controlled language** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)
+- [x] **Describe goals, proof, and constraints without prescribing skill choreography** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)
+- [x] **Write skill procedures in model-neutral capabilities instead of model-specific workarounds** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)
 - [x] **Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
 
 ## Skill discovery and routing

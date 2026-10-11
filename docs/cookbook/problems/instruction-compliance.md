@@ -15,6 +15,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
 - [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 - [Constraint-First Instructions and Anti-Rationalization Rules](../constraint-first-instructions-and-anti-rationalization-rules.md)
+- [Concise Instructions, Explicit Goals, and Model-Neutral Procedures](../concise-instructions-explicit-goals-and-model-neutral-procedures.md)
 
 ## References
 
@@ -65,7 +66,6 @@ No materials yet.
 - [Fail closed when an external automation's target is uncertain](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
 - [Keep automation webhook secrets on the server, never in the browser or chat](https://github.com/cursor/plugins/blob/main/pstack/skills/make-bot-ui/SKILL.md)
 - [Remove generic AI phrasing while preserving the intended meaning](https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md)
-- [Describe goals, proof, and constraints without prescribing skill choreography](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md)
 - [Run automations from committed operational files rather than copied instructions or caches](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
 - [Challenge unwarranted scope or complexity while leaving informed decisions to the user](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md)
 - [Interview for intent one question and one explicit guess at a time](https://github.com/addyosmani/agent-skills/blob/main/skills/interview-me/SKILL.md)
@@ -97,6 +97,5 @@ No materials yet.
 - [Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
 - [Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once](https://github.com/addyosmani/agent-skills/blob/main/docs/adoption-guide.md)
 - [Check existing skills, active proposals, and rejected changes before introducing a new skill](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
-- [Write skill procedures in model-neutral capabilities instead of model-specific workarounds](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

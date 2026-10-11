@@ -171,14 +171,14 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Confirm a reported defect twice through the live user interface** — [recipe](live-bug-reproduction-and-verification-of-existing-fixes.md)
 - [ ] **Keep external writes and credentials out of delegated workers** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [ ] **Fail closed when an external automation's target is uncertain** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
-- [ ] **Write audience-specific instructions in concise, controlled language** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md)
+- [x] **Write audience-specific instructions in concise, controlled language** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)
 - [ ] **Review comments as evidence rather than automatically obeying them** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/references/bugbot-triage.md)
 
 - [ ] **Gate automatic bug fixing on a trusted triage verdict and ownership checks** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [ ] **Compensate cross-system ticket writes when the final handoff fails** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
 - [ ] **Keep automation webhook secrets on the server, never in the browser or chat** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/make-bot-ui/SKILL.md)
 - [ ] **Remove generic AI phrasing while preserving the intended meaning** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md)
-- [ ] **Describe goals, proof, and constraints without prescribing skill choreography** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md)
+- [x] **Describe goals, proof, and constraints without prescribing skill choreography** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)
 - [ ] **Frame agent delivery for both the user and the future maintainer** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
 
 - [ ] **Preserve locally edited managed files and keep user configuration outside automation packs** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
@@ -306,7 +306,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 
 - [ ] **Check existing skills, active proposals, and rejected changes before introducing a new skill** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 - [ ] **Record rejected skill changes with evaluation evidence in an append-only ledger** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
-- [ ] **Write skill procedures in model-neutral capabilities instead of model-specific workarounds** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md)
+- [x] **Write skill procedures in model-neutral capabilities instead of model-specific workarounds** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)
 - [x] **Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
 - [ ] **Test skill routing with realistic positive triggers and neighboring negative triggers** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 - [ ] **For negative routing tests, require the intended owner skill to outrank the wrong skill** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
