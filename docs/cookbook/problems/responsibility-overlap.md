@@ -14,6 +14,7 @@ Give each procedure and responsibility one clear owner.
 - [Consumer-First Design, Public Contracts, and Usage Guides](../consumer-first-design-public-contracts-and-usage-guides.md)
 - [Domain Models, Foundational Constraints, and Invalid States](../domain-models-foundational-constraints-and-invalid-states.md)
 - [Architecture Sketches, Structural Red Flags, and Design Rationale](../architecture-sketches-structural-red-flags-and-design-rationale.md)
+- [Independent Evidence-Based Review, Severity, and Reconciliation](../independent-evidence-based-review-severity-and-reconciliation.md)
 
 ## References
 
@@ -32,7 +33,6 @@ No materials yet.
 - [Gate automatic bug fixing on a trusted triage verdict and ownership checks](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Approve the capability dependency map before specifying a multi-module initiative](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Define measurable project quality thresholds and record exceptions with owners and expiry](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
-- [Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
 - [Define a reference-grounded UI design contract before implementation](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

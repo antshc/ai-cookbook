@@ -78,7 +78,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R41. Architecture Sketches, Structural Red Flags, and Design Rationale** — NEW (3 principles). [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md).
 ### Review
 
-- [ ] **R42. Independent Evidence-Based Review, Severity, and Reconciliation** — NEW (7 principles).
+- [x] **R42. Independent Evidence-Based Review, Severity, and Reconciliation** — NEW (7 principles). [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
 - [ ] **R43. CI Failure Classification and Review Comment Triage** — NEW (2 principles).
 ### Performance
 
@@ -482,13 +482,13 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Review the implementation against declared intent and require concrete evidence per finding** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/references/reviewer-prompt.md).
-- [ ] **Classify adversarial review findings with independent judgment** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/SKILL.md).
-- [ ] **Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md).
-- [ ] **Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md).
-- [ ] **Review correctness, readability, architecture, security, and performance, reading tests first** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md).
-- [ ] **Classify review findings by severity and lead with required, evidenced changes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md).
-- [ ] **Keep review changes cohesive and consider total file size as well as diff size** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md).
+- [x] **Review the implementation against declared intent and require concrete evidence per finding** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Classify adversarial review findings with independent judgment** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Review correctness, readability, architecture, security, and performance, reading tests first** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Classify review findings by severity and lead with required, evidenced changes** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Keep review changes cohesive and consider total file size as well as diff size** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
 
 ### R43. CI Failure Classification and Review Comment Triage
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 129 |
-| Principles still awaiting coverage | 115 |
+| Already covered principles | 136 |
+| Principles still awaiting coverage | 108 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

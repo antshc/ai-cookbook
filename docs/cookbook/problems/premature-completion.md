@@ -26,6 +26,7 @@ Define observable completion and account for every obligation.
 - [Fixed Stop Conditions and Immediate Stop Propagation](../fixed-stop-conditions-and-immediate-stop-propagation.md)
 - [Clarify Intent, Surface Assumptions, and Challenge Scope](../clarify-intent-surface-assumptions-and-challenge-scope.md)
 - [Explore Alternatives and Test MVP Assumptions](../explore-alternatives-and-test-mvp-assumptions.md)
+- [Independent Evidence-Based Review, Severity, and Reconciliation](../independent-evidence-based-review-severity-and-reconciliation.md)
 
 ## References
 
@@ -53,7 +54,6 @@ Define observable completion and account for every obligation.
 - [Verify responsive and accessible UI states including empty, loading, and error flows](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 - [Verify browser changes against live DOM, console, network, and before-after screenshots](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Isolate automated browser tests from personal signed-in browser profiles](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
-- [Review correctness, readability, architecture, security, and performance, reading tests first](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
 - [Refactor incrementally without changing test expectations to force a pass](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Record rejected optimizations and install regression monitors for measured gains](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md)
 - [Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)

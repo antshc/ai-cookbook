@@ -83,7 +83,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 
 - [x] **Make module internals inaccessible and expose only one supported operation path** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md)
 - [x] **Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md)
-- [ ] **Review the implementation against declared intent and require concrete evidence per finding** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/references/reviewer-prompt.md)
+- [x] **Review the implementation against declared intent and require concrete evidence per finding** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
 
 ### Understanding and design workflows
 
@@ -92,7 +92,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Sketch architecture first and redo it when structural red flags appear** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md)
 - [x] **Compare independent design candidates with cross-judging** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md)
 - [x] **Decompose parallel work into scoped workers and aggregate results** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md)
-- [ ] **Classify adversarial review findings with independent judgment** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/SKILL.md)
+- [x] **Classify adversarial review findings with independent judgment** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
 - [x] **Resolve observable decisions with throwaway experiments** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md)
 - [x] **Scale verification rigor to impact and reversibility** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [x] **Prove the key safety assumption behind a change** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md)
@@ -220,8 +220,8 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Persist restartable session handoffs with decisions, changed files, verification, and next work** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 - [ ] **Verify framework-specific decisions against version-matched official documentation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [ ] **Cite authoritative implementation sources and label unverifiable patterns explicitly** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
-- [ ] **Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
-- [ ] **Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
+- [x] **Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
+- [x] **Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
 - [x] **Require explicit authorization for each external cross-model review invocation** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
 - [x] **Define public contracts before implementation and preserve observable consumer behavior** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
 - [ ] **Honor idempotency keys across retries, payload mismatches, and unknown outcomes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
@@ -255,9 +255,9 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 
 ### Review and simplification
 
-- [ ] **Review correctness, readability, architecture, security, and performance, reading tests first** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
-- [ ] **Classify review findings by severity and lead with required, evidenced changes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
-- [ ] **Keep review changes cohesive and consider total file size as well as diff size** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
+- [x] **Review correctness, readability, architecture, security, and performance, reading tests first** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
+- [x] **Classify review findings by severity and lead with required, evidenced changes** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
+- [x] **Keep review changes cohesive and consider total file size as well as diff size** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
 - [ ] **Understand why existing code exists before simplifying or deleting it** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [ ] **Refactor incrementally without changing test expectations to force a pass** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [ ] **Automate wide mechanical refactors instead of hand-editing large change sets** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)

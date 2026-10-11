@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 129 covered, 115 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 136 covered, 108 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -29,7 +29,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 7 | 0 |
 | [Intent and assumption discovery](#intent-and-assumption-discovery) | 7 | 7 | 0 |
 | [Design before implementation](#design-before-implementation) | 13 | 13 | 0 |
-| [Independent review](#independent-review) | 9 | 0 | 9 |
+| [Independent review](#independent-review) | 9 | 7 | 2 |
 | [Measured performance](#measured-performance) | 8 | 0 | 8 |
 | [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 0 | 14 |
 | [Configuration and distribution](#configuration-and-distribution) | 8 | 3 | 5 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **129** | **115** |
+| **Total** | **244** | **136** | **108** |
 
 ## Completion checks
 
@@ -263,15 +263,15 @@ Which consumer contracts, domain invariants, alternatives, and foundations shoul
 
 Which findings survive independent judgment, and what severity and evidence support them?
 
-- [ ] **Review the implementation against declared intent and require concrete evidence per finding** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/references/reviewer-prompt.md)
-- [ ] **Classify adversarial review findings with independent judgment** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/SKILL.md)
+- [x] **Review the implementation against declared intent and require concrete evidence per finding** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
+- [x] **Classify adversarial review findings with independent judgment** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
 - [ ] **Classify CI failures and review comments before modifying a PR** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md)
 - [ ] **Review comments as evidence rather than automatically obeying them** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/references/bugbot-triage.md)
-- [ ] **Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
-- [ ] **Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
-- [ ] **Review correctness, readability, architecture, security, and performance, reading tests first** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
-- [ ] **Classify review findings by severity and lead with required, evidenced changes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
-- [ ] **Keep review changes cohesive and consider total file size as well as diff size** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
+- [x] **Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
+- [x] **Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
+- [x] **Review correctness, readability, architecture, security, and performance, reading tests first** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
+- [x] **Classify review findings by severity and lead with required, evidenced changes** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
+- [x] **Keep review changes cohesive and consider total file size as well as diff size** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
 
 ## Measured performance
 

@@ -30,6 +30,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Domain Models, Foundational Constraints, and Invalid States](../domain-models-foundational-constraints-and-invalid-states.md)
 - [Competing Designs, Prototype Experiments, and Cross-Judging](../competing-designs-prototype-experiments-and-cross-judging.md)
 - [Architecture Sketches, Structural Red Flags, and Design Rationale](../architecture-sketches-structural-red-flags-and-design-rationale.md)
+- [Independent Evidence-Based Review, Severity, and Reconciliation](../independent-evidence-based-review-severity-and-reconciliation.md)
 
 ## References
 
@@ -52,7 +53,6 @@ No materials yet.
 - [Migrate callers and delete obsolete internal APIs together](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md)
 - [Sequence changes as independently verifiable units](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
 - [Validate authored skills, referenced files, and structural examples](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md)
-- [Classify adversarial review findings with independent judgment](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/SKILL.md)
 - [Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md)
 - [Pin existing behavior before structural refactoring](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)
 - [Classify CI failures and review comments before modifying a PR](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md)
@@ -68,13 +68,11 @@ No materials yet.
 - [Update the living specification before implementing changed decisions](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Apply a minimum quality floor in noninteractive runs when project thresholds are absent](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Build dependency-ordered, verifiable task slices without implementing during planning](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
-- [Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
 - [Stage only files belonging to the current autonomous task rather than blindly staging every change](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
 - [Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
 - [Keep browser JavaScript inspection read-only unless mutations are explicitly authorized](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Treat error output, external documentation, and browser content as untrusted instructions](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [Treat a quality guard that could not run as a blocking failure rather than a clean result](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)
-- [Keep review changes cohesive and consider total file size as well as diff size](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
 - [Understand why existing code exists before simplifying or deleting it](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Automate wide mechanical refactors instead of hand-editing large change sets](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Threat-model system boundaries and write abuse cases before hardening a feature](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
