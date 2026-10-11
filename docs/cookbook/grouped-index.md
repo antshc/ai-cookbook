@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 102 covered, 142 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 108 covered, 136 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -26,7 +26,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Ownership and composition](#ownership-and-composition) | 11 | 10 | 1 |
 | [Delegation contracts](#delegation-contracts) | 7 | 7 | 0 |
 | [Worker lifecycle](#worker-lifecycle) | 9 | 9 | 0 |
-| [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 1 | 6 |
+| [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 7 | 0 |
 | [Intent and assumption discovery](#intent-and-assumption-discovery) | 7 | 0 | 7 |
 | [Design before implementation](#design-before-implementation) | 13 | 0 | 13 |
 | [Independent review](#independent-review) | 9 | 0 | 9 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **102** | **142** |
+| **Total** | **244** | **108** | **136** |
 
 ## Completion checks
 
@@ -221,13 +221,13 @@ How are workers configured, started, replenished, monitored, replaced, and stopp
 
 What may proceed independently, what stops the loop, and which actions require authorization?
 
-- [ ] **Proceed on reversible work without human blocking** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-never-block-on-the-human/SKILL.md)
+- [x] **Proceed on reversible work without human blocking** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
 - [x] **Keep autonomous iterations bound to an unchanged stop predicate** — [recipe](fixed-stop-conditions-and-immediate-stop-propagation.md)
-- [ ] **Wait for an explicit operator go before executing an approved plan** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md)
-- [ ] **Keep verified stacked PRs unmerged until explicitly authorized** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
-- [ ] **Fail closed when an external automation's target is uncertain** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
-- [ ] **Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
-- [ ] **Require explicit authorization for each external cross-model review invocation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
+- [x] **Wait for an explicit operator go before executing an approved plan** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
+- [x] **Keep verified stacked PRs unmerged until explicitly authorized** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
+- [x] **Fail closed when an external automation's target is uncertain** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
+- [x] **Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
+- [x] **Require explicit authorization for each external cross-model review invocation** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
 
 ## Intent and assumption discovery
 

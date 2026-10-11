@@ -1582,41 +1582,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-proceed-on-reversible-work-without-human-blocking",
-      "title": "Proceed on reversible work without human blocking",
-      "principle": "Proceed on reversible work without human blocking",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-never-block-on-the-human/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "proceed",
-        "on",
-        "reversible",
-        "work",
-        "without",
-        "human",
-        "blocking"
-      ],
-      "use_when": "Use when defining agent behavior to proceed on reversible work without human blocking.",
-      "provides": [
-        "Proceed on reversible work without human blocking"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-never-block-on-the-human/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-optimize-planned-migrations-for-a-verified-final-state",
       "title": "Optimize planned migrations for a verified final state",
       "principle": "Optimize planned migrations for a verified final state",
@@ -3075,81 +3040,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-wait-for-an-explicit-operator-go-before-executing-an-approved-plan",
-      "title": "Wait for an explicit operator go before executing an approved plan",
-      "principle": "Wait for an explicit operator go before executing an approved plan",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "wait",
-        "for",
-        "an",
-        "explicit",
-        "operator",
-        "go",
-        "before",
-        "executing",
-        "an",
-        "approved",
-        "plan"
-      ],
-      "use_when": "Use when defining agent behavior to wait for an explicit operator go before executing an approved plan.",
-      "provides": [
-        "Wait for an explicit operator go before executing an approved plan"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-keep-verified-stacked-prs-unmerged-until-explicitly-authorized",
-      "title": "Keep verified stacked PRs unmerged until explicitly authorized",
-      "principle": "Keep verified stacked PRs unmerged until explicitly authorized",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "keep",
-        "verified",
-        "stacked",
-        "prs",
-        "unmerged",
-        "until",
-        "explicitly",
-        "authorized"
-      ],
-      "use_when": "Use when defining agent behavior to keep verified stacked PRs unmerged until explicitly authorized.",
-      "provides": [
-        "Keep verified stacked PRs unmerged until explicitly authorized"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-audit-decision-logs-against-transcripts-and-correct-false-or-omitted-claims-by-appending-rows",
       "title": "Audit decision logs against transcripts and correct false or omitted claims by appending rows",
       "principle": "Audit decision logs against transcripts and correct false or omitted claims by appending rows",
@@ -3260,44 +3150,6 @@
       "use_when": "Use when defining agent behavior to freeze report provenance and deduplicate before filing tickets.",
       "provides": [
         "Freeze report provenance and deduplicate before filing tickets"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-fail-closed-when-an-external-automation-s-target-is-uncertain",
-      "title": "Fail closed when an external automation's target is uncertain",
-      "principle": "Fail closed when an external automation's target is uncertain",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "fail",
-        "closed",
-        "when",
-        "an",
-        "external",
-        "automation",
-        "s",
-        "target",
-        "is",
-        "uncertain"
-      ],
-      "use_when": "Use when defining agent behavior to fail closed when an external automation's target is uncertain.",
-      "provides": [
-        "Fail closed when an external automation's target is uncertain"
       ],
       "related": [],
       "status": "recipe-needed",
@@ -4172,50 +4024,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-escalate-irreversible-or-high-risk-work-for-fresh-human-approval-even-during-an-approved-autonomous-run",
-      "title": "Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run",
-      "principle": "Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "escalate",
-        "irreversible",
-        "or",
-        "high",
-        "risk",
-        "work",
-        "for",
-        "fresh",
-        "human",
-        "approval",
-        "even",
-        "during",
-        "an",
-        "approved",
-        "autonomous",
-        "run"
-      ],
-      "use_when": "Use when defining agent behavior to escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run.",
-      "provides": [
-        "Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-implement-complete-vertical-slices-with-test-verification-and-commit-gates",
       "title": "Implement complete vertical slices with test, verification, and commit gates",
       "principle": "Implement complete vertical slices with test, verification, and commit gates",
@@ -4443,44 +4251,6 @@
       "use_when": "Use when defining agent behavior to reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop.",
       "provides": [
         "Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-require-explicit-authorization-for-each-external-cross-model-review-invocation",
-      "title": "Require explicit authorization for each external cross-model review invocation",
-      "principle": "Require explicit authorization for each external cross-model review invocation",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "require",
-        "explicit",
-        "authorization",
-        "for",
-        "each",
-        "external",
-        "cross",
-        "model",
-        "review",
-        "invocation"
-      ],
-      "use_when": "Use when defining agent behavior to require explicit authorization for each external cross-model review invocation.",
-      "provides": [
-        "Require explicit authorization for each external cross-model review invocation"
       ],
       "related": [],
       "status": "recipe-needed",
@@ -8074,6 +7844,55 @@
       "covered_principles": [
         "Keep autonomous iterations bound to an unchanged stop predicate",
         "Propagate operator stop orders to all active agents as an immediate no-writes hold"
+      ]
+    },
+    {
+      "id": "reversible-autonomy-approval-gates-and-uncertain-targets",
+      "title": "Reversible Autonomy, Approval Gates, and Uncertain Targets",
+      "path": "docs/cookbook/reversible-autonomy-approval-gates-and-uncertain-targets.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "debugging",
+        "implementation",
+        "planning",
+        "review"
+      ],
+      "keywords": [
+        "reversible",
+        "autonomy",
+        "approval",
+        "gates",
+        "and",
+        "uncertain",
+        "targets"
+      ],
+      "use_when": "Autonomy can either stall reversible work or cross an authorization boundary. Planning, risky changes, uncertain external targets, and external review need distinct gates.",
+      "provides": [
+        "Proceed on reversible work without human blocking",
+        "Wait for an explicit operator go before executing an approved plan",
+        "Keep verified stacked PRs unmerged until explicitly authorized",
+        "Fail closed when an external automation's target is uncertain",
+        "Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run",
+        "Require explicit authorization for each external cross-model review invocation"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/reversible-autonomy-approval-gates-and-uncertain-targets.html",
+      "covered_principles": [
+        "Proceed on reversible work without human blocking",
+        "Wait for an explicit operator go before executing an approved plan",
+        "Keep verified stacked PRs unmerged until explicitly authorized",
+        "Fail closed when an external automation's target is uncertain",
+        "Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run",
+        "Require explicit authorization for each external cross-model review invocation"
       ]
     }
   ]

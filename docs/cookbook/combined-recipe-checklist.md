@@ -67,7 +67,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R32. Pilot Runs, Rolling Worker Windows, and Progress Monitoring** — NEW (4 principles). [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
 - [x] **R33. Single Coordinator for Shared PR Stack Topology** — NEW (1 principles). [recipe](single-coordinator-for-shared-pr-stack-topology.md).
 - [x] **R34. Fixed Stop Conditions and Immediate Stop Propagation** — NEW (2 principles). [recipe](fixed-stop-conditions-and-immediate-stop-propagation.md).
-- [ ] **R35. Reversible Autonomy, Approval Gates, and Uncertain Targets** — NEW (6 principles).
+- [x] **R35. Reversible Autonomy, Approval Gates, and Uncertain Targets** — NEW (6 principles). [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
 ### Intent and design
 
 - [ ] **R36. Clarify Intent, Surface Assumptions, and Challenge Scope** — NEW (5 principles).
@@ -420,12 +420,12 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Proceed on reversible work without human blocking** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-never-block-on-the-human/SKILL.md).
-- [ ] **Wait for an explicit operator go before executing an approved plan** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md).
-- [ ] **Keep verified stacked PRs unmerged until explicitly authorized** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md).
-- [ ] **Fail closed when an external automation's target is uncertain** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md).
-- [ ] **Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md).
-- [ ] **Require explicit authorization for each external cross-model review invocation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md).
+- [x] **Proceed on reversible work without human blocking** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
+- [x] **Wait for an explicit operator go before executing an approved plan** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
+- [x] **Keep verified stacked PRs unmerged until explicitly authorized** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
+- [x] **Fail closed when an external automation's target is uncertain** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
+- [x] **Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
+- [x] **Require explicit authorization for each external cross-model review invocation** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
 
 ### R36. Clarify Intent, Surface Assumptions, and Challenge Scope
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 102 |
-| Principles still awaiting coverage | 142 |
+| Already covered principles | 108 |
+| Principles still awaiting coverage | 136 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
