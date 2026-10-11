@@ -79,7 +79,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Review
 
 - [x] **R42. Independent Evidence-Based Review, Severity, and Reconciliation** — NEW (7 principles). [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
-- [ ] **R43. CI Failure Classification and Review Comment Triage** — NEW (2 principles).
+- [x] **R43. CI Failure Classification and Review Comment Triage** — NEW (2 principles). [recipe](ci-failure-classification-and-review-comment-triage.md).
 ### Performance
 
 - [ ] **R44. Reproducible Benchmarks, Frozen Baselines, and Honest Metrics** — NEW (5 principles).
@@ -494,8 +494,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Classify CI failures and review comments before modifying a PR** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md).
-- [ ] **Review comments as evidence rather than automatically obeying them** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/references/bugbot-triage.md).
+- [x] **Classify CI failures and review comments before modifying a PR** — [recipe](ci-failure-classification-and-review-comment-triage.md).
+- [x] **Review comments as evidence rather than automatically obeying them** — [recipe](ci-failure-classification-and-review-comment-triage.md).
 
 ### R44. Reproducible Benchmarks, Frozen Baselines, and Honest Metrics
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 136 |
-| Principles still awaiting coverage | 108 |
+| Already covered principles | 138 |
+| Principles still awaiting coverage | 106 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
