@@ -35,6 +35,7 @@ Define observable completion and account for every obligation.
 - [Additive Schema Migration and Tested Rollback](../additive-schema-migration-and-tested-rollback.md)
 - [Safe Feature Flags and Post-Rollout Cleanup](../safe-feature-flags-and-post-rollout-cleanup.md)
 - [Semantic Releases, Tags, and Human Changelogs](../semantic-releases-tags-and-human-changelogs.md)
+- [Launch Gates, Staged Rollout, Health Checks, and Rollback](../launch-gates-staged-rollout-health-checks-and-rollback.md)
 
 ## References
 
@@ -61,9 +62,6 @@ Define observable completion and account for every obligation.
 - [Run non-bypassable CI quality gates and feed failures back into agent correction](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
 - [Propagate correlation and entry-point identity while bounding telemetry label cardinality](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
 - [Make alerts actionable with runbooks and verify telemetry and notification delivery](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
-- [Use prelaunch gates, staged rollout thresholds, and tested rollback triggers](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)
-- [Verify critical user flows and health signals after deployment](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)
-- [Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/ship.md)
 - [Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

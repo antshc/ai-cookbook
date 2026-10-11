@@ -295,12 +295,12 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [ ] **Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
 - [ ] **Propagate correlation and entry-point identity while bounding telemetry label cardinality** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
 - [ ] **Make alerts actionable with runbooks and verify telemetry and notification delivery** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
-- [ ] **Use prelaunch gates, staged rollout thresholds, and tested rollback triggers** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)
-- [ ] **Verify critical user flows and health signals after deployment** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)
+- [x] **Use prelaunch gates, staged rollout thresholds, and tested rollback triggers** — [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md)
+- [x] **Verify critical user flows and health signals after deployment** — [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md)
 - [ ] **Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/adoption-guide.md)
 - [x] **Keep skill entrypoints concise with trigger descriptions and load long references on demand** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md)
 
-- [ ] **Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/ship.md)
+- [x] **Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk** — [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md)
 
 ### Skill authoring and evaluation (second pass)
 

@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 59/82 recipes complete; 180/244 principles covered.**
+**Progress: 60/82 recipes complete; 183/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -104,7 +104,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R57. Additive Schema Migration and Tested Rollback** — NEW (1 principles). [recipe](additive-schema-migration-and-tested-rollback.md).
 - [x] **R58. Safe Feature Flags and Post-Rollout Cleanup** — NEW (2 principles). [recipe](safe-feature-flags-and-post-rollout-cleanup.md).
 - [x] **R59. Semantic Releases, Tags, and Human Changelogs** — NEW (1 principles). [recipe](semantic-releases-tags-and-human-changelogs.md).
-- [ ] **R60. Launch Gates, Staged Rollout, Health Checks, and Rollback** — NEW (3 principles).
+- [x] **R60. Launch Gates, Staged Rollout, Health Checks, and Rollback** — NEW (3 principles). [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md).
 ### Operations and evaluation
 
 - [ ] **R61. Question-Driven Telemetry, Correlation, and Actionable Alerts** — NEW (3 principles).
@@ -623,9 +623,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Use prelaunch gates, staged rollout thresholds, and tested rollback triggers** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md).
-- [ ] **Verify critical user flows and health signals after deployment** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md).
-- [ ] **Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/ship.md).
+- [x] **Use prelaunch gates, staged rollout thresholds, and tested rollback triggers** — [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md).
+- [x] **Verify critical user flows and health signals after deployment** — [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md).
+- [x] **Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk** — [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md).
 
 ### R61. Question-Driven Telemetry, Correlation, and Actionable Alerts
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 180 |
-| Principles still awaiting coverage | 64 |
+| Already covered principles | 183 |
+| Principles still awaiting coverage | 61 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

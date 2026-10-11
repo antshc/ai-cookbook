@@ -3146,82 +3146,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-use-prelaunch-gates-staged-rollout-thresholds-and-tested-rollback-triggers",
-      "title": "Use prelaunch gates, staged rollout thresholds, and tested rollback triggers",
-      "principle": "Use prelaunch gates, staged rollout thresholds, and tested rollback triggers",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "skill-routing",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "use",
-        "prelaunch",
-        "gates",
-        "staged",
-        "rollout",
-        "thresholds",
-        "and",
-        "tested",
-        "rollback",
-        "triggers"
-      ],
-      "use_when": "Use when defining agent behavior to use prelaunch gates, staged rollout thresholds, and tested rollback triggers.",
-      "provides": [
-        "Use prelaunch gates, staged rollout thresholds, and tested rollback triggers"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-verify-critical-user-flows-and-health-signals-after-deployment",
-      "title": "Verify critical user flows and health signals after deployment",
-      "principle": "Verify critical user flows and health signals after deployment",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "verify",
-        "critical",
-        "user",
-        "flows",
-        "and",
-        "health",
-        "signals",
-        "after",
-        "deployment"
-      ],
-      "use_when": "Use when defining agent behavior to verify critical user flows and health signals after deployment.",
-      "provides": [
-        "Verify critical user flows and health signals after deployment"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-introduce-quality-checks-incrementally-in-legacy-projects-rather-than-enabling-the-entire-lifecycle-at-once",
       "title": "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once",
       "principle": "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once",
@@ -3262,51 +3186,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/addyosmani/agent-skills/blob/main/docs/adoption-guide.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-default-launch-decisions-to-no-go-for-unresolved-critical-findings-unless-the-operator-explicitly-accepts-the-risk",
-      "title": "Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk",
-      "principle": "Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/ship.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "default",
-        "launch",
-        "decisions",
-        "to",
-        "no",
-        "go",
-        "for",
-        "unresolved",
-        "critical",
-        "findings",
-        "unless",
-        "the",
-        "operator",
-        "explicitly",
-        "accepts",
-        "the",
-        "risk"
-      ],
-      "use_when": "Use when defining agent behavior to default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk.",
-      "provides": [
-        "Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/ship.md",
       "covered_principles": []
     },
     {
@@ -6122,6 +6001,49 @@
       "url": "docs/cookbook/semantic-releases-tags-and-human-changelogs.html",
       "covered_principles": [
         "Version consumer-facing releases with tags, semantic versions, and human changelogs"
+      ]
+    },
+    {
+      "id": "launch-gates-staged-rollout-health-checks-and-rollback",
+      "title": "Launch Gates, Staged Rollout, Health Checks, and Rollback",
+      "path": "docs/cookbook/launch-gates-staged-rollout-health-checks-and-rollback.md",
+      "kind": "recipe",
+      "problems": [
+        "premature-completion",
+        "skill-routing"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "launch",
+        "gates",
+        "staged",
+        "rollout",
+        "health",
+        "checks",
+        "and",
+        "rollback"
+      ],
+      "use_when": "A green build alone cannot establish launch readiness. Critical findings, absent recovery plans, or unnoticed post-deploy regressions can turn a release into an incident.",
+      "provides": [
+        "Use prelaunch gates, staged rollout thresholds, and tested rollback triggers",
+        "Verify critical user flows and health signals after deployment",
+        "Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/launch-gates-staged-rollout-health-checks-and-rollback.html",
+      "covered_principles": [
+        "Use prelaunch gates, staged rollout thresholds, and tested rollback triggers",
+        "Verify critical user flows and health signals after deployment",
+        "Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk"
       ]
     }
   ]
