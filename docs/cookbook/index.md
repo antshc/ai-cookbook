@@ -218,8 +218,8 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Load relevant implementation, tests, types, and precedent instead of entire context dumps** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md)
 - [x] **Trim context proactively while preserving active constraints, errors, and decisions** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md)
 - [x] **Persist restartable session handoffs with decisions, changed files, verification, and next work** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
-- [ ] **Verify framework-specific decisions against version-matched official documentation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
-- [ ] **Cite authoritative implementation sources and label unverifiable patterns explicitly** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
+- [x] **Verify framework-specific decisions against version-matched official documentation** — [recipe](version-matched-official-sources-and-cache-revalidation.md)
+- [x] **Cite authoritative implementation sources and label unverifiable patterns explicitly** — [recipe](version-matched-official-sources-and-cache-revalidation.md)
 - [x] **Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
 - [x] **Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
 - [x] **Require explicit authorization for each external cross-model review invocation** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
@@ -234,7 +234,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Include required shared references when distributing an individual skill outside its original pack** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents** — [recipe](least-privilege-tool-restrictions-versus-preapproval.md)
-- [ ] **Revalidate cached official documentation with origin validators before using it across sessions** — [source](https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md)
+- [x] **Revalidate cached official documentation with origin validators before using it across sessions** — [recipe](version-matched-official-sources-and-cache-revalidation.md)
 
 ### Testing, debugging, and evidence
 

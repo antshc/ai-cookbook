@@ -16,6 +16,7 @@ Preserve useful lessons and resume from verified state.
 - [Architecture Sketches, Structural Red Flags, and Design Rationale](../architecture-sketches-structural-red-flags-and-design-rationale.md)
 - [User-Visible Bottlenecks, Work Elimination, and Regression Monitoring](../user-visible-bottlenecks-work-elimination-and-regression-monitoring.md)
 - [Secret Protection, Resource Authorization, and Personal Data Minimization](../secret-protection-resource-authorization-and-personal-data-minimization.md)
+- [Version-Matched Official Sources and Cache Revalidation](../version-matched-official-sources-and-cache-revalidation.md)
 
 ## References
 
@@ -33,7 +34,6 @@ No materials yet.
 - [Audit live sessions and uncommitted changes before removing worktrees](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md)
 - [Keep append-only decision records linked to real evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
 - [Define measurable project quality thresholds and record exceptions with owners and expiry](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
-- [Revalidate cached official documentation with origin validators before using it across sessions](https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md)
 - [Record architecture decisions with alternatives and supersede rather than erase old ADRs](https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md)
 - [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 

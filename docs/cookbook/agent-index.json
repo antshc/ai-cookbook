@@ -2741,81 +2741,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-verify-framework-specific-decisions-against-version-matched-official-documentation",
-      "title": "Verify framework-specific decisions against version-matched official documentation",
-      "principle": "Verify framework-specific decisions against version-matched official documentation",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "output-contracts",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "verify",
-        "framework",
-        "specific",
-        "decisions",
-        "against",
-        "version",
-        "matched",
-        "official",
-        "documentation"
-      ],
-      "use_when": "Use when defining agent behavior to verify framework-specific decisions against version-matched official documentation.",
-      "provides": [
-        "Verify framework-specific decisions against version-matched official documentation"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-cite-authoritative-implementation-sources-and-label-unverifiable-patterns-explicitly",
-      "title": "Cite authoritative implementation sources and label unverifiable patterns explicitly",
-      "principle": "Cite authoritative implementation sources and label unverifiable patterns explicitly",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "cite",
-        "authoritative",
-        "implementation",
-        "sources",
-        "and",
-        "label",
-        "unverifiable",
-        "patterns",
-        "explicitly"
-      ],
-      "use_when": "Use when defining agent behavior to cite authoritative implementation sources and label unverifiable patterns explicitly.",
-      "provides": [
-        "Cite authoritative implementation sources and label unverifiable patterns explicitly"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-honor-idempotency-keys-across-retries-payload-mismatches-and-unknown-outcomes",
       "title": "Honor idempotency keys across retries, payload mismatches, and unknown outcomes",
       "principle": "Honor idempotency keys across retries, payload mismatches, and unknown outcomes",
@@ -2972,48 +2897,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-revalidate-cached-official-documentation-with-origin-validators-before-using-it-across-sessions",
-      "title": "Revalidate cached official documentation with origin validators before using it across sessions",
-      "principle": "Revalidate cached official documentation with origin validators before using it across sessions",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md",
-      "kind": "source-only",
-      "problems": [
-        "output-contracts",
-        "continuity",
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "revalidate",
-        "cached",
-        "official",
-        "documentation",
-        "with",
-        "origin",
-        "validators",
-        "before",
-        "using",
-        "it",
-        "across",
-        "sessions"
-      ],
-      "use_when": "Use when defining agent behavior to revalidate cached official documentation with origin validators before using it across sessions.",
-      "provides": [
-        "Revalidate cached official documentation with origin validators before using it across sessions"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md",
       "covered_principles": []
     },
     {
@@ -6473,6 +6356,51 @@
       "url": "docs/cookbook/least-privilege-tool-restrictions-versus-preapproval.html",
       "covered_principles": [
         "Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents"
+      ]
+    },
+    {
+      "id": "version-matched-official-sources-and-cache-revalidation",
+      "title": "Version-Matched Official Sources and Cache Revalidation",
+      "path": "docs/cookbook/version-matched-official-sources-and-cache-revalidation.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "guidance-evaluation",
+        "missing-context",
+        "output-contracts",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "version",
+        "matched",
+        "official",
+        "sources",
+        "and",
+        "cache",
+        "revalidation"
+      ],
+      "use_when": "An agent can apply an outdated API pattern or trust a stale documentation cache. Framework decisions need current, version-matched official evidence.",
+      "provides": [
+        "Revalidate cached official documentation with origin validators before using it across sessions",
+        "Verify framework-specific decisions against version-matched official documentation",
+        "Cite authoritative implementation sources and label unverifiable patterns explicitly"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/version-matched-official-sources-and-cache-revalidation.html",
+      "covered_principles": [
+        "Verify framework-specific decisions against version-matched official documentation",
+        "Cite authoritative implementation sources and label unverifiable patterns explicitly",
+        "Revalidate cached official documentation with origin validators before using it across sessions"
       ]
     }
   ]

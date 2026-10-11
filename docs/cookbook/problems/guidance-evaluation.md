@@ -11,6 +11,7 @@ Evaluate observable behavior and improve guidance from evidence.
 - [Competing Designs, Prototype Experiments, and Cross-Judging](../competing-designs-prototype-experiments-and-cross-judging.md)
 - [Reproducible Benchmarks, Frozen Baselines, and Honest Metrics](../reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
 - [User-Visible Bottlenecks, Work Elimination, and Regression Monitoring](../user-visible-bottlenecks-work-elimination-and-regression-monitoring.md)
+- [Version-Matched Official Sources and Cache Revalidation](../version-matched-official-sources-and-cache-revalidation.md)
 
 ## References
 
@@ -27,7 +28,6 @@ No materials yet.
 
 - [Prove visual parity against an unchanged screenshot baseline](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md)
 - [Evaluate agent instructions with blinded candidates and judges](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/eval.md)
-- [Revalidate cached official documentation with origin validators before using it across sessions](https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md)
 - [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 - [Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 - [Use dialogue-only evaluations only when conversation itself is the skill's deliverable](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)

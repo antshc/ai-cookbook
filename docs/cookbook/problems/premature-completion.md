@@ -29,6 +29,7 @@ Define observable completion and account for every obligation.
 - [Independent Evidence-Based Review, Severity, and Reconciliation](../independent-evidence-based-review-severity-and-reconciliation.md)
 - [User-Visible Bottlenecks, Work Elimination, and Regression Monitoring](../user-visible-bottlenecks-work-elimination-and-regression-monitoring.md)
 - [Isolated Browser Profiles and Read-Only Inspection](../isolated-browser-profiles-and-read-only-inspection.md)
+- [Version-Matched Official Sources and Cache Revalidation](../version-matched-official-sources-and-cache-revalidation.md)
 
 ## References
 
@@ -52,7 +53,6 @@ Define observable completion and account for every obligation.
 - [Inspect working-tree changes before autonomous execution and stop on unrelated dirty files](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
 - [Implement complete vertical slices with test, verification, and commit gates](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
 - [Keep incomplete capabilities behind safe defaults or feature flags](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
-- [Verify framework-specific decisions against version-matched official documentation](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Verify responsive and accessible UI states including empty, loading, and error flows](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 - [Verify browser changes against live DOM, console, network, and before-after screenshots](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Refactor incrementally without changing test expectations to force a pass](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
