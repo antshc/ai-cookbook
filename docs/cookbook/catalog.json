@@ -2303,42 +2303,6 @@
       "related": []
     },
     {
-      "id": "principle-pilot-a-full-work-unit-before-scaling-a-multi-agent-program",
-      "title": "Pilot a full work unit before scaling a multi-agent program",
-      "principle": "Pilot a full work unit before scaling a multi-agent program",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "pilot",
-        "a",
-        "full",
-        "work",
-        "unit",
-        "before",
-        "scaling",
-        "a",
-        "multi",
-        "agent",
-        "program"
-      ],
-      "use_when": "Use when defining agent behavior to pilot a full work unit before scaling a multi-agent program.",
-      "provides": [
-        "Pilot a full work unit before scaling a multi-agent program"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-keep-append-only-decision-records-linked-to-real-evidence",
       "title": "Keep append-only decision records linked to real evidence",
       "principle": "Keep append-only decision records linked to real evidence",
@@ -2403,79 +2367,6 @@
       "use_when": "Use when defining agent behavior to evaluate agent instructions with blinded candidates and judges.",
       "provides": [
         "Evaluate agent instructions with blinded candidates and judges"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-refill-a-rolling-worker-window-instead-of-waiting-for-whole-batches",
-      "title": "Refill a rolling worker window instead of waiting for whole batches",
-      "principle": "Refill a rolling worker window instead of waiting for whole batches",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "refill",
-        "a",
-        "rolling",
-        "worker",
-        "window",
-        "instead",
-        "of",
-        "waiting",
-        "for",
-        "whole",
-        "batches"
-      ],
-      "use_when": "Use when defining agent behavior to refill a rolling worker window instead of waiting for whole batches.",
-      "provides": [
-        "Refill a rolling worker window instead of waiting for whole batches"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-judge-agent-progress-by-actual-side-effects-and-replace-stalled-workers",
-      "title": "Judge agent progress by actual side effects and replace stalled workers",
-      "principle": "Judge agent progress by actual side effects and replace stalled workers",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "judge",
-        "agent",
-        "progress",
-        "by",
-        "actual",
-        "side",
-        "effects",
-        "and",
-        "replace",
-        "stalled",
-        "workers"
-      ],
-      "use_when": "Use when defining agent behavior to judge agent progress by actual side effects and replace stalled workers.",
-      "provides": [
-        "Judge agent progress by actual side effects and replace stalled workers"
       ],
       "related": []
     },
@@ -2694,43 +2585,6 @@
       "use_when": "Use when defining agent behavior to propagate operator stop orders to all active agents as an immediate no-writes hold.",
       "provides": [
         "Propagate operator stop orders to all active agents as an immediate no-writes hold"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-prefer-event-based-agent-wakeups-with-a-heartbeat-fallback-over-unnecessary-polling",
-      "title": "Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling",
-      "principle": "Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "prefer",
-        "event",
-        "based",
-        "agent",
-        "wakeups",
-        "with",
-        "a",
-        "heartbeat",
-        "fallback",
-        "over",
-        "unnecessary",
-        "polling"
-      ],
-      "use_when": "Use when defining agent behavior to prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling.",
-      "provides": [
-        "Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling"
       ],
       "related": []
     },
@@ -7034,6 +6888,43 @@
         "Configure model selection per agent responsibility",
         "Start fresh subagents with consolidated instructions unless local state requires a resume",
         "Carry immutable standing orders into every worker spawn and resume"
+      ],
+      "related": []
+    },
+    {
+      "id": "pilot-runs-rolling-worker-windows-and-progress-monitoring",
+      "title": "Pilot Runs, Rolling Worker Windows, and Progress Monitoring",
+      "path": "pilot-runs-rolling-worker-windows-and-progress-monitoring.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "delegation-handoffs",
+        "instruction-compliance"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "pilot",
+        "runs",
+        "rolling",
+        "worker",
+        "windows",
+        "and",
+        "progress",
+        "monitoring"
+      ],
+      "use_when": "Scaling before one full unit works multiplies failures. Whole-batch waits and narrative status also hide stalled workers.",
+      "provides": [
+        "Pilot a full work unit before scaling a multi-agent program",
+        "Refill a rolling worker window instead of waiting for whole batches",
+        "Judge agent progress by actual side effects and replace stalled workers",
+        "Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling"
       ],
       "related": []
     }

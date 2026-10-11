@@ -23,6 +23,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Skill-Owned Code and Supporting Files](../skill-owned-code-and-supporting-files.md)
 - [Repository Adapters, Resource Access, and Portable Skills](../repository-adapters-resource-access-and-portable-skills.md)
 - [Scoped Parallel Workers, Bounded Implementation, and Aggregation](../scoped-parallel-workers-bounded-implementation-and-aggregation.md)
+- [Pilot Runs, Rolling Worker Windows, and Progress Monitoring](../pilot-runs-rolling-worker-windows-and-progress-monitoring.md)
 
 ## References
 
@@ -64,7 +65,6 @@ No materials yet.
 - [Keep verified stacked PRs unmerged until explicitly authorized](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
 - [Audit decision logs against transcripts and correct false or omitted claims by appending rows](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
 - [Independently review long-running decision trails with a different model family](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
-- [Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md)
 - [Fail closed when an external automation's target is uncertain](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
 - [Keep automation webhook secrets on the server, never in the browser or chat](https://github.com/cursor/plugins/blob/main/pstack/skills/make-bot-ui/SKILL.md)
 - [Remove generic AI phrasing while preserving the intended meaning](https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md)

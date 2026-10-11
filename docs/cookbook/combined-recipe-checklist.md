@@ -64,7 +64,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Worker lifecycle and autonomy
 
 - [x] **R31. Worker Configuration, Fresh Sessions, and Standing Orders** — NEW (3 principles). [recipe](worker-configuration-fresh-sessions-and-standing-orders.md).
-- [ ] **R32. Pilot Runs, Rolling Worker Windows, and Progress Monitoring** — NEW (4 principles).
+- [x] **R32. Pilot Runs, Rolling Worker Windows, and Progress Monitoring** — NEW (4 principles). [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
 - [ ] **R33. Single Coordinator for Shared PR Stack Topology** — NEW (1 principles).
 - [ ] **R34. Fixed Stop Conditions and Immediate Stop Propagation** — NEW (2 principles).
 - [ ] **R35. Reversible Autonomy, Approval Gates, and Uncertain Targets** — NEW (6 principles).
@@ -398,10 +398,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Pilot a full work unit before scaling a multi-agent program** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md).
-- [ ] **Refill a rolling worker window instead of waiting for whole batches** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md).
-- [ ] **Judge agent progress by actual side effects and replace stalled workers** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md).
-- [ ] **Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md).
+- [x] **Pilot a full work unit before scaling a multi-agent program** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
+- [x] **Refill a rolling worker window instead of waiting for whole batches** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
+- [x] **Judge agent progress by actual side effects and replace stalled workers** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
+- [x] **Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
 
 ### R33. Single Coordinator for Shared PR Stack Topology
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 95 |
-| Principles still awaiting coverage | 149 |
+| Already covered principles | 99 |
+| Principles still awaiting coverage | 145 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
