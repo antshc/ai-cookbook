@@ -11,6 +11,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Verification Cost, Changed Scope, and Avoiding Redundant Runs](../verification-cost-changed-scope-and-avoiding-redundant-runs.md)
 - [Red-Green-Refactor and Failing Regression Tests](../red-green-refactor-and-failing-regression-tests.md)
 - [Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks](../root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
+- [Improvement Flywheel and Enforced Lessons](../improvement-flywheel-and-enforced-lessons.md)
 
 ## References
 
@@ -26,7 +27,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Improvement flywheel (classify and fix observed failures)](https://github.com/antshc/brain/blob/main/docs/concepts/ops-improvement-flywheel.md)
 - [Behavior-preserving agent review](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md)
 - [Instruction robustness](https://github.com/antshc/brain/blob/main/docs/concepts/ops-instruction-robustness.md)
 - [Constraint-first reasoning](https://github.com/antshc/brain/blob/main/docs/concepts/structure-constraint-first-reasoning.md)
@@ -37,7 +37,6 @@ No materials yet.
 - [Skill-owned code](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md)
 - [Validate and handle errors at system boundaries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-boundary-discipline/SKILL.md)
 - [Build a rerunnable tool for nontrivial work](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md)
-- [Turn recurring corrections into enforced mechanisms](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-encode-lessons-in-structure/SKILL.md)
 - [Prioritize consumer experience over implementation convenience](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-experience-first/SKILL.md)
 - [Make state-changing operations converge across retries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-make-operations-idempotent/SKILL.md)
 - [Migrate callers and delete obsolete internal APIs together](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md)

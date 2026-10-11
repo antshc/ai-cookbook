@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 38 covered, 206 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 40 covered, 204 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -18,7 +18,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Focused testing](#focused-testing) | 6 | 6 | 0 |
 | [Regression protection](#regression-protection) | 6 | 5 | 1 |
 | [Root-cause diagnosis](#root-cause-diagnosis) | 7 | 7 | 0 |
-| [Learning from failures](#learning-from-failures) | 9 | 3 | 6 |
+| [Learning from failures](#learning-from-failures) | 9 | 5 | 4 |
 | [Resumable execution](#resumable-execution) | 9 | 1 | 8 |
 | [Instruction enforcement](#instruction-enforcement) | 7 | 0 | 7 |
 | [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 0 | 8 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **38** | **206** |
+| **Total** | **244** | **40** | **204** |
 
 ## Completion checks
 
@@ -118,8 +118,8 @@ Which observed lesson should become memory, corrected guidance, or an enforced m
 
 - [x] **Gotchas** — [recipe](gotchas-and-persistent-memory.md)
 - [x] **Persistent memory** — [recipe](gotchas-and-persistent-memory.md)
-- [ ] **Improvement flywheel (classify and fix observed failures)** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-improvement-flywheel.md)
-- [ ] **Turn recurring corrections into enforced mechanisms** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-encode-lessons-in-structure/SKILL.md)
+- [x] **Improvement flywheel (classify and fix observed failures)** — [recipe](improvement-flywheel-and-enforced-lessons.md)
+- [x] **Turn recurring corrections into enforced mechanisms** — [recipe](improvement-flywheel-and-enforced-lessons.md)
 - [ ] **Repair broken workflow skills in a separate PR from feature work** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
 - [ ] **Limit retrospective skill changes to demonstrated use or missed triggers** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md)
 - [ ] **Turn session retrospectives into tested agent-guidance changes** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md)

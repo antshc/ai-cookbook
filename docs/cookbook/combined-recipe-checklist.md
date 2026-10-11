@@ -38,7 +38,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Learning and continuity
 
 - [x] **R11. Gotchas, Persistent Memory, and Evidence-Based Preferences** — EXTEND (3 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/gotchas-and-persistent-memory.md). [recipe](gotchas-and-persistent-memory.md).
-- [ ] **R12. Improvement Flywheel and Enforced Lessons** — NEW (2 principles).
+- [x] **R12. Improvement Flywheel and Enforced Lessons** — NEW (2 principles). [recipe](improvement-flywheel-and-enforced-lessons.md).
 - [ ] **R13. Evidence-Based Retrospectives and Approved Guidance Repairs** — NEW (4 principles).
 - [x] **R14. Checklist-Driven Workflow** — KEEP (1 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/checklist-driven-workflow.md).
 - [ ] **R15. Session Ledger, Open Questions, and Restartable Handoffs** — NEW (5 principles).
@@ -240,8 +240,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Improvement flywheel (classify and fix observed failures)** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-improvement-flywheel.md).
-- [ ] **Turn recurring corrections into enforced mechanisms** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-encode-lessons-in-structure/SKILL.md).
+- [x] **Improvement flywheel (classify and fix observed failures)** — [recipe](improvement-flywheel-and-enforced-lessons.md).
+- [x] **Turn recurring corrections into enforced mechanisms** — [recipe](improvement-flywheel-and-enforced-lessons.md).
 
 ### R13. Evidence-Based Retrospectives and Approved Guidance Repairs
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 38 |
-| Principles still awaiting coverage | 206 |
+| Already covered principles | 40 |
+| Principles still awaiting coverage | 204 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

@@ -583,38 +583,6 @@
       ]
     },
     {
-      "id": "principle-improvement-flywheel-classify-and-fix-observed-failures",
-      "title": "Improvement flywheel (classify and fix observed failures)",
-      "principle": "Improvement flywheel (classify and fix observed failures)",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/ops-improvement-flywheel.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "improvement",
-        "flywheel",
-        "classify",
-        "and",
-        "fix",
-        "observed",
-        "failures"
-      ],
-      "use_when": "Use when defining agent behavior to improvement flywheel (classify and fix observed failures).",
-      "provides": [
-        "Improvement flywheel (classify and fix observed failures)"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-canary-rule-verification",
       "title": "Canary rule verification",
       "principle": "Canary rule verification",
@@ -1278,37 +1246,6 @@
       "use_when": "Use when defining agent behavior to build a rerunnable tool for nontrivial work.",
       "provides": [
         "Build a rerunnable tool for nontrivial work"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-turn-recurring-corrections-into-enforced-mechanisms",
-      "title": "Turn recurring corrections into enforced mechanisms",
-      "principle": "Turn recurring corrections into enforced mechanisms",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-encode-lessons-in-structure/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "turn",
-        "recurring",
-        "corrections",
-        "into",
-        "enforced",
-        "mechanisms"
-      ],
-      "use_when": "Use when defining agent behavior to turn recurring corrections into enforced mechanisms.",
-      "provides": [
-        "Turn recurring corrections into enforced mechanisms"
       ],
       "related": []
     },
@@ -8292,6 +8229,37 @@
       "use_when": "Large trace files encourage visual guessing and unsupported hotspot claims. Findings need a queryable representation and a link from recorded frames to source.",
       "provides": [
         "Convert traces to queryable data and attribute findings to source symbols"
+      ],
+      "related": []
+    },
+    {
+      "id": "improvement-flywheel-and-enforced-lessons",
+      "title": "Improvement Flywheel and Enforced Lessons",
+      "path": "improvement-flywheel-and-enforced-lessons.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "debugging",
+        "review"
+      ],
+      "keywords": [
+        "improvement",
+        "flywheel",
+        "and",
+        "enforced",
+        "lessons"
+      ],
+      "use_when": "Repeated failures persist when lessons are stored as reminders that never constrain execution. A durable repair must target the missing fact or the mechanism that caused the failure.",
+      "provides": [
+        "Improvement flywheel (classify and fix observed failures)",
+        "Turn recurring corrections into enforced mechanisms"
       ],
       "related": []
     }
