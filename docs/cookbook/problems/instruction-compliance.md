@@ -18,6 +18,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Concise Instructions, Explicit Goals, and Model-Neutral Procedures](../concise-instructions-explicit-goals-and-model-neutral-procedures.md)
 - [Instruction Loading and Canary Checks](../instruction-loading-and-canary-checks.md)
 - [Skill Discovery, Trigger Indexing, and Native Routing](../skill-discovery-trigger-indexing-and-native-routing.md)
+- [Progressive Disclosure, Targeted Context, and Safe Trimming](../progressive-disclosure-targeted-context-and-safe-trimming.md)
 
 ## References
 
@@ -74,7 +75,6 @@ No materials yet.
 - [Apply a minimum quality floor in noninteractive runs when project thresholds are absent](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Build dependency-ordered, verifiable task slices without implementing during planning](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
 - [Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
-- [Trim context proactively while preserving active constraints, errors, and decisions](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
 - [Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
 - [Require explicit authorization for each external cross-model review invocation](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
 - [Stage only files belonging to the current autonomous task rather than blindly staging every change](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)

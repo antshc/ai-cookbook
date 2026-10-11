@@ -9,6 +9,7 @@ Preserve useful lessons and resume from verified state.
 - [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
 - [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 - [Safe Pause, Context Recovery, and Verified Resume](../safe-pause-context-recovery-and-verified-resume.md)
+- [Progressive Disclosure, Targeted Context, and Safe Trimming](../progressive-disclosure-targeted-context-and-safe-trimming.md)
 
 ## References
 
@@ -22,7 +23,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Progressive disclosure of agent guidance](https://github.com/antshc/brain/blob/main/skills/engineering/writing-great-skills/GLOSSARY.md)
 - [Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md)
 - [Record exact investigation queries, empty results, and contradictory evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
 - [Audit live sessions and uncommitted changes before removing worktrees](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md)

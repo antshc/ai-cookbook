@@ -1192,40 +1192,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-progressive-disclosure-of-agent-guidance",
-      "title": "Progressive disclosure of agent guidance",
-      "principle": "Progressive disclosure of agent guidance",
-      "path": "https://github.com/antshc/brain/blob/main/skills/engineering/writing-great-skills/GLOSSARY.md",
-      "kind": "source-only",
-      "problems": [
-        "context-size",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "progressive",
-        "disclosure",
-        "of",
-        "agent",
-        "guidance"
-      ],
-      "use_when": "Use when defining agent behavior to progressive disclosure of agent guidance.",
-      "provides": [
-        "Progressive disclosure of agent guidance"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/skills/engineering/writing-great-skills/GLOSSARY.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-template-ownership-of-rendering",
       "title": "Template ownership of rendering",
       "principle": "Template ownership of rendering",
@@ -5197,86 +5163,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-load-relevant-implementation-tests-types-and-precedent-instead-of-entire-context-dumps",
-      "title": "Load relevant implementation, tests, types, and precedent instead of entire context dumps",
-      "principle": "Load relevant implementation, tests, types, and precedent instead of entire context dumps",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "load",
-        "relevant",
-        "implementation",
-        "tests",
-        "types",
-        "and",
-        "precedent",
-        "instead",
-        "of",
-        "entire",
-        "context",
-        "dumps"
-      ],
-      "use_when": "Use when defining agent behavior to load relevant implementation, tests, types, and precedent instead of entire context dumps.",
-      "provides": [
-        "Load relevant implementation, tests, types, and precedent instead of entire context dumps"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-trim-context-proactively-while-preserving-active-constraints-errors-and-decisions",
-      "title": "Trim context proactively while preserving active constraints, errors, and decisions",
-      "principle": "Trim context proactively while preserving active constraints, errors, and decisions",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "trim",
-        "context",
-        "proactively",
-        "while",
-        "preserving",
-        "active",
-        "constraints",
-        "errors",
-        "and",
-        "decisions"
-      ],
-      "use_when": "Use when defining agent behavior to trim context proactively while preserving active constraints, errors, and decisions.",
-      "provides": [
-        "Trim context proactively while preserving active constraints, errors, and decisions"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-verify-framework-specific-decisions-against-version-matched-official-documentation",
       "title": "Verify framework-specific decisions against version-matched official documentation",
       "principle": "Verify framework-specific decisions against version-matched official documentation",
@@ -7515,48 +7401,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-keep-skill-entrypoints-concise-with-trigger-descriptions-and-load-long-references-on-demand",
-      "title": "Keep skill entrypoints concise with trigger descriptions and load long references on demand",
-      "principle": "Keep skill entrypoints concise with trigger descriptions and load long references on demand",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md",
-      "kind": "source-only",
-      "problems": [
-        "skill-routing",
-        "context-size"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "keep",
-        "skill",
-        "entrypoints",
-        "concise",
-        "with",
-        "trigger",
-        "descriptions",
-        "and",
-        "load",
-        "long",
-        "references",
-        "on",
-        "demand"
-      ],
-      "use_when": "Use when defining agent behavior to keep skill entrypoints concise with trigger descriptions and load long references on demand.",
-      "provides": [
-        "Keep skill entrypoints concise with trigger descriptions and load long references on demand"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-default-launch-decisions-to-no-go-for-unresolved-critical-findings-unless-the-operator-explicitly-accepts-the-risk",
       "title": "Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk",
       "principle": "Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk",
@@ -8848,6 +8692,54 @@
       "covered_principles": [
         "Test skill routing with realistic positive triggers and neighboring negative triggers",
         "For negative routing tests, require the intended owner skill to outrank the wrong skill"
+      ]
+    },
+    {
+      "id": "progressive-disclosure-targeted-context-and-safe-trimming",
+      "title": "Progressive Disclosure, Targeted Context, and Safe Trimming",
+      "path": "docs/cookbook/progressive-disclosure-targeted-context-and-safe-trimming.md",
+      "kind": "recipe",
+      "problems": [
+        "context-size",
+        "continuity",
+        "instruction-compliance",
+        "missing-context",
+        "premature-completion",
+        "skill-routing"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "progressive",
+        "disclosure",
+        "targeted",
+        "context",
+        "and",
+        "safe",
+        "trimming"
+      ],
+      "use_when": "Loading every reference floods context, while trimming the active task can remove essential constraints. Disclosure and compression must preserve the information needed for the current branch.",
+      "provides": [
+        "Progressive disclosure of agent guidance",
+        "Load relevant implementation, tests, types, and precedent instead of entire context dumps",
+        "Trim context proactively while preserving active constraints, errors, and decisions",
+        "Keep skill entrypoints concise with trigger descriptions and load long references on demand"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/progressive-disclosure-targeted-context-and-safe-trimming.html",
+      "covered_principles": [
+        "Progressive disclosure of agent guidance",
+        "Load relevant implementation, tests, types, and precedent instead of entire context dumps",
+        "Trim context proactively while preserving active constraints, errors, and decisions",
+        "Keep skill entrypoints concise with trigger descriptions and load long references on demand"
       ]
     }
   ]

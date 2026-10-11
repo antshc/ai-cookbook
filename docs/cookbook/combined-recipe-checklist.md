@@ -50,7 +50,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R19. Instruction Loading and Canary Checks** — NEW (2 principles). [recipe](instruction-loading-and-canary-checks.md).
 - [x] **R20. Skill Discovery, Trigger Indexing, and Native Routing** — NEW (5 principles). [recipe](skill-discovery-trigger-indexing-and-native-routing.md).
 - [x] **R21. Positive and Negative Skill Routing Tests** — NEW (2 principles). [recipe](positive-and-negative-skill-routing-tests.md).
-- [ ] **R22. Progressive Disclosure, Targeted Context, and Safe Trimming** — NEW (4 principles).
+- [x] **R22. Progressive Disclosure, Targeted Context, and Safe Trimming** — NEW (4 principles). [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md).
 - [ ] **R23. Delegate Bulk Exploration to Preserve Context** — NEW (1 principles).
 ### Ownership and delegation
 
@@ -320,10 +320,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Progressive disclosure of agent guidance** — [source](https://github.com/antshc/brain/blob/main/skills/engineering/writing-great-skills/GLOSSARY.md).
-- [ ] **Load relevant implementation, tests, types, and precedent instead of entire context dumps** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md).
-- [ ] **Trim context proactively while preserving active constraints, errors, and decisions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md).
-- [ ] **Keep skill entrypoints concise with trigger descriptions and load long references on demand** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md).
+- [x] **Progressive disclosure of agent guidance** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md).
+- [x] **Load relevant implementation, tests, types, and precedent instead of entire context dumps** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md).
+- [x] **Trim context proactively while preserving active constraints, errors, and decisions** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md).
+- [x] **Keep skill entrypoints concise with trigger descriptions and load long references on demand** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md).
 
 ### R23. Delegate Bulk Exploration to Preserve Context
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 67 |
-| Principles still awaiting coverage | 177 |
+| Already covered principles | 71 |
+| Principles still awaiting coverage | 173 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

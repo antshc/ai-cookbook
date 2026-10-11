@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 67 covered, 177 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 71 covered, 173 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -22,7 +22,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Resumable execution](#resumable-execution) | 9 | 9 | 0 |
 | [Instruction enforcement](#instruction-enforcement) | 7 | 7 | 0 |
 | [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 8 | 0 |
-| [Context management](#context-management) | 5 | 0 | 5 |
+| [Context management](#context-management) | 5 | 4 | 1 |
 | [Ownership and composition](#ownership-and-composition) | 11 | 0 | 11 |
 | [Delegation contracts](#delegation-contracts) | 7 | 0 | 7 |
 | [Worker lifecycle](#worker-lifecycle) | 9 | 0 | 9 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **67** | **177** |
+| **Total** | **244** | **71** | **173** |
 
 ## Completion checks
 
@@ -169,11 +169,11 @@ Which skill owns this request, and does the loading and routing mechanism select
 
 Which guidance and evidence must be loaded, retained, disclosed later, or delegated?
 
-- [ ] **Progressive disclosure of agent guidance** — [source](https://github.com/antshc/brain/blob/main/skills/engineering/writing-great-skills/GLOSSARY.md)
+- [x] **Progressive disclosure of agent guidance** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md)
 - [ ] **Preserve agent context by delegating bulk exploration** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-guard-the-context-window/SKILL.md)
-- [ ] **Load relevant implementation, tests, types, and precedent instead of entire context dumps** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
-- [ ] **Trim context proactively while preserving active constraints, errors, and decisions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
-- [ ] **Keep skill entrypoints concise with trigger descriptions and load long references on demand** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md)
+- [x] **Load relevant implementation, tests, types, and precedent instead of entire context dumps** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md)
+- [x] **Trim context proactively while preserving active constraints, errors, and decisions** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md)
+- [x] **Keep skill entrypoints concise with trigger descriptions and load long references on demand** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md)
 
 ## Ownership and composition
 

@@ -11,6 +11,7 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Queryable Traces and Source Attribution](../queryable-traces-and-source-attribution.md)
 - [Safe Pause, Context Recovery, and Verified Resume](../safe-pause-context-recovery-and-verified-resume.md)
 - [Constraint-First Instructions and Anti-Rationalization Rules](../constraint-first-instructions-and-anti-rationalization-rules.md)
+- [Progressive Disclosure, Targeted Context, and Safe Trimming](../progressive-disclosure-targeted-context-and-safe-trimming.md)
 
 ## References
 
@@ -42,8 +43,6 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Preserve locally edited managed files and keep user configuration outside automation packs](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
 - [Surface assumptions and stop when requirements conflict or remain uncertain](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md)
 - [Record and test key idea assumptions before committing to an MVP](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md)
-- [Load relevant implementation, tests, types, and precedent instead of entire context dumps](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
-- [Trim context proactively while preserving active constraints, errors, and decisions](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
 - [Cite authoritative implementation sources and label unverifiable patterns explicitly](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Honor idempotency keys across retries, payload mismatches, and unknown outcomes](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
 - [Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)

@@ -20,6 +20,7 @@ Define observable completion and account for every obligation.
 - [Instruction Loading and Canary Checks](../instruction-loading-and-canary-checks.md)
 - [Skill Discovery, Trigger Indexing, and Native Routing](../skill-discovery-trigger-indexing-and-native-routing.md)
 - [Positive and Negative Skill Routing Tests](../positive-and-negative-skill-routing-tests.md)
+- [Progressive Disclosure, Targeted Context, and Safe Trimming](../progressive-disclosure-targeted-context-and-safe-trimming.md)
 
 ## References
 
@@ -51,7 +52,6 @@ Define observable completion and account for every obligation.
 - [Inspect working-tree changes before autonomous execution and stop on unrelated dirty files](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
 - [Implement complete vertical slices with test, verification, and commit gates](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
 - [Keep incomplete capabilities behind safe defaults or feature flags](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
-- [Load relevant implementation, tests, types, and precedent instead of entire context dumps](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
 - [Verify framework-specific decisions against version-matched official documentation](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Verify responsive and accessible UI states including empty, loading, and error flows](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 - [Verify browser changes against live DOM, console, network, and before-after screenshots](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
