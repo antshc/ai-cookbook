@@ -73,7 +73,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R36. Clarify Intent, Surface Assumptions, and Challenge Scope** — NEW (5 principles). [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
 - [x] **R37. Explore Alternatives and Test MVP Assumptions** — NEW (2 principles). [recipe](explore-alternatives-and-test-mvp-assumptions.md).
 - [x] **R38. Consumer-First Design, Public Contracts, and Usage Guides** — NEW (4 principles). [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
-- [ ] **R39. Domain Models, Foundational Constraints, and Invalid States** — NEW (4 principles).
+- [x] **R39. Domain Models, Foundational Constraints, and Invalid States** — NEW (4 principles). [recipe](domain-models-foundational-constraints-and-invalid-states.md).
 - [ ] **R40. Competing Designs, Prototype Experiments, and Cross-Judging** — NEW (3 principles).
 - [ ] **R41. Architecture Sketches, Structural Red Flags, and Design Rationale** — NEW (3 principles).
 ### Review
@@ -457,10 +457,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Choose core data shapes and shared foundations before features** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-foundational-thinking/SKILL.md).
-- [ ] **Represent domain invariants in explicit data structures** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-model-the-domain/SKILL.md).
-- [ ] **Redesign new requirements as foundational constraints** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-redesign-from-first-principles/SKILL.md).
-- [ ] **Use types to exclude invalid states and exhaust variants** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-type-system-discipline/SKILL.md).
+- [x] **Choose core data shapes and shared foundations before features** — [recipe](domain-models-foundational-constraints-and-invalid-states.md).
+- [x] **Represent domain invariants in explicit data structures** — [recipe](domain-models-foundational-constraints-and-invalid-states.md).
+- [x] **Redesign new requirements as foundational constraints** — [recipe](domain-models-foundational-constraints-and-invalid-states.md).
+- [x] **Use types to exclude invalid states and exhaust variants** — [recipe](domain-models-foundational-constraints-and-invalid-states.md).
 
 ### R40. Competing Designs, Prototype Experiments, and Cross-Judging
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 119 |
-| Principles still awaiting coverage | 125 |
+| Already covered principles | 123 |
+| Principles still awaiting coverage | 121 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

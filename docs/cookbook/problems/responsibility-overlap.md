@@ -12,6 +12,7 @@ Give each procedure and responsibility one clear owner.
 - [Agent-Agnostic Contracts and Structured CLI Handoffs](../agent-agnostic-contracts-and-structured-cli-handoffs.md)
 - [Single Coordinator for Shared PR Stack Topology](../single-coordinator-for-shared-pr-stack-topology.md)
 - [Consumer-First Design, Public Contracts, and Usage Guides](../consumer-first-design-public-contracts-and-usage-guides.md)
+- [Domain Models, Foundational Constraints, and Invalid States](../domain-models-foundational-constraints-and-invalid-states.md)
 
 ## References
 
@@ -25,9 +26,7 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Choose core data shapes and shared foundations before features](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-foundational-thinking/SKILL.md)
 - [Prefer the smallest change and shallowest useful abstraction](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-laziness-protocol/SKILL.md)
-- [Redesign new requirements as foundational constraints](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-redesign-from-first-principles/SKILL.md)
 - [Separate shared mutable state before using locks](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md)
 - [Make module internals inaccessible and expose only one supported operation path](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/design-red-flags.md)
 - [Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md)

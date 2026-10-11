@@ -27,6 +27,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Reversible Autonomy, Approval Gates, and Uncertain Targets](../reversible-autonomy-approval-gates-and-uncertain-targets.md)
 - [Clarify Intent, Surface Assumptions, and Challenge Scope](../clarify-intent-surface-assumptions-and-challenge-scope.md)
 - [Consumer-First Design, Public Contracts, and Usage Guides](../consumer-first-design-public-contracts-and-usage-guides.md)
+- [Domain Models, Foundational Constraints, and Invalid States](../domain-models-foundational-constraints-and-invalid-states.md)
 
 ## References
 
@@ -47,10 +48,7 @@ No materials yet.
 - [Build a rerunnable tool for nontrivial work](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md)
 - [Make state-changing operations converge across retries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-make-operations-idempotent/SKILL.md)
 - [Migrate callers and delete obsolete internal APIs together](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md)
-- [Represent domain invariants in explicit data structures](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-model-the-domain/SKILL.md)
-- [Redesign new requirements as foundational constraints](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-redesign-from-first-principles/SKILL.md)
 - [Sequence changes as independently verifiable units](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
-- [Use types to exclude invalid states and exhaust variants](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-type-system-discipline/SKILL.md)
 - [Validate authored skills, referenced files, and structural examples](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md)
 - [Sketch architecture first and redo it when structural red flags appear](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md)
 - [Compare independent design candidates with cross-judging](https://github.com/cursor/plugins/blob/main/pstack/skills/arena/SKILL.md)

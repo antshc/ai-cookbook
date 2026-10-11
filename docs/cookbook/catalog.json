@@ -771,40 +771,6 @@
       "related": []
     },
     {
-      "id": "principle-choose-core-data-shapes-and-shared-foundations-before-features",
-      "title": "Choose core data shapes and shared foundations before features",
-      "principle": "Choose core data shapes and shared foundations before features",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-foundational-thinking/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "choose",
-        "core",
-        "data",
-        "shapes",
-        "and",
-        "shared",
-        "foundations",
-        "before",
-        "features"
-      ],
-      "use_when": "Use when defining agent behavior to choose core data shapes and shared foundations before features.",
-      "provides": [
-        "Choose core data shapes and shared foundations before features"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-prefer-the-smallest-change-and-shallowest-useful-abstraction",
       "title": "Prefer the smallest change and shallowest useful abstraction",
       "principle": "Prefer the smallest change and shallowest useful abstraction",
@@ -936,38 +902,6 @@
       "related": []
     },
     {
-      "id": "principle-represent-domain-invariants-in-explicit-data-structures",
-      "title": "Represent domain invariants in explicit data structures",
-      "principle": "Represent domain invariants in explicit data structures",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-model-the-domain/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "represent",
-        "domain",
-        "invariants",
-        "in",
-        "explicit",
-        "data",
-        "structures"
-      ],
-      "use_when": "Use when defining agent behavior to represent domain invariants in explicit data structures.",
-      "provides": [
-        "Represent domain invariants in explicit data structures"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-optimize-planned-migrations-for-a-verified-final-state",
       "title": "Optimize planned migrations for a verified final state",
       "principle": "Optimize planned migrations for a verified final state",
@@ -998,38 +932,6 @@
       "use_when": "Use when defining agent behavior to optimize planned migrations for a verified final state.",
       "provides": [
         "Optimize planned migrations for a verified final state"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-redesign-new-requirements-as-foundational-constraints",
-      "title": "Redesign new requirements as foundational constraints",
-      "principle": "Redesign new requirements as foundational constraints",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-redesign-from-first-principles/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "responsibility-overlap"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "redesign",
-        "new",
-        "requirements",
-        "as",
-        "foundational",
-        "constraints"
-      ],
-      "use_when": "Use when defining agent behavior to redesign new requirements as foundational constraints.",
-      "provides": [
-        "Redesign new requirements as foundational constraints"
       ],
       "related": []
     },
@@ -1125,40 +1027,6 @@
       "use_when": "Use when defining agent behavior to remove dead or redundant complexity before additions.",
       "provides": [
         "Remove dead or redundant complexity before additions"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-use-types-to-exclude-invalid-states-and-exhaust-variants",
-      "title": "Use types to exclude invalid states and exhaust variants",
-      "principle": "Use types to exclude invalid states and exhaust variants",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-type-system-discipline/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "use",
-        "types",
-        "to",
-        "exclude",
-        "invalid",
-        "states",
-        "and",
-        "exhaust",
-        "variants"
-      ],
-      "use_when": "Use when defining agent behavior to use types to exclude invalid states and exhaust variants.",
-      "provides": [
-        "Use types to exclude invalid states and exhaust variants"
       ],
       "related": []
     },
@@ -6428,6 +6296,42 @@
         "Derive architecture contracts from caller usage before implementing",
         "Write a consumer usage guide before implementing a shared API",
         "Define public contracts before implementation and preserve observable consumer behavior"
+      ],
+      "related": []
+    },
+    {
+      "id": "domain-models-foundational-constraints-and-invalid-states",
+      "title": "Domain Models, Foundational Constraints, and Invalid States",
+      "path": "domain-models-foundational-constraints-and-invalid-states.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "responsibility-overlap"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "planning",
+        "review"
+      ],
+      "keywords": [
+        "domain",
+        "models",
+        "foundational",
+        "constraints",
+        "and",
+        "invalid",
+        "states"
+      ],
+      "use_when": "Scattered conditionals allow invalid combinations and make new requirements expensive to retrofit. Core data shapes must encode the domain before feature logic expands.",
+      "provides": [
+        "Choose core data shapes and shared foundations before features",
+        "Represent domain invariants in explicit data structures",
+        "Redesign new requirements as foundational constraints",
+        "Use types to exclude invalid states and exhaust variants"
       ],
       "related": []
     }
