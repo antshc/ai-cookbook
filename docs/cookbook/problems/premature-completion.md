@@ -10,6 +10,7 @@ Define observable completion and account for every obligation.
 ## References
 
 - [Grouped principle checklist](../grouped-index.md)
+- [Combined Recipe Checklist](../combined-recipe-checklist.md)
 
 ## Templates
 

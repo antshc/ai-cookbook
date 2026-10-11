@@ -9052,6 +9052,52 @@
       "related": [
         "principle-checklist-driven-workflow"
       ]
+    },
+    {
+      "id": "combined-recipe-checklist",
+      "title": "Combined Recipe Checklist",
+      "path": "combined-recipe-checklist.md",
+      "kind": "reference",
+      "problems": [
+        "skill-routing",
+        "instruction-compliance",
+        "context-size",
+        "responsibility-overlap",
+        "missing-context",
+        "delegation-handoffs",
+        "output-contracts",
+        "premature-completion",
+        "continuity",
+        "guidance-evaluation"
+      ],
+      "applies_to": [
+        "skill",
+        "agent",
+        "instruction",
+        "template"
+      ],
+      "task_types": [
+        "planning",
+        "review"
+      ],
+      "keywords": [
+        "recipe",
+        "checklist",
+        "combined",
+        "grouping",
+        "coverage",
+        "principles",
+        "backlog"
+      ],
+      "use_when": "Plan cookbook recipes that combine related practices while preserving coverage of all 244 original principles.",
+      "provides": [
+        "82 proposed recipes: 79 new, 2 extensions, 1 retained",
+        "Exact one-to-one assignment of 244 principles to proposed recipes",
+        "Verified coverage audit with no omissions or duplicate assignments"
+      ],
+      "related": [
+        "grouped-principle-checklist"
+      ]
     }
   ],
   "principle_groups": [

@@ -11,6 +11,7 @@ No materials yet.
 
 - [Writing agent-facing documents](../agent-skills.instructions.md)
 - [Grouped principle checklist](../grouped-index.md)
+- [Combined Recipe Checklist](../combined-recipe-checklist.md)
 
 ## Templates
 

@@ -11,6 +11,7 @@ No materials yet.
 
 - [Skill Template Categories](../skill-template-categories.md)
 - [Grouped principle checklist](../grouped-index.md)
+- [Combined Recipe Checklist](../combined-recipe-checklist.md)
 
 ## Templates
 

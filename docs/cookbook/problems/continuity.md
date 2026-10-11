@@ -10,6 +10,7 @@ Preserve useful lessons and resume from verified state.
 ## References
 
 - [Grouped principle checklist](../grouped-index.md)
+- [Combined Recipe Checklist](../combined-recipe-checklist.md)
 
 ## Templates
 

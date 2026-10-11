@@ -11,6 +11,7 @@ No materials yet.
 
 - [Authors & Sources](../authors-and-sources.md)
 - [Grouped principle checklist](../grouped-index.md)
+- [Combined Recipe Checklist](../combined-recipe-checklist.md)
 
 ## Templates
 

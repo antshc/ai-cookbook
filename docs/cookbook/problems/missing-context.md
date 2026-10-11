@@ -10,6 +10,7 @@ No materials yet.
 ## References
 
 - [Grouped principle checklist](../grouped-index.md)
+- [Combined Recipe Checklist](../combined-recipe-checklist.md)
 
 ## Templates
 
