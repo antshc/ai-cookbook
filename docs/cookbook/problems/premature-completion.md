@@ -19,6 +19,7 @@ Define observable completion and account for every obligation.
 - [Safe Pause, Context Recovery, and Verified Resume](../safe-pause-context-recovery-and-verified-resume.md)
 - [Instruction Loading and Canary Checks](../instruction-loading-and-canary-checks.md)
 - [Skill Discovery, Trigger Indexing, and Native Routing](../skill-discovery-trigger-indexing-and-native-routing.md)
+- [Positive and Negative Skill Routing Tests](../positive-and-negative-skill-routing-tests.md)
 
 ## References
 
@@ -70,8 +71,6 @@ Define observable completion and account for every obligation.
 - [Use prelaunch gates, staged rollout thresholds, and tested rollback triggers](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)
 - [Verify critical user flows and health signals after deployment](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)
 - [Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/ship.md)
-- [Test skill routing with realistic positive triggers and neighboring negative triggers](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
-- [For negative routing tests, require the intended owner skill to outrank the wrong skill](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 - [Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

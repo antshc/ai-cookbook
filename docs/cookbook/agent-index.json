@@ -7685,90 +7685,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-test-skill-routing-with-realistic-positive-triggers-and-neighboring-negative-triggers",
-      "title": "Test skill routing with realistic positive triggers and neighboring negative triggers",
-      "principle": "Test skill routing with realistic positive triggers and neighboring negative triggers",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/evals/README.md",
-      "kind": "source-only",
-      "problems": [
-        "skill-routing",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "test",
-        "skill",
-        "routing",
-        "with",
-        "realistic",
-        "positive",
-        "triggers",
-        "and",
-        "neighboring",
-        "negative",
-        "triggers"
-      ],
-      "use_when": "Use when defining agent behavior to test skill routing with realistic positive triggers and neighboring negative triggers.",
-      "provides": [
-        "Test skill routing with realistic positive triggers and neighboring negative triggers"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/evals/README.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-for-negative-routing-tests-require-the-intended-owner-skill-to-outrank-the-wrong-skill",
-      "title": "For negative routing tests, require the intended owner skill to outrank the wrong skill",
-      "principle": "For negative routing tests, require the intended owner skill to outrank the wrong skill",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/evals/README.md",
-      "kind": "source-only",
-      "problems": [
-        "skill-routing",
-        "responsibility-overlap",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "for",
-        "negative",
-        "routing",
-        "tests",
-        "require",
-        "the",
-        "intended",
-        "owner",
-        "skill",
-        "to",
-        "outrank",
-        "the",
-        "wrong",
-        "skill"
-      ],
-      "use_when": "Use when defining agent behavior to for negative routing tests, require the intended owner skill to outrank the wrong skill.",
-      "provides": [
-        "For negative routing tests, require the intended owner skill to outrank the wrong skill"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/evals/README.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-evaluate-skill-behavior-using-isolated-executable-fixtures-and-full-tool-traces-rather-than-claimed-intentions",
       "title": "Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions",
       "principle": "Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions",
@@ -8893,6 +8809,45 @@
         "Trigger indexing",
         "Select the applicable skill before work and follow its gates in order",
         "Avoid installing a second always-on skill router when the agent host already routes skills natively"
+      ]
+    },
+    {
+      "id": "positive-and-negative-skill-routing-tests",
+      "title": "Positive and Negative Skill Routing Tests",
+      "path": "docs/cookbook/positive-and-negative-skill-routing-tests.md",
+      "kind": "recipe",
+      "problems": [
+        "premature-completion",
+        "responsibility-overlap",
+        "skill-routing"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation"
+      ],
+      "keywords": [
+        "positive",
+        "and",
+        "negative",
+        "skill",
+        "routing",
+        "tests"
+      ],
+      "use_when": "A description can match its own wording while failing real user requests. Negative tests can also pass merely because no skill matched anything.",
+      "provides": [
+        "Test skill routing with realistic positive triggers and neighboring negative triggers",
+        "For negative routing tests, require the intended owner skill to outrank the wrong skill"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/positive-and-negative-skill-routing-tests.html",
+      "covered_principles": [
+        "Test skill routing with realistic positive triggers and neighboring negative triggers",
+        "For negative routing tests, require the intended owner skill to outrank the wrong skill"
       ]
     }
   ]

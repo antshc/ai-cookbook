@@ -5,6 +5,7 @@ Give each procedure and responsibility one clear owner.
 ## Recipes
 
 - [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
+- [Positive and Negative Skill Routing Tests](../positive-and-negative-skill-routing-tests.md)
 
 ## References
 
@@ -40,7 +41,6 @@ No materials yet.
 - [Define a reference-grounded UI design contract before implementation](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 - [Include required shared references when distributing an individual skill outside its original pack](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md)
 - [Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
-- [For negative routing tests, require the intended owner skill to outrank the wrong skill](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 - [Validate that equivalent host command adapters stay semantically aligned](https://github.com/addyosmani/agent-skills/blob/main/docs/developer-onboarding.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

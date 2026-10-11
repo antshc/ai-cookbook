@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 65 covered, 179 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 67 covered, 177 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -21,7 +21,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Learning from failures](#learning-from-failures) | 9 | 9 | 0 |
 | [Resumable execution](#resumable-execution) | 9 | 9 | 0 |
 | [Instruction enforcement](#instruction-enforcement) | 7 | 7 | 0 |
-| [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 6 | 2 |
+| [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 8 | 0 |
 | [Context management](#context-management) | 5 | 0 | 5 |
 | [Ownership and composition](#ownership-and-composition) | 11 | 0 | 11 |
 | [Delegation contracts](#delegation-contracts) | 7 | 0 | 7 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **65** | **179** |
+| **Total** | **244** | **67** | **177** |
 
 ## Completion checks
 
@@ -162,8 +162,8 @@ Which skill owns this request, and does the loading and routing mechanism select
 - [x] **Trigger indexing** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
 - [x] **Select the applicable skill before work and follow its gates in order** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
 - [x] **Avoid installing a second always-on skill router when the agent host already routes skills natively** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
-- [ ] **Test skill routing with realistic positive triggers and neighboring negative triggers** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
-- [ ] **For negative routing tests, require the intended owner skill to outrank the wrong skill** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
+- [x] **Test skill routing with realistic positive triggers and neighboring negative triggers** — [recipe](positive-and-negative-skill-routing-tests.md)
+- [x] **For negative routing tests, require the intended owner skill to outrank the wrong skill** — [recipe](positive-and-negative-skill-routing-tests.md)
 
 ## Context management
 

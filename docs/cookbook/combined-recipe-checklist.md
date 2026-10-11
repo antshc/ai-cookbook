@@ -49,7 +49,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R18. Concise Instructions, Explicit Goals, and Model-Neutral Procedures** — NEW (3 principles). [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md).
 - [x] **R19. Instruction Loading and Canary Checks** — NEW (2 principles). [recipe](instruction-loading-and-canary-checks.md).
 - [x] **R20. Skill Discovery, Trigger Indexing, and Native Routing** — NEW (5 principles). [recipe](skill-discovery-trigger-indexing-and-native-routing.md).
-- [ ] **R21. Positive and Negative Skill Routing Tests** — NEW (2 principles).
+- [x] **R21. Positive and Negative Skill Routing Tests** — NEW (2 principles). [recipe](positive-and-negative-skill-routing-tests.md).
 - [ ] **R22. Progressive Disclosure, Targeted Context, and Safe Trimming** — NEW (4 principles).
 - [ ] **R23. Delegate Bulk Exploration to Preserve Context** — NEW (1 principles).
 ### Ownership and delegation
@@ -313,8 +313,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Test skill routing with realistic positive triggers and neighboring negative triggers** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
-- [ ] **For negative routing tests, require the intended owner skill to outrank the wrong skill** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
+- [x] **Test skill routing with realistic positive triggers and neighboring negative triggers** — [recipe](positive-and-negative-skill-routing-tests.md).
+- [x] **For negative routing tests, require the intended owner skill to outrank the wrong skill** — [recipe](positive-and-negative-skill-routing-tests.md).
 
 ### R22. Progressive Disclosure, Targeted Context, and Safe Trimming
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 65 |
-| Principles still awaiting coverage | 179 |
+| Already covered principles | 67 |
+| Principles still awaiting coverage | 177 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
