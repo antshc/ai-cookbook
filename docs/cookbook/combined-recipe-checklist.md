@@ -37,7 +37,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R10. Queryable Traces and Source Attribution** — NEW (1 principles). [recipe](queryable-traces-and-source-attribution.md).
 ### Learning and continuity
 
-- [ ] **R11. Gotchas, Persistent Memory, and Evidence-Based Preferences** — EXTEND (3 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/gotchas-and-persistent-memory.md).
+- [x] **R11. Gotchas, Persistent Memory, and Evidence-Based Preferences** — EXTEND (3 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/gotchas-and-persistent-memory.md). [recipe](gotchas-and-persistent-memory.md).
 - [ ] **R12. Improvement Flywheel and Enforced Lessons** — NEW (2 principles).
 - [ ] **R13. Evidence-Based Retrospectives and Approved Guidance Repairs** — NEW (4 principles).
 - [x] **R14. Checklist-Driven Workflow** — KEEP (1 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/checklist-driven-workflow.md).
@@ -232,9 +232,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Extend existing recipe.
 
-- [x] **Gotchas** — [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/gotchas-and-persistent-memory.md).
-- [x] **Persistent memory** — [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/gotchas-and-persistent-memory.md).
-- [ ] **Infer reusable agent preferences only from stable evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/automate-me/SKILL.md).
+- [x] **Gotchas** — [recipe](gotchas-and-persistent-memory.md).
+- [x] **Persistent memory** — [recipe](gotchas-and-persistent-memory.md).
+- [x] **Infer reusable agent preferences only from stable evidence** — [recipe](gotchas-and-persistent-memory.md).
 
 ### R12. Improvement Flywheel and Enforced Lessons
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 37 |
-| Principles still awaiting coverage | 207 |
+| Already covered principles | 38 |
+| Principles still awaiting coverage | 206 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

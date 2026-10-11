@@ -36,7 +36,6 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Keep reproduction recordings, logs, and tokens out of source control](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Keep append-only decision records linked to real evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
 - [Recover prior context within the workspace and verify live state](https://github.com/cursor/plugins/blob/main/pstack/skills/recall/SKILL.md)
-- [Infer reusable agent preferences only from stable evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/automate-me/SKILL.md)
 - [Configure model selection per agent responsibility](https://github.com/cursor/plugins/blob/main/pstack/skills/setup-pstack/SKILL.md)
 - [Review comments as evidence rather than automatically obeying them](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/references/bugbot-triage.md)
 - [Preserve locally edited managed files and keep user configuration outside automation packs](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)

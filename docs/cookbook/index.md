@@ -144,7 +144,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [ ] **Preserve work and a resume note when pausing an agent run** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/pause-safely.md)
 - [ ] **Recover prior context within the workspace and verify live state** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/recall/SKILL.md)
 - [ ] **Turn session retrospectives into tested agent-guidance changes** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md)
-- [ ] **Infer reusable agent preferences only from stable evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/automate-me/SKILL.md)
+- [x] **Infer reusable agent preferences only from stable evidence** — [recipe](gotchas-and-persistent-memory.md)
 - [ ] **Evaluate agent instructions with blinded candidates and judges** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/eval.md)
 - [ ] **Configure model selection per agent responsibility** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/setup-pstack/SKILL.md)
 

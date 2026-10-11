@@ -4,7 +4,7 @@ Preserve useful lessons and resume from verified state.
 
 ## Recipes
 
-- [Gotchas and Persistent Memory](../gotchas-and-persistent-memory.md)
+- [Gotchas, Persistent Memory, and Evidence-Based Preferences](../gotchas-and-persistent-memory.md)
 - [Checklist-driven workflow](../checklist-driven-workflow.md)
 
 ## References

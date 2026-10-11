@@ -1,50 +1,38 @@
-# Recipe: Gotchas and Persistent Memory
+# Recipe: Gotchas, Persistent Memory, and Evidence-Based Preferences
 
 ## Problem
 
-AI agents repeat avoidable mistakes when lessons from prior runs are lost. **Gotchas** are reusable directives grounded in observed friction. **Memory** stores those directives across sessions and makes them available to later runs.
+Agents repeat mistakes when prior lessons are lost, and can turn one isolated correction into a false lasting preference. Memory needs evidence, scoped loading, and one owner for persistence.
 
-## Example 1
+## Example
 
-**Task:** Start a Crew implementation or review run. Repository memory supplies the gotcha rules that apply to the work.
-
-**Source:** Adapted from the actual [Crew gotcha read workflow, lines 8–16](https://github.com/antshc/brain/blob/80fbb79fb1fcca7ccca59fbe884e290dbd117f31/plugins/crew/skills/crew-gotchas/SKILL.md#L8-L16).
+**Task:** Prepare an implementation run from recorded gotchas and update its memory after verification is blocked by a missing CLI.
 
 **AI Instructions:**
 
-> 1. Load relevant repository rules through the memory owner.
-> 2. Read every supplied gotcha. Apply its directive during the work.
-> 3. Report conflicts with current requirements. Do not ignore them silently.
-> 4. If no rules exist, report that no gotchas are recorded. Continue with repository conventions.
-
-## Example 2
-
-**Task:** Review friction from a Crew run before returning its result. A required CLI was unavailable during verification; record a reusable rule that helps future runs detect the blocker earlier.
-
-**Source:** Adapted from the [tool-access candidate and rule-update workflow, lines 18–50](https://github.com/antshc/brain/blob/80fbb79fb1fcca7ccca59fbe884e290dbd117f31/plugins/crew/skills/crew-gotchas/SKILL.md#L18-L50). This task illustrates a failure class named in the skill; it is not a claim about an observed incident.
-
-**AI Instructions:**
-
-> 1. Review changed files, failures, and corrections for reusable lessons.
-> 2. Discard one-off errors, routine steps, and transient failures resolved on the first retry.
-> 3. Turn the observed missing CLI into a directive: check required tool availability before verification; report blocked when unavailable.
-> 4. Refine a matching gotcha or return a new one. Preserve unrelated rules.
-> 5. Return exact updates to the memory owner. Have that owner save them before exit, including blocked or partial results.
-> 6. If persistence fails, report that the update was not saved.
+> 1. Load supplied repository gotchas before work. Report missing rules and conflicts explicitly.
+> 2. Apply the relevant directives during implementation and verification.
+> 3. Review actual friction before exit, including partial and blocked results. Discard one-off mistakes and transient first-retry failures.
+> 4. Return a rule to check required CLI availability before verification. Refine a matching rule rather than duplicating it.
+> 5. Cross-check preference signals across separate history slices. Treat repeated signals as stronger evidence and confirm new intent with the user.
+> 6. Preserve unrelated rules and preferences. Return exact replacements or additions to the memory owner.
+> 7. Have the owner persist updates before exit. Report persistence failures without claiming the rule was saved.
 
 ## Best Practices
 
-- Read memory before work. Save new gotchas before every exit, including blocked or partial results.
-- Record concise, actionable directives from actual repeatable friction. Do not save speculation, secrets, or routine steps.
-- Put missing facts in memory; fix broken agent routing or guardrails in the responsible instructions.
-
-## Sources & Attribution
-
-- **[Brain: Crew Gotchas read workflow, lines 8–16](https://github.com/antshc/brain/blob/80fbb79fb1fcca7ccca59fbe884e290dbd117f31/plugins/crew/skills/crew-gotchas/SKILL.md#L8-L16)**: Load supplied rules, handle absent memory, and report conflicts.
-- **[Brain: Crew Gotchas write workflow, lines 18–50](https://github.com/antshc/brain/blob/80fbb79fb1fcca7ccca59fbe884e290dbd117f31/plugins/crew/skills/crew-gotchas/SKILL.md#L18-L50)**: Classify real friction, discard one-off failures, and refine rules without duplication.
-- **[Brain: Crew Memory skill template, lines 8–20](https://github.com/antshc/brain/blob/80fbb79fb1fcca7ccca59fbe884e290dbd117f31/plugins/crew/skills/init-crew/templates/crew-memory.SKILL.template.md#L8-L20)**: The repository memory owner loads and persists updates. This is a template used to generate repository-local skills, not an installed memory skill in the source repository.
+- Record actionable directives from observed repeatable friction.
+- Use repeated evidence and explicit confirmation for lasting preferences.
+- Keep storage ownership centralized and preserve unrelated memory.
 
 ## Related Recipes
 
-- [Verification, Exit Criteria, and Completeness Sweep](verification-exit-criteria-completeness-sweep.md)
-- [Checklist-driven Workflow](checklist-driven-workflow.md)
+- [Verification, Exit Criteria, Completeness Sweep, and Definition of Done](verification-exit-criteria-completeness-sweep.md)
+
+## Sources & Attribution
+
+Examples adapt the cited workflows. Task details illustrate their use; they do not claim a recorded incident.
+
+## References
+
+- **Brain — [plugins/crew/skills/crew-gotchas/SKILL.md](https://github.com/antshc/brain/blob/848fe1995686604340262a54904f61ebf82ef9b3/plugins/crew/skills/crew-gotchas/SKILL.md):** Example 1, adapted from [plugins/crew/skills/crew-gotchas/SKILL.md, lines 8–50](https://github.com/antshc/brain/blob/848fe1995686604340262a54904f61ebf82ef9b3/plugins/crew/skills/crew-gotchas/SKILL.md#L8-L50).
+- **Lauren Tan (poteto) — [pstack/skills/automate-me/SKILL.md](https://github.com/cursor/plugins/blob/11713c683fe4add4fd403ea880580abbc9e0875f/pstack/skills/automate-me/SKILL.md):** Example 1, adapted from [pstack/skills/automate-me/SKILL.md, lines 22–46](https://github.com/cursor/plugins/blob/11713c683fe4add4fd403ea880580abbc9e0875f/pstack/skills/automate-me/SKILL.md#L22-L46).
