@@ -39,6 +39,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Secret Protection, Resource Authorization, and Personal Data Minimization](../secret-protection-resource-authorization-and-personal-data-minimization.md)
 - [Isolated Browser Profiles and Read-Only Inspection](../isolated-browser-profiles-and-read-only-inspection.md)
 - [Safe Destructive Paths and Dependency Install Controls](../safe-destructive-paths-and-dependency-install-controls.md)
+- [Repository Configuration, Local Edits, and Committed Automation Files](../repository-configuration-local-edits-and-committed-automation-files.md)
 
 ## References
 
@@ -64,7 +65,6 @@ No materials yet.
 - [Audit decision logs against transcripts and correct false or omitted claims by appending rows](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
 - [Independently review long-running decision trails with a different model family](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
 - [Remove generic AI phrasing while preserving the intended meaning](https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md)
-- [Run automations from committed operational files rather than copied instructions or caches](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Update the living specification before implementing changed decisions](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Apply a minimum quality floor in noninteractive runs when project thresholds are absent](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)

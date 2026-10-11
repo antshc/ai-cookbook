@@ -37,7 +37,7 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 - [x] **Agent-agnostic handoff contracts** — [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md)
 - [x] **Session ledger** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 - [x] **Trigger indexing** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
-- [ ] **Per-repository configuration resolution** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md)
+- [x] **Per-repository configuration resolution** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md)
 - [x] **Repository adapter skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Resource access skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Skill-owned code** — [recipe](skill-owned-code-and-supporting-files.md)
@@ -181,8 +181,8 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Describe goals, proof, and constraints without prescribing skill choreography** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)
 - [ ] **Frame agent delivery for both the user and the future maintainer** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
 
-- [ ] **Preserve locally edited managed files and keep user configuration outside automation packs** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
-- [ ] **Run automations from committed operational files rather than copied instructions or caches** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
+- [x] **Preserve locally edited managed files and keep user configuration outside automation packs** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md)
+- [x] **Run automations from committed operational files rather than copied instructions or caches** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md)
 
 ## External scan: addyosmani/agent-skills
 

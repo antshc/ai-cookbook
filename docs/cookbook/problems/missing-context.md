@@ -23,6 +23,7 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Reproducible Benchmarks, Frozen Baselines, and Honest Metrics](../reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
 - [Untrusted Content and Prompt Injection Boundaries](../untrusted-content-and-prompt-injection-boundaries.md)
 - [Secret Protection, Resource Authorization, and Personal Data Minimization](../secret-protection-resource-authorization-and-personal-data-minimization.md)
+- [Repository Configuration, Local Edits, and Committed Automation Files](../repository-configuration-local-edits-and-committed-automation-files.md)
 
 ## References
 
@@ -35,7 +36,6 @@ Specify inputs, configuration, evidence and resource resolution.
 
 ## Principles awaiting recipes
 
-- [Per-repository configuration resolution](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md)
 - [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
 - [Reconstruct design rationale across independent evidence sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)
 - [Calibrate rationale claims to direct, supported, inferred, or unknown evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md)
@@ -43,7 +43,6 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Record exact investigation queries, empty results, and contradictory evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
 - [Keep PR summaries short with observable verification evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
 - [Keep append-only decision records linked to real evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
-- [Preserve locally edited managed files and keep user configuration outside automation packs](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
 - [Cite authoritative implementation sources and label unverifiable patterns explicitly](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Honor idempotency keys across retries, payload mismatches, and unknown outcomes](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
 - [Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)

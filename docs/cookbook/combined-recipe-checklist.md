@@ -93,7 +93,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R50. Safe Destructive Paths and Dependency Install Controls** — NEW (2 principles). [recipe](safe-destructive-paths-and-dependency-install-controls.md).
 ### Configuration and Git
 
-- [ ] **R51. Repository Configuration, Local Edits, and Committed Automation Files** — NEW (3 principles).
+- [x] **R51. Repository Configuration, Local Edits, and Committed Automation Files** — NEW (3 principles). [recipe](repository-configuration-local-edits-and-committed-automation-files.md).
 - [ ] **R52. Least-Privilege Tool Restrictions versus Preapproval** — NEW (1 principles).
 - [ ] **R53. Version-Matched Official Sources and Cache Revalidation** — NEW (3 principles).
 - [ ] **R54. Task-Scoped Staging and Atomic Verified Commits** — NEW (3 principles).
@@ -558,9 +558,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Per-repository configuration resolution** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md).
-- [ ] **Preserve locally edited managed files and keep user configuration outside automation packs** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md).
-- [ ] **Run automations from committed operational files rather than copied instructions or caches** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md).
+- [x] **Per-repository configuration resolution** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md).
+- [x] **Preserve locally edited managed files and keep user configuration outside automation packs** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md).
+- [x] **Run automations from committed operational files rather than copied instructions or caches** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md).
 
 ### R52. Least-Privilege Tool Restrictions versus Preapproval
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 160 |
-| Principles still awaiting coverage | 84 |
+| Already covered principles | 163 |
+| Principles still awaiting coverage | 81 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

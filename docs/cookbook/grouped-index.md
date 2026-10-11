@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 160 covered, 84 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 163 covered, 81 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -32,7 +32,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Independent review](#independent-review) | 9 | 9 | 0 |
 | [Measured performance](#measured-performance) | 8 | 8 | 0 |
 | [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 14 | 0 |
-| [Configuration and distribution](#configuration-and-distribution) | 8 | 3 | 5 |
+| [Configuration and distribution](#configuration-and-distribution) | 8 | 6 | 2 |
 | [Git and workspace safety](#git-and-workspace-safety) | 5 | 0 | 5 |
 | [Migration and deprecation](#migration-and-deprecation) | 6 | 0 | 6 |
 | [Release and rollout](#release-and-rollout) | 5 | 0 | 5 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **160** | **84** |
+| **Total** | **244** | **163** | **81** |
 
 ## Completion checks
 
@@ -309,9 +309,9 @@ Which content is untrusted, which operations are authorized, and which data must
 
 Where do settings and shared references belong, and how are installations and host adapters kept valid?
 
-- [ ] **Per-repository configuration resolution** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md)
-- [ ] **Preserve locally edited managed files and keep user configuration outside automation packs** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
-- [ ] **Run automations from committed operational files rather than copied instructions or caches** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
+- [x] **Per-repository configuration resolution** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md)
+- [x] **Preserve locally edited managed files and keep user configuration outside automation packs** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md)
+- [x] **Run automations from committed operational files rather than copied instructions or caches** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md)
 - [x] **Include required shared references when distributing an individual skill outside its original pack** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [ ] **Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)

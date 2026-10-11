@@ -612,35 +612,6 @@
       "related": []
     },
     {
-      "id": "principle-per-repository-configuration-resolution",
-      "title": "Per-repository configuration resolution",
-      "principle": "Per-repository configuration resolution",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "per",
-        "repository",
-        "configuration",
-        "resolution"
-      ],
-      "use_when": "Use when defining agent behavior to per-repository configuration resolution.",
-      "provides": [
-        "Per-repository configuration resolution"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-build-a-rerunnable-tool-for-nontrivial-work",
       "title": "Build a rerunnable tool for nontrivial work",
       "principle": "Build a rerunnable tool for nontrivial work",
@@ -1732,80 +1703,6 @@
       "use_when": "Use when defining agent behavior to frame agent delivery for both the user and the future maintainer.",
       "provides": [
         "Frame agent delivery for both the user and the future maintainer"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-preserve-locally-edited-managed-files-and-keep-user-configuration-outside-automation-packs",
-      "title": "Preserve locally edited managed files and keep user configuration outside automation packs",
-      "principle": "Preserve locally edited managed files and keep user configuration outside automation packs",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "preserve",
-        "locally",
-        "edited",
-        "managed",
-        "files",
-        "and",
-        "keep",
-        "user",
-        "configuration",
-        "outside",
-        "automation",
-        "packs"
-      ],
-      "use_when": "Use when defining agent behavior to preserve locally edited managed files and keep user configuration outside automation packs.",
-      "provides": [
-        "Preserve locally edited managed files and keep user configuration outside automation packs"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-run-automations-from-committed-operational-files-rather-than-copied-instructions-or-caches",
-      "title": "Run automations from committed operational files rather than copied instructions or caches",
-      "principle": "Run automations from committed operational files rather than copied instructions or caches",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "run",
-        "automations",
-        "from",
-        "committed",
-        "operational",
-        "files",
-        "rather",
-        "than",
-        "copied",
-        "instructions",
-        "or",
-        "caches"
-      ],
-      "use_when": "Use when defining agent behavior to run automations from committed operational files rather than copied instructions or caches.",
-      "provides": [
-        "Run automations from committed operational files rather than copied instructions or caches"
       ],
       "related": []
     },
@@ -5403,6 +5300,41 @@
       "provides": [
         "Guard destructive operations against paths controlled by untrusted upstream processes",
         "Block unreviewed dependency install scripts and audit the committed lockfile"
+      ],
+      "related": []
+    },
+    {
+      "id": "repository-configuration-local-edits-and-committed-automation-files",
+      "title": "Repository Configuration, Local Edits, and Committed Automation Files",
+      "path": "repository-configuration-local-edits-and-committed-automation-files.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "missing-context"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "repository",
+        "configuration",
+        "local",
+        "edits",
+        "and",
+        "committed",
+        "automation",
+        "files"
+      ],
+      "use_when": "Automation packs can overwrite local edits or resolve configuration from inconsistent roots. Live runs need repository-owned configuration and committed operational instructions.",
+      "provides": [
+        "Per-repository configuration resolution",
+        "Preserve locally edited managed files and keep user configuration outside automation packs",
+        "Run automations from committed operational files rather than copied instructions or caches"
       ],
       "related": []
     }
