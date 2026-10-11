@@ -6,6 +6,7 @@ Give each procedure and responsibility one clear owner.
 
 - [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
 - [Positive and Negative Skill Routing Tests](../positive-and-negative-skill-routing-tests.md)
+- [Bounded Agent Roles, Single Ownership, and Composition](../bounded-agent-roles-single-ownership-and-composition.md)
 
 ## References
 
@@ -20,7 +21,6 @@ No materials yet.
 ## Principles awaiting recipes
 
 - [Template ownership of rendering](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md)
-- [Skill composition and single ownership](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-composition.md)
 - [Agent-agnostic handoff contracts](https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md)
 - [Repository adapter skills](https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md)
 - [Choose core data shapes and shared foundations before features](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-foundational-thinking/SKILL.md)
@@ -31,7 +31,6 @@ No materials yet.
 - [Write a consumer usage guide before implementing a shared API](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md)
 - [Make module internals inaccessible and expose only one supported operation path](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/design-red-flags.md)
 - [Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md)
-- [Keep orchestration and code-writing responsibilities with separate owners](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
 - [Keep stack topology updates under one coordinator while PR owners work in parallel](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
 - [Gate automatic bug fixing on a trusted triage verdict and ownership checks](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Approve the capability dependency map before specifying a multi-module initiative](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)

@@ -22,7 +22,7 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 
 - [x] **Instruction robustness** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
 - [x] **Constraint-first reasoning** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
-- [ ] **Agent design and bounded responsibility** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-agents-style.md)
+- [x] **Agent design and bounded responsibility** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 - [x] **Open-question markers** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 - [x] **Repository instruction loading** — [recipe](instruction-loading-and-canary-checks.md)
 - [x] **Skill discovery and trigger descriptions** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
@@ -31,9 +31,9 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 
 ## Composition and state
 
-- [ ] **Skill composition and single ownership** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-composition.md)
+- [x] **Skill composition and single ownership** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 - [x] **Cross-scope specialist discovery** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
-- [ ] **Delegation engine isolation** — [source](https://github.com/antshc/brain/blob/main/docs/adr/explore-codebase-is-skill-agnostic.md)
+- [x] **Delegation engine isolation** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 - [ ] **Agent-agnostic handoff contracts** — [source](https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md)
 - [x] **Session ledger** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 - [x] **Trigger indexing** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
@@ -151,7 +151,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [ ] **Delegate implementation with bounded files and success criteria, then review the diff** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/feature.md)
 - [ ] **Start fresh subagents with consolidated instructions unless local state requires a resume** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
 - [ ] **Carry immutable standing orders into every worker spawn and resume** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
-- [ ] **Keep orchestration and code-writing responsibilities with separate owners** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
+- [x] **Keep orchestration and code-writing responsibilities with separate owners** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 - [ ] **Refill a rolling worker window instead of waiting for whole batches** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
 - [ ] **Judge agent progress by actual side effects and replace stalled workers** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
 - [ ] **Validate multi-phase plans with an executable checker before handoff** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md)
@@ -262,7 +262,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [ ] **Refactor incrementally without changing test expectations to force a pass** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [ ] **Automate wide mechanical refactors instead of hand-editing large change sets** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [ ] **Parallelize independent specialist reviews, but keep aggregation with the orchestrator** — [source](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md)
-- [ ] **Do not make agent personas invoke other personas or add routing-only hops** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/agents.md)
+- [x] **Do not make agent personas invoke other personas or add routing-only hops** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 
 - [ ] **Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out** — [source](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md)
 - [ ] **Mask protected source blocks during agent simplification and restore them from verified placeholders or backups** — [source](https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md)

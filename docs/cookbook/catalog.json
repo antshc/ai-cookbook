@@ -612,36 +612,6 @@
       "related": []
     },
     {
-      "id": "principle-agent-design-and-bounded-responsibility",
-      "title": "Agent design and bounded responsibility",
-      "principle": "Agent design and bounded responsibility",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-agents-style.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "agent",
-        "design",
-        "and",
-        "bounded",
-        "responsibility"
-      ],
-      "use_when": "Use when defining agent behavior to agent design and bounded responsibility.",
-      "provides": [
-        "Agent design and bounded responsibility"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-template-ownership-of-rendering",
       "title": "Template ownership of rendering",
       "principle": "Template ownership of rendering",
@@ -668,64 +638,6 @@
       "use_when": "Use when defining agent behavior to template ownership of rendering.",
       "provides": [
         "Template ownership of rendering"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-skill-composition-and-single-ownership",
-      "title": "Skill composition and single ownership",
-      "principle": "Skill composition and single ownership",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-composition.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "skill",
-        "composition",
-        "and",
-        "single",
-        "ownership"
-      ],
-      "use_when": "Use when defining agent behavior to skill composition and single ownership.",
-      "provides": [
-        "Skill composition and single ownership"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-delegation-engine-isolation",
-      "title": "Delegation engine isolation",
-      "principle": "Delegation engine isolation",
-      "path": "https://github.com/antshc/brain/blob/main/docs/adr/explore-codebase-is-skill-agnostic.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "delegation",
-        "engine",
-        "isolation"
-      ],
-      "use_when": "Use when defining agent behavior to delegation engine isolation.",
-      "provides": [
-        "Delegation engine isolation"
       ],
       "related": []
     },
@@ -2842,41 +2754,6 @@
       "use_when": "Use when defining agent behavior to carry immutable standing orders into every worker spawn and resume.",
       "provides": [
         "Carry immutable standing orders into every worker spawn and resume"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-keep-orchestration-and-code-writing-responsibilities-with-separate-owners",
-      "title": "Keep orchestration and code-writing responsibilities with separate owners",
-      "principle": "Keep orchestration and code-writing responsibilities with separate owners",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap",
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "keep",
-        "orchestration",
-        "and",
-        "code",
-        "writing",
-        "responsibilities",
-        "with",
-        "separate",
-        "owners"
-      ],
-      "use_when": "Use when defining agent behavior to keep orchestration and code-writing responsibilities with separate owners.",
-      "provides": [
-        "Keep orchestration and code-writing responsibilities with separate owners"
       ],
       "related": []
     },
@@ -5258,44 +5135,6 @@
       "related": []
     },
     {
-      "id": "principle-do-not-make-agent-personas-invoke-other-personas-or-add-routing-only-hops",
-      "title": "Do not make agent personas invoke other personas or add routing-only hops",
-      "principle": "Do not make agent personas invoke other personas or add routing-only hops",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/docs/agents.md",
-      "kind": "source-only",
-      "problems": [
-        "skill-routing"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "do",
-        "not",
-        "make",
-        "agent",
-        "personas",
-        "invoke",
-        "other",
-        "personas",
-        "or",
-        "add",
-        "routing",
-        "only",
-        "hops"
-      ],
-      "use_when": "Use when defining agent behavior to do not make agent personas invoke other personas or add routing-only hops.",
-      "provides": [
-        "Do not make agent personas invoke other personas or add routing-only hops"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-use-communicating-agent-teams-for-competing-hypothesis-investigations-and-independent-subagents-for-report-fan-out",
       "title": "Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out",
       "principle": "Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out",
@@ -7527,6 +7366,46 @@
       "use_when": "Bulk source scans and large outputs consume the coordinator's context before it can judge the work. Exploration needs bounded delegation and compact evidence returns.",
       "provides": [
         "Preserve agent context by delegating bulk exploration"
+      ],
+      "related": []
+    },
+    {
+      "id": "bounded-agent-roles-single-ownership-and-composition",
+      "title": "Bounded Agent Roles, Single Ownership, and Composition",
+      "path": "bounded-agent-roles-single-ownership-and-composition.md",
+      "kind": "recipe",
+      "problems": [
+        "delegation-handoffs",
+        "instruction-compliance",
+        "responsibility-overlap",
+        "skill-routing"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "planning",
+        "review"
+      ],
+      "keywords": [
+        "bounded",
+        "agent",
+        "roles",
+        "single",
+        "ownership",
+        "and",
+        "composition"
+      ],
+      "use_when": "Generic agents and overlapping skills create unclear ownership and conflicting edits. Each role needs one deliverable, bounded authority, and explicit composition.",
+      "provides": [
+        "Agent design and bounded responsibility",
+        "Skill composition and single ownership",
+        "Delegation engine isolation",
+        "Keep orchestration and code-writing responsibilities with separate owners",
+        "Do not make agent personas invoke other personas or add routing-only hops"
       ],
       "related": []
     }

@@ -6,6 +6,7 @@ Define bounded assignments and verifiable handoff contracts.
 
 - [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 - [Delegate Bulk Exploration to Preserve Context](../delegate-bulk-exploration-to-preserve-context.md)
+- [Bounded Agent Roles, Single Ownership, and Composition](../bounded-agent-roles-single-ownership-and-composition.md)
 
 ## References
 
@@ -18,7 +19,6 @@ Define bounded assignments and verifiable handoff contracts.
 
 ## Principles awaiting recipes
 
-- [Delegation engine isolation](https://github.com/antshc/brain/blob/main/docs/adr/explore-codebase-is-skill-agnostic.md)
 - [Agent-agnostic handoff contracts](https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md)
 - [CLI JSON handoff](https://github.com/antshc/brain/blob/main/docs/concepts/str-cli-json-handoff.md)
 - [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
@@ -26,7 +26,6 @@ Define bounded assignments and verifiable handoff contracts.
 - [Pilot a full work unit before scaling a multi-agent program](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
 - [Delegate implementation with bounded files and success criteria, then review the diff](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/feature.md)
 - [Carry immutable standing orders into every worker spawn and resume](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
-- [Keep orchestration and code-writing responsibilities with separate owners](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
 - [Refill a rolling worker window instead of waiting for whole batches](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md)
 - [Judge agent progress by actual side effects and replace stalled workers](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
 - [Validate multi-phase plans with an executable checker before handoff](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md)

@@ -54,7 +54,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R23. Delegate Bulk Exploration to Preserve Context** — NEW (1 principles). [recipe](delegate-bulk-exploration-to-preserve-context.md).
 ### Ownership and delegation
 
-- [ ] **R24. Bounded Agent Roles, Single Ownership, and Composition** — NEW (5 principles).
+- [x] **R24. Bounded Agent Roles, Single Ownership, and Composition** — NEW (5 principles). [recipe](bounded-agent-roles-single-ownership-and-composition.md).
 - [ ] **R25. Template Ownership of Rendering** — NEW (1 principles).
 - [ ] **R26. Skill-Owned Code and Supporting Files** — NEW (1 principles).
 - [ ] **R27. Repository Adapters, Resource Access, and Portable Skills** — NEW (6 principles).
@@ -335,11 +335,11 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Agent design and bounded responsibility** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-agents-style.md).
-- [ ] **Skill composition and single ownership** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-composition.md).
-- [ ] **Delegation engine isolation** — [source](https://github.com/antshc/brain/blob/main/docs/adr/explore-codebase-is-skill-agnostic.md).
-- [ ] **Keep orchestration and code-writing responsibilities with separate owners** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md).
-- [ ] **Do not make agent personas invoke other personas or add routing-only hops** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/agents.md).
+- [x] **Agent design and bounded responsibility** — [recipe](bounded-agent-roles-single-ownership-and-composition.md).
+- [x] **Skill composition and single ownership** — [recipe](bounded-agent-roles-single-ownership-and-composition.md).
+- [x] **Delegation engine isolation** — [recipe](bounded-agent-roles-single-ownership-and-composition.md).
+- [x] **Keep orchestration and code-writing responsibilities with separate owners** — [recipe](bounded-agent-roles-single-ownership-and-composition.md).
+- [x] **Do not make agent personas invoke other personas or add routing-only hops** — [recipe](bounded-agent-roles-single-ownership-and-composition.md).
 
 ### R25. Template Ownership of Rendering
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 72 |
-| Principles still awaiting coverage | 172 |
+| Already covered principles | 77 |
+| Principles still awaiting coverage | 167 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
