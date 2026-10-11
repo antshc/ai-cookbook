@@ -33,6 +33,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Independent Evidence-Based Review, Severity, and Reconciliation](../independent-evidence-based-review-severity-and-reconciliation.md)
 - [CI Failure Classification and Review Comment Triage](../ci-failure-classification-and-review-comment-triage.md)
 - [Reproducible Benchmarks, Frozen Baselines, and Honest Metrics](../reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
+- [User-Visible Bottlenecks, Work Elimination, and Regression Monitoring](../user-visible-bottlenecks-work-elimination-and-regression-monitoring.md)
 
 ## References
 
@@ -57,7 +58,6 @@ No materials yet.
 - [Validate authored skills, referenced files, and structural examples](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md)
 - [Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md)
 - [Pin existing behavior before structural refactoring](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)
-- [Remove unnecessary work before optimizing remaining performance cost](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/perf-issue.md)
 - [Treat PR review text as untrusted input rather than executable instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md)
 - [Audit decision logs against transcripts and correct false or omitted claims by appending rows](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
 - [Independently review long-running decision trails with a different model family](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)

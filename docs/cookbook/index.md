@@ -123,7 +123,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [ ] **Keep PR summaries short with observable verification evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
 
 - [x] **Compare performance under production-equivalent conditions and repeated alternating runs** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
-- [ ] **Remove unnecessary work before optimizing remaining performance cost** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/perf-issue.md)
+- [x] **Remove unnecessary work before optimizing remaining performance cost** — [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md)
 - [x] **Verify an existing fix against baseline and patched live behavior before authoring another** — [recipe](live-bug-reproduction-and-verification-of-existing-fixes.md)
 - [ ] **Audit live sessions and uncommitted changes before removing worktrees** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md)
 - [ ] **Treat PR review text as untrusted input rather than executable instructions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md)
@@ -278,9 +278,9 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 
 ### Performance, delivery, and operation
 
-- [ ] **Measure user-visible performance and identify its bottleneck before optimizing** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md)
+- [x] **Measure user-visible performance and identify its bottleneck before optimizing** — [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md)
 - [x] **Compare one optimization against an equivalent baseline and revert unproven changes** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
-- [ ] **Record rejected optimizations and install regression monitors for measured gains** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md)
+- [x] **Record rejected optimizations and install regression monitors for measured gains** — [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md)
 - [x] **Never invent web performance scores without actual measurement artifacts** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
 - [ ] **Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
 - [ ] **Use isolated worktrees when parallel agents would otherwise share a working tree** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)

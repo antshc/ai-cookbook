@@ -1997,42 +1997,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-remove-unnecessary-work-before-optimizing-remaining-performance-cost",
-      "title": "Remove unnecessary work before optimizing remaining performance cost",
-      "principle": "Remove unnecessary work before optimizing remaining performance cost",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/perf-issue.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "remove",
-        "unnecessary",
-        "work",
-        "before",
-        "optimizing",
-        "remaining",
-        "performance",
-        "cost"
-      ],
-      "use_when": "Use when defining agent behavior to remove unnecessary work before optimizing remaining performance cost.",
-      "provides": [
-        "Remove unnecessary work before optimizing remaining performance cost"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/perf-issue.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-audit-live-sessions-and-uncommitted-changes-before-removing-worktrees",
       "title": "Audit live sessions and uncommitted changes before removing worktrees",
       "principle": "Audit live sessions and uncommitted changes before removing worktrees",
@@ -4002,84 +3966,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-measure-user-visible-performance-and-identify-its-bottleneck-before-optimizing",
-      "title": "Measure user-visible performance and identify its bottleneck before optimizing",
-      "principle": "Measure user-visible performance and identify its bottleneck before optimizing",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "measure",
-        "user",
-        "visible",
-        "performance",
-        "and",
-        "identify",
-        "its",
-        "bottleneck",
-        "before",
-        "optimizing"
-      ],
-      "use_when": "Use when defining agent behavior to measure user-visible performance and identify its bottleneck before optimizing.",
-      "provides": [
-        "Measure user-visible performance and identify its bottleneck before optimizing"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-record-rejected-optimizations-and-install-regression-monitors-for-measured-gains",
-      "title": "Record rejected optimizations and install regression monitors for measured gains",
-      "principle": "Record rejected optimizations and install regression monitors for measured gains",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion",
-        "continuity",
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "record",
-        "rejected",
-        "optimizations",
-        "and",
-        "install",
-        "regression",
-        "monitors",
-        "for",
-        "measured",
-        "gains"
-      ],
-      "use_when": "Use when defining agent behavior to record rejected optimizations and install regression monitors for measured gains.",
-      "provides": [
-        "Record rejected optimizations and install regression monitors for measured gains"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md",
       "covered_principles": []
     },
     {
@@ -6966,6 +6852,50 @@
         "Compare performance under production-equivalent conditions and repeated alternating runs",
         "Compare one optimization against an equivalent baseline and revert unproven changes",
         "Never invent web performance scores without actual measurement artifacts"
+      ]
+    },
+    {
+      "id": "user-visible-bottlenecks-work-elimination-and-regression-monitoring",
+      "title": "User-Visible Bottlenecks, Work Elimination, and Regression Monitoring",
+      "path": "docs/cookbook/user-visible-bottlenecks-work-elimination-and-regression-monitoring.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "guidance-evaluation",
+        "instruction-compliance",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "user",
+        "visible",
+        "bottlenecks",
+        "work",
+        "elimination",
+        "and",
+        "regression",
+        "monitoring"
+      ],
+      "use_when": "An agent can optimize a helper while users still wait on another bottleneck. Performance work must reduce the actual critical path and retain proof of gains.",
+      "provides": [
+        "Remove unnecessary work before optimizing remaining performance cost",
+        "Measure user-visible performance and identify its bottleneck before optimizing",
+        "Record rejected optimizations and install regression monitors for measured gains"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/user-visible-bottlenecks-work-elimination-and-regression-monitoring.html",
+      "covered_principles": [
+        "Remove unnecessary work before optimizing remaining performance cost",
+        "Measure user-visible performance and identify its bottleneck before optimizing",
+        "Record rejected optimizations and install regression monitors for measured gains"
       ]
     }
   ]

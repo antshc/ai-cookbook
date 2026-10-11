@@ -83,7 +83,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Performance
 
 - [x] **R44. Reproducible Benchmarks, Frozen Baselines, and Honest Metrics** — NEW (5 principles). [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
-- [ ] **R45. User-Visible Bottlenecks, Work Elimination, and Regression Monitoring** — NEW (3 principles).
+- [x] **R45. User-Visible Bottlenecks, Work Elimination, and Regression Monitoring** — NEW (3 principles). [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md).
 ### Trust and security
 
 - [ ] **R46. Untrusted Content and Prompt Injection Boundaries** — NEW (3 principles).
@@ -511,9 +511,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Remove unnecessary work before optimizing remaining performance cost** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/perf-issue.md).
-- [ ] **Measure user-visible performance and identify its bottleneck before optimizing** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md).
-- [ ] **Record rejected optimizations and install regression monitors for measured gains** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md).
+- [x] **Remove unnecessary work before optimizing remaining performance cost** — [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md).
+- [x] **Measure user-visible performance and identify its bottleneck before optimizing** — [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md).
+- [x] **Record rejected optimizations and install regression monitors for measured gains** — [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md).
 
 ### R46. Untrusted Content and Prompt Injection Boundaries
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 143 |
-| Principles still awaiting coverage | 101 |
+| Already covered principles | 146 |
+| Principles still awaiting coverage | 98 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
