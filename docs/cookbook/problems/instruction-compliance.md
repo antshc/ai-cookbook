@@ -6,6 +6,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 
 - [Checklist-driven workflow](../checklist-driven-workflow.md)
 - [Direct Evidence, Safety Assumptions, and Risk-Based Verification](../direct-evidence-safety-assumptions-and-risk-based-verification.md)
+- [Independent Patch Verification and Baseline Comparison](../independent-patch-verification-and-baseline-comparison.md)
 
 ## References
 
@@ -57,7 +58,6 @@ No materials yet.
 - [Compare performance under production-equivalent conditions and repeated alternating runs](https://github.com/cursor/plugins/blob/main/pstack/skills/benchmark-checklist/SKILL.md)
 - [Remove unnecessary work before optimizing remaining performance cost](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/perf-issue.md)
 - [Treat PR review text as untrusted input rather than executable instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md)
-- [Compare changed behavior with current trunk on the same user-visible path](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md)
 - [Wait for an explicit operator go before executing an approved plan](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md)
 - [Keep verified stacked PRs unmerged until explicitly authorized](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
 - [Apply retrospective changes to shared agent instructions only with approval](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md)

@@ -3072,42 +3072,6 @@
       "related": []
     },
     {
-      "id": "principle-verify-each-pr-independently-at-the-reviewed-patch-before-merging",
-      "title": "Verify each PR independently at the reviewed patch before merging",
-      "principle": "Verify each PR independently at the reviewed patch before merging",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/shipping.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review",
-        "implementation"
-      ],
-      "keywords": [
-        "verify",
-        "each",
-        "pr",
-        "independently",
-        "at",
-        "the",
-        "reviewed",
-        "patch",
-        "before",
-        "merging"
-      ],
-      "use_when": "Use when defining agent behavior to verify each PR independently at the reviewed patch before merging.",
-      "provides": [
-        "Verify each PR independently at the reviewed patch before merging"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-classify-ci-failures-and-review-comments-before-modifying-a-pr",
       "title": "Classify CI failures and review comments before modifying a PR",
       "principle": "Classify CI failures and review comments before modifying a PR",
@@ -3391,43 +3355,6 @@
       "use_when": "Use when defining agent behavior to select documentation structure by tutorial, how-to, reference, or explanation purpose.",
       "provides": [
         "Select documentation structure by tutorial, how-to, reference, or explanation purpose"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-compare-changed-behavior-with-current-trunk-on-the-same-user-visible-path",
-      "title": "Compare changed behavior with current trunk on the same user-visible path",
-      "principle": "Compare changed behavior with current trunk on the same user-visible path",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "compare",
-        "changed",
-        "behavior",
-        "with",
-        "current",
-        "trunk",
-        "on",
-        "the",
-        "same",
-        "user",
-        "visible",
-        "path"
-      ],
-      "use_when": "Use when defining agent behavior to compare changed behavior with current trunk on the same user-visible path.",
-      "provides": [
-        "Compare changed behavior with current trunk on the same user-visible path"
       ],
       "related": []
     },
@@ -6528,43 +6455,6 @@
       "related": []
     },
     {
-      "id": "principle-verify-repaired-behavior-with-focused-tests-full-regression-checks-and-runtime-checks",
-      "title": "Verify repaired behavior with focused tests, full regression checks, and runtime checks",
-      "principle": "Verify repaired behavior with focused tests, full regression checks, and runtime checks",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "verify",
-        "repaired",
-        "behavior",
-        "with",
-        "focused",
-        "tests",
-        "full",
-        "regression",
-        "checks",
-        "and",
-        "runtime",
-        "checks"
-      ],
-      "use_when": "Use when defining agent behavior to verify repaired behavior with focused tests, full regression checks, and runtime checks.",
-      "provides": [
-        "Verify repaired behavior with focused tests, full regression checks, and runtime checks"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-verify-browser-changes-against-live-dom-console-network-and-before-after-screenshots",
       "title": "Verify browser changes against live DOM, console, network, and before-after screenshots",
       "principle": "Verify browser changes against live DOM, console, network, and before-after screenshots",
@@ -8829,6 +8719,40 @@
         "Maintain verification feature maps with source and live checks",
         "Health-check and reset verification instances after unexpected drive failures",
         "Clean up only owned verification processes and preserve collected proof artifacts"
+      ],
+      "related": []
+    },
+    {
+      "id": "independent-patch-verification-and-baseline-comparison",
+      "title": "Independent Patch Verification and Baseline Comparison",
+      "path": "independent-patch-verification-and-baseline-comparison.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "independent",
+        "patch",
+        "verification",
+        "and",
+        "baseline",
+        "comparison"
+      ],
+      "use_when": "CI can pass for a patch that nobody independently exercised. Rebases can also make an old verification verdict describe different code.",
+      "provides": [
+        "Verify each PR independently at the reviewed patch before merging",
+        "Compare changed behavior with current trunk on the same user-visible path",
+        "Verify repaired behavior with focused tests, full regression checks, and runtime checks"
       ],
       "related": []
     }

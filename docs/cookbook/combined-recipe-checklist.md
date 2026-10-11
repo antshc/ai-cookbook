@@ -26,7 +26,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 
 - [x] **R02. Direct Evidence, Safety Assumptions, and Risk-Based Verification** — NEW (4 principles). [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md).
 - [x] **R03. Live Verification Harness, Feature Maps, and Instance Lifecycle** — NEW (4 principles). [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md).
-- [ ] **R04. Independent Patch Verification and Baseline Comparison** — NEW (3 principles).
+- [x] **R04. Independent Patch Verification and Baseline Comparison** — NEW (3 principles). [recipe](independent-patch-verification-and-baseline-comparison.md).
 - [ ] **R05. Functional-Slice Tests, Observable Results, and Test Boundaries** — NEW (4 principles).
 - [ ] **R06. Verification Cost, Changed Scope, and Avoiding Redundant Runs** — NEW (2 principles).
 - [ ] **R07. Red-Green-Refactor and Failing Regression Tests** — NEW (3 principles).
@@ -176,9 +176,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Verify each PR independently at the reviewed patch before merging** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/shipping.md).
-- [ ] **Compare changed behavior with current trunk on the same user-visible path** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md).
-- [ ] **Verify repaired behavior with focused tests, full regression checks, and runtime checks** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md).
+- [x] **Verify each PR independently at the reviewed patch before merging** — [recipe](independent-patch-verification-and-baseline-comparison.md).
+- [x] **Compare changed behavior with current trunk on the same user-visible path** — [recipe](independent-patch-verification-and-baseline-comparison.md).
+- [x] **Verify repaired behavior with focused tests, full regression checks, and runtime checks** — [recipe](independent-patch-verification-and-baseline-comparison.md).
 
 ### R05. Functional-Slice Tests, Observable Results, and Test Boundaries
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 16 |
-| Principles still awaiting coverage | 228 |
+| Already covered principles | 19 |
+| Principles still awaiting coverage | 225 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

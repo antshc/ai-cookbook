@@ -118,7 +118,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Maintain verification feature maps with source and live checks** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md)
 - [ ] **Freeze an evaluation harness and revert unsupported iterations** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/hillclimb.md)
 - [ ] **Prove visual parity against an unchanged screenshot baseline** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md)
-- [ ] **Verify each PR independently at the reviewed patch before merging** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/shipping.md)
+- [x] **Verify each PR independently at the reviewed patch before merging** — [recipe](independent-patch-verification-and-baseline-comparison.md)
 - [ ] **Classify CI failures and review comments before modifying a PR** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md)
 - [ ] **Keep PR summaries short with observable verification evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
 
@@ -132,7 +132,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Verify dry-run claims by inspecting actual network, file, and repository effects** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [x] **Health-check and reset verification instances after unexpected drive failures** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md)
 - [x] **Clean up only owned verification processes and preserve collected proof artifacts** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md)
-- [ ] **Compare changed behavior with current trunk on the same user-visible path** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md)
+- [x] **Compare changed behavior with current trunk on the same user-visible path** — [recipe](independent-patch-verification-and-baseline-comparison.md)
 - [ ] **Keep reproduction recordings, logs, and tokens out of source control** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 
 ### Autonomy, continuity, and learning
@@ -244,7 +244,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [ ] **Choose test sizes by real resource boundaries and preserve the repository test conventions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
 - [ ] **Stop further feature work on broken tests or builds until the failure is resolved** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [ ] **Isolate and reduce failures before root-cause fixes, using history bisect when useful** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
-- [ ] **Verify repaired behavior with focused tests, full regression checks, and runtime checks** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
+- [x] **Verify repaired behavior with focused tests, full regression checks, and runtime checks** — [recipe](independent-patch-verification-and-baseline-comparison.md)
 - [ ] **Verify browser changes against live DOM, console, network, and before-after screenshots** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [ ] **Isolate automated browser tests from personal signed-in browser profiles** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [ ] **Keep browser JavaScript inspection read-only unless mutations are explicitly authorized** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
