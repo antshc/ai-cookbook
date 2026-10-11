@@ -284,7 +284,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Never invent web performance scores without actual measurement artifacts** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
 - [x] **Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit** — [recipe](task-scoped-staging-and-atomic-verified-commits.md)
 - [x] **Use isolated worktrees when parallel agents would otherwise share a working tree** — [recipe](isolated-worktrees-and-safe-workspace-cleanup.md)
-- [ ] **Version consumer-facing releases with tags, semantic versions, and human changelogs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
+- [x] **Version consumer-facing releases with tags, semantic versions, and human changelogs** — [recipe](semantic-releases-tags-and-human-changelogs.md)
 - [ ] **Run non-bypassable CI quality gates and feed failures back into agent correction** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
 - [x] **Remove feature flags and dead branches after their rollout finishes** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md)
 - [x] **Prefer advisory deprecation and provide a production-proven replacement plus migration guidance** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)

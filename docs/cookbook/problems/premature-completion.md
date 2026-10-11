@@ -34,6 +34,7 @@ Define observable completion and account for every obligation.
 - [Consumer Migration, Safe Deprecation, and Legacy Retirement](../consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [Additive Schema Migration and Tested Rollback](../additive-schema-migration-and-tested-rollback.md)
 - [Safe Feature Flags and Post-Rollout Cleanup](../safe-feature-flags-and-post-rollout-cleanup.md)
+- [Semantic Releases, Tags, and Human Changelogs](../semantic-releases-tags-and-human-changelogs.md)
 
 ## References
 
@@ -57,7 +58,6 @@ Define observable completion and account for every obligation.
 - [Verify responsive and accessible UI states including empty, loading, and error flows](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 - [Verify browser changes against live DOM, console, network, and before-after screenshots](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Refactor incrementally without changing test expectations to force a pass](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
-- [Version consumer-facing releases with tags, semantic versions, and human changelogs](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
 - [Run non-bypassable CI quality gates and feed failures back into agent correction](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
 - [Propagate correlation and entry-point identity while bounding telemetry label cardinality](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
 - [Make alerts actionable with runbooks and verify telemetry and notification delivery](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)

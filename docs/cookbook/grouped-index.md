@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 179 covered, 65 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 180 covered, 64 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -35,7 +35,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Configuration and distribution](#configuration-and-distribution) | 8 | 8 | 0 |
 | [Git and workspace safety](#git-and-workspace-safety) | 5 | 5 | 0 |
 | [Migration and deprecation](#migration-and-deprecation) | 6 | 6 | 0 |
-| [Release and rollout](#release-and-rollout) | 5 | 1 | 4 |
+| [Release and rollout](#release-and-rollout) | 5 | 2 | 3 |
 | [Operational evidence](#operational-evidence) | 3 | 0 | 3 |
 | [Skill evaluation](#skill-evaluation) | 6 | 0 | 6 |
 | [Documentation and provenance](#documentation-and-provenance) | 10 | 0 | 10 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **179** | **65** |
+| **Total** | **244** | **180** | **64** |
 
 ## Completion checks
 
@@ -344,7 +344,7 @@ Have consumers moved to the replacement, can the transition roll back, and is re
 Is release readiness proven, is rollout controlled, and do critical flows remain healthy?
 
 - [x] **Keep incomplete capabilities behind safe defaults or feature flags** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md)
-- [ ] **Version consumer-facing releases with tags, semantic versions, and human changelogs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
+- [x] **Version consumer-facing releases with tags, semantic versions, and human changelogs** — [recipe](semantic-releases-tags-and-human-changelogs.md)
 - [ ] **Use prelaunch gates, staged rollout thresholds, and tested rollback triggers** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)
 - [ ] **Verify critical user flows and health signals after deployment** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)
 - [ ] **Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/ship.md)

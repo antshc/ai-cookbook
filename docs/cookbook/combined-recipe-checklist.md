@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 58/82 recipes complete; 179/244 principles covered.**
+**Progress: 59/82 recipes complete; 180/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -103,7 +103,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R56. Consumer Migration, Safe Deprecation, and Legacy Retirement** — NEW (4 principles). [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
 - [x] **R57. Additive Schema Migration and Tested Rollback** — NEW (1 principles). [recipe](additive-schema-migration-and-tested-rollback.md).
 - [x] **R58. Safe Feature Flags and Post-Rollout Cleanup** — NEW (2 principles). [recipe](safe-feature-flags-and-post-rollout-cleanup.md).
-- [ ] **R59. Semantic Releases, Tags, and Human Changelogs** — NEW (1 principles).
+- [x] **R59. Semantic Releases, Tags, and Human Changelogs** — NEW (1 principles). [recipe](semantic-releases-tags-and-human-changelogs.md).
 - [ ] **R60. Launch Gates, Staged Rollout, Health Checks, and Rollback** — NEW (3 principles).
 ### Operations and evaluation
 
@@ -617,7 +617,7 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Version consumer-facing releases with tags, semantic versions, and human changelogs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md).
+- [x] **Version consumer-facing releases with tags, semantic versions, and human changelogs** — [recipe](semantic-releases-tags-and-human-changelogs.md).
 
 ### R60. Launch Gates, Staged Rollout, Health Checks, and Rollback
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 179 |
-| Principles still awaiting coverage | 65 |
+| Already covered principles | 180 |
+| Principles still awaiting coverage | 64 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

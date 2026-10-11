@@ -2911,45 +2911,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-version-consumer-facing-releases-with-tags-semantic-versions-and-human-changelogs",
-      "title": "Version consumer-facing releases with tags, semantic versions, and human changelogs",
-      "principle": "Version consumer-facing releases with tags, semantic versions, and human changelogs",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "version",
-        "consumer",
-        "facing",
-        "releases",
-        "with",
-        "tags",
-        "semantic",
-        "versions",
-        "and",
-        "human",
-        "changelogs"
-      ],
-      "use_when": "Use when defining agent behavior to version consumer-facing releases with tags, semantic versions, and human changelogs.",
-      "provides": [
-        "Version consumer-facing releases with tags, semantic versions, and human changelogs"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-run-non-bypassable-ci-quality-gates-and-feed-failures-back-into-agent-correction",
       "title": "Run non-bypassable CI quality gates and feed failures back into agent correction",
       "principle": "Run non-bypassable CI quality gates and feed failures back into agent correction",
@@ -6126,6 +6087,41 @@
       "covered_principles": [
         "Keep incomplete capabilities behind safe defaults or feature flags",
         "Remove feature flags and dead branches after their rollout finishes"
+      ]
+    },
+    {
+      "id": "semantic-releases-tags-and-human-changelogs",
+      "title": "Semantic Releases, Tags, and Human Changelogs",
+      "path": "docs/cookbook/semantic-releases-tags-and-human-changelogs.md",
+      "kind": "recipe",
+      "problems": [
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "semantic",
+        "releases",
+        "tags",
+        "and",
+        "human",
+        "changelogs"
+      ],
+      "use_when": "A consumer-facing release can hide breaking changes behind an incorrect version, drift from its Git tag, or provide a changelog that only repeats commit messages.",
+      "provides": [
+        "Version consumer-facing releases with tags, semantic versions, and human changelogs"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/semantic-releases-tags-and-human-changelogs.html",
+      "covered_principles": [
+        "Version consumer-facing releases with tags, semantic versions, and human changelogs"
       ]
     }
   ]
