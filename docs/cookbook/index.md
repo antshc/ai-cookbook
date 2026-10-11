@@ -38,8 +38,8 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 - [x] **Session ledger** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 - [x] **Trigger indexing** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
 - [ ] **Per-repository configuration resolution** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md)
-- [ ] **Repository adapter skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md)
-- [ ] **Resource access skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-resource-access-skill.md)
+- [x] **Repository adapter skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
+- [x] **Resource access skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Skill-owned code** — [recipe](skill-owned-code-and-supporting-files.md)
 - [ ] **CLI JSON handoff** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/str-cli-json-handoff.md)
 
@@ -230,9 +230,9 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 
 - [ ] **Stage only files belonging to the current autonomous task rather than blindly staging every change** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
 - [x] **Avoid installing a second always-on skill router when the agent host already routes skills natively** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
-- [ ] **Keep reusable skills separate from repository-specific agent instructions during installation** — [source](https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md)
-- [ ] **Include required shared references when distributing an individual skill outside its original pack** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md)
-- [ ] **Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
+- [x] **Keep reusable skills separate from repository-specific agent instructions during installation** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
+- [x] **Include required shared references when distributing an individual skill outside its original pack** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
+- [x] **Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [ ] **Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
 - [ ] **Revalidate cached official documentation with origin validators before using it across sessions** — [source](https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md)
 
@@ -315,7 +315,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [ ] **Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 - [ ] **Run skill-on versus skill-off evaluations and score observable output rather than invocation alone** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 - [ ] **Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
-- [ ] **Validate that equivalent host command adapters stay semantically aligned** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/developer-onboarding.md)
+- [x] **Validate that equivalent host command adapters stay semantically aligned** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 
 ## Scan and update
 

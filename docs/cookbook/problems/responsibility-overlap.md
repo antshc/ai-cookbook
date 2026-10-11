@@ -8,6 +8,7 @@ Give each procedure and responsibility one clear owner.
 - [Positive and Negative Skill Routing Tests](../positive-and-negative-skill-routing-tests.md)
 - [Bounded Agent Roles, Single Ownership, and Composition](../bounded-agent-roles-single-ownership-and-composition.md)
 - [Template Ownership of Rendering](../template-ownership-of-rendering.md)
+- [Repository Adapters, Resource Access, and Portable Skills](../repository-adapters-resource-access-and-portable-skills.md)
 
 ## References
 
@@ -22,7 +23,6 @@ No materials yet.
 ## Principles awaiting recipes
 
 - [Agent-agnostic handoff contracts](https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md)
-- [Repository adapter skills](https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md)
 - [Choose core data shapes and shared foundations before features](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-foundational-thinking/SKILL.md)
 - [Prefer the smallest change and shallowest useful abstraction](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-laziness-protocol/SKILL.md)
 - [Redesign new requirements as foundational constraints](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-redesign-from-first-principles/SKILL.md)
@@ -38,8 +38,5 @@ No materials yet.
 - [Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
 - [Define public contracts before implementation and preserve observable consumer behavior](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
 - [Define a reference-grounded UI design contract before implementation](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
-- [Include required shared references when distributing an individual skill outside its original pack](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md)
-- [Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
-- [Validate that equivalent host command adapters stay semantically aligned](https://github.com/addyosmani/agent-skills/blob/main/docs/developer-onboarding.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

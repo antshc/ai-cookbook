@@ -57,7 +57,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R24. Bounded Agent Roles, Single Ownership, and Composition** — NEW (5 principles). [recipe](bounded-agent-roles-single-ownership-and-composition.md).
 - [x] **R25. Template Ownership of Rendering** — NEW (1 principles). [recipe](template-ownership-of-rendering.md).
 - [x] **R26. Skill-Owned Code and Supporting Files** — NEW (1 principles). [recipe](skill-owned-code-and-supporting-files.md).
-- [ ] **R27. Repository Adapters, Resource Access, and Portable Skills** — NEW (6 principles).
+- [x] **R27. Repository Adapters, Resource Access, and Portable Skills** — NEW (6 principles). [recipe](repository-adapters-resource-access-and-portable-skills.md).
 - [ ] **R28. Agent-Agnostic Contracts and Structured CLI Handoffs** — NEW (2 principles).
 - [ ] **R29. Scoped Parallel Workers, Bounded Implementation, and Aggregation** — NEW (4 principles).
 - [ ] **R30. Delegated Worker Permissions and Centralized External Writes** — NEW (1 principles).
@@ -357,12 +357,12 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Repository adapter skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md).
-- [ ] **Resource access skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-resource-access-skill.md).
-- [ ] **Keep reusable skills separate from repository-specific agent instructions during installation** — [source](https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md).
-- [ ] **Include required shared references when distributing an individual skill outside its original pack** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md).
-- [ ] **Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md).
-- [ ] **Validate that equivalent host command adapters stay semantically aligned** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/developer-onboarding.md).
+- [x] **Repository adapter skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
+- [x] **Resource access skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
+- [x] **Keep reusable skills separate from repository-specific agent instructions during installation** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
+- [x] **Include required shared references when distributing an individual skill outside its original pack** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
+- [x] **Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
+- [x] **Validate that equivalent host command adapters stay semantically aligned** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
 
 ### R28. Agent-Agnostic Contracts and Structured CLI Handoffs
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 79 |
-| Principles still awaiting coverage | 165 |
+| Already covered principles | 85 |
+| Principles still awaiting coverage | 159 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

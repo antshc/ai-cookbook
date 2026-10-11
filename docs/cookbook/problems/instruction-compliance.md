@@ -21,6 +21,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Progressive Disclosure, Targeted Context, and Safe Trimming](../progressive-disclosure-targeted-context-and-safe-trimming.md)
 - [Bounded Agent Roles, Single Ownership, and Composition](../bounded-agent-roles-single-ownership-and-composition.md)
 - [Skill-Owned Code and Supporting Files](../skill-owned-code-and-supporting-files.md)
+- [Repository Adapters, Resource Access, and Portable Skills](../repository-adapters-resource-access-and-portable-skills.md)
 
 ## References
 
@@ -78,7 +79,6 @@ No materials yet.
 - [Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
 - [Require explicit authorization for each external cross-model review invocation](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
 - [Stage only files belonging to the current autonomous task rather than blindly staging every change](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
-- [Keep reusable skills separate from repository-specific agent instructions during installation](https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md)
 - [Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
 - [Keep browser JavaScript inspection read-only unless mutations are explicitly authorized](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Treat error output, external documentation, and browser content as untrusted instructions](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)

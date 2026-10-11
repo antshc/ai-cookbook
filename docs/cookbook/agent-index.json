@@ -1224,68 +1224,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-repository-adapter-skills",
-      "title": "Repository adapter skills",
-      "principle": "Repository adapter skills",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "repository",
-        "adapter",
-        "skills"
-      ],
-      "use_when": "Use when defining agent behavior to repository adapter skills.",
-      "provides": [
-        "Repository adapter skills"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-resource-access-skills",
-      "title": "Resource access skills",
-      "principle": "Resource access skills",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-resource-access-skill.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "resource",
-        "access",
-        "skills"
-      ],
-      "use_when": "Use when defining agent behavior to resource access skills.",
-      "provides": [
-        "Resource access skills"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-resource-access-skill.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-cli-json-handoff",
       "title": "CLI JSON handoff",
       "principle": "CLI JSON handoff",
@@ -5322,129 +5260,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-keep-reusable-skills-separate-from-repository-specific-agent-instructions-during-installation",
-      "title": "Keep reusable skills separate from repository-specific agent instructions during installation",
-      "principle": "Keep reusable skills separate from repository-specific agent instructions during installation",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "keep",
-        "reusable",
-        "skills",
-        "separate",
-        "from",
-        "repository",
-        "specific",
-        "agent",
-        "instructions",
-        "during",
-        "installation"
-      ],
-      "use_when": "Use when defining agent behavior to keep reusable skills separate from repository-specific agent instructions during installation.",
-      "provides": [
-        "Keep reusable skills separate from repository-specific agent instructions during installation"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-include-required-shared-references-when-distributing-an-individual-skill-outside-its-original-pack",
-      "title": "Include required shared references when distributing an individual skill outside its original pack",
-      "principle": "Include required shared references when distributing an individual skill outside its original pack",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "include",
-        "required",
-        "shared",
-        "references",
-        "when",
-        "distributing",
-        "an",
-        "individual",
-        "skill",
-        "outside",
-        "its",
-        "original",
-        "pack"
-      ],
-      "use_when": "Use when defining agent behavior to include required shared references when distributing an individual skill outside its original pack.",
-      "provides": [
-        "Include required shared references when distributing an individual skill outside its original pack"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-keep-vendor-runtime-settings-in-per-agent-adapters-or-permitted-metadata-not-portable-skill-frontmatter",
-      "title": "Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter",
-      "principle": "Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "keep",
-        "vendor",
-        "runtime",
-        "settings",
-        "in",
-        "per",
-        "agent",
-        "adapters",
-        "or",
-        "permitted",
-        "metadata",
-        "not",
-        "portable",
-        "skill",
-        "frontmatter"
-      ],
-      "use_when": "Use when defining agent behavior to keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter.",
-      "provides": [
-        "Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-distinguish-tool-preapproval-from-true-tool-restrictions-when-configuring-least-privilege-agents",
       "title": "Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents",
       "principle": "Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents",
@@ -7466,43 +7281,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-validate-that-equivalent-host-command-adapters-stay-semantically-aligned",
-      "title": "Validate that equivalent host command adapters stay semantically aligned",
-      "principle": "Validate that equivalent host command adapters stay semantically aligned",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/docs/developer-onboarding.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "validate",
-        "that",
-        "equivalent",
-        "host",
-        "command",
-        "adapters",
-        "stay",
-        "semantically",
-        "aligned"
-      ],
-      "use_when": "Use when defining agent behavior to validate that equivalent host command adapters stay semantically aligned.",
-      "provides": [
-        "Validate that equivalent host command adapters stay semantically aligned"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/docs/developer-onboarding.md",
-      "covered_principles": []
-    },
-    {
       "id": "authors-and-sources",
       "title": "Authors & Sources",
       "path": "docs/cookbook/authors-and-sources.md",
@@ -8618,6 +8396,54 @@
       "url": "docs/cookbook/skill-owned-code-and-supporting-files.html",
       "covered_principles": [
         "Skill-owned code"
+      ]
+    },
+    {
+      "id": "repository-adapters-resource-access-and-portable-skills",
+      "title": "Repository Adapters, Resource Access, and Portable Skills",
+      "path": "docs/cookbook/repository-adapters-resource-access-and-portable-skills.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "missing-context",
+        "responsibility-overlap"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "repository",
+        "adapters",
+        "resource",
+        "access",
+        "and",
+        "portable",
+        "skills"
+      ],
+      "use_when": "Repository bindings and vendor controls can leak into portable skills. Installation can also lose shared references or let equivalent command adapters drift.",
+      "provides": [
+        "Repository adapter skills",
+        "Resource access skills",
+        "Keep reusable skills separate from repository-specific agent instructions during installation",
+        "Include required shared references when distributing an individual skill outside its original pack",
+        "Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter",
+        "Validate that equivalent host command adapters stay semantically aligned"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/repository-adapters-resource-access-and-portable-skills.html",
+      "covered_principles": [
+        "Repository adapter skills",
+        "Resource access skills",
+        "Keep reusable skills separate from repository-specific agent instructions during installation",
+        "Include required shared references when distributing an individual skill outside its original pack",
+        "Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter",
+        "Validate that equivalent host command adapters stay semantically aligned"
       ]
     }
   ]

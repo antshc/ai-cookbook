@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 79 covered, 165 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 85 covered, 159 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -23,7 +23,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Instruction enforcement](#instruction-enforcement) | 7 | 7 | 0 |
 | [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 8 | 0 |
 | [Context management](#context-management) | 5 | 5 | 0 |
-| [Ownership and composition](#ownership-and-composition) | 11 | 7 | 4 |
+| [Ownership and composition](#ownership-and-composition) | 11 | 10 | 1 |
 | [Delegation contracts](#delegation-contracts) | 7 | 0 | 7 |
 | [Worker lifecycle](#worker-lifecycle) | 9 | 0 | 9 |
 | [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 0 | 7 |
@@ -32,7 +32,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Independent review](#independent-review) | 9 | 0 | 9 |
 | [Measured performance](#measured-performance) | 8 | 0 | 8 |
 | [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 0 | 14 |
-| [Configuration and distribution](#configuration-and-distribution) | 8 | 0 | 8 |
+| [Configuration and distribution](#configuration-and-distribution) | 8 | 3 | 5 |
 | [Git and workspace safety](#git-and-workspace-safety) | 5 | 0 | 5 |
 | [Migration and deprecation](#migration-and-deprecation) | 6 | 0 | 6 |
 | [Release and rollout](#release-and-rollout) | 5 | 0 | 5 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **79** | **165** |
+| **Total** | **244** | **85** | **159** |
 
 ## Completion checks
 
@@ -183,12 +183,12 @@ Who owns each responsibility, procedure, rendering contract, implementation, and
 - [x] **Template ownership of rendering** — [recipe](template-ownership-of-rendering.md)
 - [x] **Skill composition and single ownership** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 - [x] **Delegation engine isolation** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
-- [ ] **Repository adapter skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md)
-- [ ] **Resource access skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-resource-access-skill.md)
+- [x] **Repository adapter skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
+- [x] **Resource access skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Skill-owned code** — [recipe](skill-owned-code-and-supporting-files.md)
 - [ ] **Make module internals inaccessible and expose only one supported operation path** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/design-red-flags.md)
 - [x] **Keep orchestration and code-writing responsibilities with separate owners** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
-- [ ] **Keep reusable skills separate from repository-specific agent instructions during installation** — [source](https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md)
+- [x] **Keep reusable skills separate from repository-specific agent instructions during installation** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Do not make agent personas invoke other personas or add routing-only hops** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 
 ## Delegation contracts
@@ -312,11 +312,11 @@ Where do settings and shared references belong, and how are installations and ho
 - [ ] **Per-repository configuration resolution** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md)
 - [ ] **Preserve locally edited managed files and keep user configuration outside automation packs** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
 - [ ] **Run automations from committed operational files rather than copied instructions or caches** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
-- [ ] **Include required shared references when distributing an individual skill outside its original pack** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md)
-- [ ] **Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
+- [x] **Include required shared references when distributing an individual skill outside its original pack** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
+- [x] **Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [ ] **Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
 - [ ] **Revalidate cached official documentation with origin validators before using it across sessions** — [source](https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md)
-- [ ] **Validate that equivalent host command adapters stay semantically aligned** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/developer-onboarding.md)
+- [x] **Validate that equivalent host command adapters stay semantically aligned** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 
 ## Git and workspace safety
 
