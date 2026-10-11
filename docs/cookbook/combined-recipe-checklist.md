@@ -75,7 +75,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R38. Consumer-First Design, Public Contracts, and Usage Guides** — NEW (4 principles). [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
 - [x] **R39. Domain Models, Foundational Constraints, and Invalid States** — NEW (4 principles). [recipe](domain-models-foundational-constraints-and-invalid-states.md).
 - [x] **R40. Competing Designs, Prototype Experiments, and Cross-Judging** — NEW (3 principles). [recipe](competing-designs-prototype-experiments-and-cross-judging.md).
-- [ ] **R41. Architecture Sketches, Structural Red Flags, and Design Rationale** — NEW (3 principles).
+- [x] **R41. Architecture Sketches, Structural Red Flags, and Design Rationale** — NEW (3 principles). [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md).
 ### Review
 
 - [ ] **R42. Independent Evidence-Based Review, Severity, and Reconciliation** — NEW (7 principles).
@@ -474,9 +474,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md).
-- [ ] **Sketch architecture first and redo it when structural red flags appear** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md).
-- [ ] **Make module internals inaccessible and expose only one supported operation path** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/design-red-flags.md).
+- [x] **Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md).
+- [x] **Sketch architecture first and redo it when structural red flags appear** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md).
+- [x] **Make module internals inaccessible and expose only one supported operation path** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md).
 
 ### R42. Independent Evidence-Based Review, Severity, and Reconciliation
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 126 |
-| Principles still awaiting coverage | 118 |
+| Already covered principles | 129 |
+| Principles still awaiting coverage | 115 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

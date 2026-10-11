@@ -13,6 +13,7 @@ Preserve useful lessons and resume from verified state.
 - [Worker Configuration, Fresh Sessions, and Standing Orders](../worker-configuration-fresh-sessions-and-standing-orders.md)
 - [Pilot Runs, Rolling Worker Windows, and Progress Monitoring](../pilot-runs-rolling-worker-windows-and-progress-monitoring.md)
 - [Explore Alternatives and Test MVP Assumptions](../explore-alternatives-and-test-mvp-assumptions.md)
+- [Architecture Sketches, Structural Red Flags, and Design Rationale](../architecture-sketches-structural-red-flags-and-design-rationale.md)
 
 ## References
 
@@ -26,7 +27,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md)
 - [Record exact investigation queries, empty results, and contradictory evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md)
 - [Audit live sessions and uncommitted changes before removing worktrees](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md)
 - [Keep reproduction recordings, logs, and tokens out of source control](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)

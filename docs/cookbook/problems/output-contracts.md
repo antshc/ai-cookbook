@@ -11,6 +11,7 @@ Define what the consumer receives and who owns its format.
 - [Template Ownership of Rendering](../template-ownership-of-rendering.md)
 - [Scoped Parallel Workers, Bounded Implementation, and Aggregation](../scoped-parallel-workers-bounded-implementation-and-aggregation.md)
 - [Consumer-First Design, Public Contracts, and Usage Guides](../consumer-first-design-public-contracts-and-usage-guides.md)
+- [Architecture Sketches, Structural Red Flags, and Design Rationale](../architecture-sketches-structural-red-flags-and-design-rationale.md)
 
 ## References
 
@@ -36,7 +37,6 @@ Define what the consumer receives and who owns its format.
 
 ## Principles awaiting recipes
 
-- [Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md)
 - [Reconstruct design rationale across independent evidence sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)
 - [Calibrate rationale claims to direct, supported, inferred, or unknown evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md)
 - [Teach behavior and rationale through incremental explanations and diagrams](https://github.com/cursor/plugins/blob/main/pstack/skills/teach/SKILL.md)

@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 126 covered, 118 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 129 covered, 115 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -23,12 +23,12 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Instruction enforcement](#instruction-enforcement) | 7 | 7 | 0 |
 | [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 8 | 0 |
 | [Context management](#context-management) | 5 | 5 | 0 |
-| [Ownership and composition](#ownership-and-composition) | 11 | 10 | 1 |
+| [Ownership and composition](#ownership-and-composition) | 11 | 11 | 0 |
 | [Delegation contracts](#delegation-contracts) | 7 | 7 | 0 |
 | [Worker lifecycle](#worker-lifecycle) | 9 | 9 | 0 |
 | [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 7 | 0 |
 | [Intent and assumption discovery](#intent-and-assumption-discovery) | 7 | 7 | 0 |
-| [Design before implementation](#design-before-implementation) | 13 | 11 | 2 |
+| [Design before implementation](#design-before-implementation) | 13 | 13 | 0 |
 | [Independent review](#independent-review) | 9 | 0 | 9 |
 | [Measured performance](#measured-performance) | 8 | 0 | 8 |
 | [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 0 | 14 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **126** | **118** |
+| **Total** | **244** | **129** | **115** |
 
 ## Completion checks
 
@@ -186,7 +186,7 @@ Who owns each responsibility, procedure, rendering contract, implementation, and
 - [x] **Repository adapter skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Resource access skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Skill-owned code** — [recipe](skill-owned-code-and-supporting-files.md)
-- [ ] **Make module internals inaccessible and expose only one supported operation path** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/design-red-flags.md)
+- [x] **Make module internals inaccessible and expose only one supported operation path** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md)
 - [x] **Keep orchestration and code-writing responsibilities with separate owners** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 - [x] **Keep reusable skills separate from repository-specific agent instructions during installation** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 - [x] **Do not make agent personas invoke other personas or add routing-only hops** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
@@ -253,8 +253,8 @@ Which consumer contracts, domain invariants, alternatives, and foundations shoul
 - [x] **Use types to exclude invalid states and exhaust variants** — [recipe](domain-models-foundational-constraints-and-invalid-states.md)
 - [x] **Derive architecture contracts from caller usage before implementing** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
 - [x] **Write a consumer usage guide before implementing a shared API** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
-- [ ] **Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md)
-- [ ] **Sketch architecture first and redo it when structural red flags appear** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md)
+- [x] **Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md)
+- [x] **Sketch architecture first and redo it when structural red flags appear** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md)
 - [x] **Compare independent design candidates with cross-judging** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md)
 - [x] **Resolve observable decisions with throwaway experiments** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md)
 - [x] **Define public contracts before implementation and preserve observable consumer behavior** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
