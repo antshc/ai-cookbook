@@ -34,7 +34,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Diagnosis
 
 - [x] **R09. Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks** — NEW (6 principles). [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md).
-- [ ] **R10. Queryable Traces and Source Attribution** — NEW (1 principles).
+- [x] **R10. Queryable Traces and Source Attribution** — NEW (1 principles). [recipe](queryable-traces-and-source-attribution.md).
 ### Learning and continuity
 
 - [ ] **R11. Gotchas, Persistent Memory, and Evidence-Based Preferences** — EXTEND (3 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/gotchas-and-persistent-memory.md).
@@ -226,7 +226,7 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Convert traces to queryable data and attribute findings to source symbols** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/trace-forensics.md).
+- [x] **Convert traces to queryable data and attribute findings to source symbols** — [recipe](queryable-traces-and-source-attribution.md).
 
 ### R11. Gotchas, Persistent Memory, and Evidence-Based Preferences
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 36 |
-| Principles still awaiting coverage | 208 |
+| Already covered principles | 37 |
+| Principles still awaiting coverage | 207 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

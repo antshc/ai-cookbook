@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 36 covered, 208 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 37 covered, 207 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -17,7 +17,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Proof of actual behavior](#proof-of-actual-behavior) | 11 | 11 | 0 |
 | [Focused testing](#focused-testing) | 6 | 6 | 0 |
 | [Regression protection](#regression-protection) | 6 | 5 | 1 |
-| [Root-cause diagnosis](#root-cause-diagnosis) | 7 | 6 | 1 |
+| [Root-cause diagnosis](#root-cause-diagnosis) | 7 | 7 | 0 |
 | [Learning from failures](#learning-from-failures) | 9 | 2 | 7 |
 | [Resumable execution](#resumable-execution) | 9 | 1 | 8 |
 | [Instruction enforcement](#instruction-enforcement) | 7 | 0 | 7 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **36** | **208** |
+| **Total** | **244** | **37** | **207** |
 
 ## Completion checks
 
@@ -107,7 +107,7 @@ Which runtime observations isolate the cause and reject mistaken hypotheses?
 - [x] **Question a repeatedly failed premise with an actor census** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [x] **Reproduce failures and fix root causes rather than symptoms** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [x] **Eliminate debugging hypotheses using runtime observations** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
-- [ ] **Convert traces to queryable data and attribute findings to source symbols** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/trace-forensics.md)
+- [x] **Convert traces to queryable data and attribute findings to source symbols** — [recipe](queryable-traces-and-source-attribution.md)
 - [x] **Keep suspected causes out of the initial agent task brief** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [x] **Stop further feature work on broken tests or builds until the failure is resolved** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [x] **Isolate and reduce failures before root-cause fixes, using history bisect when useful** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)

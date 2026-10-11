@@ -5,6 +5,7 @@ Evaluate observable behavior and improve guidance from evidence.
 ## Recipes
 
 - [Live Bug Reproduction and Verification of Existing Fixes](../live-bug-reproduction-and-verification-of-existing-fixes.md)
+- [Queryable Traces and Source Attribution](../queryable-traces-and-source-attribution.md)
 
 ## References
 
@@ -23,7 +24,6 @@ No materials yet.
 - [Compare competing prototypes for novel designs](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-exhaust-the-design-space/SKILL.md)
 - [Explain measured results with evidence and limiting factors](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-explain-the-number/SKILL.md)
 - [Resolve observable decisions with throwaway experiments](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/prototype.md)
-- [Convert traces to queryable data and attribute findings to source symbols](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/trace-forensics.md)
 - [Freeze an evaluation harness and revert unsupported iterations](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/hillclimb.md)
 - [Prove visual parity against an unchanged screenshot baseline](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md)
 - [Evaluate agent instructions with blinded candidates and judges](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/eval.md)
