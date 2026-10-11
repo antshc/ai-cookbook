@@ -2975,47 +2975,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-distinguish-tool-preapproval-from-true-tool-restrictions-when-configuring-least-privilege-agents",
-      "title": "Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents",
-      "principle": "Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "distinguish",
-        "tool",
-        "preapproval",
-        "from",
-        "true",
-        "tool",
-        "restrictions",
-        "when",
-        "configuring",
-        "least",
-        "privilege",
-        "agents"
-      ],
-      "use_when": "Use when defining agent behavior to distinguish tool preapproval from true tool restrictions when configuring least-privilege agents.",
-      "provides": [
-        "Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-revalidate-cached-official-documentation-with-origin-validators-before-using-it-across-sessions",
       "title": "Revalidate cached official documentation with origin validators before using it across sessions",
       "principle": "Revalidate cached official documentation with origin validators before using it across sessions",
@@ -6478,6 +6437,42 @@
         "Per-repository configuration resolution",
         "Preserve locally edited managed files and keep user configuration outside automation packs",
         "Run automations from committed operational files rather than copied instructions or caches"
+      ]
+    },
+    {
+      "id": "least-privilege-tool-restrictions-versus-preapproval",
+      "title": "Least-Privilege Tool Restrictions versus Preapproval",
+      "path": "docs/cookbook/least-privilege-tool-restrictions-versus-preapproval.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "missing-context"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "least",
+        "privilege",
+        "tool",
+        "restrictions",
+        "versus",
+        "preapproval"
+      ],
+      "use_when": "A preapproved tool can still be available to an agent that should never use it. Reduced prompting is not least privilege.",
+      "provides": [
+        "Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/least-privilege-tool-restrictions-versus-preapproval.html",
+      "covered_principles": [
+        "Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents"
       ]
     }
   ]

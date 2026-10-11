@@ -94,7 +94,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Configuration and Git
 
 - [x] **R51. Repository Configuration, Local Edits, and Committed Automation Files** — NEW (3 principles). [recipe](repository-configuration-local-edits-and-committed-automation-files.md).
-- [ ] **R52. Least-Privilege Tool Restrictions versus Preapproval** — NEW (1 principles).
+- [x] **R52. Least-Privilege Tool Restrictions versus Preapproval** — NEW (1 principles). [recipe](least-privilege-tool-restrictions-versus-preapproval.md).
 - [ ] **R53. Version-Matched Official Sources and Cache Revalidation** — NEW (3 principles).
 - [ ] **R54. Task-Scoped Staging and Atomic Verified Commits** — NEW (3 principles).
 - [ ] **R55. Isolated Worktrees and Safe Workspace Cleanup** — NEW (2 principles).
@@ -566,7 +566,7 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md).
+- [x] **Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents** — [recipe](least-privilege-tool-restrictions-versus-preapproval.md).
 
 ### R53. Version-Matched Official Sources and Cache Revalidation
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 163 |
-| Principles still awaiting coverage | 81 |
+| Already covered principles | 164 |
+| Principles still awaiting coverage | 80 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
