@@ -10,6 +10,7 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks](../root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [Queryable Traces and Source Attribution](../queryable-traces-and-source-attribution.md)
 - [Safe Pause, Context Recovery, and Verified Resume](../safe-pause-context-recovery-and-verified-resume.md)
+- [Constraint-First Instructions and Anti-Rationalization Rules](../constraint-first-instructions-and-anti-rationalization-rules.md)
 
 ## References
 
@@ -51,6 +52,5 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Mask protected source blocks during agent simplification and restore them from verified placeholders or backups](https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md)
 - [Review authorization for every protected resource and prevent secrets entering code or logs](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
-- [Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

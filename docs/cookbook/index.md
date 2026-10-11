@@ -20,8 +20,8 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 
 ## Instructions and drafting
 
-- [ ] **Instruction robustness** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-instruction-robustness.md)
-- [ ] **Constraint-first reasoning** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-constraint-first-reasoning.md)
+- [x] **Instruction robustness** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
+- [x] **Constraint-first reasoning** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
 - [ ] **Agent design and bounded responsibility** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-agents-style.md)
 - [x] **Open-question markers** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 - [ ] **Repository instruction loading** — [source](https://github.com/antshc/brain/blob/main/docs/adr/crew-agents-uses-instructions.md)
@@ -307,7 +307,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [ ] **Check existing skills, active proposals, and rejected changes before introducing a new skill** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 - [ ] **Record rejected skill changes with evaluation evidence in an append-only ledger** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 - [ ] **Write skill procedures in model-neutral capabilities instead of model-specific workarounds** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md)
-- [ ] **Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md)
+- [x] **Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
 - [ ] **Test skill routing with realistic positive triggers and neighboring negative triggers** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 - [ ] **For negative routing tests, require the intended owner skill to outrank the wrong skill** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 - [ ] **Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)

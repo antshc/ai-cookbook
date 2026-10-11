@@ -641,61 +641,6 @@
       "related": []
     },
     {
-      "id": "principle-instruction-robustness",
-      "title": "Instruction robustness",
-      "principle": "Instruction robustness",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/ops-instruction-robustness.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "instruction",
-        "robustness"
-      ],
-      "use_when": "Use when defining agent behavior to instruction robustness.",
-      "provides": [
-        "Instruction robustness"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-constraint-first-reasoning",
-      "title": "Constraint-first reasoning",
-      "principle": "Constraint-first reasoning",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-constraint-first-reasoning.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "constraint",
-        "first",
-        "reasoning"
-      ],
-      "use_when": "Use when defining agent behavior to constraint-first reasoning.",
-      "provides": [
-        "Constraint-first reasoning"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-agent-design-and-bounded-responsibility",
       "title": "Agent design and bounded responsibility",
       "principle": "Agent design and bounded responsibility",
@@ -7009,47 +6954,6 @@
       "related": []
     },
     {
-      "id": "principle-include-concrete-anti-rationalization-rebuttals-misuse-red-flags-and-evidence-based-exit-checks-in-skills",
-      "title": "Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills",
-      "principle": "Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "research"
-      ],
-      "keywords": [
-        "include",
-        "concrete",
-        "anti",
-        "rationalization",
-        "rebuttals",
-        "misuse",
-        "red",
-        "flags",
-        "and",
-        "evidence",
-        "based",
-        "exit",
-        "checks",
-        "in",
-        "skills"
-      ],
-      "use_when": "Use when defining agent behavior to include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills.",
-      "provides": [
-        "Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-test-skill-routing-with-realistic-positive-triggers-and-neighboring-negative-triggers",
       "title": "Test skill routing with realistic positive triggers and neighboring negative triggers",
       "principle": "Test skill routing with realistic positive triggers and neighboring negative triggers",
@@ -7959,6 +7863,41 @@
         "Resume from the prior execution trail rather than repeating completed work",
         "Preserve work and a resume note when pausing an agent run",
         "Recover prior context within the workspace and verify live state"
+      ],
+      "related": []
+    },
+    {
+      "id": "constraint-first-instructions-and-anti-rationalization-rules",
+      "title": "Constraint-First Instructions and Anti-Rationalization Rules",
+      "path": "constraint-first-instructions-and-anti-rationalization-rules.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "missing-context"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "research",
+        "review"
+      ],
+      "keywords": [
+        "constraint",
+        "first",
+        "instructions",
+        "and",
+        "anti",
+        "rationalization",
+        "rules"
+      ],
+      "use_when": "An agent can replace a required process with a faster path that appears equivalent. Critical instructions must constrain the mechanism as well as the result.",
+      "provides": [
+        "Instruction robustness",
+        "Constraint-first reasoning",
+        "Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills"
       ],
       "related": []
     }

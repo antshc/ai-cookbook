@@ -14,6 +14,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Improvement Flywheel and Enforced Lessons](../improvement-flywheel-and-enforced-lessons.md)
 - [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
 - [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
+- [Constraint-First Instructions and Anti-Rationalization Rules](../constraint-first-instructions-and-anti-rationalization-rules.md)
 
 ## References
 
@@ -30,8 +31,6 @@ No materials yet.
 ## Principles awaiting recipes
 
 - [Behavior-preserving agent review](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md)
-- [Instruction robustness](https://github.com/antshc/brain/blob/main/docs/concepts/ops-instruction-robustness.md)
-- [Constraint-first reasoning](https://github.com/antshc/brain/blob/main/docs/concepts/structure-constraint-first-reasoning.md)
 - [Agent design and bounded responsibility](https://github.com/antshc/brain/blob/main/docs/concepts/structure-agents-style.md)
 - [Repository instruction loading](https://github.com/antshc/brain/blob/main/docs/adr/crew-agents-uses-instructions.md)
 - [Cross-scope specialist discovery](https://github.com/antshc/brain/blob/main/docs/concepts/structure-cross-scope-skill-family.md)
@@ -99,6 +98,5 @@ No materials yet.
 - [Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once](https://github.com/addyosmani/agent-skills/blob/main/docs/adoption-guide.md)
 - [Check existing skills, active proposals, and rejected changes before introducing a new skill](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 - [Write skill procedures in model-neutral capabilities instead of model-specific workarounds](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md)
-- [Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

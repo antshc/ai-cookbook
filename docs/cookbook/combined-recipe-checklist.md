@@ -45,7 +45,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R16. Safe Pause, Context Recovery, and Verified Resume** — NEW (3 principles). [recipe](safe-pause-context-recovery-and-verified-resume.md).
 ### Instructions and routing
 
-- [ ] **R17. Constraint-First Instructions and Anti-Rationalization Rules** — NEW (3 principles).
+- [x] **R17. Constraint-First Instructions and Anti-Rationalization Rules** — NEW (3 principles). [recipe](constraint-first-instructions-and-anti-rationalization-rules.md).
 - [ ] **R18. Concise Instructions, Explicit Goals, and Model-Neutral Procedures** — NEW (3 principles).
 - [ ] **R19. Instruction Loading and Canary Checks** — NEW (2 principles).
 - [ ] **R20. Skill Discovery, Trigger Indexing, and Native Routing** — NEW (5 principles).
@@ -280,9 +280,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Instruction robustness** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-instruction-robustness.md).
-- [ ] **Constraint-first reasoning** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-constraint-first-reasoning.md).
-- [ ] **Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md).
+- [x] **Instruction robustness** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md).
+- [x] **Constraint-first reasoning** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md).
+- [x] **Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md).
 
 ### R18. Concise Instructions, Explicit Goals, and Model-Neutral Procedures
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 52 |
-| Principles still awaiting coverage | 192 |
+| Already covered principles | 55 |
+| Principles still awaiting coverage | 189 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
