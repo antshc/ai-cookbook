@@ -10,8 +10,8 @@ vm.runInContext(fs.readFileSync(path.join(root,'site/app.js'),'utf8'),context);
 const materials = JSON.parse(fs.readFileSync(path.join(root,'dist/search-index.json'),'utf8')).materials;
 const state = {q:'',problem:'',artifact:'',task:'',kind:''};
 const find = s => materials.filter(m => context.matches(m,{...state,...s}));
-assert.equal(find({kind:'recipe'}).length,2);
-assert.equal(find({q:'completeness sweep',kind:'recipe'}).length,2);
+assert.equal(find({kind:'recipe'}).length,3);
+assert.equal(find({q:'completeness sweep',kind:'recipe'}).length,3);
 assert.equal(find({q:'Reconstruct all obligations',kind:'recipe'}).length,1);
 assert.equal(find({q:'blocked or partial',kind:'recipe'}).length,1); // full-text body search
 assert.ok(find({problem:'skill-routing',artifact:'skill',kind:'source-only'}).length>0);

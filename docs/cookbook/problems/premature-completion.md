@@ -5,6 +5,7 @@ Define observable completion and account for every obligation.
 ## Recipes
 
 - [Verification, Exit Criteria, and Completeness Sweep](../verification-exit-criteria-completeness-sweep.md)
+- [Checklist-driven workflow](../checklist-driven-workflow.md)
 
 ## References
 

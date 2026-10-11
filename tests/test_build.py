@@ -47,7 +47,7 @@ class BuildTests(unittest.TestCase):
             if m['kind']=='source-only':
                 self.assertEqual(m['status'],'recipe-needed')
                 self.assertEqual(m['covered_principles'],[])
-        self.assertEqual(sum(len(m['covered_principles']) for m in index['materials']),5)
+        self.assertEqual(sum(len(m['covered_principles']) for m in index['materials']),6)
 
     def test_duplicate_ids_fail_validation(self):
         catalog=copy.deepcopy(self.catalog)

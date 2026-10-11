@@ -47,3 +47,4 @@ AI agents repeat avoidable mistakes when lessons from prior runs are lost. **Got
 ## Related Recipes
 
 - [Verification, Exit Criteria, and Completeness Sweep](verification-exit-criteria-completeness-sweep.md)
+- [Checklist-driven Workflow](checklist-driven-workflow.md)

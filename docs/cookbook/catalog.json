@@ -135,7 +135,8 @@
         "Handle missing or conflicting memory"
       ],
       "related": [
-        "verification-exit-criteria-and-completeness-sweep"
+        "verification-exit-criteria-and-completeness-sweep",
+        "principle-checklist-driven-workflow"
       ]
     },
     {
@@ -538,17 +539,20 @@
         "Closing completeness sweep"
       ],
       "related": [
-        "gotchas-and-persistent-memory"
+        "gotchas-and-persistent-memory",
+        "principle-checklist-driven-workflow"
       ]
     },
     {
       "id": "principle-checklist-driven-workflow",
       "title": "Checklist-driven workflow",
       "principle": "Checklist-driven workflow",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-checklist-workflow.md",
-      "kind": "source-only",
+      "path": "checklist-driven-workflow.md",
+      "kind": "recipe",
       "problems": [
-        "instruction-compliance"
+        "instruction-compliance",
+        "premature-completion",
+        "continuity"
       ],
       "applies_to": [
         "skill",
@@ -556,6 +560,8 @@
         "instruction"
       ],
       "task_types": [
+        "planning",
+        "implementation",
         "review"
       ],
       "keywords": [
@@ -563,11 +569,16 @@
         "driven",
         "workflow"
       ],
-      "use_when": "Use when defining agent behavior to checklist-driven workflow.",
+      "use_when": "Use when ordered work can lose steps or progress across context resets.",
       "provides": [
-        "Checklist-driven workflow"
+        "Saved ordered execution checklist",
+        "Evidence for checked items",
+        "Explicit failure recovery and resume rules"
       ],
-      "related": []
+      "related": [
+        "verification-exit-criteria-and-completeness-sweep",
+        "gotchas-and-persistent-memory"
+      ]
     },
     {
       "id": "principle-improvement-flywheel-classify-and-fix-observed-failures",

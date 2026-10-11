@@ -50,3 +50,4 @@ AI agents can declare work complete when tests pass, even if requirements are mi
 ## Related Recipes
 
 - [Gotchas and Persistent Memory](gotchas-and-persistent-memory.md)
+- [Checklist-driven Workflow](checklist-driven-workflow.md)

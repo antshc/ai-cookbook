@@ -4,8 +4,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 
 ## Recipes
 
-No materials yet.
-
+- [Checklist-driven workflow](../checklist-driven-workflow.md)
 
 ## References
 
@@ -19,7 +18,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Checklist-driven workflow](https://github.com/antshc/brain/blob/main/docs/concepts/structure-checklist-workflow.md)
 - [Improvement flywheel (classify and fix observed failures)](https://github.com/antshc/brain/blob/main/docs/concepts/ops-improvement-flywheel.md)
 - [Behavior-preserving agent review](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md)
 - [Instruction robustness](https://github.com/antshc/brain/blob/main/docs/concepts/ops-instruction-robustness.md)

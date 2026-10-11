@@ -12,7 +12,7 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 - [x] **Completeness sweep** — [recipe](verification-exit-criteria-completeness-sweep.md)
 - [x] **Gotchas** — [recipe](gotchas-and-persistent-memory.md)
 - [x] **Persistent memory** — [recipe](gotchas-and-persistent-memory.md)
-- [ ] **Checklist-driven workflow** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-checklist-workflow.md)
+- [x] **Checklist-driven workflow** — [recipe](checklist-driven-workflow.md)
 - [ ] **Improvement flywheel (classify and fix observed failures)** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-improvement-flywheel.md)
 - [ ] **Canary rule verification** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-canary-rule-verification.md)
 - [ ] **Focused functional-slice testing** — [source](https://github.com/antshc/brain/blob/main/docs/adr/crew-is-agnostic.md)
