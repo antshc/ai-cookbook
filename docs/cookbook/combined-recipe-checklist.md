@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 64/82 recipes complete; 196/244 principles covered.**
+**Progress: 65/82 recipes complete; 198/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -113,7 +113,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Documentation and evidence
 
 - [x] **R64. Audience-Focused Documentation, Clear Prose, and Preserved Facts** — NEW (4 principles). [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
-- [ ] **R65. Concise Delivery Reports for Users and Maintainers** — NEW (2 principles).
+- [x] **R65. Concise Delivery Reports for Users and Maintainers** — NEW (2 principles). [recipe](concise-delivery-reports-for-users-and-maintainers.md).
 - [ ] **R66. Append-Only Decision Trails, Audit, and Independent Review** — NEW (3 principles).
 - [ ] **R67. Architecture Decision Records, Alternatives, and Supersession** — NEW (1 principles).
 - [ ] **R68. Code-Path Investigation and Evidence-Calibrated Rationale** — NEW (3 principles).
@@ -664,8 +664,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Keep PR summaries short with observable verification evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md).
-- [ ] **Frame agent delivery for both the user and the future maintainer** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md).
+- [x] **Keep PR summaries short with observable verification evidence** — [recipe](concise-delivery-reports-for-users-and-maintainers.md).
+- [x] **Frame agent delivery for both the user and the future maintainer** — [recipe](concise-delivery-reports-for-users-and-maintainers.md).
 
 ### R66. Append-Only Decision Trails, Audit, and Independent Review
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 196 |
-| Principles still awaiting coverage | 48 |
+| Already covered principles | 198 |
+| Principles still awaiting coverage | 46 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

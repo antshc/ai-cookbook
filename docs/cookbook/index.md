@@ -120,7 +120,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [ ] **Prove visual parity against an unchanged screenshot baseline** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md)
 - [x] **Verify each PR independently at the reviewed patch before merging** — [recipe](independent-patch-verification-and-baseline-comparison.md)
 - [x] **Classify CI failures and review comments before modifying a PR** — [recipe](ci-failure-classification-and-review-comment-triage.md)
-- [ ] **Keep PR summaries short with observable verification evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
+- [x] **Keep PR summaries short with observable verification evidence** — [recipe](concise-delivery-reports-for-users-and-maintainers.md)
 
 - [x] **Compare performance under production-equivalent conditions and repeated alternating runs** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
 - [x] **Remove unnecessary work before optimizing remaining performance cost** — [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md)
@@ -179,7 +179,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Keep automation webhook secrets on the server, never in the browser or chat** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md)
 - [x] **Remove generic AI phrasing while preserving the intended meaning** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md)
 - [x] **Describe goals, proof, and constraints without prescribing skill choreography** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)
-- [ ] **Frame agent delivery for both the user and the future maintainer** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
+- [x] **Frame agent delivery for both the user and the future maintainer** — [recipe](concise-delivery-reports-for-users-and-maintainers.md)
 
 - [x] **Preserve locally edited managed files and keep user configuration outside automation packs** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md)
 - [x] **Run automations from committed operational files rather than copied instructions or caches** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md)

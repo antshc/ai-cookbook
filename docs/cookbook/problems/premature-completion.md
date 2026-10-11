@@ -38,6 +38,7 @@ Define observable completion and account for every obligation.
 - [Launch Gates, Staged Rollout, Health Checks, and Rollback](../launch-gates-staged-rollout-health-checks-and-rollback.md)
 - [Question-Driven Telemetry, Correlation, and Actionable Alerts](../question-driven-telemetry-correlation-and-actionable-alerts.md)
 - [Pressure Tests for Instruction Compliance](../pressure-tests-for-instruction-compliance.md)
+- [Concise Delivery Reports for Users and Maintainers](../concise-delivery-reports-for-users-and-maintainers.md)
 
 ## References
 
@@ -52,9 +53,7 @@ Define observable completion and account for every obligation.
 ## Principles awaiting recipes
 
 - [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
-- [Keep PR summaries short with observable verification evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
 - [Gate automatic bug fixing on a trusted triage verdict and ownership checks](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
-- [Frame agent delivery for both the user and the future maintainer](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Detect attempts to weaken checks, tests, suppressions, or quality thresholds](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Implement complete vertical slices with test, verification, and commit gates](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)

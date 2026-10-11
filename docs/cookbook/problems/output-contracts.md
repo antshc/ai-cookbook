@@ -18,6 +18,7 @@ Define what the consumer receives and who owns its format.
 - [Additive Schema Migration and Tested Rollback](../additive-schema-migration-and-tested-rollback.md)
 - [Controlled Skill Evaluations, Observable Traces, and Repeated Trials](../controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 - [Audience-Focused Documentation, Clear Prose, and Preserved Facts](../audience-focused-documentation-clear-prose-and-preserved-facts.md)
+- [Concise Delivery Reports for Users and Maintainers](../concise-delivery-reports-for-users-and-maintainers.md)
 
 ## References
 
@@ -45,7 +46,6 @@ Define what the consumer receives and who owns its format.
 
 - [Reconstruct design rationale across independent evidence sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)
 - [Calibrate rationale claims to direct, supported, inferred, or unknown evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md)
-- [Keep PR summaries short with observable verification evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
 - [Freeze report provenance and deduplicate before filing tickets](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

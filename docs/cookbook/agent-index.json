@@ -1740,45 +1740,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-keep-pr-summaries-short-with-observable-verification-evidence",
-      "title": "Keep PR summaries short with observable verification evidence",
-      "principle": "Keep PR summaries short with observable verification evidence",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "output-contracts",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "research",
-        "implementation"
-      ],
-      "keywords": [
-        "keep",
-        "pr",
-        "summaries",
-        "short",
-        "with",
-        "observable",
-        "verification",
-        "evidence"
-      ],
-      "use_when": "Use when defining agent behavior to keep PR summaries short with observable verification evidence.",
-      "provides": [
-        "Keep PR summaries short with observable verification evidence"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-keep-append-only-decision-records-linked-to-real-evidence",
       "title": "Keep append-only decision records linked to real evidence",
       "principle": "Keep append-only decision records linked to real evidence",
@@ -2048,45 +2009,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-frame-agent-delivery-for-both-the-user-and-the-future-maintainer",
-      "title": "Frame agent delivery for both the user and the future maintainer",
-      "principle": "Frame agent delivery for both the user and the future maintainer",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "frame",
-        "agent",
-        "delivery",
-        "for",
-        "both",
-        "the",
-        "user",
-        "and",
-        "the",
-        "future",
-        "maintainer"
-      ],
-      "use_when": "Use when defining agent behavior to frame agent delivery for both the user and the future maintainer.",
-      "provides": [
-        "Frame agent delivery for both the user and the future maintainer"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md",
       "covered_principles": []
     },
     {
@@ -5697,6 +5619,48 @@
         "Select documentation structure by tutorial, how-to, reference, or explanation purpose",
         "Remove generic AI phrasing while preserving the intended meaning",
         "Preserve factual details and uncertainty when simplifying documentation prose"
+      ]
+    },
+    {
+      "id": "concise-delivery-reports-for-users-and-maintainers",
+      "title": "Concise Delivery Reports for Users and Maintainers",
+      "path": "docs/cookbook/concise-delivery-reports-for-users-and-maintainers.md",
+      "kind": "recipe",
+      "problems": [
+        "missing-context",
+        "output-contracts",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "research",
+        "review"
+      ],
+      "keywords": [
+        "concise",
+        "delivery",
+        "reports",
+        "for",
+        "users",
+        "and",
+        "maintainers"
+      ],
+      "use_when": "Delivery reports can list implementation trivia without saying what users gain or what maintainers inherit. Long PR descriptions can still omit scope, risk, and actual verification.",
+      "provides": [
+        "Keep PR summaries short with observable verification evidence",
+        "Frame agent delivery for both the user and the future maintainer"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/concise-delivery-reports-for-users-and-maintainers.html",
+      "covered_principles": [
+        "Keep PR summaries short with observable verification evidence",
+        "Frame agent delivery for both the user and the future maintainer"
       ]
     }
   ]
