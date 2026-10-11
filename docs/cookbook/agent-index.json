@@ -9718,6 +9718,49 @@
       "status": "recipe-needed",
       "url": "https://github.com/addyosmani/agent-skills/blob/main/docs/developer-onboarding.md",
       "covered_principles": []
+    },
+    {
+      "id": "authors-and-sources",
+      "title": "Authors & Sources",
+      "path": "docs/cookbook/authors-and-sources.md",
+      "kind": "reference",
+      "problems": [
+        "skill-routing",
+        "instruction-compliance",
+        "guidance-evaluation"
+      ],
+      "applies_to": [
+        "skill",
+        "agent",
+        "instruction",
+        "template"
+      ],
+      "task_types": [
+        "research",
+        "review"
+      ],
+      "keywords": [
+        "authors",
+        "resources",
+        "sources",
+        "attribution",
+        "poteto",
+        "Lauren Tan",
+        "pstack",
+        "Addy Osmani",
+        "Matt Pocock",
+        "Garry Tan",
+        "gstack"
+      ],
+      "use_when": "Use when finding original skill collections and their authors for instruction-writing examples.",
+      "provides": [
+        "Four author resource links",
+        "Collection descriptions and suggested uses"
+      ],
+      "related": [],
+      "status": "reference",
+      "url": "docs/cookbook/authors-and-sources.html",
+      "covered_principles": []
     }
   ]
 }

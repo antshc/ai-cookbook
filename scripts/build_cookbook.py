@@ -117,7 +117,7 @@ def generate_navigation(catalog, data, check):
         chapter += '[All problems](../README.md) · [Agent index](../agent-index.json)\n'
         write_generated(COOKBOOK / 'problems' / (p['id'] + '.md'), chapter, check)
     toc += '\nFilter task types: planning, debugging, review, implementation, research. Filter artifacts: skill, agent, instruction, template.\n\n'
-    toc += '[Agent index](agent-index.json) · [Coverage checklist](index.md) · [Skill template families](skill-template-categories.md)\n'
+    toc += '[Agent index](agent-index.json) · [Coverage checklist](index.md) · [Skill template families](skill-template-categories.md) · [Authors & sources](authors-and-sources.md)\n'
     write_generated(COOKBOOK / 'README.md', toc, check)
 
 

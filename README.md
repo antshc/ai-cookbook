@@ -2,7 +2,7 @@
 
 Problem-based practices for engineers writing AI skills, agents, instructions, and templates.
 
-[Browse cookbook contents](docs/cookbook/README.md) · [Agent index](docs/cookbook/agent-index.json) · [Coverage checklist](docs/cookbook/index.md)
+[Authors & sources](docs/cookbook/authors-and-sources.md) · [Browse cookbook contents](docs/cookbook/README.md) · [Agent index](docs/cookbook/agent-index.json) · [Coverage checklist](docs/cookbook/index.md)
 
 ## Run locally
 

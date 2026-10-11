@@ -9,8 +9,7 @@ No materials yet.
 
 ## References
 
-No materials yet.
-
+- [Authors & Sources](../authors-and-sources.md)
 
 ## Templates
 

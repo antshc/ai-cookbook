@@ -1,0 +1,9 @@
+# Authors & Sources
+
+- **[Lauren Tan (poteto) — pstack](https://github.com/cursor/plugins/tree/main/pstack)**. Lauren Tan, known online as poteto, is a software engineer and the creator of pstack. The collection combines engineering principles with workflows for investigation, design, implementation, review, and verification. Its skills show how to require direct evidence, scope delegated work, and turn recurring problems into better procedures. Use it for examples of rigorous agent behavior and the instructions that enforce it.
+
+- **[Addy Osmani — Agent Skills](https://github.com/addyosmani/agent-skills)**. Addy Osmani's collection covers the software development lifecycle, from requirements and planning to implementation, testing, review, and release. The skills pair procedures with quality gates and checks on the resulting work. Its authoring documentation and evaluations provide examples for writing and assessing agent guidance. Use it to study how reusable skills encode engineering practices across different tasks.
+
+- **[Matt Pocock — Skills](https://github.com/mattpocock/skills)**. Matt Pocock's collection focuses on practical engineering skills that are small, adaptable, and composable. The repository explains how to use individual skills without handing the entire development process to one framework. It provides examples for engineers who want explicit control over their agent workflows. Use it to study focused responsibilities and how independent skills fit together.
+
+- **[Garry Tan — gstack](https://github.com/garrytan/gstack)**. Garry Tan's gstack packages specialized engineering roles as skills and supporting tools. Its workflows cover product and engineering planning, code review, QA, investigation, and shipping. The repository includes setup guidance and detailed explanations of the individual skills. Use it to study role-specific instructions and the handoffs between planning, verification, and delivery.
