@@ -59,7 +59,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R26. Skill-Owned Code and Supporting Files** — NEW (1 principles). [recipe](skill-owned-code-and-supporting-files.md).
 - [x] **R27. Repository Adapters, Resource Access, and Portable Skills** — NEW (6 principles). [recipe](repository-adapters-resource-access-and-portable-skills.md).
 - [x] **R28. Agent-Agnostic Contracts and Structured CLI Handoffs** — NEW (2 principles). [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md).
-- [ ] **R29. Scoped Parallel Workers, Bounded Implementation, and Aggregation** — NEW (4 principles).
+- [x] **R29. Scoped Parallel Workers, Bounded Implementation, and Aggregation** — NEW (4 principles). [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md).
 - [ ] **R30. Delegated Worker Permissions and Centralized External Writes** — NEW (1 principles).
 ### Worker lifecycle and autonomy
 
@@ -375,10 +375,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Decompose parallel work into scoped workers and aggregate results** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md).
-- [ ] **Delegate implementation with bounded files and success criteria, then review the diff** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/feature.md).
-- [ ] **Parallelize independent specialist reviews, but keep aggregation with the orchestrator** — [source](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md).
-- [ ] **Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out** — [source](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md).
+- [x] **Decompose parallel work into scoped workers and aggregate results** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md).
+- [x] **Delegate implementation with bounded files and success criteria, then review the diff** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md).
+- [x] **Parallelize independent specialist reviews, but keep aggregation with the orchestrator** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md).
+- [x] **Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md).
 
 ### R30. Delegated Worker Permissions and Centralized External Writes
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 87 |
-| Principles still awaiting coverage | 157 |
+| Already covered principles | 91 |
+| Principles still awaiting coverage | 153 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

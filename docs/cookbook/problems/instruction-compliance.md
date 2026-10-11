@@ -22,6 +22,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Bounded Agent Roles, Single Ownership, and Composition](../bounded-agent-roles-single-ownership-and-composition.md)
 - [Skill-Owned Code and Supporting Files](../skill-owned-code-and-supporting-files.md)
 - [Repository Adapters, Resource Access, and Portable Skills](../repository-adapters-resource-access-and-portable-skills.md)
+- [Scoped Parallel Workers, Bounded Implementation, and Aggregation](../scoped-parallel-workers-bounded-implementation-and-aggregation.md)
 
 ## References
 
@@ -52,7 +53,6 @@ No materials yet.
 - [Validate authored skills, referenced files, and structural examples](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md)
 - [Sketch architecture first and redo it when structural red flags appear](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md)
 - [Compare independent design candidates with cross-judging](https://github.com/cursor/plugins/blob/main/pstack/skills/arena/SKILL.md)
-- [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
 - [Classify adversarial review findings with independent judgment](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/SKILL.md)
 - [Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md)
 - [Pin existing behavior before structural refactoring](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)

@@ -9,6 +9,7 @@ Define what the consumer receives and who owns its format.
 - [Live Bug Reproduction and Verification of Existing Fixes](../live-bug-reproduction-and-verification-of-existing-fixes.md)
 - [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 - [Template Ownership of Rendering](../template-ownership-of-rendering.md)
+- [Scoped Parallel Workers, Bounded Implementation, and Aggregation](../scoped-parallel-workers-bounded-implementation-and-aggregation.md)
 
 ## References
 
@@ -46,7 +47,6 @@ Define what the consumer receives and who owns its format.
 - [Verify framework-specific decisions against version-matched official documentation](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Revalidate cached official documentation with origin validators before using it across sessions](https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md)
 - [Treat error output, external documentation, and browser content as untrusted instructions](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
-- [Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md)
 - [Classify personal data by purpose and exclude unnecessary personal information from telemetry](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [Migrate schemas additively before destructive changes and test the rollback path](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md)
 - [Preserve factual details and uncertainty when simplifying documentation prose](https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md)

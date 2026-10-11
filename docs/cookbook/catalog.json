@@ -1645,42 +1645,6 @@
       "related": []
     },
     {
-      "id": "principle-decompose-parallel-work-into-scoped-workers-and-aggregate-results",
-      "title": "Decompose parallel work into scoped workers and aggregate results",
-      "principle": "Decompose parallel work into scoped workers and aggregate results",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "delegation-handoffs",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "decompose",
-        "parallel",
-        "work",
-        "into",
-        "scoped",
-        "workers",
-        "and",
-        "aggregate",
-        "results"
-      ],
-      "use_when": "Use when defining agent behavior to decompose parallel work into scoped workers and aggregate results.",
-      "provides": [
-        "Decompose parallel work into scoped workers and aggregate results"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-classify-adversarial-review-findings-with-independent-judgment",
       "title": "Classify adversarial review findings with independent judgment",
       "principle": "Classify adversarial review findings with independent judgment",
@@ -2470,45 +2434,6 @@
       "use_when": "Use when defining agent behavior to configure model selection per agent responsibility.",
       "provides": [
         "Configure model selection per agent responsibility"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-delegate-implementation-with-bounded-files-and-success-criteria-then-review-the-diff",
-      "title": "Delegate implementation with bounded files and success criteria, then review the diff",
-      "principle": "Delegate implementation with bounded files and success criteria, then review the diff",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/feature.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review",
-        "implementation"
-      ],
-      "keywords": [
-        "delegate",
-        "implementation",
-        "with",
-        "bounded",
-        "files",
-        "and",
-        "success",
-        "criteria",
-        "then",
-        "review",
-        "the",
-        "diff"
-      ],
-      "use_when": "Use when defining agent behavior to delegate implementation with bounded files and success criteria, then review the diff.",
-      "provides": [
-        "Delegate implementation with bounded files and success criteria, then review the diff"
       ],
       "related": []
     },
@@ -4810,83 +4735,6 @@
       "use_when": "Use when defining agent behavior to automate wide mechanical refactors instead of hand-editing large change sets.",
       "provides": [
         "Automate wide mechanical refactors instead of hand-editing large change sets"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-parallelize-independent-specialist-reviews-but-keep-aggregation-with-the-orchestrator",
-      "title": "Parallelize independent specialist reviews, but keep aggregation with the orchestrator",
-      "principle": "Parallelize independent specialist reviews, but keep aggregation with the orchestrator",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "parallelize",
-        "independent",
-        "specialist",
-        "reviews",
-        "but",
-        "keep",
-        "aggregation",
-        "with",
-        "the",
-        "orchestrator"
-      ],
-      "use_when": "Use when defining agent behavior to parallelize independent specialist reviews, but keep aggregation with the orchestrator.",
-      "provides": [
-        "Parallelize independent specialist reviews, but keep aggregation with the orchestrator"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-use-communicating-agent-teams-for-competing-hypothesis-investigations-and-independent-subagents-for-report-fan-out",
-      "title": "Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out",
-      "principle": "Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging",
-        "research"
-      ],
-      "keywords": [
-        "use",
-        "communicating",
-        "agent",
-        "teams",
-        "for",
-        "competing",
-        "hypothesis",
-        "investigations",
-        "and",
-        "independent",
-        "subagents",
-        "for",
-        "report",
-        "fan",
-        "out"
-      ],
-      "use_when": "Use when defining agent behavior to use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out.",
-      "provides": [
-        "Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out"
       ],
       "related": []
     },
@@ -7216,6 +7064,48 @@
       "provides": [
         "Agent-agnostic handoff contracts",
         "CLI JSON handoff"
+      ],
+      "related": []
+    },
+    {
+      "id": "scoped-parallel-workers-bounded-implementation-and-aggregation",
+      "title": "Scoped Parallel Workers, Bounded Implementation, and Aggregation",
+      "path": "scoped-parallel-workers-bounded-implementation-and-aggregation.md",
+      "kind": "recipe",
+      "problems": [
+        "delegation-handoffs",
+        "instruction-compliance",
+        "missing-context",
+        "output-contracts",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "debugging",
+        "implementation",
+        "planning",
+        "research",
+        "review"
+      ],
+      "keywords": [
+        "scoped",
+        "parallel",
+        "workers",
+        "bounded",
+        "implementation",
+        "and",
+        "aggregation"
+      ],
+      "use_when": "Parallel workers can duplicate effort, collide on files, or return claims the coordinator cannot combine. Each worker needs bounded scope and an evidence contract.",
+      "provides": [
+        "Decompose parallel work into scoped workers and aggregate results",
+        "Delegate implementation with bounded files and success criteria, then review the diff",
+        "Parallelize independent specialist reviews, but keep aggregation with the orchestrator",
+        "Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out"
       ],
       "related": []
     }

@@ -14,6 +14,7 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Progressive Disclosure, Targeted Context, and Safe Trimming](../progressive-disclosure-targeted-context-and-safe-trimming.md)
 - [Delegate Bulk Exploration to Preserve Context](../delegate-bulk-exploration-to-preserve-context.md)
 - [Repository Adapters, Resource Access, and Portable Skills](../repository-adapters-resource-access-and-portable-skills.md)
+- [Scoped Parallel Workers, Bounded Implementation, and Aggregation](../scoped-parallel-workers-bounded-implementation-and-aggregation.md)
 
 ## References
 
@@ -47,7 +48,6 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Honor idempotency keys across retries, payload mismatches, and unknown outcomes](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
 - [Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
 - [Classify review findings by severity and lead with required, evidenced changes](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
-- [Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md)
 - [Mask protected source blocks during agent simplification and restore them from verified placeholders or backups](https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md)
 - [Review authorization for every protected resource and prevent secrets entering code or logs](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)

@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 87 covered, 157 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 91 covered, 153 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -24,7 +24,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 8 | 0 |
 | [Context management](#context-management) | 5 | 5 | 0 |
 | [Ownership and composition](#ownership-and-composition) | 11 | 10 | 1 |
-| [Delegation contracts](#delegation-contracts) | 7 | 2 | 5 |
+| [Delegation contracts](#delegation-contracts) | 7 | 6 | 1 |
 | [Worker lifecycle](#worker-lifecycle) | 9 | 0 | 9 |
 | [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 0 | 7 |
 | [Intent and assumption discovery](#intent-and-assumption-discovery) | 7 | 0 | 7 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **87** | **157** |
+| **Total** | **244** | **91** | **153** |
 
 ## Completion checks
 
@@ -197,11 +197,11 @@ What scope, inputs, outputs, restrictions, and review duties govern delegated wo
 
 - [x] **Agent-agnostic handoff contracts** — [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md)
 - [x] **CLI JSON handoff** — [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md)
-- [ ] **Decompose parallel work into scoped workers and aggregate results** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
-- [ ] **Delegate implementation with bounded files and success criteria, then review the diff** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/feature.md)
+- [x] **Decompose parallel work into scoped workers and aggregate results** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md)
+- [x] **Delegate implementation with bounded files and success criteria, then review the diff** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md)
 - [ ] **Keep external writes and credentials out of delegated workers** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
-- [ ] **Parallelize independent specialist reviews, but keep aggregation with the orchestrator** — [source](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md)
-- [ ] **Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out** — [source](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md)
+- [x] **Parallelize independent specialist reviews, but keep aggregation with the orchestrator** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md)
+- [x] **Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md)
 
 ## Worker lifecycle
 
