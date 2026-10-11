@@ -70,7 +70,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R35. Reversible Autonomy, Approval Gates, and Uncertain Targets** — NEW (6 principles). [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
 ### Intent and design
 
-- [ ] **R36. Clarify Intent, Surface Assumptions, and Challenge Scope** — NEW (5 principles).
+- [x] **R36. Clarify Intent, Surface Assumptions, and Challenge Scope** — NEW (5 principles). [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
 - [ ] **R37. Explore Alternatives and Test MVP Assumptions** — NEW (2 principles).
 - [ ] **R38. Consumer-First Design, Public Contracts, and Usage Guides** — NEW (4 principles).
 - [ ] **R39. Domain Models, Foundational Constraints, and Invalid States** — NEW (4 principles).
@@ -431,11 +431,11 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Reject unnecessary scope instead of reflexively agreeing** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md).
-- [ ] **Surface assumptions and stop when requirements conflict or remain uncertain** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md).
-- [ ] **Challenge unwarranted scope or complexity while leaving informed decisions to the user** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md).
-- [ ] **Interview for intent one question and one explicit guess at a time** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/interview-me/SKILL.md).
-- [ ] **Require explicit confirmation of the restated intent and stop before downstream work** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/interview-me/SKILL.md).
+- [x] **Reject unnecessary scope instead of reflexively agreeing** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
+- [x] **Surface assumptions and stop when requirements conflict or remain uncertain** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
+- [x] **Challenge unwarranted scope or complexity while leaving informed decisions to the user** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
+- [x] **Interview for intent one question and one explicit guess at a time** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
+- [x] **Require explicit confirmation of the restated intent and stop before downstream work** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
 
 ### R37. Explore Alternatives and Test MVP Assumptions
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 108 |
-| Principles still awaiting coverage | 136 |
+| Already covered principles | 113 |
+| Principles still awaiting coverage | 131 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

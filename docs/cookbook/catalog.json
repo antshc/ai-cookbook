@@ -1264,38 +1264,6 @@
       "related": []
     },
     {
-      "id": "principle-reject-unnecessary-scope-instead-of-reflexively-agreeing",
-      "title": "Reject unnecessary scope instead of reflexively agreeing",
-      "principle": "Reject unnecessary scope instead of reflexively agreeing",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "reject",
-        "unnecessary",
-        "scope",
-        "instead",
-        "of",
-        "reflexively",
-        "agreeing"
-      ],
-      "use_when": "Use when defining agent behavior to reject unnecessary scope instead of reflexively agreeing.",
-      "provides": [
-        "Reject unnecessary scope instead of reflexively agreeing"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-replace-redundant-comments-and-unsafe-suppressions-with-code-fixes",
       "title": "Replace redundant comments and unsafe suppressions with code fixes",
       "principle": "Replace redundant comments and unsafe suppressions with code fixes",
@@ -2734,153 +2702,6 @@
       "use_when": "Use when defining agent behavior to run automations from committed operational files rather than copied instructions or caches.",
       "provides": [
         "Run automations from committed operational files rather than copied instructions or caches"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-surface-assumptions-and-stop-when-requirements-conflict-or-remain-uncertain",
-      "title": "Surface assumptions and stop when requirements conflict or remain uncertain",
-      "principle": "Surface assumptions and stop when requirements conflict or remain uncertain",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "surface",
-        "assumptions",
-        "and",
-        "stop",
-        "when",
-        "requirements",
-        "conflict",
-        "or",
-        "remain",
-        "uncertain"
-      ],
-      "use_when": "Use when defining agent behavior to surface assumptions and stop when requirements conflict or remain uncertain.",
-      "provides": [
-        "Surface assumptions and stop when requirements conflict or remain uncertain"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-challenge-unwarranted-scope-or-complexity-while-leaving-informed-decisions-to-the-user",
-      "title": "Challenge unwarranted scope or complexity while leaving informed decisions to the user",
-      "principle": "Challenge unwarranted scope or complexity while leaving informed decisions to the user",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "challenge",
-        "unwarranted",
-        "scope",
-        "or",
-        "complexity",
-        "while",
-        "leaving",
-        "informed",
-        "decisions",
-        "to",
-        "the",
-        "user"
-      ],
-      "use_when": "Use when defining agent behavior to challenge unwarranted scope or complexity while leaving informed decisions to the user.",
-      "provides": [
-        "Challenge unwarranted scope or complexity while leaving informed decisions to the user"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-interview-for-intent-one-question-and-one-explicit-guess-at-a-time",
-      "title": "Interview for intent one question and one explicit guess at a time",
-      "principle": "Interview for intent one question and one explicit guess at a time",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/interview-me/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "interview",
-        "for",
-        "intent",
-        "one",
-        "question",
-        "and",
-        "one",
-        "explicit",
-        "guess",
-        "at",
-        "a",
-        "time"
-      ],
-      "use_when": "Use when defining agent behavior to interview for intent one question and one explicit guess at a time.",
-      "provides": [
-        "Interview for intent one question and one explicit guess at a time"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-require-explicit-confirmation-of-the-restated-intent-and-stop-before-downstream-work",
-      "title": "Require explicit confirmation of the restated intent and stop before downstream work",
-      "principle": "Require explicit confirmation of the restated intent and stop before downstream work",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/interview-me/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "require",
-        "explicit",
-        "confirmation",
-        "of",
-        "the",
-        "restated",
-        "intent",
-        "and",
-        "stop",
-        "before",
-        "downstream",
-        "work"
-      ],
-      "use_when": "Use when defining agent behavior to require explicit confirmation of the restated intent and stop before downstream work.",
-      "provides": [
-        "Require explicit confirmation of the restated intent and stop before downstream work"
       ],
       "related": []
     },
@@ -6704,6 +6525,44 @@
         "Fail closed when an external automation's target is uncertain",
         "Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run",
         "Require explicit authorization for each external cross-model review invocation"
+      ],
+      "related": []
+    },
+    {
+      "id": "clarify-intent-surface-assumptions-and-challenge-scope",
+      "title": "Clarify Intent, Surface Assumptions, and Challenge Scope",
+      "path": "clarify-intent-surface-assumptions-and-challenge-scope.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "missing-context",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "planning",
+        "review"
+      ],
+      "keywords": [
+        "clarify",
+        "intent",
+        "surface",
+        "assumptions",
+        "and",
+        "challenge",
+        "scope"
+      ],
+      "use_when": "An agent can confidently solve an unstated problem or add complexity the user never wanted. Unclear intent needs a confirmed restatement before downstream work.",
+      "provides": [
+        "Reject unnecessary scope instead of reflexively agreeing",
+        "Surface assumptions and stop when requirements conflict or remain uncertain",
+        "Challenge unwarranted scope or complexity while leaving informed decisions to the user",
+        "Interview for intent one question and one explicit guess at a time",
+        "Require explicit confirmation of the restated intent and stop before downstream work"
       ],
       "related": []
     }
