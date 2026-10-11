@@ -50,7 +50,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 ### Design and code principles
 
 - [x] **Question a repeatedly failed premise with an actor census** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
-- [ ] **Validate and handle errors at system boundaries** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-boundary-discipline/SKILL.md)
+- [x] **Validate and handle errors at system boundaries** — [recipe](boundary-validation-threat-models-and-abuse-cases.md)
 - [ ] **Build a rerunnable tool for nontrivial work** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md)
 - [x] **Turn recurring corrections into enforced mechanisms** — [recipe](improvement-flywheel-and-enforced-lessons.md)
 - [x] **Compare competing prototypes for novel designs** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md)
@@ -269,8 +269,8 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 
 ### Security and trust boundaries
 
-- [ ] **Threat-model system boundaries and write abuse cases before hardening a feature** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
-- [ ] **Validate external and model-generated data at the boundary before using it as code or decisions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
+- [x] **Threat-model system boundaries and write abuse cases before hardening a feature** — [recipe](boundary-validation-threat-models-and-abuse-cases.md)
+- [x] **Validate external and model-generated data at the boundary before using it as code or decisions** — [recipe](boundary-validation-threat-models-and-abuse-cases.md)
 - [ ] **Guard destructive operations against paths controlled by untrusted upstream processes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [ ] **Block unreviewed dependency install scripts and audit the committed lockfile** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [ ] **Review authorization for every protected resource and prevent secrets entering code or logs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)

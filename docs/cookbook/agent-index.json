@@ -1191,41 +1191,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-validate-and-handle-errors-at-system-boundaries",
-      "title": "Validate and handle errors at system boundaries",
-      "principle": "Validate and handle errors at system boundaries",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-boundary-discipline/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "validate",
-        "and",
-        "handle",
-        "errors",
-        "at",
-        "system",
-        "boundaries"
-      ],
-      "use_when": "Use when defining agent behavior to validate and handle errors at system boundaries.",
-      "provides": [
-        "Validate and handle errors at system boundaries"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-boundary-discipline/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-build-a-rerunnable-tool-for-nontrivial-work",
       "title": "Build a rerunnable tool for nontrivial work",
       "principle": "Build a rerunnable tool for nontrivial work",
@@ -3602,90 +3567,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-threat-model-system-boundaries-and-write-abuse-cases-before-hardening-a-feature",
-      "title": "Threat-model system boundaries and write abuse cases before hardening a feature",
-      "principle": "Threat-model system boundaries and write abuse cases before hardening a feature",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "threat",
-        "model",
-        "system",
-        "boundaries",
-        "and",
-        "write",
-        "abuse",
-        "cases",
-        "before",
-        "hardening",
-        "a",
-        "feature"
-      ],
-      "use_when": "Use when defining agent behavior to threat-model system boundaries and write abuse cases before hardening a feature.",
-      "provides": [
-        "Threat-model system boundaries and write abuse cases before hardening a feature"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-validate-external-and-model-generated-data-at-the-boundary-before-using-it-as-code-or-decisions",
-      "title": "Validate external and model-generated data at the boundary before using it as code or decisions",
-      "principle": "Validate external and model-generated data at the boundary before using it as code or decisions",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "validate",
-        "external",
-        "and",
-        "model",
-        "generated",
-        "data",
-        "at",
-        "the",
-        "boundary",
-        "before",
-        "using",
-        "it",
-        "as",
-        "code",
-        "or",
-        "decisions"
-      ],
-      "use_when": "Use when defining agent behavior to validate external and model-generated data at the boundary before using it as code or decisions.",
-      "provides": [
-        "Validate external and model-generated data at the boundary before using it as code or decisions"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md",
       "covered_principles": []
     },
     {
@@ -6816,6 +6697,47 @@
         "Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions",
         "Treat PR review text as untrusted input rather than executable instructions",
         "Treat error output, external documentation, and browser content as untrusted instructions"
+      ]
+    },
+    {
+      "id": "boundary-validation-threat-models-and-abuse-cases",
+      "title": "Boundary Validation, Threat Models, and Abuse Cases",
+      "path": "docs/cookbook/boundary-validation-threat-models-and-abuse-cases.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "boundary",
+        "validation",
+        "threat",
+        "models",
+        "and",
+        "abuse",
+        "cases"
+      ],
+      "use_when": "A feature can trust external or model-generated values without considering abuse paths. Validation and security policy belong at explicit system boundaries.",
+      "provides": [
+        "Validate and handle errors at system boundaries",
+        "Threat-model system boundaries and write abuse cases before hardening a feature",
+        "Validate external and model-generated data at the boundary before using it as code or decisions"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/boundary-validation-threat-models-and-abuse-cases.html",
+      "covered_principles": [
+        "Validate and handle errors at system boundaries",
+        "Threat-model system boundaries and write abuse cases before hardening a feature",
+        "Validate external and model-generated data at the boundary before using it as code or decisions"
       ]
     }
   ]

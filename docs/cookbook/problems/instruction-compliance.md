@@ -35,6 +35,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Reproducible Benchmarks, Frozen Baselines, and Honest Metrics](../reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
 - [User-Visible Bottlenecks, Work Elimination, and Regression Monitoring](../user-visible-bottlenecks-work-elimination-and-regression-monitoring.md)
 - [Untrusted Content and Prompt Injection Boundaries](../untrusted-content-and-prompt-injection-boundaries.md)
+- [Boundary Validation, Threat Models, and Abuse Cases](../boundary-validation-threat-models-and-abuse-cases.md)
 
 ## References
 
@@ -51,7 +52,6 @@ No materials yet.
 ## Principles awaiting recipes
 
 - [Behavior-preserving agent review](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md)
-- [Validate and handle errors at system boundaries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-boundary-discipline/SKILL.md)
 - [Build a rerunnable tool for nontrivial work](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md)
 - [Make state-changing operations converge across retries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-make-operations-idempotent/SKILL.md)
 - [Migrate callers and delete obsolete internal APIs together](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md)
@@ -73,8 +73,6 @@ No materials yet.
 - [Treat a quality guard that could not run as a blocking failure rather than a clean result](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)
 - [Understand why existing code exists before simplifying or deleting it](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Automate wide mechanical refactors instead of hand-editing large change sets](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
-- [Threat-model system boundaries and write abuse cases before hardening a feature](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
-- [Validate external and model-generated data at the boundary before using it as code or decisions](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [Guard destructive operations against paths controlled by untrusted upstream processes](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [Block unreviewed dependency install scripts and audit the committed lockfile](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [Review authorization for every protected resource and prevent secrets entering code or logs](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)

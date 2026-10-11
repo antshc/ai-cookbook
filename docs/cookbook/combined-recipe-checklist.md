@@ -87,7 +87,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Trust and security
 
 - [x] **R46. Untrusted Content and Prompt Injection Boundaries** — NEW (3 principles). [recipe](untrusted-content-and-prompt-injection-boundaries.md).
-- [ ] **R47. Boundary Validation, Threat Models, and Abuse Cases** — NEW (3 principles).
+- [x] **R47. Boundary Validation, Threat Models, and Abuse Cases** — NEW (3 principles). [recipe](boundary-validation-threat-models-and-abuse-cases.md).
 - [ ] **R48. Secret Protection, Resource Authorization, and Personal Data Minimization** — NEW (4 principles).
 - [ ] **R49. Isolated Browser Profiles and Read-Only Inspection** — NEW (2 principles).
 - [ ] **R50. Safe Destructive Paths and Dependency Install Controls** — NEW (2 principles).
@@ -527,9 +527,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Validate and handle errors at system boundaries** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-boundary-discipline/SKILL.md).
-- [ ] **Threat-model system boundaries and write abuse cases before hardening a feature** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md).
-- [ ] **Validate external and model-generated data at the boundary before using it as code or decisions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md).
+- [x] **Validate and handle errors at system boundaries** — [recipe](boundary-validation-threat-models-and-abuse-cases.md).
+- [x] **Threat-model system boundaries and write abuse cases before hardening a feature** — [recipe](boundary-validation-threat-models-and-abuse-cases.md).
+- [x] **Validate external and model-generated data at the boundary before using it as code or decisions** — [recipe](boundary-validation-threat-models-and-abuse-cases.md).
 
 ### R48. Secret Protection, Resource Authorization, and Personal Data Minimization
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 149 |
-| Principles still awaiting coverage | 95 |
+| Already covered principles | 152 |
+| Principles still awaiting coverage | 92 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
