@@ -1159,39 +1159,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-template-ownership-of-rendering",
-      "title": "Template ownership of rendering",
-      "principle": "Template ownership of rendering",
-      "path": "https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap",
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "template",
-        "ownership",
-        "of",
-        "rendering"
-      ],
-      "use_when": "Use when defining agent behavior to template ownership of rendering.",
-      "provides": [
-        "Template ownership of rendering"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-agent-agnostic-handoff-contracts",
       "title": "Agent-agnostic handoff contracts",
       "principle": "Agent-agnostic handoff contracts",
@@ -8613,6 +8580,40 @@
         "Delegation engine isolation",
         "Keep orchestration and code-writing responsibilities with separate owners",
         "Do not make agent personas invoke other personas or add routing-only hops"
+      ]
+    },
+    {
+      "id": "template-ownership-of-rendering",
+      "title": "Template Ownership of Rendering",
+      "path": "docs/cookbook/template-ownership-of-rendering.md",
+      "kind": "recipe",
+      "problems": [
+        "output-contracts",
+        "responsibility-overlap"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "template",
+        "ownership",
+        "of",
+        "rendering"
+      ],
+      "use_when": "A skill that restates template layout creates two sources of rendering rules. Output structure and local conditions need one template owner.",
+      "provides": [
+        "Template ownership of rendering"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/template-ownership-of-rendering.html",
+      "covered_principles": [
+        "Template ownership of rendering"
       ]
     }
   ]

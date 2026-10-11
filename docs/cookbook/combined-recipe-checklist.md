@@ -55,7 +55,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Ownership and delegation
 
 - [x] **R24. Bounded Agent Roles, Single Ownership, and Composition** — NEW (5 principles). [recipe](bounded-agent-roles-single-ownership-and-composition.md).
-- [ ] **R25. Template Ownership of Rendering** — NEW (1 principles).
+- [x] **R25. Template Ownership of Rendering** — NEW (1 principles). [recipe](template-ownership-of-rendering.md).
 - [ ] **R26. Skill-Owned Code and Supporting Files** — NEW (1 principles).
 - [ ] **R27. Repository Adapters, Resource Access, and Portable Skills** — NEW (6 principles).
 - [ ] **R28. Agent-Agnostic Contracts and Structured CLI Handoffs** — NEW (2 principles).
@@ -345,7 +345,7 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Template ownership of rendering** — [source](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md).
+- [x] **Template ownership of rendering** — [recipe](template-ownership-of-rendering.md).
 
 ### R26. Skill-Owned Code and Supporting Files
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 77 |
-| Principles still awaiting coverage | 167 |
+| Already covered principles | 78 |
+| Principles still awaiting coverage | 166 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

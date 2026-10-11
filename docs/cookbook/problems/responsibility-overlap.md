@@ -7,6 +7,7 @@ Give each procedure and responsibility one clear owner.
 - [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
 - [Positive and Negative Skill Routing Tests](../positive-and-negative-skill-routing-tests.md)
 - [Bounded Agent Roles, Single Ownership, and Composition](../bounded-agent-roles-single-ownership-and-composition.md)
+- [Template Ownership of Rendering](../template-ownership-of-rendering.md)
 
 ## References
 
@@ -20,7 +21,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Template ownership of rendering](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md)
 - [Agent-agnostic handoff contracts](https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md)
 - [Repository adapter skills](https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md)
 - [Choose core data shapes and shared foundations before features](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-foundational-thinking/SKILL.md)

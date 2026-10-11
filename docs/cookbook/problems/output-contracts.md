@@ -8,6 +8,7 @@ Define what the consumer receives and who owns its format.
 - [Red-Green-Refactor and Failing Regression Tests](../red-green-refactor-and-failing-regression-tests.md)
 - [Live Bug Reproduction and Verification of Existing Fixes](../live-bug-reproduction-and-verification-of-existing-fixes.md)
 - [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
+- [Template Ownership of Rendering](../template-ownership-of-rendering.md)
 
 ## References
 
@@ -33,7 +34,6 @@ Define what the consumer receives and who owns its format.
 
 ## Principles awaiting recipes
 
-- [Template ownership of rendering](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md)
 - [Write a consumer usage guide before implementing a shared API](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md)
 - [Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md)
 - [Reconstruct design rationale across independent evidence sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)

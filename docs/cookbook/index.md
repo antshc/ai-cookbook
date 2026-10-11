@@ -27,7 +27,7 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 - [x] **Repository instruction loading** — [recipe](instruction-loading-and-canary-checks.md)
 - [x] **Skill discovery and trigger descriptions** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
 - [x] **Progressive disclosure of agent guidance** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md)
-- [ ] **Template ownership of rendering** — [source](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md)
+- [x] **Template ownership of rendering** — [recipe](template-ownership-of-rendering.md)
 
 ## Composition and state
 
