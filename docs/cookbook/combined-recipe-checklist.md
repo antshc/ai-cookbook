@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 55/82 recipes complete; 172/244 principles covered.**
+**Progress: 56/82 recipes complete; 176/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -100,7 +100,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R55. Isolated Worktrees and Safe Workspace Cleanup** — NEW (2 principles). [recipe](isolated-worktrees-and-safe-workspace-cleanup.md).
 ### Migration and release
 
-- [ ] **R56. Consumer Migration, Safe Deprecation, and Legacy Retirement** — NEW (4 principles).
+- [x] **R56. Consumer Migration, Safe Deprecation, and Legacy Retirement** — NEW (4 principles). [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
 - [ ] **R57. Additive Schema Migration and Tested Rollback** — NEW (1 principles).
 - [ ] **R58. Safe Feature Flags and Post-Rollout Cleanup** — NEW (2 principles).
 - [ ] **R59. Semantic Releases, Tags, and Human Changelogs** — NEW (1 principles).
@@ -595,10 +595,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Migrate callers and delete obsolete internal APIs together** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md).
-- [ ] **Optimize planned migrations for a verified final state** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-outcome-oriented-execution/SKILL.md).
-- [ ] **Prefer advisory deprecation and provide a production-proven replacement plus migration guidance** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md).
-- [ ] **Verify old consumers are inactive before deleting a deprecated interface or system** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md).
+- [x] **Migrate callers and delete obsolete internal APIs together** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
+- [x] **Optimize planned migrations for a verified final state** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
+- [x] **Prefer advisory deprecation and provide a production-proven replacement plus migration guidance** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
+- [x] **Verify old consumers are inactive before deleting a deprecated interface or system** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
 
 ### R57. Additive Schema Migration and Tested Rollback
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 172 |
-| Principles still awaiting coverage | 72 |
+| Already covered principles | 176 |
+| Principles still awaiting coverage | 68 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

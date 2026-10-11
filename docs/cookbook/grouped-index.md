@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 172 covered, 72 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 176 covered, 68 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -34,7 +34,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 14 | 0 |
 | [Configuration and distribution](#configuration-and-distribution) | 8 | 8 | 0 |
 | [Git and workspace safety](#git-and-workspace-safety) | 5 | 5 | 0 |
-| [Migration and deprecation](#migration-and-deprecation) | 6 | 0 | 6 |
+| [Migration and deprecation](#migration-and-deprecation) | 6 | 4 | 2 |
 | [Release and rollout](#release-and-rollout) | 5 | 0 | 5 |
 | [Operational evidence](#operational-evidence) | 3 | 0 | 3 |
 | [Skill evaluation](#skill-evaluation) | 6 | 0 | 6 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **172** | **72** |
+| **Total** | **244** | **176** | **68** |
 
 ## Completion checks
 
@@ -332,12 +332,12 @@ Can this change be committed or this workspace removed without mixing or losing 
 
 Have consumers moved to the replacement, can the transition roll back, and is retirement safe?
 
-- [ ] **Migrate callers and delete obsolete internal APIs together** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md)
-- [ ] **Optimize planned migrations for a verified final state** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-outcome-oriented-execution/SKILL.md)
+- [x] **Migrate callers and delete obsolete internal APIs together** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
+- [x] **Optimize planned migrations for a verified final state** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [ ] **Remove feature flags and dead branches after their rollout finishes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
-- [ ] **Prefer advisory deprecation and provide a production-proven replacement plus migration guidance** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md)
+- [x] **Prefer advisory deprecation and provide a production-proven replacement plus migration guidance** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [ ] **Migrate schemas additively before destructive changes and test the rollback path** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md)
-- [ ] **Verify old consumers are inactive before deleting a deprecated interface or system** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md)
+- [x] **Verify old consumers are inactive before deleting a deprecated interface or system** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
 
 ## Release and rollout
 

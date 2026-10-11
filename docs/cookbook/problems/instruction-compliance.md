@@ -42,6 +42,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Repository Configuration, Local Edits, and Committed Automation Files](../repository-configuration-local-edits-and-committed-automation-files.md)
 - [Least-Privilege Tool Restrictions versus Preapproval](../least-privilege-tool-restrictions-versus-preapproval.md)
 - [Task-Scoped Staging and Atomic Verified Commits](../task-scoped-staging-and-atomic-verified-commits.md)
+- [Consumer Migration, Safe Deprecation, and Legacy Retirement](../consumer-migration-safe-deprecation-and-legacy-retirement.md)
 
 ## References
 
@@ -60,7 +61,6 @@ No materials yet.
 - [Behavior-preserving agent review](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md)
 - [Build a rerunnable tool for nontrivial work](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md)
 - [Make state-changing operations converge across retries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-make-operations-idempotent/SKILL.md)
-- [Migrate callers and delete obsolete internal APIs together](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md)
 - [Sequence changes as independently verifiable units](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
 - [Validate authored skills, referenced files, and structural examples](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md)
 - [Pin existing behavior before structural refactoring](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)
