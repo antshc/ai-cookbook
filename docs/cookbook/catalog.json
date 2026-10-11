@@ -642,36 +642,6 @@
       "related": []
     },
     {
-      "id": "principle-skill-discovery-and-trigger-descriptions",
-      "title": "Skill discovery and trigger descriptions",
-      "principle": "Skill discovery and trigger descriptions",
-      "path": "https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md",
-      "kind": "source-only",
-      "problems": [
-        "skill-routing"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "skill",
-        "discovery",
-        "and",
-        "trigger",
-        "descriptions"
-      ],
-      "use_when": "Use when defining agent behavior to skill discovery and trigger descriptions.",
-      "provides": [
-        "Skill discovery and trigger descriptions"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-progressive-disclosure-of-agent-guidance",
       "title": "Progressive disclosure of agent guidance",
       "principle": "Progressive disclosure of agent guidance",
@@ -763,36 +733,6 @@
       "related": []
     },
     {
-      "id": "principle-cross-scope-specialist-discovery",
-      "title": "Cross-scope specialist discovery",
-      "principle": "Cross-scope specialist discovery",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-cross-scope-skill-family.md",
-      "kind": "source-only",
-      "problems": [
-        "skill-routing",
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "cross",
-        "scope",
-        "specialist",
-        "discovery"
-      ],
-      "use_when": "Use when defining agent behavior to cross-scope specialist discovery.",
-      "provides": [
-        "Cross-scope specialist discovery"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-delegation-engine-isolation",
       "title": "Delegation engine isolation",
       "principle": "Delegation engine isolation",
@@ -847,33 +787,6 @@
       "use_when": "Use when defining agent behavior to agent-agnostic handoff contracts.",
       "provides": [
         "Agent-agnostic handoff contracts"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-trigger-indexing",
-      "title": "Trigger indexing",
-      "principle": "Trigger indexing",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-trigger-indexer.md",
-      "kind": "source-only",
-      "problems": [
-        "skill-routing"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "trigger",
-        "indexing"
-      ],
-      "use_when": "Use when defining agent behavior to trigger indexing.",
-      "provides": [
-        "Trigger indexing"
       ],
       "related": []
     },
@@ -3792,43 +3705,6 @@
       "related": []
     },
     {
-      "id": "principle-select-the-applicable-skill-before-work-and-follow-its-gates-in-order",
-      "title": "Select the applicable skill before work and follow its gates in order",
-      "principle": "Select the applicable skill before work and follow its gates in order",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "select",
-        "the",
-        "applicable",
-        "skill",
-        "before",
-        "work",
-        "and",
-        "follow",
-        "its",
-        "gates",
-        "in",
-        "order"
-      ],
-      "use_when": "Use when defining agent behavior to select the applicable skill before work and follow its gates in order.",
-      "provides": [
-        "Select the applicable skill before work and follow its gates in order"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-surface-assumptions-and-stop-when-requirements-conflict-or-remain-uncertain",
       "title": "Surface assumptions and stop when requirements conflict or remain uncertain",
       "principle": "Surface assumptions and stop when requirements conflict or remain uncertain",
@@ -4884,47 +4760,6 @@
       "use_when": "Use when defining agent behavior to stage only files belonging to the current autonomous task rather than blindly staging every change.",
       "provides": [
         "Stage only files belonging to the current autonomous task rather than blindly staging every change"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-avoid-installing-a-second-always-on-skill-router-when-the-agent-host-already-routes-skills-natively",
-      "title": "Avoid installing a second always-on skill router when the agent host already routes skills natively",
-      "principle": "Avoid installing a second always-on skill router when the agent host already routes skills natively",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "avoid",
-        "installing",
-        "a",
-        "second",
-        "always",
-        "on",
-        "skill",
-        "router",
-        "when",
-        "the",
-        "agent",
-        "host",
-        "already",
-        "routes",
-        "skills",
-        "natively"
-      ],
-      "use_when": "Use when defining agent behavior to avoid installing a second always-on skill router when the agent host already routes skills natively.",
-      "provides": [
-        "Avoid installing a second always-on skill router when the agent host already routes skills natively"
       ],
       "related": []
     },
@@ -7805,6 +7640,44 @@
       "provides": [
         "Canary rule verification",
         "Repository instruction loading"
+      ],
+      "related": []
+    },
+    {
+      "id": "skill-discovery-trigger-indexing-and-native-routing",
+      "title": "Skill Discovery, Trigger Indexing, and Native Routing",
+      "path": "skill-discovery-trigger-indexing-and-native-routing.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "premature-completion",
+        "skill-routing"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "planning",
+        "review"
+      ],
+      "keywords": [
+        "skill",
+        "discovery",
+        "trigger",
+        "indexing",
+        "and",
+        "native",
+        "routing"
+      ],
+      "use_when": "Hardcoded skill lists and duplicated routers miss new capabilities or select the wrong procedure. Discovery must use declared triggers across the full available roster.",
+      "provides": [
+        "Skill discovery and trigger descriptions",
+        "Cross-scope specialist discovery",
+        "Trigger indexing",
+        "Select the applicable skill before work and follow its gates in order",
+        "Avoid installing a second always-on skill router when the agent host already routes skills natively"
       ],
       "related": []
     }

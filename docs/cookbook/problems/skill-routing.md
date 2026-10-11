@@ -5,6 +5,7 @@ Make skills discoverable and distinguish neighboring responsibilities.
 ## Recipes
 
 - [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
+- [Skill Discovery, Trigger Indexing, and Native Routing](../skill-discovery-trigger-indexing-and-native-routing.md)
 
 ## References
 
@@ -20,9 +21,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Skill discovery and trigger descriptions](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md)
-- [Cross-scope specialist discovery](https://github.com/antshc/brain/blob/main/docs/concepts/structure-cross-scope-skill-family.md)
-- [Trigger indexing](https://github.com/antshc/brain/blob/main/docs/concepts/structure-trigger-indexer.md)
 - [Do not make agent personas invoke other personas or add routing-only hops](https://github.com/addyosmani/agent-skills/blob/main/docs/agents.md)
 - [Use prelaunch gates, staged rollout thresholds, and tested rollback triggers](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md)
 - [Keep skill entrypoints concise with trigger descriptions and load long references on demand](https://github.com/addyosmani/agent-skills/blob/main/docs/skill-anatomy.md)

@@ -48,7 +48,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R17. Constraint-First Instructions and Anti-Rationalization Rules** — NEW (3 principles). [recipe](constraint-first-instructions-and-anti-rationalization-rules.md).
 - [x] **R18. Concise Instructions, Explicit Goals, and Model-Neutral Procedures** — NEW (3 principles). [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md).
 - [x] **R19. Instruction Loading and Canary Checks** — NEW (2 principles). [recipe](instruction-loading-and-canary-checks.md).
-- [ ] **R20. Skill Discovery, Trigger Indexing, and Native Routing** — NEW (5 principles).
+- [x] **R20. Skill Discovery, Trigger Indexing, and Native Routing** — NEW (5 principles). [recipe](skill-discovery-trigger-indexing-and-native-routing.md).
 - [ ] **R21. Positive and Negative Skill Routing Tests** — NEW (2 principles).
 - [ ] **R22. Progressive Disclosure, Targeted Context, and Safe Trimming** — NEW (4 principles).
 - [ ] **R23. Delegate Bulk Exploration to Preserve Context** — NEW (1 principles).
@@ -303,11 +303,11 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Skill discovery and trigger descriptions** — [source](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md).
-- [ ] **Cross-scope specialist discovery** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-cross-scope-skill-family.md).
-- [ ] **Trigger indexing** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-trigger-indexer.md).
-- [ ] **Select the applicable skill before work and follow its gates in order** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md).
-- [ ] **Avoid installing a second always-on skill router when the agent host already routes skills natively** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md).
+- [x] **Skill discovery and trigger descriptions** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md).
+- [x] **Cross-scope specialist discovery** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md).
+- [x] **Trigger indexing** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md).
+- [x] **Select the applicable skill before work and follow its gates in order** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md).
+- [x] **Avoid installing a second always-on skill router when the agent host already routes skills natively** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md).
 
 ### R21. Positive and Negative Skill Routing Tests
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 60 |
-| Principles still awaiting coverage | 184 |
+| Already covered principles | 65 |
+| Principles still awaiting coverage | 179 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

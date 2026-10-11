@@ -17,6 +17,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Constraint-First Instructions and Anti-Rationalization Rules](../constraint-first-instructions-and-anti-rationalization-rules.md)
 - [Concise Instructions, Explicit Goals, and Model-Neutral Procedures](../concise-instructions-explicit-goals-and-model-neutral-procedures.md)
 - [Instruction Loading and Canary Checks](../instruction-loading-and-canary-checks.md)
+- [Skill Discovery, Trigger Indexing, and Native Routing](../skill-discovery-trigger-indexing-and-native-routing.md)
 
 ## References
 
@@ -34,7 +35,6 @@ No materials yet.
 
 - [Behavior-preserving agent review](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md)
 - [Agent design and bounded responsibility](https://github.com/antshc/brain/blob/main/docs/concepts/structure-agents-style.md)
-- [Cross-scope specialist discovery](https://github.com/antshc/brain/blob/main/docs/concepts/structure-cross-scope-skill-family.md)
 - [Skill-owned code](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md)
 - [Validate and handle errors at system boundaries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-boundary-discipline/SKILL.md)
 - [Build a rerunnable tool for nontrivial work](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md)
@@ -78,7 +78,6 @@ No materials yet.
 - [Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
 - [Require explicit authorization for each external cross-model review invocation](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md)
 - [Stage only files belonging to the current autonomous task rather than blindly staging every change](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
-- [Avoid installing a second always-on skill router when the agent host already routes skills natively](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md)
 - [Keep reusable skills separate from repository-specific agent instructions during installation](https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md)
 - [Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
 - [Keep browser JavaScript inspection read-only unless mutations are explicitly authorized](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)

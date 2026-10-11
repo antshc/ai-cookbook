@@ -25,18 +25,18 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 - [ ] **Agent design and bounded responsibility** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-agents-style.md)
 - [x] **Open-question markers** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 - [x] **Repository instruction loading** — [recipe](instruction-loading-and-canary-checks.md)
-- [ ] **Skill discovery and trigger descriptions** — [source](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md)
+- [x] **Skill discovery and trigger descriptions** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
 - [ ] **Progressive disclosure of agent guidance** — [source](https://github.com/antshc/brain/blob/main/skills/engineering/writing-great-skills/GLOSSARY.md)
 - [ ] **Template ownership of rendering** — [source](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md)
 
 ## Composition and state
 
 - [ ] **Skill composition and single ownership** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-composition.md)
-- [ ] **Cross-scope specialist discovery** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-cross-scope-skill-family.md)
+- [x] **Cross-scope specialist discovery** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
 - [ ] **Delegation engine isolation** — [source](https://github.com/antshc/brain/blob/main/docs/adr/explore-codebase-is-skill-agnostic.md)
 - [ ] **Agent-agnostic handoff contracts** — [source](https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md)
 - [x] **Session ledger** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
-- [ ] **Trigger indexing** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-trigger-indexer.md)
+- [x] **Trigger indexing** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
 - [ ] **Per-repository configuration resolution** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md)
 - [ ] **Repository adapter skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md)
 - [ ] **Resource access skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-resource-access-skill.md)
@@ -190,7 +190,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 
 ### Intent, discovery, and specifications
 
-- [ ] **Select the applicable skill before work and follow its gates in order** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md)
+- [x] **Select the applicable skill before work and follow its gates in order** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
 - [ ] **Surface assumptions and stop when requirements conflict or remain uncertain** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md)
 - [ ] **Challenge unwarranted scope or complexity while leaving informed decisions to the user** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md)
 - [ ] **Interview for intent one question and one explicit guess at a time** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/interview-me/SKILL.md)
@@ -229,7 +229,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [ ] **Verify responsive and accessible UI states including empty, loading, and error flows** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 
 - [ ] **Stage only files belonging to the current autonomous task rather than blindly staging every change** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
-- [ ] **Avoid installing a second always-on skill router when the agent host already routes skills natively** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md)
+- [x] **Avoid installing a second always-on skill router when the agent host already routes skills natively** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
 - [ ] **Keep reusable skills separate from repository-specific agent instructions during installation** — [source](https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md)
 - [ ] **Include required shared references when distributing an individual skill outside its original pack** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md)
 - [ ] **Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)

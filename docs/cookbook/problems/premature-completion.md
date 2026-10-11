@@ -18,6 +18,7 @@ Define observable completion and account for every obligation.
 - [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 - [Safe Pause, Context Recovery, and Verified Resume](../safe-pause-context-recovery-and-verified-resume.md)
 - [Instruction Loading and Canary Checks](../instruction-loading-and-canary-checks.md)
+- [Skill Discovery, Trigger Indexing, and Native Routing](../skill-discovery-trigger-indexing-and-native-routing.md)
 
 ## References
 
@@ -41,7 +42,6 @@ Define observable completion and account for every obligation.
 - [Keep external writes and credentials out of delegated workers](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Gate automatic bug fixing on a trusted triage verdict and ownership checks](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Frame agent delivery for both the user and the future maintainer](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
-- [Select the applicable skill before work and follow its gates in order](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md)
 - [Surface assumptions and stop when requirements conflict or remain uncertain](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md)
 - [Require explicit confirmation of the restated intent and stop before downstream work](https://github.com/addyosmani/agent-skills/blob/main/skills/interview-me/SKILL.md)
 - [Record and test key idea assumptions before committing to an MVP](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md)
