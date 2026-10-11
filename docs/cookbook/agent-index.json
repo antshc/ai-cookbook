@@ -1691,42 +1691,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-preserve-agent-context-by-delegating-bulk-exploration",
-      "title": "Preserve agent context by delegating bulk exploration",
-      "principle": "Preserve agent context by delegating bulk exploration",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-guard-the-context-window/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "preserve",
-        "agent",
-        "context",
-        "by",
-        "delegating",
-        "bulk",
-        "exploration"
-      ],
-      "use_when": "Use when defining agent behavior to preserve agent context by delegating bulk exploration.",
-      "provides": [
-        "Preserve agent context by delegating bulk exploration"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-guard-the-context-window/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-prefer-the-smallest-change-and-shallowest-useful-abstraction",
       "title": "Prefer the smallest change and shallowest useful abstraction",
       "principle": "Prefer the smallest change and shallowest useful abstraction",
@@ -8740,6 +8704,42 @@
         "Load relevant implementation, tests, types, and precedent instead of entire context dumps",
         "Trim context proactively while preserving active constraints, errors, and decisions",
         "Keep skill entrypoints concise with trigger descriptions and load long references on demand"
+      ]
+    },
+    {
+      "id": "delegate-bulk-exploration-to-preserve-context",
+      "title": "Delegate Bulk Exploration to Preserve Context",
+      "path": "docs/cookbook/delegate-bulk-exploration-to-preserve-context.md",
+      "kind": "recipe",
+      "problems": [
+        "delegation-handoffs",
+        "missing-context"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "delegate",
+        "bulk",
+        "exploration",
+        "to",
+        "preserve",
+        "context"
+      ],
+      "use_when": "Bulk source scans and large outputs consume the coordinator's context before it can judge the work. Exploration needs bounded delegation and compact evidence returns.",
+      "provides": [
+        "Preserve agent context by delegating bulk exploration"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/delegate-bulk-exploration-to-preserve-context.html",
+      "covered_principles": [
+        "Preserve agent context by delegating bulk exploration"
       ]
     }
   ]

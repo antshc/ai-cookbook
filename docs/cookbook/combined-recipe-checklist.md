@@ -51,7 +51,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R20. Skill Discovery, Trigger Indexing, and Native Routing** — NEW (5 principles). [recipe](skill-discovery-trigger-indexing-and-native-routing.md).
 - [x] **R21. Positive and Negative Skill Routing Tests** — NEW (2 principles). [recipe](positive-and-negative-skill-routing-tests.md).
 - [x] **R22. Progressive Disclosure, Targeted Context, and Safe Trimming** — NEW (4 principles). [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md).
-- [ ] **R23. Delegate Bulk Exploration to Preserve Context** — NEW (1 principles).
+- [x] **R23. Delegate Bulk Exploration to Preserve Context** — NEW (1 principles). [recipe](delegate-bulk-exploration-to-preserve-context.md).
 ### Ownership and delegation
 
 - [ ] **R24. Bounded Agent Roles, Single Ownership, and Composition** — NEW (5 principles).
@@ -329,7 +329,7 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Preserve agent context by delegating bulk exploration** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-guard-the-context-window/SKILL.md).
+- [x] **Preserve agent context by delegating bulk exploration** — [recipe](delegate-bulk-exploration-to-preserve-context.md).
 
 ### R24. Bounded Agent Roles, Single Ownership, and Composition
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 71 |
-| Principles still awaiting coverage | 173 |
+| Already covered principles | 72 |
+| Principles still awaiting coverage | 172 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

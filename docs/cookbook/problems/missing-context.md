@@ -12,6 +12,7 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Safe Pause, Context Recovery, and Verified Resume](../safe-pause-context-recovery-and-verified-resume.md)
 - [Constraint-First Instructions and Anti-Rationalization Rules](../constraint-first-instructions-and-anti-rationalization-rules.md)
 - [Progressive Disclosure, Targeted Context, and Safe Trimming](../progressive-disclosure-targeted-context-and-safe-trimming.md)
+- [Delegate Bulk Exploration to Preserve Context](../delegate-bulk-exploration-to-preserve-context.md)
 
 ## References
 
@@ -27,7 +28,6 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Per-repository configuration resolution](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md)
 - [Resource access skills](https://github.com/antshc/brain/blob/main/docs/concepts/structure-resource-access-skill.md)
 - [Explain measured results with evidence and limiting factors](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-explain-the-number/SKILL.md)
-- [Preserve agent context by delegating bulk exploration](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-guard-the-context-window/SKILL.md)
 - [Review the implementation against declared intent and require concrete evidence per finding](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/references/reviewer-prompt.md)
 - [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
 - [Reconstruct design rationale across independent evidence sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)
