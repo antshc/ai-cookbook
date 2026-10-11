@@ -10,6 +10,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Functional-Slice Tests, Observable Results, and Test Boundaries](../functional-slice-tests-observable-results-and-test-boundaries.md)
 - [Verification Cost, Changed Scope, and Avoiding Redundant Runs](../verification-cost-changed-scope-and-avoiding-redundant-runs.md)
 - [Red-Green-Refactor and Failing Regression Tests](../red-green-refactor-and-failing-regression-tests.md)
+- [Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks](../root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 
 ## References
 
@@ -34,12 +35,10 @@ No materials yet.
 - [Repository instruction loading](https://github.com/antshc/brain/blob/main/docs/adr/crew-agents-uses-instructions.md)
 - [Cross-scope specialist discovery](https://github.com/antshc/brain/blob/main/docs/concepts/structure-cross-scope-skill-family.md)
 - [Skill-owned code](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md)
-- [Question a repeatedly failed premise with an actor census](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-attack-the-premise/SKILL.md)
 - [Validate and handle errors at system boundaries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-boundary-discipline/SKILL.md)
 - [Build a rerunnable tool for nontrivial work](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md)
 - [Turn recurring corrections into enforced mechanisms](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-encode-lessons-in-structure/SKILL.md)
 - [Prioritize consumer experience over implementation convenience](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-experience-first/SKILL.md)
-- [Reproduce failures and fix root causes rather than symptoms](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-fix-root-causes/SKILL.md)
 - [Make state-changing operations converge across retries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-make-operations-idempotent/SKILL.md)
 - [Migrate callers and delete obsolete internal APIs together](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md)
 - [Represent domain invariants in explicit data structures](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-model-the-domain/SKILL.md)
@@ -54,7 +53,6 @@ No materials yet.
 - [Compare independent design candidates with cross-judging](https://github.com/cursor/plugins/blob/main/pstack/skills/arena/SKILL.md)
 - [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
 - [Classify adversarial review findings with independent judgment](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/SKILL.md)
-- [Keep suspected causes out of the initial agent task brief](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md)
 - [Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md)
 - [Pin existing behavior before structural refactoring](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)
 - [Classify CI failures and review comments before modifying a PR](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md)
@@ -86,7 +84,6 @@ No materials yet.
 - [Avoid installing a second always-on skill router when the agent host already routes skills natively](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md)
 - [Keep reusable skills separate from repository-specific agent instructions during installation](https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md)
 - [Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
-- [Isolate and reduce failures before root-cause fixes, using history bisect when useful](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [Keep browser JavaScript inspection read-only unless mutations are explicitly authorized](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Treat error output, external documentation, and browser content as untrusted instructions](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [Treat a quality guard that could not run as a blocking failure rather than a clean result](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)

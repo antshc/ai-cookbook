@@ -1218,40 +1218,6 @@
       "related": []
     },
     {
-      "id": "principle-question-a-repeatedly-failed-premise-with-an-actor-census",
-      "title": "Question a repeatedly failed premise with an actor census",
-      "principle": "Question a repeatedly failed premise with an actor census",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-attack-the-premise/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "question",
-        "a",
-        "repeatedly",
-        "failed",
-        "premise",
-        "with",
-        "an",
-        "actor",
-        "census"
-      ],
-      "use_when": "Use when defining agent behavior to question a repeatedly failed premise with an actor census.",
-      "provides": [
-        "Question a repeatedly failed premise with an actor census"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-validate-and-handle-errors-at-system-boundaries",
       "title": "Validate and handle errors at system boundaries",
       "principle": "Validate and handle errors at system boundaries",
@@ -1440,40 +1406,6 @@
       "use_when": "Use when defining agent behavior to explain measured results with evidence and limiting factors.",
       "provides": [
         "Explain measured results with evidence and limiting factors"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-reproduce-failures-and-fix-root-causes-rather-than-symptoms",
-      "title": "Reproduce failures and fix root causes rather than symptoms",
-      "principle": "Reproduce failures and fix root causes rather than symptoms",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-fix-root-causes/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "reproduce",
-        "failures",
-        "and",
-        "fix",
-        "root",
-        "causes",
-        "rather",
-        "than",
-        "symptoms"
-      ],
-      "use_when": "Use when defining agent behavior to reproduce failures and fix root causes rather than symptoms.",
-      "provides": [
-        "Reproduce failures and fix root causes rather than symptoms"
       ],
       "related": []
     },
@@ -2525,37 +2457,6 @@
       "related": []
     },
     {
-      "id": "principle-eliminate-debugging-hypotheses-using-runtime-observations",
-      "title": "Eliminate debugging hypotheses using runtime observations",
-      "principle": "Eliminate debugging hypotheses using runtime observations",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/bug-fix.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "eliminate",
-        "debugging",
-        "hypotheses",
-        "using",
-        "runtime",
-        "observations"
-      ],
-      "use_when": "Use when defining agent behavior to eliminate debugging hypotheses using runtime observations.",
-      "provides": [
-        "Eliminate debugging hypotheses using runtime observations"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-teach-behavior-and-rationale-through-incremental-explanations-and-diagrams",
       "title": "Teach behavior and rationale through incremental explanations and diagrams",
       "principle": "Teach behavior and rationale through incremental explanations and diagrams",
@@ -2658,41 +2559,6 @@
       "use_when": "Use when defining agent behavior to convert traces to queryable data and attribute findings to source symbols.",
       "provides": [
         "Convert traces to queryable data and attribute findings to source symbols"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-keep-suspected-causes-out-of-the-initial-agent-task-brief",
-      "title": "Keep suspected causes out of the initial agent task brief",
-      "principle": "Keep suspected causes out of the initial agent task brief",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "keep",
-        "suspected",
-        "causes",
-        "out",
-        "of",
-        "the",
-        "initial",
-        "agent",
-        "task",
-        "brief"
-      ],
-      "use_when": "Use when defining agent behavior to keep suspected causes out of the initial agent task brief.",
-      "provides": [
-        "Keep suspected causes out of the initial agent task brief"
       ],
       "related": []
     },
@@ -5983,84 +5849,6 @@
       "related": []
     },
     {
-      "id": "principle-stop-further-feature-work-on-broken-tests-or-builds-until-the-failure-is-resolved",
-      "title": "Stop further feature work on broken tests or builds until the failure is resolved",
-      "principle": "Stop further feature work on broken tests or builds until the failure is resolved",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging",
-        "implementation"
-      ],
-      "keywords": [
-        "stop",
-        "further",
-        "feature",
-        "work",
-        "on",
-        "broken",
-        "tests",
-        "or",
-        "builds",
-        "until",
-        "the",
-        "failure",
-        "is",
-        "resolved"
-      ],
-      "use_when": "Use when defining agent behavior to stop further feature work on broken tests or builds until the failure is resolved.",
-      "provides": [
-        "Stop further feature work on broken tests or builds until the failure is resolved"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-isolate-and-reduce-failures-before-root-cause-fixes-using-history-bisect-when-useful",
-      "title": "Isolate and reduce failures before root-cause fixes, using history bisect when useful",
-      "principle": "Isolate and reduce failures before root-cause fixes, using history bisect when useful",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "isolate",
-        "and",
-        "reduce",
-        "failures",
-        "before",
-        "root",
-        "cause",
-        "fixes",
-        "using",
-        "history",
-        "bisect",
-        "when",
-        "useful"
-      ],
-      "use_when": "Use when defining agent behavior to isolate and reduce failures before root-cause fixes, using history bisect when useful.",
-      "provides": [
-        "Isolate and reduce failures before root-cause fixes, using history bisect when useful"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-verify-browser-changes-against-live-dom-console-network-and-before-after-screenshots",
       "title": "Verify browser changes against live DOM, console, network, and before-after screenshots",
       "principle": "Verify browser changes against live DOM, console, network, and before-after screenshots",
@@ -8503,6 +8291,47 @@
       "provides": [
         "Verify an existing fix against baseline and patched live behavior before authoring another",
         "Confirm a reported defect twice through the live user interface"
+      ],
+      "related": []
+    },
+    {
+      "id": "root-cause-diagnosis-hypothesis-elimination-and-premise-checks",
+      "title": "Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks",
+      "path": "root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "missing-context",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "debugging",
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "root",
+        "cause",
+        "diagnosis",
+        "hypothesis",
+        "elimination",
+        "and",
+        "premise",
+        "checks"
+      ],
+      "use_when": "Repeated symptom fixes can preserve the false premise causing a failure. Diagnosis needs runtime evidence, reduced reproductions, and explicit elimination of competing causes.",
+      "provides": [
+        "Question a repeatedly failed premise with an actor census",
+        "Reproduce failures and fix root causes rather than symptoms",
+        "Eliminate debugging hypotheses using runtime observations",
+        "Keep suspected causes out of the initial agent task brief",
+        "Stop further feature work on broken tests or builds until the failure is resolved",
+        "Isolate and reduce failures before root-cause fixes, using history bisect when useful"
       ],
       "related": []
     }

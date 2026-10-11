@@ -33,7 +33,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R08. Live Bug Reproduction and Verification of Existing Fixes** — NEW (2 principles). [recipe](live-bug-reproduction-and-verification-of-existing-fixes.md).
 ### Diagnosis
 
-- [ ] **R09. Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks** — NEW (6 principles).
+- [x] **R09. Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks** — NEW (6 principles). [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md).
 - [ ] **R10. Queryable Traces and Source Attribution** — NEW (1 principles).
 ### Learning and continuity
 
@@ -215,12 +215,12 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Question a repeatedly failed premise with an actor census** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-attack-the-premise/SKILL.md).
-- [ ] **Reproduce failures and fix root causes rather than symptoms** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-fix-root-causes/SKILL.md).
-- [ ] **Eliminate debugging hypotheses using runtime observations** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/bug-fix.md).
-- [ ] **Keep suspected causes out of the initial agent task brief** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md).
-- [ ] **Stop further feature work on broken tests or builds until the failure is resolved** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md).
-- [ ] **Isolate and reduce failures before root-cause fixes, using history bisect when useful** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md).
+- [x] **Question a repeatedly failed premise with an actor census** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md).
+- [x] **Reproduce failures and fix root causes rather than symptoms** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md).
+- [x] **Eliminate debugging hypotheses using runtime observations** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md).
+- [x] **Keep suspected causes out of the initial agent task brief** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md).
+- [x] **Stop further feature work on broken tests or builds until the failure is resolved** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md).
+- [x] **Isolate and reduce failures before root-cause fixes, using history bisect when useful** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md).
 
 ### R10. Queryable Traces and Source Attribution
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 30 |
-| Principles still awaiting coverage | 214 |
+| Already covered principles | 36 |
+| Principles still awaiting coverage | 208 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

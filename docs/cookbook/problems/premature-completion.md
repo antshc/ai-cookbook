@@ -13,6 +13,7 @@ Define observable completion and account for every obligation.
 - [Verification Cost, Changed Scope, and Avoiding Redundant Runs](../verification-cost-changed-scope-and-avoiding-redundant-runs.md)
 - [Red-Green-Refactor and Failing Regression Tests](../red-green-refactor-and-failing-regression-tests.md)
 - [Live Bug Reproduction and Verification of Existing Fixes](../live-bug-reproduction-and-verification-of-existing-fixes.md)
+- [Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks](../root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 
 ## References
 
@@ -54,7 +55,6 @@ Define observable completion and account for every obligation.
 - [Persist restartable session handoffs with decisions, changed files, verification, and next work](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
 - [Verify framework-specific decisions against version-matched official documentation](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Verify responsive and accessible UI states including empty, loading, and error flows](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
-- [Stop further feature work on broken tests or builds until the failure is resolved](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [Verify browser changes against live DOM, console, network, and before-after screenshots](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Isolate automated browser tests from personal signed-in browser profiles](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Review correctness, readability, architecture, security, and performance, reading tests first](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md)
