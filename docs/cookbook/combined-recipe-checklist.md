@@ -39,7 +39,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 
 - [x] **R11. Gotchas, Persistent Memory, and Evidence-Based Preferences** — EXTEND (3 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/gotchas-and-persistent-memory.md). [recipe](gotchas-and-persistent-memory.md).
 - [x] **R12. Improvement Flywheel and Enforced Lessons** — NEW (2 principles). [recipe](improvement-flywheel-and-enforced-lessons.md).
-- [ ] **R13. Evidence-Based Retrospectives and Approved Guidance Repairs** — NEW (4 principles).
+- [x] **R13. Evidence-Based Retrospectives and Approved Guidance Repairs** — NEW (4 principles). [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md).
 - [x] **R14. Checklist-Driven Workflow** — KEEP (1 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/checklist-driven-workflow.md).
 - [ ] **R15. Session Ledger, Open Questions, and Restartable Handoffs** — NEW (5 principles).
 - [ ] **R16. Safe Pause, Context Recovery, and Verified Resume** — NEW (3 principles).
@@ -247,10 +247,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Repair broken workflow skills in a separate PR from feature work** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md).
-- [ ] **Limit retrospective skill changes to demonstrated use or missed triggers** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md).
-- [ ] **Turn session retrospectives into tested agent-guidance changes** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md).
-- [ ] **Apply retrospective changes to shared agent instructions only with approval** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md).
+- [x] **Repair broken workflow skills in a separate PR from feature work** — [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md).
+- [x] **Limit retrospective skill changes to demonstrated use or missed triggers** — [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md).
+- [x] **Turn session retrospectives into tested agent-guidance changes** — [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md).
+- [x] **Apply retrospective changes to shared agent instructions only with approval** — [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md).
 
 ### R14. Checklist-Driven Workflow
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 40 |
-| Principles still awaiting coverage | 204 |
+| Already covered principles | 44 |
+| Principles still awaiting coverage | 200 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

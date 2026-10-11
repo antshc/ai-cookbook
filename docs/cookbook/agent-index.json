@@ -2652,45 +2652,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-repair-broken-workflow-skills-in-a-separate-pr-from-feature-work",
-      "title": "Repair broken workflow skills in a separate PR from feature work",
-      "principle": "Repair broken workflow skills in a separate PR from feature work",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "repair",
-        "broken",
-        "workflow",
-        "skills",
-        "in",
-        "a",
-        "separate",
-        "pr",
-        "from",
-        "feature",
-        "work"
-      ],
-      "use_when": "Use when defining agent behavior to repair broken workflow skills in a separate PR from feature work.",
-      "provides": [
-        "Repair broken workflow skills in a separate PR from feature work"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-make-module-internals-inaccessible-and-expose-only-one-supported-operation-path",
       "title": "Make module internals inaccessible and expose only one supported operation path",
       "principle": "Make module internals inaccessible and expose only one supported operation path",
@@ -3296,45 +3257,6 @@
       "use_when": "Use when defining agent behavior to treat agent transcripts and reviewer outputs as untrusted data, not executable instructions.",
       "provides": [
         "Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-limit-retrospective-skill-changes-to-demonstrated-use-or-missed-triggers",
-      "title": "Limit retrospective skill changes to demonstrated use or missed triggers",
-      "principle": "Limit retrospective skill changes to demonstrated use or missed triggers",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md",
-      "kind": "source-only",
-      "problems": [
-        "skill-routing",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "limit",
-        "retrospective",
-        "skill",
-        "changes",
-        "to",
-        "demonstrated",
-        "use",
-        "or",
-        "missed",
-        "triggers"
-      ],
-      "use_when": "Use when defining agent behavior to limit retrospective skill changes to demonstrated use or missed triggers.",
-      "provides": [
-        "Limit retrospective skill changes to demonstrated use or missed triggers"
       ],
       "related": [],
       "status": "recipe-needed",
@@ -3988,43 +3910,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-turn-session-retrospectives-into-tested-agent-guidance-changes",
-      "title": "Turn session retrospectives into tested agent-guidance changes",
-      "principle": "Turn session retrospectives into tested agent-guidance changes",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "turn",
-        "session",
-        "retrospectives",
-        "into",
-        "tested",
-        "agent",
-        "guidance",
-        "changes"
-      ],
-      "use_when": "Use when defining agent behavior to turn session retrospectives into tested agent-guidance changes.",
-      "provides": [
-        "Turn session retrospectives into tested agent-guidance changes"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-evaluate-agent-instructions-with-blinded-candidates-and-judges",
       "title": "Evaluate agent instructions with blinded candidates and judges",
       "principle": "Evaluate agent instructions with blinded candidates and judges",
@@ -4443,46 +4328,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-apply-retrospective-changes-to-shared-agent-instructions-only-with-approval",
-      "title": "Apply retrospective changes to shared agent instructions only with approval",
-      "principle": "Apply retrospective changes to shared agent instructions only with approval",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "responsibility-overlap",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "apply",
-        "retrospective",
-        "changes",
-        "to",
-        "shared",
-        "agent",
-        "instructions",
-        "only",
-        "with",
-        "approval"
-      ],
-      "use_when": "Use when defining agent behavior to apply retrospective changes to shared agent instructions only with approval.",
-      "provides": [
-        "Apply retrospective changes to shared agent instructions only with approval"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md",
       "covered_principles": []
     },
     {
@@ -9497,6 +9342,53 @@
       "covered_principles": [
         "Improvement flywheel (classify and fix observed failures)",
         "Turn recurring corrections into enforced mechanisms"
+      ]
+    },
+    {
+      "id": "evidence-based-retrospectives-and-approved-guidance-repairs",
+      "title": "Evidence-Based Retrospectives and Approved Guidance Repairs",
+      "path": "docs/cookbook/evidence-based-retrospectives-and-approved-guidance-repairs.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "instruction-compliance",
+        "premature-completion",
+        "responsibility-overlap",
+        "skill-routing"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "evidence",
+        "based",
+        "retrospectives",
+        "and",
+        "approved",
+        "guidance",
+        "repairs"
+      ],
+      "use_when": "A retrospective can turn unverified impressions into organization-wide guidance. Repairs need transcript evidence, routed proposals, and approval before shared instructions change.",
+      "provides": [
+        "Repair broken workflow skills in a separate PR from feature work",
+        "Limit retrospective skill changes to demonstrated use or missed triggers",
+        "Turn session retrospectives into tested agent-guidance changes",
+        "Apply retrospective changes to shared agent instructions only with approval"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/evidence-based-retrospectives-and-approved-guidance-repairs.html",
+      "covered_principles": [
+        "Repair broken workflow skills in a separate PR from feature work",
+        "Limit retrospective skill changes to demonstrated use or missed triggers",
+        "Turn session retrospectives into tested agent-guidance changes",
+        "Apply retrospective changes to shared agent instructions only with approval"
       ]
     }
   ]

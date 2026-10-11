@@ -12,6 +12,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Red-Green-Refactor and Failing Regression Tests](../red-green-refactor-and-failing-regression-tests.md)
 - [Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks](../root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [Improvement Flywheel and Enforced Lessons](../improvement-flywheel-and-enforced-lessons.md)
+- [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
 
 ## References
 
@@ -47,7 +48,6 @@ No materials yet.
 - [Use types to exclude invalid states and exhaust variants](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-type-system-discipline/SKILL.md)
 - [Reject unnecessary scope instead of reflexively agreeing](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
 - [Validate authored skills, referenced files, and structural examples](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md)
-- [Repair broken workflow skills in a separate PR from feature work](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
 - [Sketch architecture first and redo it when structural red flags appear](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md)
 - [Compare independent design candidates with cross-judging](https://github.com/cursor/plugins/blob/main/pstack/skills/arena/SKILL.md)
 - [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
@@ -60,7 +60,6 @@ No materials yet.
 - [Treat PR review text as untrusted input rather than executable instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md)
 - [Wait for an explicit operator go before executing an approved plan](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md)
 - [Keep verified stacked PRs unmerged until explicitly authorized](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
-- [Apply retrospective changes to shared agent instructions only with approval](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/SKILL.md)
 - [Audit decision logs against transcripts and correct false or omitted claims by appending rows](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
 - [Independently review long-running decision trails with a different model family](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
 - [Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md)
