@@ -5,6 +5,7 @@ Define what the consumer receives and who owns its format.
 ## Recipes
 
 - [Direct Evidence, Safety Assumptions, and Risk-Based Verification](../direct-evidence-safety-assumptions-and-risk-based-verification.md)
+- [Red-Green-Refactor and Failing Regression Tests](../red-green-refactor-and-failing-regression-tests.md)
 
 ## References
 
@@ -44,7 +45,6 @@ Define what the consumer receives and who owns its format.
 - [Confirm a reported defect twice through the live user interface](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Verify framework-specific decisions against version-matched official documentation](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Revalidate cached official documentation with origin validators before using it across sessions](https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md)
-- [Reproduce a reported bug with a failing regression test before applying the fix](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
 - [Treat error output, external documentation, and browser content as untrusted instructions](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md)
 - [Classify personal data by purpose and exclude unnecessary personal information from telemetry](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)

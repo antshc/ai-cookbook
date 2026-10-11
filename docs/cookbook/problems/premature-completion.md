@@ -11,6 +11,7 @@ Define observable completion and account for every obligation.
 - [Independent Patch Verification and Baseline Comparison](../independent-patch-verification-and-baseline-comparison.md)
 - [Functional-Slice Tests, Observable Results, and Test Boundaries](../functional-slice-tests-observable-results-and-test-boundaries.md)
 - [Verification Cost, Changed Scope, and Avoiding Redundant Runs](../verification-cost-changed-scope-and-avoiding-redundant-runs.md)
+- [Red-Green-Refactor and Failing Regression Tests](../red-green-refactor-and-failing-regression-tests.md)
 
 ## References
 
@@ -29,7 +30,6 @@ Define observable completion and account for every obligation.
 - [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
 - [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
 - [Resume from the prior execution trail rather than repeating completed work](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/session-pickup.md)
-- [Run a failing regression check before fixing a bug](https://github.com/cursor/plugins/blob/main/pstack/skills/tdd/SKILL.md)
 - [Keep PR summaries short with observable verification evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
 - [Verify an existing fix against baseline and patched live behavior before authoring another](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md)
 - [Keep autonomous iterations bound to an unchanged stop predicate](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md)
@@ -54,7 +54,6 @@ Define observable completion and account for every obligation.
 - [Persist restartable session handoffs with decisions, changed files, verification, and next work](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
 - [Verify framework-specific decisions against version-matched official documentation](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Verify responsive and accessible UI states including empty, loading, and error flows](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
-- [Reproduce a reported bug with a failing regression test before applying the fix](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
 - [Stop further feature work on broken tests or builds until the failure is resolved](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [Verify browser changes against live DOM, console, network, and before-after screenshots](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Isolate automated browser tests from personal signed-in browser profiles](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)

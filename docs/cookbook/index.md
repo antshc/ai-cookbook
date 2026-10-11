@@ -113,7 +113,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 ### Testing and delivery workflows
 
 - [ ] **Pin existing behavior before structural refactoring** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)
-- [ ] **Run a failing regression check before fixing a bug** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/tdd/SKILL.md)
+- [x] **Run a failing regression check before fixing a bug** — [recipe](red-green-refactor-and-failing-regression-tests.md)
 - [x] **Create a repository-specific live verification harness** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md)
 - [x] **Maintain verification feature maps with source and live checks** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md)
 - [ ] **Freeze an evaluation harness and revert unsupported iterations** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/hillclimb.md)
@@ -238,8 +238,8 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 
 ### Testing, debugging, and evidence
 
-- [ ] **Use the red-green-refactor cycle for behavior-changing implementation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
-- [ ] **Reproduce a reported bug with a failing regression test before applying the fix** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
+- [x] **Use the red-green-refactor cycle for behavior-changing implementation** — [recipe](red-green-refactor-and-failing-regression-tests.md)
+- [x] **Reproduce a reported bug with a failing regression test before applying the fix** — [recipe](red-green-refactor-and-failing-regression-tests.md)
 - [x] **Test observable state with descriptive tests and minimize interaction mocks** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
 - [x] **Choose test sizes by real resource boundaries and preserve the repository test conventions** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
 - [ ] **Stop further feature work on broken tests or builds until the failure is resolved** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)

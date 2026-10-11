@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 25 covered, 219 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 28 covered, 216 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -16,7 +16,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Completion checks](#completion-checks) | 5 | 5 | 0 |
 | [Proof of actual behavior](#proof-of-actual-behavior) | 11 | 11 | 0 |
 | [Focused testing](#focused-testing) | 6 | 6 | 0 |
-| [Regression protection](#regression-protection) | 6 | 0 | 6 |
+| [Regression protection](#regression-protection) | 6 | 3 | 3 |
 | [Root-cause diagnosis](#root-cause-diagnosis) | 7 | 0 | 7 |
 | [Learning from failures](#learning-from-failures) | 9 | 2 | 7 |
 | [Resumable execution](#resumable-execution) | 9 | 1 | 8 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **25** | **219** |
+| **Total** | **244** | **28** | **216** |
 
 ## Completion checks
 
@@ -94,11 +94,11 @@ Which observable boundary and smallest relevant checks prove the outcome?
 Does a failing test or recorded baseline expose the defect and protect existing behavior?
 
 - [ ] **Pin existing behavior before structural refactoring** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)
-- [ ] **Run a failing regression check before fixing a bug** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/tdd/SKILL.md)
+- [x] **Run a failing regression check before fixing a bug** — [recipe](red-green-refactor-and-failing-regression-tests.md)
 - [ ] **Verify an existing fix against baseline and patched live behavior before authoring another** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/references/verify-existing-fix.md)
 - [ ] **Confirm a reported defect twice through the live user interface** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
-- [ ] **Use the red-green-refactor cycle for behavior-changing implementation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
-- [ ] **Reproduce a reported bug with a failing regression test before applying the fix** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
+- [x] **Use the red-green-refactor cycle for behavior-changing implementation** — [recipe](red-green-refactor-and-failing-regression-tests.md)
+- [x] **Reproduce a reported bug with a failing regression test before applying the fix** — [recipe](red-green-refactor-and-failing-regression-tests.md)
 
 ## Root-cause diagnosis
 

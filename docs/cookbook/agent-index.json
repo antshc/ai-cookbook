@@ -3670,43 +3670,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-run-a-failing-regression-check-before-fixing-a-bug",
-      "title": "Run a failing regression check before fixing a bug",
-      "principle": "Run a failing regression check before fixing a bug",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/tdd/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "run",
-        "a",
-        "failing",
-        "regression",
-        "check",
-        "before",
-        "fixing",
-        "a",
-        "bug"
-      ],
-      "use_when": "Use when defining agent behavior to run a failing regression check before fixing a bug.",
-      "provides": [
-        "Run a failing regression check before fixing a bug"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/tdd/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-freeze-an-evaluation-harness-and-revert-unsupported-iterations",
       "title": "Freeze an evaluation harness and revert unsupported iterations",
       "principle": "Freeze an evaluation harness and revert unsupported iterations",
@@ -7114,87 +7077,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-use-the-red-green-refactor-cycle-for-behavior-changing-implementation",
-      "title": "Use the red-green-refactor cycle for behavior-changing implementation",
-      "principle": "Use the red-green-refactor cycle for behavior-changing implementation",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "use",
-        "the",
-        "red",
-        "green",
-        "refactor",
-        "cycle",
-        "for",
-        "behavior",
-        "changing",
-        "implementation"
-      ],
-      "use_when": "Use when defining agent behavior to use the red-green-refactor cycle for behavior-changing implementation.",
-      "provides": [
-        "Use the red-green-refactor cycle for behavior-changing implementation"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-reproduce-a-reported-bug-with-a-failing-regression-test-before-applying-the-fix",
-      "title": "Reproduce a reported bug with a failing regression test before applying the fix",
-      "principle": "Reproduce a reported bug with a failing regression test before applying the fix",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "output-contracts",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging",
-        "implementation"
-      ],
-      "keywords": [
-        "reproduce",
-        "a",
-        "reported",
-        "bug",
-        "with",
-        "a",
-        "failing",
-        "regression",
-        "test",
-        "before",
-        "applying",
-        "the",
-        "fix"
-      ],
-      "use_when": "Use when defining agent behavior to reproduce a reported bug with a failing regression test before applying the fix.",
-      "provides": [
-        "Reproduce a reported bug with a failing regression test before applying the fix"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-stop-further-feature-work-on-broken-tests-or-builds-until-the-failure-is-resolved",
       "title": "Stop further feature work on broken tests or builds until the failure is resolved",
       "principle": "Stop further feature work on broken tests or builds until the failure is resolved",
@@ -9861,6 +9743,49 @@
       "covered_principles": [
         "Place verification checks according to execution cost and scope expensive checks to changed code",
         "Do not repeat unchanged verification commands without intervening changes"
+      ]
+    },
+    {
+      "id": "red-green-refactor-and-failing-regression-tests",
+      "title": "Red-Green-Refactor and Failing Regression Tests",
+      "path": "docs/cookbook/red-green-refactor-and-failing-regression-tests.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "output-contracts",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "debugging",
+        "implementation"
+      ],
+      "keywords": [
+        "red",
+        "green",
+        "refactor",
+        "and",
+        "failing",
+        "regression",
+        "tests"
+      ],
+      "use_when": "A test written after a fix may pass without detecting the original bug. Behavior changes need failing-before evidence, a minimal implementation, and preserved checks during cleanup.",
+      "provides": [
+        "Run a failing regression check before fixing a bug",
+        "Use the red-green-refactor cycle for behavior-changing implementation",
+        "Reproduce a reported bug with a failing regression test before applying the fix"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/red-green-refactor-and-failing-regression-tests.html",
+      "covered_principles": [
+        "Run a failing regression check before fixing a bug",
+        "Use the red-green-refactor cycle for behavior-changing implementation",
+        "Reproduce a reported bug with a failing regression test before applying the fix"
       ]
     }
   ]

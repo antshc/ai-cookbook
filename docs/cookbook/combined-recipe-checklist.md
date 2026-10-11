@@ -29,7 +29,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R04. Independent Patch Verification and Baseline Comparison** — NEW (3 principles). [recipe](independent-patch-verification-and-baseline-comparison.md).
 - [x] **R05. Functional-Slice Tests, Observable Results, and Test Boundaries** — NEW (4 principles). [recipe](functional-slice-tests-observable-results-and-test-boundaries.md).
 - [x] **R06. Verification Cost, Changed Scope, and Avoiding Redundant Runs** — NEW (2 principles). [recipe](verification-cost-changed-scope-and-avoiding-redundant-runs.md).
-- [ ] **R07. Red-Green-Refactor and Failing Regression Tests** — NEW (3 principles).
+- [x] **R07. Red-Green-Refactor and Failing Regression Tests** — NEW (3 principles). [recipe](red-green-refactor-and-failing-regression-tests.md).
 - [ ] **R08. Live Bug Reproduction and Verification of Existing Fixes** — NEW (2 principles).
 ### Diagnosis
 
@@ -200,9 +200,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Run a failing regression check before fixing a bug** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/tdd/SKILL.md).
-- [ ] **Use the red-green-refactor cycle for behavior-changing implementation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md).
-- [ ] **Reproduce a reported bug with a failing regression test before applying the fix** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md).
+- [x] **Run a failing regression check before fixing a bug** — [recipe](red-green-refactor-and-failing-regression-tests.md).
+- [x] **Use the red-green-refactor cycle for behavior-changing implementation** — [recipe](red-green-refactor-and-failing-regression-tests.md).
+- [x] **Reproduce a reported bug with a failing regression test before applying the fix** — [recipe](red-green-refactor-and-failing-regression-tests.md).
 
 ### R08. Live Bug Reproduction and Verification of Existing Fixes
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 25 |
-| Principles still awaiting coverage | 219 |
+| Already covered principles | 28 |
+| Principles still awaiting coverage | 216 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

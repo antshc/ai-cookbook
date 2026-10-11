@@ -9,6 +9,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Independent Patch Verification and Baseline Comparison](../independent-patch-verification-and-baseline-comparison.md)
 - [Functional-Slice Tests, Observable Results, and Test Boundaries](../functional-slice-tests-observable-results-and-test-boundaries.md)
 - [Verification Cost, Changed Scope, and Avoiding Redundant Runs](../verification-cost-changed-scope-and-avoiding-redundant-runs.md)
+- [Red-Green-Refactor and Failing Regression Tests](../red-green-refactor-and-failing-regression-tests.md)
 
 ## References
 
@@ -85,7 +86,6 @@ No materials yet.
 - [Avoid installing a second always-on skill router when the agent host already routes skills natively](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md)
 - [Keep reusable skills separate from repository-specific agent instructions during installation](https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md)
 - [Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
-- [Use the red-green-refactor cycle for behavior-changing implementation](https://github.com/addyosmani/agent-skills/blob/main/skills/test-driven-development/SKILL.md)
 - [Isolate and reduce failures before root-cause fixes, using history bisect when useful](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
 - [Keep browser JavaScript inspection read-only unless mutations are explicitly authorized](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Treat error output, external documentation, and browser content as untrusted instructions](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md)
