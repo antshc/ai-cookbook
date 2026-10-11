@@ -13,6 +13,7 @@ Define bounded assignments and verifiable handoff contracts.
 - [Worker Configuration, Fresh Sessions, and Standing Orders](../worker-configuration-fresh-sessions-and-standing-orders.md)
 - [Pilot Runs, Rolling Worker Windows, and Progress Monitoring](../pilot-runs-rolling-worker-windows-and-progress-monitoring.md)
 - [Single Coordinator for Shared PR Stack Topology](../single-coordinator-for-shared-pr-stack-topology.md)
+- [Isolated Worktrees and Safe Workspace Cleanup](../isolated-worktrees-and-safe-workspace-cleanup.md)
 
 ## References
 
@@ -25,9 +26,7 @@ Define bounded assignments and verifiable handoff contracts.
 
 ## Principles awaiting recipes
 
-- [Audit live sessions and uncommitted changes before removing worktrees](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md)
 - [Validate multi-phase plans with an executable checker before handoff](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md)
 - [Compensate cross-system ticket writes when the final handoff fails](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
-- [Use isolated worktrees when parallel agents would otherwise share a working tree](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

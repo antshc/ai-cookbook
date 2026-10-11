@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 2/82 recipes complete; 8/244 principles covered.**
+**Progress: 55/82 recipes complete; 172/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -97,7 +97,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R52. Least-Privilege Tool Restrictions versus Preapproval** — NEW (1 principles). [recipe](least-privilege-tool-restrictions-versus-preapproval.md).
 - [x] **R53. Version-Matched Official Sources and Cache Revalidation** — NEW (3 principles). [recipe](version-matched-official-sources-and-cache-revalidation.md).
 - [x] **R54. Task-Scoped Staging and Atomic Verified Commits** — NEW (3 principles). [recipe](task-scoped-staging-and-atomic-verified-commits.md).
-- [ ] **R55. Isolated Worktrees and Safe Workspace Cleanup** — NEW (2 principles).
+- [x] **R55. Isolated Worktrees and Safe Workspace Cleanup** — NEW (2 principles). [recipe](isolated-worktrees-and-safe-workspace-cleanup.md).
 ### Migration and release
 
 - [ ] **R56. Consumer Migration, Safe Deprecation, and Legacy Retirement** — NEW (4 principles).
@@ -588,8 +588,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Audit live sessions and uncommitted changes before removing worktrees** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md).
-- [ ] **Use isolated worktrees when parallel agents would otherwise share a working tree** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md).
+- [x] **Audit live sessions and uncommitted changes before removing worktrees** — [recipe](isolated-worktrees-and-safe-workspace-cleanup.md).
+- [x] **Use isolated worktrees when parallel agents would otherwise share a working tree** — [recipe](isolated-worktrees-and-safe-workspace-cleanup.md).
 
 ### R56. Consumer Migration, Safe Deprecation, and Legacy Retirement
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 170 |
-| Principles still awaiting coverage | 74 |
+| Already covered principles | 172 |
+| Principles still awaiting coverage | 72 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

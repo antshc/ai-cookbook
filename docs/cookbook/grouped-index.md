@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 170 covered, 74 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 172 covered, 72 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -33,7 +33,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Measured performance](#measured-performance) | 8 | 8 | 0 |
 | [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 14 | 0 |
 | [Configuration and distribution](#configuration-and-distribution) | 8 | 8 | 0 |
-| [Git and workspace safety](#git-and-workspace-safety) | 5 | 3 | 2 |
+| [Git and workspace safety](#git-and-workspace-safety) | 5 | 5 | 0 |
 | [Migration and deprecation](#migration-and-deprecation) | 6 | 0 | 6 |
 | [Release and rollout](#release-and-rollout) | 5 | 0 | 5 |
 | [Operational evidence](#operational-evidence) | 3 | 0 | 3 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **170** | **74** |
+| **Total** | **244** | **172** | **72** |
 
 ## Completion checks
 
@@ -322,11 +322,11 @@ Where do settings and shared references belong, and how are installations and ho
 
 Can this change be committed or this workspace removed without mixing or losing other work?
 
-- [ ] **Audit live sessions and uncommitted changes before removing worktrees** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md)
+- [x] **Audit live sessions and uncommitted changes before removing worktrees** — [recipe](isolated-worktrees-and-safe-workspace-cleanup.md)
 - [x] **Inspect working-tree changes before autonomous execution and stop on unrelated dirty files** — [recipe](task-scoped-staging-and-atomic-verified-commits.md)
 - [x] **Stage only files belonging to the current autonomous task rather than blindly staging every change** — [recipe](task-scoped-staging-and-atomic-verified-commits.md)
 - [x] **Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit** — [recipe](task-scoped-staging-and-atomic-verified-commits.md)
-- [ ] **Use isolated worktrees when parallel agents would otherwise share a working tree** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
+- [x] **Use isolated worktrees when parallel agents would otherwise share a working tree** — [recipe](isolated-worktrees-and-safe-workspace-cleanup.md)
 
 ## Migration and deprecation
 

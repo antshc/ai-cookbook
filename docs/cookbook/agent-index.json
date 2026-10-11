@@ -1889,44 +1889,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-audit-live-sessions-and-uncommitted-changes-before-removing-worktrees",
-      "title": "Audit live sessions and uncommitted changes before removing worktrees",
-      "principle": "Audit live sessions and uncommitted changes before removing worktrees",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "audit",
-        "live",
-        "sessions",
-        "and",
-        "uncommitted",
-        "changes",
-        "before",
-        "removing",
-        "worktrees"
-      ],
-      "use_when": "Use when defining agent behavior to audit live sessions and uncommitted changes before removing worktrees.",
-      "provides": [
-        "Audit live sessions and uncommitted changes before removing worktrees"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-select-documentation-structure-by-tutorial-how-to-reference-or-explanation-purpose",
       "title": "Select documentation structure by tutorial, how-to, reference, or explanation purpose",
       "principle": "Select documentation structure by tutorial, how-to, reference, or explanation purpose",
@@ -3056,46 +3018,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-use-isolated-worktrees-when-parallel-agents-would-otherwise-share-a-working-tree",
-      "title": "Use isolated worktrees when parallel agents would otherwise share a working tree",
-      "principle": "Use isolated worktrees when parallel agents would otherwise share a working tree",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "use",
-        "isolated",
-        "worktrees",
-        "when",
-        "parallel",
-        "agents",
-        "would",
-        "otherwise",
-        "share",
-        "a",
-        "working",
-        "tree"
-      ],
-      "use_when": "Use when defining agent behavior to use isolated worktrees when parallel agents would otherwise share a working tree.",
-      "provides": [
-        "Use isolated worktrees when parallel agents would otherwise share a working tree"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md",
       "covered_principles": []
     },
     {
@@ -6316,6 +6238,44 @@
         "Inspect working-tree changes before autonomous execution and stop on unrelated dirty files",
         "Stage only files belonging to the current autonomous task rather than blindly staging every change",
         "Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit"
+      ]
+    },
+    {
+      "id": "isolated-worktrees-and-safe-workspace-cleanup",
+      "title": "Isolated Worktrees and Safe Workspace Cleanup",
+      "path": "docs/cookbook/isolated-worktrees-and-safe-workspace-cleanup.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "delegation-handoffs"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "isolated",
+        "worktrees",
+        "and",
+        "safe",
+        "workspace",
+        "cleanup"
+      ],
+      "use_when": "Parallel agents can overwrite a shared working tree, and cleanup can delete a live session's uncommitted work. Workspaces need isolation and an evidence-based removal decision.",
+      "provides": [
+        "Audit live sessions and uncommitted changes before removing worktrees",
+        "Use isolated worktrees when parallel agents would otherwise share a working tree"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/isolated-worktrees-and-safe-workspace-cleanup.html",
+      "covered_principles": [
+        "Audit live sessions and uncommitted changes before removing worktrees",
+        "Use isolated worktrees when parallel agents would otherwise share a working tree"
       ]
     }
   ]
