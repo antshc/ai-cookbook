@@ -88,7 +88,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 
 - [x] **R46. Untrusted Content and Prompt Injection Boundaries** — NEW (3 principles). [recipe](untrusted-content-and-prompt-injection-boundaries.md).
 - [x] **R47. Boundary Validation, Threat Models, and Abuse Cases** — NEW (3 principles). [recipe](boundary-validation-threat-models-and-abuse-cases.md).
-- [ ] **R48. Secret Protection, Resource Authorization, and Personal Data Minimization** — NEW (4 principles).
+- [x] **R48. Secret Protection, Resource Authorization, and Personal Data Minimization** — NEW (4 principles). [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md).
 - [ ] **R49. Isolated Browser Profiles and Read-Only Inspection** — NEW (2 principles).
 - [ ] **R50. Safe Destructive Paths and Dependency Install Controls** — NEW (2 principles).
 ### Configuration and Git
@@ -535,10 +535,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Keep reproduction recordings, logs, and tokens out of source control** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md).
-- [ ] **Keep automation webhook secrets on the server, never in the browser or chat** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/make-bot-ui/SKILL.md).
-- [ ] **Review authorization for every protected resource and prevent secrets entering code or logs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md).
-- [ ] **Classify personal data by purpose and exclude unnecessary personal information from telemetry** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md).
+- [x] **Keep reproduction recordings, logs, and tokens out of source control** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md).
+- [x] **Keep automation webhook secrets on the server, never in the browser or chat** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md).
+- [x] **Review authorization for every protected resource and prevent secrets entering code or logs** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md).
+- [x] **Classify personal data by purpose and exclude unnecessary personal information from telemetry** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md).
 
 ### R49. Isolated Browser Profiles and Read-Only Inspection
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 152 |
-| Principles still awaiting coverage | 92 |
+| Already covered principles | 156 |
+| Principles still awaiting coverage | 88 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

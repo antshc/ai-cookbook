@@ -13,6 +13,7 @@ Define what the consumer receives and who owns its format.
 - [Consumer-First Design, Public Contracts, and Usage Guides](../consumer-first-design-public-contracts-and-usage-guides.md)
 - [Architecture Sketches, Structural Red Flags, and Design Rationale](../architecture-sketches-structural-red-flags-and-design-rationale.md)
 - [Untrusted Content and Prompt Injection Boundaries](../untrusted-content-and-prompt-injection-boundaries.md)
+- [Secret Protection, Resource Authorization, and Personal Data Minimization](../secret-protection-resource-authorization-and-personal-data-minimization.md)
 
 ## References
 
@@ -46,7 +47,6 @@ Define what the consumer receives and who owns its format.
 - [Freeze report provenance and deduplicate before filing tickets](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
 - [Verify framework-specific decisions against version-matched official documentation](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Revalidate cached official documentation with origin validators before using it across sessions](https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md)
-- [Classify personal data by purpose and exclude unnecessary personal information from telemetry](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [Migrate schemas additively before destructive changes and test the rollback path](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md)
 - [Preserve factual details and uncertainty when simplifying documentation prose](https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md)
 - [Run skill-on versus skill-off evaluations and score observable output rather than invocation alone](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)

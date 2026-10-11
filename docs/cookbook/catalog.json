@@ -1382,42 +1382,6 @@
       "related": []
     },
     {
-      "id": "principle-keep-reproduction-recordings-logs-and-tokens-out-of-source-control",
-      "title": "Keep reproduction recordings, logs, and tokens out of source control",
-      "principle": "Keep reproduction recordings, logs, and tokens out of source control",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "keep",
-        "reproduction",
-        "recordings",
-        "logs",
-        "and",
-        "tokens",
-        "out",
-        "of",
-        "source",
-        "control"
-      ],
-      "use_when": "Use when defining agent behavior to keep reproduction recordings, logs, and tokens out of source control.",
-      "provides": [
-        "Keep reproduction recordings, logs, and tokens out of source control"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-keep-append-only-decision-records-linked-to-real-evidence",
       "title": "Keep append-only decision records linked to real evidence",
       "principle": "Keep append-only decision records linked to real evidence",
@@ -1698,44 +1662,6 @@
       "use_when": "Use when defining agent behavior to compensate cross-system ticket writes when the final handoff fails.",
       "provides": [
         "Compensate cross-system ticket writes when the final handoff fails"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-keep-automation-webhook-secrets-on-the-server-never-in-the-browser-or-chat",
-      "title": "Keep automation webhook secrets on the server, never in the browser or chat",
-      "principle": "Keep automation webhook secrets on the server, never in the browser or chat",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/make-bot-ui/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "keep",
-        "automation",
-        "webhook",
-        "secrets",
-        "on",
-        "the",
-        "server",
-        "never",
-        "in",
-        "the",
-        "browser",
-        "or",
-        "chat"
-      ],
-      "use_when": "Use when defining agent behavior to keep automation webhook secrets on the server, never in the browser or chat.",
-      "provides": [
-        "Keep automation webhook secrets on the server, never in the browser or chat"
       ],
       "related": []
     },
@@ -2900,83 +2826,6 @@
       "use_when": "Use when defining agent behavior to block unreviewed dependency install scripts and audit the committed lockfile.",
       "provides": [
         "Block unreviewed dependency install scripts and audit the committed lockfile"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-review-authorization-for-every-protected-resource-and-prevent-secrets-entering-code-or-logs",
-      "title": "Review authorization for every protected resource and prevent secrets entering code or logs",
-      "principle": "Review authorization for every protected resource and prevent secrets entering code or logs",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review",
-        "implementation"
-      ],
-      "keywords": [
-        "review",
-        "authorization",
-        "for",
-        "every",
-        "protected",
-        "resource",
-        "and",
-        "prevent",
-        "secrets",
-        "entering",
-        "code",
-        "or",
-        "logs"
-      ],
-      "use_when": "Use when defining agent behavior to review authorization for every protected resource and prevent secrets entering code or logs.",
-      "provides": [
-        "Review authorization for every protected resource and prevent secrets entering code or logs"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-classify-personal-data-by-purpose-and-exclude-unnecessary-personal-information-from-telemetry",
-      "title": "Classify personal data by purpose and exclude unnecessary personal information from telemetry",
-      "principle": "Classify personal data by purpose and exclude unnecessary personal information from telemetry",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "classify",
-        "personal",
-        "data",
-        "by",
-        "purpose",
-        "and",
-        "exclude",
-        "unnecessary",
-        "personal",
-        "information",
-        "from",
-        "telemetry"
-      ],
-      "use_when": "Use when defining agent behavior to classify personal data by purpose and exclude unnecessary personal information from telemetry.",
-      "provides": [
-        "Classify personal data by purpose and exclude unnecessary personal information from telemetry"
       ],
       "related": []
     },
@@ -5589,6 +5438,46 @@
         "Validate and handle errors at system boundaries",
         "Threat-model system boundaries and write abuse cases before hardening a feature",
         "Validate external and model-generated data at the boundary before using it as code or decisions"
+      ],
+      "related": []
+    },
+    {
+      "id": "secret-protection-resource-authorization-and-personal-data-minimization",
+      "title": "Secret Protection, Resource Authorization, and Personal Data Minimization",
+      "path": "secret-protection-resource-authorization-and-personal-data-minimization.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "instruction-compliance",
+        "missing-context",
+        "output-contracts"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "debugging",
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "secret",
+        "protection",
+        "resource",
+        "authorization",
+        "and",
+        "personal",
+        "data",
+        "minimization"
+      ],
+      "use_when": "Debug artifacts, browser code, or telemetry can expose secrets and unnecessary personal data. Authentication alone also fails to authorize access to a specific resource.",
+      "provides": [
+        "Keep reproduction recordings, logs, and tokens out of source control",
+        "Keep automation webhook secrets on the server, never in the browser or chat",
+        "Review authorization for every protected resource and prevent secrets entering code or logs",
+        "Classify personal data by purpose and exclude unnecessary personal information from telemetry"
       ],
       "related": []
     }

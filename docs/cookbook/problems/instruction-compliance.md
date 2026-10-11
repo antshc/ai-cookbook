@@ -36,6 +36,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [User-Visible Bottlenecks, Work Elimination, and Regression Monitoring](../user-visible-bottlenecks-work-elimination-and-regression-monitoring.md)
 - [Untrusted Content and Prompt Injection Boundaries](../untrusted-content-and-prompt-injection-boundaries.md)
 - [Boundary Validation, Threat Models, and Abuse Cases](../boundary-validation-threat-models-and-abuse-cases.md)
+- [Secret Protection, Resource Authorization, and Personal Data Minimization](../secret-protection-resource-authorization-and-personal-data-minimization.md)
 
 ## References
 
@@ -60,7 +61,6 @@ No materials yet.
 - [Pin existing behavior before structural refactoring](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)
 - [Audit decision logs against transcripts and correct false or omitted claims by appending rows](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
 - [Independently review long-running decision trails with a different model family](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
-- [Keep automation webhook secrets on the server, never in the browser or chat](https://github.com/cursor/plugins/blob/main/pstack/skills/make-bot-ui/SKILL.md)
 - [Remove generic AI phrasing while preserving the intended meaning](https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md)
 - [Run automations from committed operational files rather than copied instructions or caches](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md)
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
@@ -75,7 +75,6 @@ No materials yet.
 - [Automate wide mechanical refactors instead of hand-editing large change sets](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Guard destructive operations against paths controlled by untrusted upstream processes](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [Block unreviewed dependency install scripts and audit the committed lockfile](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
-- [Review authorization for every protected resource and prevent secrets entering code or logs](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md)
 - [Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
 - [Migrate schemas additively before destructive changes and test the rollback path](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md)
 - [Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md)
