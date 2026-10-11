@@ -9,8 +9,7 @@ Define observable completion and account for every obligation.
 
 ## References
 
-No materials yet.
-
+- [Grouped principle checklist](../grouped-index.md)
 
 ## Templates
 

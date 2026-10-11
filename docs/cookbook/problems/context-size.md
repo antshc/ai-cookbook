@@ -10,6 +10,7 @@ No materials yet.
 ## References
 
 - [Writing agent-facing documents](../agent-skills.instructions.md)
+- [Grouped principle checklist](../grouped-index.md)
 
 ## Templates
 

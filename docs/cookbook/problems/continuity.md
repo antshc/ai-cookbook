@@ -9,8 +9,7 @@ Preserve useful lessons and resume from verified state.
 
 ## References
 
-No materials yet.
-
+- [Grouped principle checklist](../grouped-index.md)
 
 ## Templates
 

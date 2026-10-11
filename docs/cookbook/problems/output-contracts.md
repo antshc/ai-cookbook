@@ -10,6 +10,7 @@ No materials yet.
 ## References
 
 - [Skill Template Categories](../skill-template-categories.md)
+- [Grouped principle checklist](../grouped-index.md)
 
 ## Templates
 

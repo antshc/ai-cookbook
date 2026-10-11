@@ -40,6 +40,7 @@ def validate(catalog):
     ids = {m['id'] for m in materials}
     assert len(ids) == len(materials), 'Duplicate material ID'
     cov = coverage()
+    validate_groups(catalog['principle_groups'], cov)
     pending = set()
     for m in materials:
         assert re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', m['id']), m['id']
@@ -74,6 +75,45 @@ def validate(catalog):
     return cov
 
 
+def validate_groups(groups, cov):
+    assert groups, 'No principle groups'
+    assert len(groups) == len({g['id'] for g in groups}), 'Duplicate principle group ID'
+    assigned = []
+    for group in groups:
+        assert re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', group['id']), group['id']
+        assert group['title'] and group['question'] and group['principles'], 'Empty principle group'
+        assigned.extend(group['principles'])
+    assert len(assigned) == len(set(assigned)), 'Principle assigned to multiple groups'
+    missing = set(cov) - set(assigned)
+    unknown = set(assigned) - set(cov)
+    assert not missing and not unknown, f'Group mapping mismatch: missing={sorted(missing)}, unknown={sorted(unknown)}'
+
+
+def grouped_checklist(groups, cov):
+    covered = sum(r['covered'] for r in cov.values())
+    text = '# Grouped Principle Checklist\n\n'
+    text += 'Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.\n\n'
+    text += f'**Coverage:** {len(cov)} principles in {len(groups)} groups; {covered} covered, {len(cov) - covered} awaiting recipes.\n\n'
+    text += '[Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.\n\n'
+    text += '- `[x]` means an actionable recipe covers the principle.\n- `[ ]` means the principle still needs a recipe; its link points to source evidence.\n\n'
+    text += '## Groups\n\n| Group | Items | Covered | Awaiting recipes |\n|---|---:|---:|---:|\n'
+    for group in groups:
+        count = sum(cov[t]['covered'] for t in group['principles'])
+        total = len(group['principles'])
+        anchor = re.sub(r'[^a-z0-9 -]', '', group['title'].lower()).replace(' ', '-')
+        text += f'| [{group["title"]}](#{anchor}) | {total} | {count} | {total - count} |\n'
+    text += f'| **Total** | **{len(cov)}** | **{covered}** | **{len(cov) - covered}** |\n'
+    for group in groups:
+        text += f'\n## {group["title"]}\n\n{group["question"]}\n\n'
+        if group['id'] == 'completion-checks':
+            text += 'Verification asks whether the implemented behavior works. Exit criteria ask whether all defined completion conditions are met. A completeness sweep asks whether any required obligations were omitted. Definition of done adds standing quality requirements.\n\n'
+        for title in group['principles']:
+            row = cov[title]
+            mark, label = ('x', 'recipe') if row['covered'] else (' ', 'source')
+            text += f'- [{mark}] **{title}** — [{label}]({row["path"]})\n'
+    return text
+
+
 def material_url(m):
     return m['path'] if m['kind'] == 'source-only' else 'docs/cookbook/' + str(Path(m['path']).with_suffix('.html'))
 
@@ -87,7 +127,7 @@ def derived(catalog, cov):
         item['covered_principles'] = [t for t, r in cov.items() if r['covered'] and r['path'] == m['path']] if m['kind'] == 'recipe' else []
         item['path'] = m['path'] if m['kind'] == 'source-only' else 'docs/cookbook/' + m['path']
         records.append(item)
-    return {'schema_version': 1, 'problems': catalog['problems'], 'materials': records}
+    return {'schema_version': 1, 'problems': catalog['problems'], 'principle_groups': catalog['principle_groups'], 'materials': records}
 
 
 def write_generated(path, text, check):
@@ -100,6 +140,7 @@ def write_generated(path, text, check):
 
 def generate_navigation(catalog, data, check):
     write_generated(COOKBOOK / 'agent-index.json', json.dumps(data, ensure_ascii=False, indent=2) + '\n', check)
+    write_generated(COOKBOOK / 'grouped-index.md', grouped_checklist(catalog['principle_groups'], coverage()), check)
     toc = '# AI Agent Cookbook\n\nFind practices for problems encountered while writing skills, agents, instructions, and templates.\n\n'
     toc += '| Problem | Practices |\n|---|---|\n'
     for p in catalog['problems']:
@@ -117,7 +158,7 @@ def generate_navigation(catalog, data, check):
         chapter += '[All problems](../README.md) · [Agent index](../agent-index.json)\n'
         write_generated(COOKBOOK / 'problems' / (p['id'] + '.md'), chapter, check)
     toc += '\nFilter task types: planning, debugging, review, implementation, research. Filter artifacts: skill, agent, instruction, template.\n\n'
-    toc += '[Agent index](agent-index.json) · [Coverage checklist](index.md) · [Skill template families](skill-template-categories.md) · [Authors & sources](authors-and-sources.md)\n'
+    toc += '[Agent index](agent-index.json) · [Coverage checklist](index.md) · [Grouped checklist](grouped-index.md) · [Skill template families](skill-template-categories.md) · [Authors & sources](authors-and-sources.md)\n'
     write_generated(COOKBOOK / 'README.md', toc, check)
 
 

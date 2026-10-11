@@ -2,6 +2,7 @@
 import copy
 import importlib.util
 import json
+import re
 import unittest
 from html.parser import HTMLParser
 from pathlib import Path
@@ -66,5 +67,38 @@ class BuildTests(unittest.TestCase):
         source['path']='https://example.com/stale'
         with self.assertRaisesRegex(AssertionError,'Stale coverage'):
             builder.validate(catalog)
+
+    def test_grouped_checklist_preserves_every_original_entry_once(self):
+        pattern = r'^- \[([ x])\] \*\*(.+?)\*\* — \[(recipe|source)\]\(([^)]+)\)'
+        original = re.findall(pattern, (builder.COOKBOOK/'index.md').read_text(), re.M)
+        grouped = re.findall(pattern, (builder.COOKBOOK/'grouped-index.md').read_text(), re.M)
+        self.assertCountEqual(grouped, original)
+        self.assertEqual(len(grouped), len({row[1] for row in grouped}))
+
+    def test_missing_group_assignment_fails_validation(self):
+        catalog = copy.deepcopy(self.catalog)
+        catalog['principle_groups'][0]['principles'].pop()
+        with self.assertRaisesRegex(AssertionError, 'Group mapping mismatch'):
+            builder.validate(catalog)
+
+    def test_duplicate_group_assignment_fails_validation(self):
+        catalog = copy.deepcopy(self.catalog)
+        catalog['principle_groups'][1]['principles'].append(catalog['principle_groups'][0]['principles'][0])
+        with self.assertRaisesRegex(AssertionError, 'Principle assigned to multiple groups'):
+            builder.validate(catalog)
+
+    def test_unknown_group_principle_fails_validation(self):
+        catalog = copy.deepcopy(self.catalog)
+        catalog['principle_groups'][0]['principles'].append('Nonexistent principle')
+        with self.assertRaisesRegex(AssertionError, 'Group mapping mismatch'):
+            builder.validate(catalog)
+
+    def test_grouped_checklist_tracks_coverage_updates(self):
+        cov = copy.deepcopy(builder.coverage())
+        principle = next(t for t,r in cov.items() if not r['covered'])
+        cov[principle] = {'covered': True, 'path': 'new-recipe.md'}
+        text = builder.grouped_checklist(self.catalog['principle_groups'], cov)
+        self.assertIn(f'- [x] **{principle}** — [recipe](new-recipe.md)', text)
+        self.assertNotIn(f'- [ ] **{principle}**', text)
 
 if __name__=='__main__':unittest.main()

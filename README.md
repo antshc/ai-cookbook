@@ -2,7 +2,7 @@
 
 Problem-based practices for engineers writing AI skills, agents, instructions, and templates.
 
-[Authors & sources](docs/cookbook/authors-and-sources.md) · [Browse cookbook contents](docs/cookbook/README.md) · [Agent index](docs/cookbook/agent-index.json) · [Coverage checklist](docs/cookbook/index.md)
+[Authors & sources](docs/cookbook/authors-and-sources.md) · [Browse cookbook contents](docs/cookbook/README.md) · [Agent index](docs/cookbook/agent-index.json) · [Coverage checklist](docs/cookbook/index.md) · [Grouped checklist](docs/cookbook/grouped-index.md)
 
 ## Run locally
 
@@ -26,6 +26,7 @@ In repository **Settings → Pages → Build and deployment → Source**, choose
 
 - Edit canonical Markdown and `docs/cookbook/catalog.json`. Use the ten problem IDs already defined in the catalog; task types and artifact types are filters.
 - Keep `docs/cookbook/index.md` as the authority for principle coverage. A template or reference does not count as a recipe. Check a principle only when actionable recipe instructions cover it.
+- Assign every principle exactly once in `catalog.json`'s `principle_groups`. The builder regenerates `grouped-index.md` with the original titles, links, and coverage status; it rejects missing, unknown, or repeated assignments.
 - When turning a source-only principle into a recipe, add the recipe entry, update the checklist link, and remove the matching source-only catalog entry in the same change.
 - Run the builder and commit regenerated `docs/cookbook/README.md`, `problems/`, and `agent-index.json`. CI rejects stale generated navigation, missing classifications, and broken local links.
 - The initial content is a snapshot. See [provenance](SOURCE.md) before importing upstream changes. The ten categories group materials by authoring problems, including agent behavior you want to encode in instructions.

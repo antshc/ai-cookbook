@@ -10,6 +10,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 
 - [Writing agent-facing documents](../agent-skills.instructions.md)
 - [Authors & Sources](../authors-and-sources.md)
+- [Grouped principle checklist](../grouped-index.md)
 
 ## Templates
 

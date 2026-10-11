@@ -62,6 +62,497 @@
       "practices": "Routing fixtures, tool traces, pressure tests and controlled comparisons."
     }
   ],
+  "principle_groups": [
+    {
+      "id": "completion-checks",
+      "title": "Completion checks",
+      "question": "Does the behavior work, are completion conditions met, and were any obligations omitted?",
+      "principles": [
+        "Verification",
+        "Exit criteria (completeness verification)",
+        "Completeness sweep",
+        "Route tasks through explicit, falsifiable finish conditions",
+        "Apply standing definition-of-done checks separately from task acceptance criteria"
+      ]
+    },
+    {
+      "id": "live-proof",
+      "title": "Proof of actual behavior",
+      "question": "Does direct evidence from the real artifact prove the claimed behavior?",
+      "principles": [
+        "Prove the real artifact rather than trusting proxies or reports",
+        "Scale verification rigor to impact and reversibility",
+        "Prove the key safety assumption behind a change",
+        "Create a repository-specific live verification harness",
+        "Maintain verification feature maps with source and live checks",
+        "Verify each PR independently at the reviewed patch before merging",
+        "Verify dry-run claims by inspecting actual network, file, and repository effects",
+        "Health-check and reset verification instances after unexpected drive failures",
+        "Clean up only owned verification processes and preserve collected proof artifacts",
+        "Compare changed behavior with current trunk on the same user-visible path",
+        "Verify repaired behavior with focused tests, full regression checks, and runtime checks"
+      ]
+    },
+    {
+      "id": "focused-testing",
+      "title": "Focused testing",
+      "question": "Which observable boundary and smallest relevant checks prove the outcome?",
+      "principles": [
+        "Focused functional-slice testing",
+        "Test observable behavior with exact expected results",
+        "Place verification checks according to execution cost and scope expensive checks to changed code",
+        "Do not repeat unchanged verification commands without intervening changes",
+        "Test observable state with descriptive tests and minimize interaction mocks",
+        "Choose test sizes by real resource boundaries and preserve the repository test conventions"
+      ]
+    },
+    {
+      "id": "regression-protection",
+      "title": "Regression protection",
+      "question": "Does a failing test or recorded baseline expose the defect and protect existing behavior?",
+      "principles": [
+        "Pin existing behavior before structural refactoring",
+        "Run a failing regression check before fixing a bug",
+        "Verify an existing fix against baseline and patched live behavior before authoring another",
+        "Confirm a reported defect twice through the live user interface",
+        "Use the red-green-refactor cycle for behavior-changing implementation",
+        "Reproduce a reported bug with a failing regression test before applying the fix"
+      ]
+    },
+    {
+      "id": "root-cause-diagnosis",
+      "title": "Root-cause diagnosis",
+      "question": "Which runtime observations isolate the cause and reject mistaken hypotheses?",
+      "principles": [
+        "Question a repeatedly failed premise with an actor census",
+        "Reproduce failures and fix root causes rather than symptoms",
+        "Eliminate debugging hypotheses using runtime observations",
+        "Convert traces to queryable data and attribute findings to source symbols",
+        "Keep suspected causes out of the initial agent task brief",
+        "Stop further feature work on broken tests or builds until the failure is resolved",
+        "Isolate and reduce failures before root-cause fixes, using history bisect when useful"
+      ]
+    },
+    {
+      "id": "failure-learning",
+      "title": "Learning from failures",
+      "question": "Which observed lesson should become memory, corrected guidance, or an enforced mechanism?",
+      "principles": [
+        "Gotchas",
+        "Persistent memory",
+        "Improvement flywheel (classify and fix observed failures)",
+        "Turn recurring corrections into enforced mechanisms",
+        "Repair broken workflow skills in a separate PR from feature work",
+        "Limit retrospective skill changes to demonstrated use or missed triggers",
+        "Turn session retrospectives into tested agent-guidance changes",
+        "Infer reusable agent preferences only from stable evidence",
+        "Apply retrospective changes to shared agent instructions only with approval"
+      ]
+    },
+    {
+      "id": "resumable-execution",
+      "title": "Resumable execution",
+      "question": "What progress, decisions, open questions, and remaining work must survive a session reset?",
+      "principles": [
+        "Checklist-driven workflow",
+        "Open-question markers",
+        "Session ledger",
+        "Summarize session progress as outcomes and human-owned decisions",
+        "Resume from the prior execution trail rather than repeating completed work",
+        "Preserve work and a resume note when pausing an agent run",
+        "Recover prior context within the workspace and verify live state",
+        "Preserve incomplete plans and use the project's designated task tracker",
+        "Persist restartable session handoffs with decisions, changed files, verification, and next work"
+      ]
+    },
+    {
+      "id": "instruction-enforcement",
+      "title": "Instruction enforcement",
+      "question": "Which constraints must the agent follow, and how is actual compliance made observable?",
+      "principles": [
+        "Canary rule verification",
+        "Instruction robustness",
+        "Constraint-first reasoning",
+        "Write audience-specific instructions in concise, controlled language",
+        "Describe goals, proof, and constraints without prescribing skill choreography",
+        "Write skill procedures in model-neutral capabilities instead of model-specific workarounds",
+        "Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills"
+      ]
+    },
+    {
+      "id": "skill-routing",
+      "title": "Skill discovery and routing",
+      "question": "Which skill owns this request, and does the loading and routing mechanism select it?",
+      "principles": [
+        "Repository instruction loading",
+        "Skill discovery and trigger descriptions",
+        "Cross-scope specialist discovery",
+        "Trigger indexing",
+        "Select the applicable skill before work and follow its gates in order",
+        "Avoid installing a second always-on skill router when the agent host already routes skills natively",
+        "Test skill routing with realistic positive triggers and neighboring negative triggers",
+        "For negative routing tests, require the intended owner skill to outrank the wrong skill"
+      ]
+    },
+    {
+      "id": "context-management",
+      "title": "Context management",
+      "question": "Which guidance and evidence must be loaded, retained, disclosed later, or delegated?",
+      "principles": [
+        "Progressive disclosure of agent guidance",
+        "Preserve agent context by delegating bulk exploration",
+        "Load relevant implementation, tests, types, and precedent instead of entire context dumps",
+        "Trim context proactively while preserving active constraints, errors, and decisions",
+        "Keep skill entrypoints concise with trigger descriptions and load long references on demand"
+      ]
+    },
+    {
+      "id": "ownership-composition",
+      "title": "Ownership and composition",
+      "question": "Who owns each responsibility, procedure, rendering contract, implementation, and adapter?",
+      "principles": [
+        "Agent design and bounded responsibility",
+        "Template ownership of rendering",
+        "Skill composition and single ownership",
+        "Delegation engine isolation",
+        "Repository adapter skills",
+        "Resource access skills",
+        "Skill-owned code",
+        "Make module internals inaccessible and expose only one supported operation path",
+        "Keep orchestration and code-writing responsibilities with separate owners",
+        "Keep reusable skills separate from repository-specific agent instructions during installation",
+        "Do not make agent personas invoke other personas or add routing-only hops"
+      ]
+    },
+    {
+      "id": "delegation-contracts",
+      "title": "Delegation contracts",
+      "question": "What scope, inputs, outputs, restrictions, and review duties govern delegated work?",
+      "principles": [
+        "Agent-agnostic handoff contracts",
+        "CLI JSON handoff",
+        "Decompose parallel work into scoped workers and aggregate results",
+        "Delegate implementation with bounded files and success criteria, then review the diff",
+        "Keep external writes and credentials out of delegated workers",
+        "Parallelize independent specialist reviews, but keep aggregation with the orchestrator",
+        "Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out"
+      ]
+    },
+    {
+      "id": "worker-lifecycle",
+      "title": "Worker lifecycle",
+      "question": "How are workers configured, started, replenished, monitored, replaced, and stopped?",
+      "principles": [
+        "Pilot a full work unit before scaling a multi-agent program",
+        "Configure model selection per agent responsibility",
+        "Start fresh subagents with consolidated instructions unless local state requires a resume",
+        "Carry immutable standing orders into every worker spawn and resume",
+        "Refill a rolling worker window instead of waiting for whole batches",
+        "Judge agent progress by actual side effects and replace stalled workers",
+        "Propagate operator stop orders to all active agents as an immediate no-writes hold",
+        "Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling",
+        "Keep stack topology updates under one coordinator while PR owners work in parallel"
+      ]
+    },
+    {
+      "id": "autonomy-boundaries",
+      "title": "Autonomous execution boundaries",
+      "question": "What may proceed independently, what stops the loop, and which actions require authorization?",
+      "principles": [
+        "Proceed on reversible work without human blocking",
+        "Keep autonomous iterations bound to an unchanged stop predicate",
+        "Wait for an explicit operator go before executing an approved plan",
+        "Keep verified stacked PRs unmerged until explicitly authorized",
+        "Fail closed when an external automation's target is uncertain",
+        "Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run",
+        "Require explicit authorization for each external cross-model review invocation"
+      ]
+    },
+    {
+      "id": "intent-discovery",
+      "title": "Intent and assumption discovery",
+      "question": "What does the user mean, which assumptions need evidence, and is the requested scope justified?",
+      "principles": [
+        "Reject unnecessary scope instead of reflexively agreeing",
+        "Surface assumptions and stop when requirements conflict or remain uncertain",
+        "Challenge unwarranted scope or complexity while leaving informed decisions to the user",
+        "Interview for intent one question and one explicit guess at a time",
+        "Require explicit confirmation of the restated intent and stop before downstream work",
+        "Diverge into alternatives before converging on an evaluated idea",
+        "Record and test key idea assumptions before committing to an MVP"
+      ]
+    },
+    {
+      "id": "design-contracts",
+      "title": "Design before implementation",
+      "question": "Which consumer contracts, domain invariants, alternatives, and foundations should guide implementation?",
+      "principles": [
+        "Compare competing prototypes for novel designs",
+        "Prioritize consumer experience over implementation convenience",
+        "Choose core data shapes and shared foundations before features",
+        "Represent domain invariants in explicit data structures",
+        "Redesign new requirements as foundational constraints",
+        "Use types to exclude invalid states and exhaust variants",
+        "Derive architecture contracts from caller usage before implementing",
+        "Write a consumer usage guide before implementing a shared API",
+        "Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract",
+        "Sketch architecture first and redo it when structural red flags appear",
+        "Compare independent design candidates with cross-judging",
+        "Resolve observable decisions with throwaway experiments",
+        "Define public contracts before implementation and preserve observable consumer behavior"
+      ]
+    },
+    {
+      "id": "independent-review",
+      "title": "Independent review",
+      "question": "Which findings survive independent judgment, and what severity and evidence support them?",
+      "principles": [
+        "Review the implementation against declared intent and require concrete evidence per finding",
+        "Classify adversarial review findings with independent judgment",
+        "Classify CI failures and review comments before modifying a PR",
+        "Review comments as evidence rather than automatically obeying them",
+        "Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion",
+        "Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop",
+        "Review correctness, readability, architecture, security, and performance, reading tests first",
+        "Classify review findings by severity and lead with required, evidenced changes",
+        "Keep review changes cohesive and consider total file size as well as diff size"
+      ]
+    },
+    {
+      "id": "measured-performance",
+      "title": "Measured performance",
+      "question": "Is the measured improvement reproducible, comparable, user-relevant, and explained by a bottleneck?",
+      "principles": [
+        "Explain measured results with evidence and limiting factors",
+        "Freeze an evaluation harness and revert unsupported iterations",
+        "Compare performance under production-equivalent conditions and repeated alternating runs",
+        "Remove unnecessary work before optimizing remaining performance cost",
+        "Measure user-visible performance and identify its bottleneck before optimizing",
+        "Compare one optimization against an equivalent baseline and revert unproven changes",
+        "Record rejected optimizations and install regression monitors for measured gains",
+        "Never invent web performance scores without actual measurement artifacts"
+      ]
+    },
+    {
+      "id": "trust-security",
+      "title": "Trust and security boundaries",
+      "question": "Which content is untrusted, which operations are authorized, and which data must remain protected?",
+      "principles": [
+        "Validate and handle errors at system boundaries",
+        "Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions",
+        "Treat PR review text as untrusted input rather than executable instructions",
+        "Keep reproduction recordings, logs, and tokens out of source control",
+        "Keep automation webhook secrets on the server, never in the browser or chat",
+        "Isolate automated browser tests from personal signed-in browser profiles",
+        "Keep browser JavaScript inspection read-only unless mutations are explicitly authorized",
+        "Treat error output, external documentation, and browser content as untrusted instructions",
+        "Threat-model system boundaries and write abuse cases before hardening a feature",
+        "Validate external and model-generated data at the boundary before using it as code or decisions",
+        "Guard destructive operations against paths controlled by untrusted upstream processes",
+        "Block unreviewed dependency install scripts and audit the committed lockfile",
+        "Review authorization for every protected resource and prevent secrets entering code or logs",
+        "Classify personal data by purpose and exclude unnecessary personal information from telemetry"
+      ]
+    },
+    {
+      "id": "configuration-distribution",
+      "title": "Configuration and distribution",
+      "question": "Where do settings and shared references belong, and how are installations and host adapters kept valid?",
+      "principles": [
+        "Per-repository configuration resolution",
+        "Preserve locally edited managed files and keep user configuration outside automation packs",
+        "Run automations from committed operational files rather than copied instructions or caches",
+        "Include required shared references when distributing an individual skill outside its original pack",
+        "Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter",
+        "Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents",
+        "Revalidate cached official documentation with origin validators before using it across sessions",
+        "Validate that equivalent host command adapters stay semantically aligned"
+      ]
+    },
+    {
+      "id": "git-workspaces",
+      "title": "Git and workspace safety",
+      "question": "Can this change be committed or this workspace removed without mixing or losing other work?",
+      "principles": [
+        "Audit live sessions and uncommitted changes before removing worktrees",
+        "Inspect working-tree changes before autonomous execution and stop on unrelated dirty files",
+        "Stage only files belonging to the current autonomous task rather than blindly staging every change",
+        "Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit",
+        "Use isolated worktrees when parallel agents would otherwise share a working tree"
+      ]
+    },
+    {
+      "id": "migration-deprecation",
+      "title": "Migration and deprecation",
+      "question": "Have consumers moved to the replacement, can the transition roll back, and is retirement safe?",
+      "principles": [
+        "Migrate callers and delete obsolete internal APIs together",
+        "Optimize planned migrations for a verified final state",
+        "Remove feature flags and dead branches after their rollout finishes",
+        "Prefer advisory deprecation and provide a production-proven replacement plus migration guidance",
+        "Migrate schemas additively before destructive changes and test the rollback path",
+        "Verify old consumers are inactive before deleting a deprecated interface or system"
+      ]
+    },
+    {
+      "id": "release-rollout",
+      "title": "Release and rollout",
+      "question": "Is release readiness proven, is rollout controlled, and do critical flows remain healthy?",
+      "principles": [
+        "Keep incomplete capabilities behind safe defaults or feature flags",
+        "Version consumer-facing releases with tags, semantic versions, and human changelogs",
+        "Use prelaunch gates, staged rollout thresholds, and tested rollback triggers",
+        "Verify critical user flows and health signals after deployment",
+        "Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk"
+      ]
+    },
+    {
+      "id": "operational-evidence",
+      "title": "Operational evidence",
+      "question": "Can telemetry and actionable alerts answer the questions needed to operate the system?",
+      "principles": [
+        "Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately",
+        "Propagate correlation and entry-point identity while bounding telemetry label cardinality",
+        "Make alerts actionable with runbooks and verify telemetry and notification delivery"
+      ]
+    },
+    {
+      "id": "skill-evaluation",
+      "title": "Skill evaluation",
+      "question": "Do controlled, observable, repeated trials show that the guidance improves behavior?",
+      "principles": [
+        "Evaluate agent instructions with blinded candidates and judges",
+        "Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions",
+        "Use dialogue-only evaluations only when conversation itself is the skill's deliverable",
+        "Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost",
+        "Run skill-on versus skill-off evaluations and score observable output rather than invocation alone",
+        "Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing"
+      ]
+    },
+    {
+      "id": "documentation-provenance",
+      "title": "Documentation and provenance",
+      "question": "Does the document explain the right thing clearly while preserving facts, evidence, and decision history?",
+      "principles": [
+        "Teach behavior and rationale through incremental explanations and diagrams",
+        "Keep PR summaries short with observable verification evidence",
+        "Select documentation structure by tutorial, how-to, reference, or explanation purpose",
+        "Keep append-only decision records linked to real evidence",
+        "Audit decision logs against transcripts and correct false or omitted claims by appending rows",
+        "Independently review long-running decision trails with a different model family",
+        "Remove generic AI phrasing while preserving the intended meaning",
+        "Frame agent delivery for both the user and the future maintainer",
+        "Record architecture decisions with alternatives and supersede rather than erase old ADRs",
+        "Preserve factual details and uncertainty when simplifying documentation prose"
+      ]
+    },
+    {
+      "id": "external-write-consistency",
+      "title": "External-write consistency",
+      "question": "Is the external action based on trusted, deduplicated evidence, and can partial writes be compensated?",
+      "principles": [
+        "Freeze report provenance and deduplicate before filing tickets",
+        "Gate automatic bug fixing on a trusted triage verdict and ownership checks",
+        "Compensate cross-system ticket writes when the final handoff fails"
+      ]
+    },
+    {
+      "id": "quality-gates",
+      "title": "Quality thresholds and gates",
+      "question": "Which quality floor applies, are exceptions controlled, and did every required gate actually run?",
+      "principles": [
+        "Define measurable project quality thresholds and record exceptions with owners and expiry",
+        "Apply a minimum quality floor in noninteractive runs when project thresholds are absent",
+        "Detect attempts to weaken checks, tests, suppressions, or quality thresholds",
+        "Treat a quality guard that could not run as a blocking failure rather than a clean result",
+        "Run non-bypassable CI quality gates and feed failures back into agent correction",
+        "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once"
+      ]
+    },
+    {
+      "id": "ui-proof",
+      "title": "UI contracts and verification",
+      "question": "Does the interface match its visual contract and support responsive, accessible, and failure states?",
+      "principles": [
+        "Prove visual parity against an unchanged screenshot baseline",
+        "Define a reference-grounded UI design contract before implementation",
+        "Verify responsive and accessible UI states including empty, loading, and error flows",
+        "Verify browser changes against live DOM, console, network, and before-after screenshots"
+      ]
+    },
+    {
+      "id": "investigation-provenance",
+      "title": "Investigation and source evidence",
+      "question": "Which sources and queries support an explanation, and what remains inferred, contradictory, or unknown?",
+      "principles": [
+        "Investigate the current code path before explaining it",
+        "Reconstruct design rationale across independent evidence sources",
+        "Calibrate rationale claims to direct, supported, inferred, or unknown evidence",
+        "Separate evidence collection from synthesis and keep investigators within their assigned sources",
+        "Record exact investigation queries, empty results, and contradictory evidence",
+        "Verify framework-specific decisions against version-matched official documentation",
+        "Cite authoritative implementation sources and label unverifiable patterns explicitly"
+      ]
+    },
+    {
+      "id": "safe-simplification",
+      "title": "Safe simplification",
+      "question": "Which complexity can be removed while preserving behavior, conventions, and protected content?",
+      "principles": [
+        "Behavior-preserving agent review",
+        "Prefer the smallest change and shallowest useful abstraction",
+        "Minimize reader load from indirection and mutable state",
+        "Remove dead or redundant complexity before additions",
+        "Replace redundant comments and unsafe suppressions with code fixes",
+        "Understand why existing code exists before simplifying or deleting it",
+        "Refactor incrementally without changing test expectations to force a pass",
+        "Mask protected source blocks during agent simplification and restore them from verified placeholders or backups"
+      ]
+    },
+    {
+      "id": "retry-concurrency",
+      "title": "Retries and shared state",
+      "question": "Do retries converge safely, and can independent actors avoid conflicting writes?",
+      "principles": [
+        "Make state-changing operations converge across retries",
+        "Separate shared mutable state before using locks",
+        "Honor idempotency keys across retries, payload mismatches, and unknown outcomes"
+      ]
+    },
+    {
+      "id": "rerunnable-tools",
+      "title": "Rerunnable tools and mechanical changes",
+      "question": "Can a repeatable tool perform or prove work more reliably than manual edits?",
+      "principles": [
+        "Build a rerunnable tool for nontrivial work",
+        "Automate wide mechanical refactors instead of hand-editing large change sets"
+      ]
+    },
+    {
+      "id": "skill-maintenance",
+      "title": "Skill authoring and maintenance",
+      "question": "Does the skill have a justified owner, valid supporting files, and evidence for accepted or rejected changes?",
+      "principles": [
+        "Validate authored skills, referenced files, and structural examples",
+        "Check existing skills, active proposals, and rejected changes before introducing a new skill",
+        "Record rejected skill changes with evaluation evidence in an append-only ledger"
+      ]
+    },
+    {
+      "id": "planning-slices",
+      "title": "Specifications and verifiable slices",
+      "question": "Which approved specification and dependency order define independently verifiable implementation units?",
+      "principles": [
+        "Sequence changes as independently verifiable units",
+        "Validate multi-phase plans with an executable checker before handoff",
+        "Approve the capability dependency map before specifying a multi-module initiative",
+        "Write a specification before implementation and stop for approval before planning",
+        "Update the living specification before implementing changed decisions",
+        "Build dependency-ordered, verifiable task slices without implementing during planning",
+        "Implement complete vertical slices with test, verification, and commit gates"
+      ]
+    }
+  ],
   "materials": [
     {
       "id": "writing-agent-facing-documents",
@@ -9773,6 +10264,54 @@
       "related": [],
       "status": "reference",
       "url": "docs/cookbook/authors-and-sources.html",
+      "covered_principles": []
+    },
+    {
+      "id": "grouped-principle-checklist",
+      "title": "Grouped principle checklist",
+      "path": "docs/cookbook/grouped-index.md",
+      "kind": "reference",
+      "problems": [
+        "skill-routing",
+        "instruction-compliance",
+        "context-size",
+        "responsibility-overlap",
+        "missing-context",
+        "delegation-handoffs",
+        "output-contracts",
+        "premature-completion",
+        "continuity",
+        "guidance-evaluation"
+      ],
+      "applies_to": [
+        "skill",
+        "agent",
+        "instruction",
+        "template"
+      ],
+      "task_types": [
+        "planning",
+        "review"
+      ],
+      "keywords": [
+        "grouped",
+        "checklist",
+        "mapping",
+        "coverage",
+        "similar",
+        "principles"
+      ],
+      "use_when": "Use when planning recipes for related practices while preserving every original coverage item.",
+      "provides": [
+        "One group assignment per original principle",
+        "Recipe and source links with canonical coverage status",
+        "Group questions and coverage totals"
+      ],
+      "related": [
+        "principle-checklist-driven-workflow"
+      ],
+      "status": "reference",
+      "url": "docs/cookbook/grouped-index.html",
       "covered_principles": []
     }
   ]

@@ -10,6 +10,7 @@ No materials yet.
 ## References
 
 - [Authors & Sources](../authors-and-sources.md)
+- [Grouped principle checklist](../grouped-index.md)
 
 ## Templates
 

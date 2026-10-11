@@ -17,4 +17,4 @@ Find practices for problems encountered while writing skills, agents, instructio
 
 Filter task types: planning, debugging, review, implementation, research. Filter artifacts: skill, agent, instruction, template.
 
-[Agent index](agent-index.json) · [Coverage checklist](index.md) · [Skill template families](skill-template-categories.md) · [Authors & sources](authors-and-sources.md)
+[Agent index](agent-index.json) · [Coverage checklist](index.md) · [Grouped checklist](grouped-index.md) · [Skill template families](skill-template-categories.md) · [Authors & sources](authors-and-sources.md)

@@ -9,8 +9,7 @@ No materials yet.
 
 ## References
 
-No materials yet.
-
+- [Grouped principle checklist](../grouped-index.md)
 
 ## Templates
 
