@@ -1127,38 +1127,6 @@
       ]
     },
     {
-      "id": "principle-canary-rule-verification",
-      "title": "Canary rule verification",
-      "principle": "Canary rule verification",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/ops-canary-rule-verification.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion",
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "canary",
-        "rule",
-        "verification"
-      ],
-      "use_when": "Use when defining agent behavior to canary rule verification.",
-      "provides": [
-        "Canary rule verification"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/docs/concepts/ops-canary-rule-verification.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-behavior-preserving-agent-review",
       "title": "Behavior-preserving agent review",
       "principle": "Behavior-preserving agent review",
@@ -1221,37 +1189,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-agents-style.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-repository-instruction-loading",
-      "title": "Repository instruction loading",
-      "principle": "Repository instruction loading",
-      "path": "https://github.com/antshc/brain/blob/main/docs/adr/crew-agents-uses-instructions.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "repository",
-        "instruction",
-        "loading"
-      ],
-      "use_when": "Use when defining agent behavior to repository instruction loading.",
-      "provides": [
-        "Repository instruction loading"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/docs/adr/crew-agents-uses-instructions.md",
       "covered_principles": []
     },
     {
@@ -9050,6 +8987,45 @@
         "Write audience-specific instructions in concise, controlled language",
         "Describe goals, proof, and constraints without prescribing skill choreography",
         "Write skill procedures in model-neutral capabilities instead of model-specific workarounds"
+      ]
+    },
+    {
+      "id": "instruction-loading-and-canary-checks",
+      "title": "Instruction Loading and Canary Checks",
+      "path": "docs/cookbook/instruction-loading-and-canary-checks.md",
+      "kind": "recipe",
+      "problems": [
+        "guidance-evaluation",
+        "instruction-compliance",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "instruction",
+        "loading",
+        "and",
+        "canary",
+        "checks"
+      ],
+      "use_when": "An instruction edit can appear successful even when the runtime never loaded the file. Scope and loading must be observed before trusting behavior.",
+      "provides": [
+        "Canary rule verification",
+        "Repository instruction loading"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/instruction-loading-and-canary-checks.html",
+      "covered_principles": [
+        "Canary rule verification",
+        "Repository instruction loading"
       ]
     }
   ]

@@ -47,7 +47,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 
 - [x] **R17. Constraint-First Instructions and Anti-Rationalization Rules** — NEW (3 principles). [recipe](constraint-first-instructions-and-anti-rationalization-rules.md).
 - [x] **R18. Concise Instructions, Explicit Goals, and Model-Neutral Procedures** — NEW (3 principles). [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md).
-- [ ] **R19. Instruction Loading and Canary Checks** — NEW (2 principles).
+- [x] **R19. Instruction Loading and Canary Checks** — NEW (2 principles). [recipe](instruction-loading-and-canary-checks.md).
 - [ ] **R20. Skill Discovery, Trigger Indexing, and Native Routing** — NEW (5 principles).
 - [ ] **R21. Positive and Negative Skill Routing Tests** — NEW (2 principles).
 - [ ] **R22. Progressive Disclosure, Targeted Context, and Safe Trimming** — NEW (4 principles).
@@ -296,8 +296,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Canary rule verification** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-canary-rule-verification.md).
-- [ ] **Repository instruction loading** — [source](https://github.com/antshc/brain/blob/main/docs/adr/crew-agents-uses-instructions.md).
+- [x] **Canary rule verification** — [recipe](instruction-loading-and-canary-checks.md).
+- [x] **Repository instruction loading** — [recipe](instruction-loading-and-canary-checks.md).
 
 ### R20. Skill Discovery, Trigger Indexing, and Native Routing
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 58 |
-| Principles still awaiting coverage | 186 |
+| Already covered principles | 60 |
+| Principles still awaiting coverage | 184 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

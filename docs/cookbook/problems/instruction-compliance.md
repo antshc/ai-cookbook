@@ -16,6 +16,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 - [Constraint-First Instructions and Anti-Rationalization Rules](../constraint-first-instructions-and-anti-rationalization-rules.md)
 - [Concise Instructions, Explicit Goals, and Model-Neutral Procedures](../concise-instructions-explicit-goals-and-model-neutral-procedures.md)
+- [Instruction Loading and Canary Checks](../instruction-loading-and-canary-checks.md)
 
 ## References
 
@@ -33,7 +34,6 @@ No materials yet.
 
 - [Behavior-preserving agent review](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md)
 - [Agent design and bounded responsibility](https://github.com/antshc/brain/blob/main/docs/concepts/structure-agents-style.md)
-- [Repository instruction loading](https://github.com/antshc/brain/blob/main/docs/adr/crew-agents-uses-instructions.md)
 - [Cross-scope specialist discovery](https://github.com/antshc/brain/blob/main/docs/concepts/structure-cross-scope-skill-family.md)
 - [Skill-owned code](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md)
 - [Validate and handle errors at system boundaries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-boundary-discipline/SKILL.md)

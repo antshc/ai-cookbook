@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 58 covered, 186 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 60 covered, 184 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -20,8 +20,8 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Root-cause diagnosis](#root-cause-diagnosis) | 7 | 7 | 0 |
 | [Learning from failures](#learning-from-failures) | 9 | 9 | 0 |
 | [Resumable execution](#resumable-execution) | 9 | 9 | 0 |
-| [Instruction enforcement](#instruction-enforcement) | 7 | 6 | 1 |
-| [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 0 | 8 |
+| [Instruction enforcement](#instruction-enforcement) | 7 | 7 | 0 |
+| [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 1 | 7 |
 | [Context management](#context-management) | 5 | 0 | 5 |
 | [Ownership and composition](#ownership-and-composition) | 11 | 0 | 11 |
 | [Delegation contracts](#delegation-contracts) | 7 | 0 | 7 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **58** | **186** |
+| **Total** | **244** | **60** | **184** |
 
 ## Completion checks
 
@@ -144,7 +144,7 @@ What progress, decisions, open questions, and remaining work must survive a sess
 
 Which constraints must the agent follow, and how is actual compliance made observable?
 
-- [ ] **Canary rule verification** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-canary-rule-verification.md)
+- [x] **Canary rule verification** — [recipe](instruction-loading-and-canary-checks.md)
 - [x] **Instruction robustness** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
 - [x] **Constraint-first reasoning** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
 - [x] **Write audience-specific instructions in concise, controlled language** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)
@@ -156,7 +156,7 @@ Which constraints must the agent follow, and how is actual compliance made obser
 
 Which skill owns this request, and does the loading and routing mechanism select it?
 
-- [ ] **Repository instruction loading** — [source](https://github.com/antshc/brain/blob/main/docs/adr/crew-agents-uses-instructions.md)
+- [x] **Repository instruction loading** — [recipe](instruction-loading-and-canary-checks.md)
 - [ ] **Skill discovery and trigger descriptions** — [source](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md)
 - [ ] **Cross-scope specialist discovery** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-cross-scope-skill-family.md)
 - [ ] **Trigger indexing** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-trigger-indexer.md)

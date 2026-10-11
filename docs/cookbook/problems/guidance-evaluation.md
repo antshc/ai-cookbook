@@ -6,6 +6,7 @@ Evaluate observable behavior and improve guidance from evidence.
 
 - [Live Bug Reproduction and Verification of Existing Fixes](../live-bug-reproduction-and-verification-of-existing-fixes.md)
 - [Queryable Traces and Source Attribution](../queryable-traces-and-source-attribution.md)
+- [Instruction Loading and Canary Checks](../instruction-loading-and-canary-checks.md)
 
 ## References
 
@@ -20,7 +21,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Canary rule verification](https://github.com/antshc/brain/blob/main/docs/concepts/ops-canary-rule-verification.md)
 - [Compare competing prototypes for novel designs](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-exhaust-the-design-space/SKILL.md)
 - [Explain measured results with evidence and limiting factors](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-explain-the-number/SKILL.md)
 - [Resolve observable decisions with throwaway experiments](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/prototype.md)

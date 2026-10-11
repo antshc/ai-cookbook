@@ -14,7 +14,7 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 - [x] **Persistent memory** — [recipe](gotchas-and-persistent-memory.md)
 - [x] **Checklist-driven workflow** — [recipe](checklist-driven-workflow.md)
 - [x] **Improvement flywheel (classify and fix observed failures)** — [recipe](improvement-flywheel-and-enforced-lessons.md)
-- [ ] **Canary rule verification** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-canary-rule-verification.md)
+- [x] **Canary rule verification** — [recipe](instruction-loading-and-canary-checks.md)
 - [x] **Focused functional-slice testing** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
 - [ ] **Behavior-preserving agent review** — [source](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md)
 
@@ -24,7 +24,7 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 - [x] **Constraint-first reasoning** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
 - [ ] **Agent design and bounded responsibility** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-agents-style.md)
 - [x] **Open-question markers** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
-- [ ] **Repository instruction loading** — [source](https://github.com/antshc/brain/blob/main/docs/adr/crew-agents-uses-instructions.md)
+- [x] **Repository instruction loading** — [recipe](instruction-loading-and-canary-checks.md)
 - [ ] **Skill discovery and trigger descriptions** — [source](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md)
 - [ ] **Progressive disclosure of agent guidance** — [source](https://github.com/antshc/brain/blob/main/skills/engineering/writing-great-skills/GLOSSARY.md)
 - [ ] **Template ownership of rendering** — [source](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md)

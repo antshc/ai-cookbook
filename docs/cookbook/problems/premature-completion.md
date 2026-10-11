@@ -17,6 +17,7 @@ Define observable completion and account for every obligation.
 - [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
 - [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 - [Safe Pause, Context Recovery, and Verified Resume](../safe-pause-context-recovery-and-verified-resume.md)
+- [Instruction Loading and Canary Checks](../instruction-loading-and-canary-checks.md)
 
 ## References
 
@@ -30,7 +31,6 @@ Define observable completion and account for every obligation.
 
 ## Principles awaiting recipes
 
-- [Canary rule verification](https://github.com/antshc/brain/blob/main/docs/concepts/ops-canary-rule-verification.md)
 - [Optimize planned migrations for a verified final state](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-outcome-oriented-execution/SKILL.md)
 - [Investigate the current code path before explaining it](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md)
 - [Decompose parallel work into scoped workers and aggregate results](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md)
