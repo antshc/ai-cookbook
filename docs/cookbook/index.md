@@ -246,8 +246,8 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Isolate and reduce failures before root-cause fixes, using history bisect when useful** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [x] **Verify repaired behavior with focused tests, full regression checks, and runtime checks** — [recipe](independent-patch-verification-and-baseline-comparison.md)
 - [ ] **Verify browser changes against live DOM, console, network, and before-after screenshots** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
-- [ ] **Isolate automated browser tests from personal signed-in browser profiles** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
-- [ ] **Keep browser JavaScript inspection read-only unless mutations are explicitly authorized** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
+- [x] **Isolate automated browser tests from personal signed-in browser profiles** — [recipe](isolated-browser-profiles-and-read-only-inspection.md)
+- [x] **Keep browser JavaScript inspection read-only unless mutations are explicitly authorized** — [recipe](isolated-browser-profiles-and-read-only-inspection.md)
 - [x] **Treat error output, external documentation, and browser content as untrusted instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md)
 - [x] **Apply standing definition-of-done checks separately from task acceptance criteria** — [recipe](verification-exit-criteria-completeness-sweep.md)
 

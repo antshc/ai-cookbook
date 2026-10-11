@@ -89,7 +89,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R46. Untrusted Content and Prompt Injection Boundaries** — NEW (3 principles). [recipe](untrusted-content-and-prompt-injection-boundaries.md).
 - [x] **R47. Boundary Validation, Threat Models, and Abuse Cases** — NEW (3 principles). [recipe](boundary-validation-threat-models-and-abuse-cases.md).
 - [x] **R48. Secret Protection, Resource Authorization, and Personal Data Minimization** — NEW (4 principles). [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md).
-- [ ] **R49. Isolated Browser Profiles and Read-Only Inspection** — NEW (2 principles).
+- [x] **R49. Isolated Browser Profiles and Read-Only Inspection** — NEW (2 principles). [recipe](isolated-browser-profiles-and-read-only-inspection.md).
 - [ ] **R50. Safe Destructive Paths and Dependency Install Controls** — NEW (2 principles).
 ### Configuration and Git
 
@@ -544,8 +544,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Isolate automated browser tests from personal signed-in browser profiles** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md).
-- [ ] **Keep browser JavaScript inspection read-only unless mutations are explicitly authorized** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md).
+- [x] **Isolate automated browser tests from personal signed-in browser profiles** — [recipe](isolated-browser-profiles-and-read-only-inspection.md).
+- [x] **Keep browser JavaScript inspection read-only unless mutations are explicitly authorized** — [recipe](isolated-browser-profiles-and-read-only-inspection.md).
 
 ### R50. Safe Destructive Paths and Dependency Install Controls
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 156 |
-| Principles still awaiting coverage | 88 |
+| Already covered principles | 158 |
+| Principles still awaiting coverage | 86 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

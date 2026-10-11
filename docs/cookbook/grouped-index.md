@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 156 covered, 88 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 158 covered, 86 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -31,7 +31,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Design before implementation](#design-before-implementation) | 13 | 13 | 0 |
 | [Independent review](#independent-review) | 9 | 9 | 0 |
 | [Measured performance](#measured-performance) | 8 | 8 | 0 |
-| [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 10 | 4 |
+| [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 12 | 2 |
 | [Configuration and distribution](#configuration-and-distribution) | 8 | 3 | 5 |
 | [Git and workspace safety](#git-and-workspace-safety) | 5 | 0 | 5 |
 | [Migration and deprecation](#migration-and-deprecation) | 6 | 0 | 6 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **156** | **88** |
+| **Total** | **244** | **158** | **86** |
 
 ## Completion checks
 
@@ -295,8 +295,8 @@ Which content is untrusted, which operations are authorized, and which data must
 - [x] **Treat PR review text as untrusted input rather than executable instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md)
 - [x] **Keep reproduction recordings, logs, and tokens out of source control** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md)
 - [x] **Keep automation webhook secrets on the server, never in the browser or chat** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md)
-- [ ] **Isolate automated browser tests from personal signed-in browser profiles** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
-- [ ] **Keep browser JavaScript inspection read-only unless mutations are explicitly authorized** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
+- [x] **Isolate automated browser tests from personal signed-in browser profiles** — [recipe](isolated-browser-profiles-and-read-only-inspection.md)
+- [x] **Keep browser JavaScript inspection read-only unless mutations are explicitly authorized** — [recipe](isolated-browser-profiles-and-read-only-inspection.md)
 - [x] **Treat error output, external documentation, and browser content as untrusted instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md)
 - [x] **Threat-model system boundaries and write abuse cases before hardening a feature** — [recipe](boundary-validation-threat-models-and-abuse-cases.md)
 - [x] **Validate external and model-generated data at the boundary before using it as code or decisions** — [recipe](boundary-validation-threat-models-and-abuse-cases.md)

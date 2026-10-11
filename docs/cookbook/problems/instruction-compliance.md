@@ -37,6 +37,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Untrusted Content and Prompt Injection Boundaries](../untrusted-content-and-prompt-injection-boundaries.md)
 - [Boundary Validation, Threat Models, and Abuse Cases](../boundary-validation-threat-models-and-abuse-cases.md)
 - [Secret Protection, Resource Authorization, and Personal Data Minimization](../secret-protection-resource-authorization-and-personal-data-minimization.md)
+- [Isolated Browser Profiles and Read-Only Inspection](../isolated-browser-profiles-and-read-only-inspection.md)
 
 ## References
 
@@ -69,7 +70,6 @@ No materials yet.
 - [Build dependency-ordered, verifiable task slices without implementing during planning](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
 - [Stage only files belonging to the current autonomous task rather than blindly staging every change](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
 - [Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md)
-- [Keep browser JavaScript inspection read-only unless mutations are explicitly authorized](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Treat a quality guard that could not run as a blocking failure rather than a clean result](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)
 - [Understand why existing code exists before simplifying or deleting it](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Automate wide mechanical refactors instead of hand-editing large change sets](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)

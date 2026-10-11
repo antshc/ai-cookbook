@@ -3210,83 +3210,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-isolate-automated-browser-tests-from-personal-signed-in-browser-profiles",
-      "title": "Isolate automated browser tests from personal signed-in browser profiles",
-      "principle": "Isolate automated browser tests from personal signed-in browser profiles",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "isolate",
-        "automated",
-        "browser",
-        "tests",
-        "from",
-        "personal",
-        "signed",
-        "in",
-        "browser",
-        "profiles"
-      ],
-      "use_when": "Use when defining agent behavior to isolate automated browser tests from personal signed-in browser profiles.",
-      "provides": [
-        "Isolate automated browser tests from personal signed-in browser profiles"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-keep-browser-javascript-inspection-read-only-unless-mutations-are-explicitly-authorized",
-      "title": "Keep browser JavaScript inspection read-only unless mutations are explicitly authorized",
-      "principle": "Keep browser JavaScript inspection read-only unless mutations are explicitly authorized",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "keep",
-        "browser",
-        "javascript",
-        "inspection",
-        "read",
-        "only",
-        "unless",
-        "mutations",
-        "are",
-        "explicitly",
-        "authorized"
-      ],
-      "use_when": "Use when defining agent behavior to keep browser JavaScript inspection read-only unless mutations are explicitly authorized.",
-      "provides": [
-        "Keep browser JavaScript inspection read-only unless mutations are explicitly authorized"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-treat-a-quality-guard-that-could-not-run-as-a-blocking-failure-rather-than-a-clean-result",
       "title": "Treat a quality guard that could not run as a blocking failure rather than a clean result",
       "principle": "Treat a quality guard that could not run as a blocking failure rather than a clean result",
@@ -6623,6 +6546,46 @@
         "Keep automation webhook secrets on the server, never in the browser or chat",
         "Review authorization for every protected resource and prevent secrets entering code or logs",
         "Classify personal data by purpose and exclude unnecessary personal information from telemetry"
+      ]
+    },
+    {
+      "id": "isolated-browser-profiles-and-read-only-inspection",
+      "title": "Isolated Browser Profiles and Read-Only Inspection",
+      "path": "docs/cookbook/isolated-browser-profiles-and-read-only-inspection.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "isolated",
+        "browser",
+        "profiles",
+        "and",
+        "read",
+        "only",
+        "inspection"
+      ],
+      "use_when": "Browser automation can expose unrelated signed-in sessions or mutate application state while supposedly inspecting it. Verification needs profile isolation and read-only inspection.",
+      "provides": [
+        "Isolate automated browser tests from personal signed-in browser profiles",
+        "Keep browser JavaScript inspection read-only unless mutations are explicitly authorized"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/isolated-browser-profiles-and-read-only-inspection.html",
+      "covered_principles": [
+        "Isolate automated browser tests from personal signed-in browser profiles",
+        "Keep browser JavaScript inspection read-only unless mutations are explicitly authorized"
       ]
     }
   ]
