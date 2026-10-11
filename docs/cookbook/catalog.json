@@ -1945,43 +1945,6 @@
       "related": []
     },
     {
-      "id": "principle-record-architecture-decisions-with-alternatives-and-supersede-rather-than-erase-old-adrs",
-      "title": "Record architecture decisions with alternatives and supersede rather than erase old ADRs",
-      "principle": "Record architecture decisions with alternatives and supersede rather than erase old ADRs",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "record",
-        "architecture",
-        "decisions",
-        "with",
-        "alternatives",
-        "and",
-        "supersede",
-        "rather",
-        "than",
-        "erase",
-        "old",
-        "adrs"
-      ],
-      "use_when": "Use when defining agent behavior to record architecture decisions with alternatives and supersede rather than erase old ADRs.",
-      "provides": [
-        "Record architecture decisions with alternatives and supersede rather than erase old ADRs"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-introduce-quality-checks-incrementally-in-legacy-projects-rather-than-enabling-the-entire-lifecycle-at-once",
       "title": "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once",
       "principle": "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once",
@@ -4459,6 +4422,36 @@
         "Keep append-only decision records linked to real evidence",
         "Audit decision logs against transcripts and correct false or omitted claims by appending rows",
         "Independently review long-running decision trails with a different model family"
+      ],
+      "related": []
+    },
+    {
+      "id": "architecture-decision-records-alternatives-and-supersession",
+      "title": "Architecture Decision Records, Alternatives, and Supersession",
+      "path": "architecture-decision-records-alternatives-and-supersession.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "planning"
+      ],
+      "keywords": [
+        "architecture",
+        "decision",
+        "records",
+        "alternatives",
+        "and",
+        "supersession"
+      ],
+      "use_when": "A significant design choice can lose its constraints and rejected alternatives, forcing later engineers to repeat the debate. Deleting an old decision record erases the context for a changed architecture.",
+      "provides": [
+        "Record architecture decisions with alternatives and supersede rather than erase old ADRs"
       ],
       "related": []
     }

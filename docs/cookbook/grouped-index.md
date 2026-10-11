@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 201 covered, 43 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 202 covered, 42 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -38,7 +38,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Release and rollout](#release-and-rollout) | 5 | 5 | 0 |
 | [Operational evidence](#operational-evidence) | 3 | 3 | 0 |
 | [Skill evaluation](#skill-evaluation) | 6 | 6 | 0 |
-| [Documentation and provenance](#documentation-and-provenance) | 10 | 9 | 1 |
+| [Documentation and provenance](#documentation-and-provenance) | 10 | 10 | 0 |
 | [External-write consistency](#external-write-consistency) | 3 | 0 | 3 |
 | [Quality thresholds and gates](#quality-thresholds-and-gates) | 6 | 0 | 6 |
 | [UI contracts and verification](#ui-contracts-and-verification) | 4 | 0 | 4 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **201** | **43** |
+| **Total** | **244** | **202** | **42** |
 
 ## Completion checks
 
@@ -380,7 +380,7 @@ Does the document explain the right thing clearly while preserving facts, eviden
 - [x] **Independently review long-running decision trails with a different model family** — [recipe](append-only-decision-trails-audit-and-independent-review.md)
 - [x] **Remove generic AI phrasing while preserving the intended meaning** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md)
 - [x] **Frame agent delivery for both the user and the future maintainer** — [recipe](concise-delivery-reports-for-users-and-maintainers.md)
-- [ ] **Record architecture decisions with alternatives and supersede rather than erase old ADRs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md)
+- [x] **Record architecture decisions with alternatives and supersede rather than erase old ADRs** — [recipe](architecture-decision-records-alternatives-and-supersession.md)
 - [x] **Preserve factual details and uncertainty when simplifying documentation prose** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md)
 
 ## External-write consistency

@@ -290,7 +290,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Prefer advisory deprecation and provide a production-proven replacement plus migration guidance** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [x] **Migrate schemas additively before destructive changes and test the rollback path** — [recipe](additive-schema-migration-and-tested-rollback.md)
 - [x] **Verify old consumers are inactive before deleting a deprecated interface or system** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
-- [ ] **Record architecture decisions with alternatives and supersede rather than erase old ADRs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md)
+- [x] **Record architecture decisions with alternatives and supersede rather than erase old ADRs** — [recipe](architecture-decision-records-alternatives-and-supersession.md)
 - [x] **Preserve factual details and uncertainty when simplifying documentation prose** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md)
 - [x] **Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately** — [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md)
 - [x] **Propagate correlation and entry-point identity while bounding telemetry label cardinality** — [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md)

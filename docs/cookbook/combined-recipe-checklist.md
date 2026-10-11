@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 66/82 recipes complete; 201/244 principles covered.**
+**Progress: 67/82 recipes complete; 202/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -115,7 +115,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R64. Audience-Focused Documentation, Clear Prose, and Preserved Facts** — NEW (4 principles). [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
 - [x] **R65. Concise Delivery Reports for Users and Maintainers** — NEW (2 principles). [recipe](concise-delivery-reports-for-users-and-maintainers.md).
 - [x] **R66. Append-Only Decision Trails, Audit, and Independent Review** — NEW (3 principles). [recipe](append-only-decision-trails-audit-and-independent-review.md).
-- [ ] **R67. Architecture Decision Records, Alternatives, and Supersession** — NEW (1 principles).
+- [x] **R67. Architecture Decision Records, Alternatives, and Supersession** — NEW (1 principles). [recipe](architecture-decision-records-alternatives-and-supersession.md).
 - [ ] **R68. Code-Path Investigation and Evidence-Calibrated Rationale** — NEW (3 principles).
 - [ ] **R69. Scoped Evidence Collection, Query Logs, and Contradictions** — NEW (2 principles).
 ### External writes and quality
@@ -679,7 +679,7 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Record architecture decisions with alternatives and supersede rather than erase old ADRs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md).
+- [x] **Record architecture decisions with alternatives and supersede rather than erase old ADRs** — [recipe](architecture-decision-records-alternatives-and-supersession.md).
 
 ### R68. Code-Path Investigation and Evidence-Calibrated Rationale
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 201 |
-| Principles still awaiting coverage | 43 |
+| Already covered principles | 202 |
+| Principles still awaiting coverage | 42 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
