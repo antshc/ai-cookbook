@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 115 covered, 129 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 119 covered, 125 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -28,7 +28,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Worker lifecycle](#worker-lifecycle) | 9 | 9 | 0 |
 | [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 7 | 0 |
 | [Intent and assumption discovery](#intent-and-assumption-discovery) | 7 | 7 | 0 |
-| [Design before implementation](#design-before-implementation) | 13 | 0 | 13 |
+| [Design before implementation](#design-before-implementation) | 13 | 4 | 9 |
 | [Independent review](#independent-review) | 9 | 0 | 9 |
 | [Measured performance](#measured-performance) | 8 | 0 | 8 |
 | [Trust and security boundaries](#trust-and-security-boundaries) | 14 | 0 | 14 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **115** | **129** |
+| **Total** | **244** | **119** | **125** |
 
 ## Completion checks
 
@@ -246,18 +246,18 @@ What does the user mean, which assumptions need evidence, and is the requested s
 Which consumer contracts, domain invariants, alternatives, and foundations should guide implementation?
 
 - [ ] **Compare competing prototypes for novel designs** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-exhaust-the-design-space/SKILL.md)
-- [ ] **Prioritize consumer experience over implementation convenience** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-experience-first/SKILL.md)
+- [x] **Prioritize consumer experience over implementation convenience** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
 - [ ] **Choose core data shapes and shared foundations before features** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-foundational-thinking/SKILL.md)
 - [ ] **Represent domain invariants in explicit data structures** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-model-the-domain/SKILL.md)
 - [ ] **Redesign new requirements as foundational constraints** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-redesign-from-first-principles/SKILL.md)
 - [ ] **Use types to exclude invalid states and exhaust variants** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-type-system-discipline/SKILL.md)
-- [ ] **Derive architecture contracts from caller usage before implementing** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md)
-- [ ] **Write a consumer usage guide before implementing a shared API** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md)
+- [x] **Derive architecture contracts from caller usage before implementing** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
+- [x] **Write a consumer usage guide before implementing a shared API** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
 - [ ] **Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md)
 - [ ] **Sketch architecture first and redo it when structural red flags appear** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md)
 - [ ] **Compare independent design candidates with cross-judging** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/arena/SKILL.md)
 - [ ] **Resolve observable decisions with throwaway experiments** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/prototype.md)
-- [ ] **Define public contracts before implementation and preserve observable consumer behavior** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
+- [x] **Define public contracts before implementation and preserve observable consumer behavior** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
 
 ## Independent review
 

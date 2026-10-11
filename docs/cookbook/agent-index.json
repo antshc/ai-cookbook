@@ -1296,40 +1296,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-prioritize-consumer-experience-over-implementation-convenience",
-      "title": "Prioritize consumer experience over implementation convenience",
-      "principle": "Prioritize consumer experience over implementation convenience",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-experience-first/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "prioritize",
-        "consumer",
-        "experience",
-        "over",
-        "implementation",
-        "convenience"
-      ],
-      "use_when": "Use when defining agent behavior to prioritize consumer experience over implementation convenience.",
-      "provides": [
-        "Prioritize consumer experience over implementation convenience"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-experience-first/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-explain-measured-results-with-evidence-and-limiting-factors",
       "title": "Explain measured results with evidence and limiting factors",
       "principle": "Explain measured results with evidence and limiting factors",
@@ -1792,82 +1758,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-type-system-discipline/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-derive-architecture-contracts-from-caller-usage-before-implementing",
-      "title": "Derive architecture contracts from caller usage before implementing",
-      "principle": "Derive architecture contracts from caller usage before implementing",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning",
-        "implementation"
-      ],
-      "keywords": [
-        "derive",
-        "architecture",
-        "contracts",
-        "from",
-        "caller",
-        "usage",
-        "before",
-        "implementing"
-      ],
-      "use_when": "Use when defining agent behavior to derive architecture contracts from caller usage before implementing.",
-      "provides": [
-        "Derive architecture contracts from caller usage before implementing"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-write-a-consumer-usage-guide-before-implementing-a-shared-api",
-      "title": "Write a consumer usage guide before implementing a shared API",
-      "principle": "Write a consumer usage guide before implementing a shared API",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap",
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "write",
-        "a",
-        "consumer",
-        "usage",
-        "guide",
-        "before",
-        "implementing",
-        "a",
-        "shared",
-        "api"
-      ],
-      "use_when": "Use when defining agent behavior to write a consumer usage guide before implementing a shared API.",
-      "provides": [
-        "Write a consumer usage guide before implementing a shared API"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md",
       "covered_principles": []
     },
     {
@@ -3983,44 +3873,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-define-public-contracts-before-implementation-and-preserve-observable-consumer-behavior",
-      "title": "Define public contracts before implementation and preserve observable consumer behavior",
-      "principle": "Define public contracts before implementation and preserve observable consumer behavior",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "define",
-        "public",
-        "contracts",
-        "before",
-        "implementation",
-        "and",
-        "preserve",
-        "observable",
-        "consumer",
-        "behavior"
-      ],
-      "use_when": "Use when defining agent behavior to define public contracts before implementation and preserve observable consumer behavior.",
-      "provides": [
-        "Define public contracts before implementation and preserve observable consumer behavior"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md",
       "covered_principles": []
     },
     {
@@ -7709,6 +7561,52 @@
       "covered_principles": [
         "Diverge into alternatives before converging on an evaluated idea",
         "Record and test key idea assumptions before committing to an MVP"
+      ]
+    },
+    {
+      "id": "consumer-first-design-public-contracts-and-usage-guides",
+      "title": "Consumer-First Design, Public Contracts, and Usage Guides",
+      "path": "docs/cookbook/consumer-first-design-public-contracts-and-usage-guides.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "output-contracts",
+        "responsibility-overlap"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "planning"
+      ],
+      "keywords": [
+        "consumer",
+        "first",
+        "design",
+        "public",
+        "contracts",
+        "and",
+        "usage",
+        "guides"
+      ],
+      "use_when": "An implementation can be convenient internally but painful for callers. Public contracts need to start from actual usage and preserve observable behavior.",
+      "provides": [
+        "Prioritize consumer experience over implementation convenience",
+        "Derive architecture contracts from caller usage before implementing",
+        "Write a consumer usage guide before implementing a shared API",
+        "Define public contracts before implementation and preserve observable consumer behavior"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/consumer-first-design-public-contracts-and-usage-guides.html",
+      "covered_principles": [
+        "Prioritize consumer experience over implementation convenience",
+        "Derive architecture contracts from caller usage before implementing",
+        "Write a consumer usage guide before implementing a shared API",
+        "Define public contracts before implementation and preserve observable consumer behavior"
       ]
     }
   ]

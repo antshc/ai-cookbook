@@ -72,7 +72,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 
 - [x] **R36. Clarify Intent, Surface Assumptions, and Challenge Scope** — NEW (5 principles). [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
 - [x] **R37. Explore Alternatives and Test MVP Assumptions** — NEW (2 principles). [recipe](explore-alternatives-and-test-mvp-assumptions.md).
-- [ ] **R38. Consumer-First Design, Public Contracts, and Usage Guides** — NEW (4 principles).
+- [x] **R38. Consumer-First Design, Public Contracts, and Usage Guides** — NEW (4 principles). [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
 - [ ] **R39. Domain Models, Foundational Constraints, and Invalid States** — NEW (4 principles).
 - [ ] **R40. Competing Designs, Prototype Experiments, and Cross-Judging** — NEW (3 principles).
 - [ ] **R41. Architecture Sketches, Structural Red Flags, and Design Rationale** — NEW (3 principles).
@@ -448,10 +448,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Prioritize consumer experience over implementation convenience** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-experience-first/SKILL.md).
-- [ ] **Derive architecture contracts from caller usage before implementing** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md).
-- [ ] **Write a consumer usage guide before implementing a shared API** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md).
-- [ ] **Define public contracts before implementation and preserve observable consumer behavior** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md).
+- [x] **Prioritize consumer experience over implementation convenience** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
+- [x] **Derive architecture contracts from caller usage before implementing** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
+- [x] **Write a consumer usage guide before implementing a shared API** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
+- [x] **Define public contracts before implementation and preserve observable consumer behavior** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
 
 ### R39. Domain Models, Foundational Constraints, and Invalid States
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 115 |
-| Principles still awaiting coverage | 129 |
+| Already covered principles | 119 |
+| Principles still awaiting coverage | 125 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
