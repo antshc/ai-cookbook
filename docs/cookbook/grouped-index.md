@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 78 covered, 166 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 79 covered, 165 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -23,7 +23,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Instruction enforcement](#instruction-enforcement) | 7 | 7 | 0 |
 | [Skill discovery and routing](#skill-discovery-and-routing) | 8 | 8 | 0 |
 | [Context management](#context-management) | 5 | 5 | 0 |
-| [Ownership and composition](#ownership-and-composition) | 11 | 6 | 5 |
+| [Ownership and composition](#ownership-and-composition) | 11 | 7 | 4 |
 | [Delegation contracts](#delegation-contracts) | 7 | 0 | 7 |
 | [Worker lifecycle](#worker-lifecycle) | 9 | 0 | 9 |
 | [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 0 | 7 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **78** | **166** |
+| **Total** | **244** | **79** | **165** |
 
 ## Completion checks
 
@@ -185,7 +185,7 @@ Who owns each responsibility, procedure, rendering contract, implementation, and
 - [x] **Delegation engine isolation** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 - [ ] **Repository adapter skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md)
 - [ ] **Resource access skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-resource-access-skill.md)
-- [ ] **Skill-owned code** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md)
+- [x] **Skill-owned code** — [recipe](skill-owned-code-and-supporting-files.md)
 - [ ] **Make module internals inaccessible and expose only one supported operation path** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/design-red-flags.md)
 - [x] **Keep orchestration and code-writing responsibilities with separate owners** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 - [ ] **Keep reusable skills separate from repository-specific agent instructions during installation** — [source](https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md)

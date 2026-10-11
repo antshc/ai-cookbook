@@ -20,6 +20,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Skill Discovery, Trigger Indexing, and Native Routing](../skill-discovery-trigger-indexing-and-native-routing.md)
 - [Progressive Disclosure, Targeted Context, and Safe Trimming](../progressive-disclosure-targeted-context-and-safe-trimming.md)
 - [Bounded Agent Roles, Single Ownership, and Composition](../bounded-agent-roles-single-ownership-and-composition.md)
+- [Skill-Owned Code and Supporting Files](../skill-owned-code-and-supporting-files.md)
 
 ## References
 
@@ -36,7 +37,6 @@ No materials yet.
 ## Principles awaiting recipes
 
 - [Behavior-preserving agent review](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md)
-- [Skill-owned code](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md)
 - [Validate and handle errors at system boundaries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-boundary-discipline/SKILL.md)
 - [Build a rerunnable tool for nontrivial work](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md)
 - [Prioritize consumer experience over implementation convenience](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-experience-first/SKILL.md)

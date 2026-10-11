@@ -1286,37 +1286,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-skill-owned-code",
-      "title": "Skill-owned code",
-      "principle": "Skill-owned code",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "skill",
-        "owned",
-        "code"
-      ],
-      "use_when": "Use when defining agent behavior to skill-owned code.",
-      "provides": [
-        "Skill-owned code"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-cli-json-handoff",
       "title": "CLI JSON handoff",
       "principle": "CLI JSON handoff",
@@ -8614,6 +8583,41 @@
       "url": "docs/cookbook/template-ownership-of-rendering.html",
       "covered_principles": [
         "Template ownership of rendering"
+      ]
+    },
+    {
+      "id": "skill-owned-code-and-supporting-files",
+      "title": "Skill-Owned Code and Supporting Files",
+      "path": "docs/cookbook/skill-owned-code-and-supporting-files.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation"
+      ],
+      "keywords": [
+        "skill",
+        "owned",
+        "code",
+        "and",
+        "supporting",
+        "files"
+      ],
+      "use_when": "Supporting code drifts when skills share copied helpers or edit generated module copies. Code ownership must match the scope of reuse.",
+      "provides": [
+        "Skill-owned code"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/skill-owned-code-and-supporting-files.html",
+      "covered_principles": [
+        "Skill-owned code"
       ]
     }
   ]

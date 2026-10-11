@@ -727,34 +727,6 @@
       "related": []
     },
     {
-      "id": "principle-skill-owned-code",
-      "title": "Skill-owned code",
-      "principle": "Skill-owned code",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "skill",
-        "owned",
-        "code"
-      ],
-      "use_when": "Use when defining agent behavior to skill-owned code.",
-      "provides": [
-        "Skill-owned code"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-cli-json-handoff",
       "title": "CLI JSON handoff",
       "principle": "CLI JSON handoff",
@@ -7405,6 +7377,36 @@
       "use_when": "A skill that restates template layout creates two sources of rendering rules. Output structure and local conditions need one template owner.",
       "provides": [
         "Template ownership of rendering"
+      ],
+      "related": []
+    },
+    {
+      "id": "skill-owned-code-and-supporting-files",
+      "title": "Skill-Owned Code and Supporting Files",
+      "path": "skill-owned-code-and-supporting-files.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation"
+      ],
+      "keywords": [
+        "skill",
+        "owned",
+        "code",
+        "and",
+        "supporting",
+        "files"
+      ],
+      "use_when": "Supporting code drifts when skills share copied helpers or edit generated module copies. Code ownership must match the scope of reuse.",
+      "provides": [
+        "Skill-owned code"
       ],
       "related": []
     }

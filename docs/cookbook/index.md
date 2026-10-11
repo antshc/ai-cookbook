@@ -40,7 +40,7 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 - [ ] **Per-repository configuration resolution** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md)
 - [ ] **Repository adapter skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md)
 - [ ] **Resource access skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-resource-access-skill.md)
-- [ ] **Skill-owned code** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md)
+- [x] **Skill-owned code** — [recipe](skill-owned-code-and-supporting-files.md)
 - [ ] **CLI JSON handoff** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/str-cli-json-handoff.md)
 
 ## External scan: cursor/plugins/pstack
