@@ -3436,84 +3436,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-diverge-into-alternatives-before-converging-on-an-evaluated-idea",
-      "title": "Diverge into alternatives before converging on an evaluated idea",
-      "principle": "Diverge into alternatives before converging on an evaluated idea",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "guidance-evaluation"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "diverge",
-        "into",
-        "alternatives",
-        "before",
-        "converging",
-        "on",
-        "an",
-        "evaluated",
-        "idea"
-      ],
-      "use_when": "Use when defining agent behavior to diverge into alternatives before converging on an evaluated idea.",
-      "provides": [
-        "Diverge into alternatives before converging on an evaluated idea"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-record-and-test-key-idea-assumptions-before-committing-to-an-mvp",
-      "title": "Record and test key idea assumptions before committing to an MVP",
-      "principle": "Record and test key idea assumptions before committing to an MVP",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context",
-        "premature-completion",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "record",
-        "and",
-        "test",
-        "key",
-        "idea",
-        "assumptions",
-        "before",
-        "committing",
-        "to",
-        "an",
-        "mvp"
-      ],
-      "use_when": "Use when defining agent behavior to record and test key idea assumptions before committing to an MVP.",
-      "provides": [
-        "Record and test key idea assumptions before committing to an MVP"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-approve-the-capability-dependency-map-before-specifying-a-multi-module-initiative",
       "title": "Approve the capability dependency map before specifying a multi-module initiative",
       "principle": "Approve the capability dependency map before specifying a multi-module initiative",
@@ -7746,6 +7668,47 @@
         "Challenge unwarranted scope or complexity while leaving informed decisions to the user",
         "Interview for intent one question and one explicit guess at a time",
         "Require explicit confirmation of the restated intent and stop before downstream work"
+      ]
+    },
+    {
+      "id": "explore-alternatives-and-test-mvp-assumptions",
+      "title": "Explore Alternatives and Test MVP Assumptions",
+      "path": "docs/cookbook/explore-alternatives-and-test-mvp-assumptions.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "guidance-evaluation",
+        "missing-context",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "explore",
+        "alternatives",
+        "and",
+        "test",
+        "mvp",
+        "assumptions"
+      ],
+      "use_when": "An MVP can commit to the first appealing idea while its central assumptions remain untested. Alternatives need comparison against the same user problem.",
+      "provides": [
+        "Diverge into alternatives before converging on an evaluated idea",
+        "Record and test key idea assumptions before committing to an MVP"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/explore-alternatives-and-test-mvp-assumptions.html",
+      "covered_principles": [
+        "Diverge into alternatives before converging on an evaluated idea",
+        "Record and test key idea assumptions before committing to an MVP"
       ]
     }
   ]

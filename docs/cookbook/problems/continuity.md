@@ -12,6 +12,7 @@ Preserve useful lessons and resume from verified state.
 - [Progressive Disclosure, Targeted Context, and Safe Trimming](../progressive-disclosure-targeted-context-and-safe-trimming.md)
 - [Worker Configuration, Fresh Sessions, and Standing Orders](../worker-configuration-fresh-sessions-and-standing-orders.md)
 - [Pilot Runs, Rolling Worker Windows, and Progress Monitoring](../pilot-runs-rolling-worker-windows-and-progress-monitoring.md)
+- [Explore Alternatives and Test MVP Assumptions](../explore-alternatives-and-test-mvp-assumptions.md)
 
 ## References
 
@@ -30,7 +31,6 @@ No materials yet.
 - [Audit live sessions and uncommitted changes before removing worktrees](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md)
 - [Keep reproduction recordings, logs, and tokens out of source control](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Keep append-only decision records linked to real evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md)
-- [Record and test key idea assumptions before committing to an MVP](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md)
 - [Define measurable project quality thresholds and record exceptions with owners and expiry](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Revalidate cached official documentation with origin validators before using it across sessions](https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md)
 - [Record rejected optimizations and install regression monitors for measured gains](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md)

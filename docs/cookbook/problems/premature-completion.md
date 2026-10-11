@@ -25,6 +25,7 @@ Define observable completion and account for every obligation.
 - [Delegated Worker Permissions and Centralized External Writes](../delegated-worker-permissions-and-centralized-external-writes.md)
 - [Fixed Stop Conditions and Immediate Stop Propagation](../fixed-stop-conditions-and-immediate-stop-propagation.md)
 - [Clarify Intent, Surface Assumptions, and Challenge Scope](../clarify-intent-surface-assumptions-and-challenge-scope.md)
+- [Explore Alternatives and Test MVP Assumptions](../explore-alternatives-and-test-mvp-assumptions.md)
 
 ## References
 
@@ -43,7 +44,6 @@ Define observable completion and account for every obligation.
 - [Keep PR summaries short with observable verification evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
 - [Gate automatic bug fixing on a trusted triage verdict and ownership checks](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Frame agent delivery for both the user and the future maintainer](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md)
-- [Record and test key idea assumptions before committing to an MVP](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md)
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Detect attempts to weaken checks, tests, suppressions, or quality thresholds](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Inspect working-tree changes before autonomous execution and stop on unrelated dirty files](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)

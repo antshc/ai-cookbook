@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 113 covered, 131 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 115 covered, 129 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -27,7 +27,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Delegation contracts](#delegation-contracts) | 7 | 7 | 0 |
 | [Worker lifecycle](#worker-lifecycle) | 9 | 9 | 0 |
 | [Autonomous execution boundaries](#autonomous-execution-boundaries) | 7 | 7 | 0 |
-| [Intent and assumption discovery](#intent-and-assumption-discovery) | 7 | 5 | 2 |
+| [Intent and assumption discovery](#intent-and-assumption-discovery) | 7 | 7 | 0 |
 | [Design before implementation](#design-before-implementation) | 13 | 0 | 13 |
 | [Independent review](#independent-review) | 9 | 0 | 9 |
 | [Measured performance](#measured-performance) | 8 | 0 | 8 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **113** | **131** |
+| **Total** | **244** | **115** | **129** |
 
 ## Completion checks
 
@@ -238,8 +238,8 @@ What does the user mean, which assumptions need evidence, and is the requested s
 - [x] **Challenge unwarranted scope or complexity while leaving informed decisions to the user** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md)
 - [x] **Interview for intent one question and one explicit guess at a time** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md)
 - [x] **Require explicit confirmation of the restated intent and stop before downstream work** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md)
-- [ ] **Diverge into alternatives before converging on an evaluated idea** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md)
-- [ ] **Record and test key idea assumptions before committing to an MVP** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md)
+- [x] **Diverge into alternatives before converging on an evaluated idea** — [recipe](explore-alternatives-and-test-mvp-assumptions.md)
+- [x] **Record and test key idea assumptions before committing to an MVP** — [recipe](explore-alternatives-and-test-mvp-assumptions.md)
 
 ## Design before implementation
 

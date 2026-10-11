@@ -71,7 +71,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Intent and design
 
 - [x] **R36. Clarify Intent, Surface Assumptions, and Challenge Scope** — NEW (5 principles). [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
-- [ ] **R37. Explore Alternatives and Test MVP Assumptions** — NEW (2 principles).
+- [x] **R37. Explore Alternatives and Test MVP Assumptions** — NEW (2 principles). [recipe](explore-alternatives-and-test-mvp-assumptions.md).
 - [ ] **R38. Consumer-First Design, Public Contracts, and Usage Guides** — NEW (4 principles).
 - [ ] **R39. Domain Models, Foundational Constraints, and Invalid States** — NEW (4 principles).
 - [ ] **R40. Competing Designs, Prototype Experiments, and Cross-Judging** — NEW (3 principles).
@@ -441,8 +441,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Diverge into alternatives before converging on an evaluated idea** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md).
-- [ ] **Record and test key idea assumptions before committing to an MVP** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md).
+- [x] **Diverge into alternatives before converging on an evaluated idea** — [recipe](explore-alternatives-and-test-mvp-assumptions.md).
+- [x] **Record and test key idea assumptions before committing to an MVP** — [recipe](explore-alternatives-and-test-mvp-assumptions.md).
 
 ### R38. Consumer-First Design, Public Contracts, and Usage Guides
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 113 |
-| Principles still awaiting coverage | 131 |
+| Already covered principles | 115 |
+| Principles still awaiting coverage | 129 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
