@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 186 covered, 58 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 191 covered, 53 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -37,7 +37,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Migration and deprecation](#migration-and-deprecation) | 6 | 6 | 0 |
 | [Release and rollout](#release-and-rollout) | 5 | 5 | 0 |
 | [Operational evidence](#operational-evidence) | 3 | 3 | 0 |
-| [Skill evaluation](#skill-evaluation) | 6 | 0 | 6 |
+| [Skill evaluation](#skill-evaluation) | 6 | 5 | 1 |
 | [Documentation and provenance](#documentation-and-provenance) | 10 | 0 | 10 |
 | [External-write consistency](#external-write-consistency) | 3 | 0 | 3 |
 | [Quality thresholds and gates](#quality-thresholds-and-gates) | 6 | 0 | 6 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **186** | **58** |
+| **Total** | **244** | **191** | **53** |
 
 ## Completion checks
 
@@ -361,12 +361,12 @@ Can telemetry and actionable alerts answer the questions needed to operate the s
 
 Do controlled, observable, repeated trials show that the guidance improves behavior?
 
-- [ ] **Evaluate agent instructions with blinded candidates and judges** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/eval.md)
-- [ ] **Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
-- [ ] **Use dialogue-only evaluations only when conversation itself is the skill's deliverable** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
+- [x] **Evaluate agent instructions with blinded candidates and judges** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
+- [x] **Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
+- [x] **Use dialogue-only evaluations only when conversation itself is the skill's deliverable** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 - [ ] **Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
-- [ ] **Run skill-on versus skill-off evaluations and score observable output rather than invocation alone** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
-- [ ] **Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
+- [x] **Run skill-on versus skill-off evaluations and score observable output rather than invocation alone** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
+- [x] **Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 
 ## Documentation and provenance
 

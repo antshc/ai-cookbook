@@ -12,6 +12,7 @@ Evaluate observable behavior and improve guidance from evidence.
 - [Reproducible Benchmarks, Frozen Baselines, and Honest Metrics](../reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
 - [User-Visible Bottlenecks, Work Elimination, and Regression Monitoring](../user-visible-bottlenecks-work-elimination-and-regression-monitoring.md)
 - [Version-Matched Official Sources and Cache Revalidation](../version-matched-official-sources-and-cache-revalidation.md)
+- [Controlled Skill Evaluations, Observable Traces, and Repeated Trials](../controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 
 ## References
 
@@ -27,11 +28,7 @@ No materials yet.
 ## Principles awaiting recipes
 
 - [Prove visual parity against an unchanged screenshot baseline](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md)
-- [Evaluate agent instructions with blinded candidates and judges](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/eval.md)
 - [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
-- [Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
-- [Use dialogue-only evaluations only when conversation itself is the skill's deliverable](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 - [Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
-- [Run skill-on versus skill-off evaluations and score observable output rather than invocation alone](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

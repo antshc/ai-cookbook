@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 61/82 recipes complete; 186/244 principles covered.**
+**Progress: 62/82 recipes complete; 191/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -108,7 +108,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Operations and evaluation
 
 - [x] **R61. Question-Driven Telemetry, Correlation, and Actionable Alerts** — NEW (3 principles). [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md).
-- [ ] **R62. Controlled Skill Evaluations, Observable Traces, and Repeated Trials** — NEW (5 principles).
+- [x] **R62. Controlled Skill Evaluations, Observable Traces, and Repeated Trials** — NEW (5 principles). [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
 - [ ] **R63. Pressure Tests for Instruction Compliance** — NEW (1 principles).
 ### Documentation and evidence
 
@@ -639,11 +639,11 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Evaluate agent instructions with blinded candidates and judges** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/eval.md).
-- [ ] **Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
-- [ ] **Use dialogue-only evaluations only when conversation itself is the skill's deliverable** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
-- [ ] **Run skill-on versus skill-off evaluations and score observable output rather than invocation alone** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
-- [ ] **Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
+- [x] **Evaluate agent instructions with blinded candidates and judges** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
+- [x] **Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
+- [x] **Use dialogue-only evaluations only when conversation itself is the skill's deliverable** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
+- [x] **Run skill-on versus skill-off evaluations and score observable output rather than invocation alone** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
+- [x] **Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
 
 ### R63. Pressure Tests for Instruction Compliance
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 186 |
-| Principles still awaiting coverage | 58 |
+| Already covered principles | 191 |
+| Principles still awaiting coverage | 53 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

@@ -145,7 +145,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Recover prior context within the workspace and verify live state** — [recipe](safe-pause-context-recovery-and-verified-resume.md)
 - [x] **Turn session retrospectives into tested agent-guidance changes** — [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md)
 - [x] **Infer reusable agent preferences only from stable evidence** — [recipe](gotchas-and-persistent-memory.md)
-- [ ] **Evaluate agent instructions with blinded candidates and judges** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/eval.md)
+- [x] **Evaluate agent instructions with blinded candidates and judges** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 - [x] **Configure model selection per agent responsibility** — [recipe](worker-configuration-fresh-sessions-and-standing-orders.md)
 
 - [x] **Delegate implementation with bounded files and success criteria, then review the diff** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md)
@@ -310,11 +310,11 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
 - [x] **Test skill routing with realistic positive triggers and neighboring negative triggers** — [recipe](positive-and-negative-skill-routing-tests.md)
 - [x] **For negative routing tests, require the intended owner skill to outrank the wrong skill** — [recipe](positive-and-negative-skill-routing-tests.md)
-- [ ] **Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
-- [ ] **Use dialogue-only evaluations only when conversation itself is the skill's deliverable** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
+- [x] **Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
+- [x] **Use dialogue-only evaluations only when conversation itself is the skill's deliverable** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 - [ ] **Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
-- [ ] **Run skill-on versus skill-off evaluations and score observable output rather than invocation alone** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
-- [ ] **Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
+- [x] **Run skill-on versus skill-off evaluations and score observable output rather than invocation alone** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
+- [x] **Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 - [x] **Validate that equivalent host command adapters stay semantically aligned** — [recipe](repository-adapters-resource-access-and-portable-skills.md)
 
 ## Scan and update

@@ -10,6 +10,7 @@ Make skills discoverable and distinguish neighboring responsibilities.
 - [Progressive Disclosure, Targeted Context, and Safe Trimming](../progressive-disclosure-targeted-context-and-safe-trimming.md)
 - [Bounded Agent Roles, Single Ownership, and Composition](../bounded-agent-roles-single-ownership-and-composition.md)
 - [Launch Gates, Staged Rollout, Health Checks, and Rollback](../launch-gates-staged-rollout-health-checks-and-rollback.md)
+- [Controlled Skill Evaluations, Observable Traces, and Repeated Trials](../controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 
 ## References
 
@@ -25,6 +26,7 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md)
+No materials yet.
+
 
 [All problems](../README.md) · [Agent index](../agent-index.json)
