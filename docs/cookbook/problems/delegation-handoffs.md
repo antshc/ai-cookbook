@@ -4,8 +4,7 @@ Define bounded assignments and verifiable handoff contracts.
 
 ## Recipes
 
-No materials yet.
-
+- [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 
 ## References
 
@@ -34,7 +33,6 @@ No materials yet.
 - [Keep stack topology updates under one coordinator while PR owners work in parallel](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md)
 - [Keep external writes and credentials out of delegated workers](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Compensate cross-system ticket writes when the final handoff fails](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
-- [Persist restartable session handoffs with decisions, changed files, verification, and next work](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
 - [Parallelize independent specialist reviews, but keep aggregation with the orchestrator](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md)
 - [Use isolated worktrees when parallel agents would otherwise share a working tree](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md)
 

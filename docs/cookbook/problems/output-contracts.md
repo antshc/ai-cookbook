@@ -7,6 +7,7 @@ Define what the consumer receives and who owns its format.
 - [Direct Evidence, Safety Assumptions, and Risk-Based Verification](../direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [Red-Green-Refactor and Failing Regression Tests](../red-green-refactor-and-failing-regression-tests.md)
 - [Live Bug Reproduction and Verification of Existing Fixes](../live-bug-reproduction-and-verification-of-existing-fixes.md)
+- [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 
 ## References
 
@@ -38,7 +39,6 @@ Define what the consumer receives and who owns its format.
 - [Reconstruct design rationale across independent evidence sources](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md)
 - [Calibrate rationale claims to direct, supported, inferred, or unknown evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md)
 - [Teach behavior and rationale through incremental explanations and diagrams](https://github.com/cursor/plugins/blob/main/pstack/skills/teach/SKILL.md)
-- [Summarize session progress as outcomes and human-owned decisions](https://github.com/cursor/plugins/blob/main/pstack/skills/ketchup/SKILL.md)
 - [Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md)
 - [Keep PR summaries short with observable verification evidence](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md)
 - [Select documentation structure by tutorial, how-to, reference, or explanation purpose](https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md)

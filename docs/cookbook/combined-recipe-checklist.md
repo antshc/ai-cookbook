@@ -41,7 +41,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R12. Improvement Flywheel and Enforced Lessons** — NEW (2 principles). [recipe](improvement-flywheel-and-enforced-lessons.md).
 - [x] **R13. Evidence-Based Retrospectives and Approved Guidance Repairs** — NEW (4 principles). [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md).
 - [x] **R14. Checklist-Driven Workflow** — KEEP (1 principles); [existing recipe](https://github.com/antshc/ai-cookbook/blob/main/docs/cookbook/checklist-driven-workflow.md).
-- [ ] **R15. Session Ledger, Open Questions, and Restartable Handoffs** — NEW (5 principles).
+- [x] **R15. Session Ledger, Open Questions, and Restartable Handoffs** — NEW (5 principles). [recipe](session-ledger-open-questions-and-restartable-handoffs.md).
 - [ ] **R16. Safe Pause, Context Recovery, and Verified Resume** — NEW (3 principles).
 ### Instructions and routing
 
@@ -262,11 +262,11 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Open-question markers** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/str-open-question-marker.md).
-- [ ] **Session ledger** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-ledger.md).
-- [ ] **Summarize session progress as outcomes and human-owned decisions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/ketchup/SKILL.md).
-- [ ] **Preserve incomplete plans and use the project's designated task tracker** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md).
-- [ ] **Persist restartable session handoffs with decisions, changed files, verification, and next work** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md).
+- [x] **Open-question markers** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md).
+- [x] **Session ledger** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md).
+- [x] **Summarize session progress as outcomes and human-owned decisions** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md).
+- [x] **Preserve incomplete plans and use the project's designated task tracker** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md).
+- [x] **Persist restartable session handoffs with decisions, changed files, verification, and next work** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md).
 
 ### R16. Safe Pause, Context Recovery, and Verified Resume
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 44 |
-| Principles still awaiting coverage | 200 |
+| Already covered principles | 49 |
+| Principles still awaiting coverage | 195 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

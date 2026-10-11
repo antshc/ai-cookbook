@@ -13,6 +13,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks](../root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [Improvement Flywheel and Enforced Lessons](../improvement-flywheel-and-enforced-lessons.md)
 - [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
+- [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 
 ## References
 
@@ -32,7 +33,6 @@ No materials yet.
 - [Instruction robustness](https://github.com/antshc/brain/blob/main/docs/concepts/ops-instruction-robustness.md)
 - [Constraint-first reasoning](https://github.com/antshc/brain/blob/main/docs/concepts/structure-constraint-first-reasoning.md)
 - [Agent design and bounded responsibility](https://github.com/antshc/brain/blob/main/docs/concepts/structure-agents-style.md)
-- [Open-question markers](https://github.com/antshc/brain/blob/main/docs/concepts/str-open-question-marker.md)
 - [Repository instruction loading](https://github.com/antshc/brain/blob/main/docs/adr/crew-agents-uses-instructions.md)
 - [Cross-scope specialist discovery](https://github.com/antshc/brain/blob/main/docs/concepts/structure-cross-scope-skill-family.md)
 - [Skill-owned code](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md)

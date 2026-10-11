@@ -15,6 +15,7 @@ Define observable completion and account for every obligation.
 - [Live Bug Reproduction and Verification of Existing Fixes](../live-bug-reproduction-and-verification-of-existing-fixes.md)
 - [Root-Cause Diagnosis, Hypothesis Elimination, and Premise Checks](../root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [Evidence-Based Retrospectives and Approved Guidance Repairs](../evidence-based-retrospectives-and-approved-guidance-repairs.md)
+- [Session Ledger, Open Questions, and Restartable Handoffs](../session-ledger-open-questions-and-restartable-handoffs.md)
 
 ## References
 
@@ -47,12 +48,10 @@ Define observable completion and account for every obligation.
 - [Record and test key idea assumptions before committing to an MVP](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md)
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Detect attempts to weaken checks, tests, suppressions, or quality thresholds](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
-- [Preserve incomplete plans and use the project's designated task tracker](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
 - [Inspect working-tree changes before autonomous execution and stop on unrelated dirty files](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md)
 - [Implement complete vertical slices with test, verification, and commit gates](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
 - [Keep incomplete capabilities behind safe defaults or feature flags](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
 - [Load relevant implementation, tests, types, and precedent instead of entire context dumps](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
-- [Persist restartable session handoffs with decisions, changed files, verification, and next work](https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md)
 - [Verify framework-specific decisions against version-matched official documentation](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md)
 - [Verify responsive and accessible UI states including empty, loading, and error flows](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 - [Verify browser changes against live DOM, console, network, and before-after screenshots](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)

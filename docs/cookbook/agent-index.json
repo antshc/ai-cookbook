@@ -1285,37 +1285,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-open-question-markers",
-      "title": "Open-question markers",
-      "principle": "Open-question markers",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/str-open-question-marker.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "open",
-        "question",
-        "markers"
-      ],
-      "use_when": "Use when defining agent behavior to open-question markers.",
-      "provides": [
-        "Open-question markers"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/docs/concepts/str-open-question-marker.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-repository-instruction-loading",
       "title": "Repository instruction loading",
       "principle": "Repository instruction loading",
@@ -1574,36 +1543,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-session-ledger",
-      "title": "Session ledger",
-      "principle": "Session ledger",
-      "path": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-ledger.md",
-      "kind": "source-only",
-      "problems": [
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "session",
-        "ledger"
-      ],
-      "use_when": "Use when defining agent behavior to session ledger.",
-      "provides": [
-        "Session ledger"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/docs/concepts/structure-ledger.md",
       "covered_principles": []
     },
     {
@@ -3104,44 +3043,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/teach/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-summarize-session-progress-as-outcomes-and-human-owned-decisions",
-      "title": "Summarize session progress as outcomes and human-owned decisions",
-      "principle": "Summarize session progress as outcomes and human-owned decisions",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/ketchup/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "output-contracts",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "summarize",
-        "session",
-        "progress",
-        "as",
-        "outcomes",
-        "and",
-        "human",
-        "owned",
-        "decisions"
-      ],
-      "use_when": "Use when defining agent behavior to summarize session progress as outcomes and human-owned decisions.",
-      "provides": [
-        "Summarize session progress as outcomes and human-owned decisions"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/ketchup/SKILL.md",
       "covered_principles": []
     },
     {
@@ -5587,45 +5488,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-preserve-incomplete-plans-and-use-the-project-s-designated-task-tracker",
-      "title": "Preserve incomplete plans and use the project's designated task tracker",
-      "principle": "Preserve incomplete plans and use the project's designated task tracker",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "preserve",
-        "incomplete",
-        "plans",
-        "and",
-        "use",
-        "the",
-        "project",
-        "s",
-        "designated",
-        "task",
-        "tracker"
-      ],
-      "use_when": "Use when defining agent behavior to preserve incomplete plans and use the project's designated task tracker.",
-      "provides": [
-        "Preserve incomplete plans and use the project's designated task tracker"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-inspect-working-tree-changes-before-autonomous-execution-and-stop-on-unrelated-dirty-files",
       "title": "Inspect working-tree changes before autonomous execution and stop on unrelated dirty files",
       "principle": "Inspect working-tree changes before autonomous execution and stop on unrelated dirty files",
@@ -5859,48 +5721,6 @@
       "use_when": "Use when defining agent behavior to trim context proactively while preserving active constraints, errors, and decisions.",
       "provides": [
         "Trim context proactively while preserving active constraints, errors, and decisions"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-persist-restartable-session-handoffs-with-decisions-changed-files-verification-and-next-work",
-      "title": "Persist restartable session handoffs with decisions, changed files, verification, and next work",
-      "principle": "Persist restartable session handoffs with decisions, changed files, verification, and next work",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/context-engineering/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs",
-        "premature-completion",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "persist",
-        "restartable",
-        "session",
-        "handoffs",
-        "with",
-        "decisions",
-        "changed",
-        "files",
-        "verification",
-        "and",
-        "next",
-        "work"
-      ],
-      "use_when": "Use when defining agent behavior to persist restartable session handoffs with decisions, changed files, verification, and next work.",
-      "provides": [
-        "Persist restartable session handoffs with decisions, changed files, verification, and next work"
       ],
       "related": [],
       "status": "recipe-needed",
@@ -9389,6 +9209,56 @@
         "Limit retrospective skill changes to demonstrated use or missed triggers",
         "Turn session retrospectives into tested agent-guidance changes",
         "Apply retrospective changes to shared agent instructions only with approval"
+      ]
+    },
+    {
+      "id": "session-ledger-open-questions-and-restartable-handoffs",
+      "title": "Session Ledger, Open Questions, and Restartable Handoffs",
+      "path": "docs/cookbook/session-ledger-open-questions-and-restartable-handoffs.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "delegation-handoffs",
+        "instruction-compliance",
+        "output-contracts",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "planning",
+        "review"
+      ],
+      "keywords": [
+        "session",
+        "ledger",
+        "open",
+        "questions",
+        "and",
+        "restartable",
+        "handoffs"
+      ],
+      "use_when": "Long sessions lose open decisions, source-reading history, and exact verification state. A restartable handoff needs a durable task ledger and visible unresolved questions.",
+      "provides": [
+        "Open-question markers",
+        "Session ledger",
+        "Summarize session progress as outcomes and human-owned decisions",
+        "Preserve incomplete plans and use the project's designated task tracker",
+        "Persist restartable session handoffs with decisions, changed files, verification, and next work"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/session-ledger-open-questions-and-restartable-handoffs.html",
+      "covered_principles": [
+        "Open-question markers",
+        "Session ledger",
+        "Summarize session progress as outcomes and human-owned decisions",
+        "Preserve incomplete plans and use the project's designated task tracker",
+        "Persist restartable session handoffs with decisions, changed files, verification, and next work"
       ]
     }
   ]
