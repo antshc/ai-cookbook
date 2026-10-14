@@ -1003,112 +1003,6 @@
       "related": []
     },
     {
-      "id": "principle-freeze-report-provenance-and-deduplicate-before-filing-tickets",
-      "title": "Freeze report provenance and deduplicate before filing tickets",
-      "principle": "Freeze report provenance and deduplicate before filing tickets",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "output-contracts"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "freeze",
-        "report",
-        "provenance",
-        "and",
-        "deduplicate",
-        "before",
-        "filing",
-        "tickets"
-      ],
-      "use_when": "Use when defining agent behavior to freeze report provenance and deduplicate before filing tickets.",
-      "provides": [
-        "Freeze report provenance and deduplicate before filing tickets"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-gate-automatic-bug-fixing-on-a-trusted-triage-verdict-and-ownership-checks",
-      "title": "Gate automatic bug fixing on a trusted triage verdict and ownership checks",
-      "principle": "Gate automatic bug fixing on a trusted triage verdict and ownership checks",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "gate",
-        "automatic",
-        "bug",
-        "fixing",
-        "on",
-        "a",
-        "trusted",
-        "triage",
-        "verdict",
-        "and",
-        "ownership",
-        "checks"
-      ],
-      "use_when": "Use when defining agent behavior to gate automatic bug fixing on a trusted triage verdict and ownership checks.",
-      "provides": [
-        "Gate automatic bug fixing on a trusted triage verdict and ownership checks"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-compensate-cross-system-ticket-writes-when-the-final-handoff-fails",
-      "title": "Compensate cross-system ticket writes when the final handoff fails",
-      "principle": "Compensate cross-system ticket writes when the final handoff fails",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "compensate",
-        "cross",
-        "system",
-        "ticket",
-        "writes",
-        "when",
-        "the",
-        "final",
-        "handoff",
-        "fails"
-      ],
-      "use_when": "Use when defining agent behavior to compensate cross-system ticket writes when the final handoff fails.",
-      "provides": [
-        "Compensate cross-system ticket writes when the final handoff fails"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-approve-the-capability-dependency-map-before-specifying-a-multi-module-initiative",
       "title": "Approve the capability dependency map before specifying a multi-module initiative",
       "principle": "Approve the capability dependency map before specifying a multi-module initiative",
@@ -4345,6 +4239,43 @@
       "provides": [
         "Separate evidence collection from synthesis and keep investigators within their assigned sources",
         "Record exact investigation queries, empty results, and contradictory evidence"
+      ],
+      "related": []
+    },
+    {
+      "id": "trusted-triage-provenance-deduplication-and-compensating-writes",
+      "title": "Trusted Triage, Provenance, Deduplication, and Compensating Writes",
+      "path": "trusted-triage-provenance-deduplication-and-compensating-writes.md",
+      "kind": "recipe",
+      "problems": [
+        "delegation-handoffs",
+        "output-contracts",
+        "premature-completion",
+        "responsibility-overlap"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "debugging",
+        "review"
+      ],
+      "keywords": [
+        "trusted",
+        "triage",
+        "provenance",
+        "deduplication",
+        "and",
+        "compensating",
+        "writes"
+      ],
+      "use_when": "Automated triage can file duplicates, act on an untrusted verdict, or leave an orphan ticket when its source-thread handoff fails. Provenance, ownership, and compensating actions must survive cross-system writes.",
+      "provides": [
+        "Freeze report provenance and deduplicate before filing tickets",
+        "Gate automatic bug fixing on a trusted triage verdict and ownership checks",
+        "Compensate cross-system ticket writes when the final handoff fails"
       ],
       "related": []
     }

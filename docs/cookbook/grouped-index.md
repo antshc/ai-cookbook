@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 207 covered, 37 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 210 covered, 34 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -39,7 +39,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Operational evidence](#operational-evidence) | 3 | 3 | 0 |
 | [Skill evaluation](#skill-evaluation) | 6 | 6 | 0 |
 | [Documentation and provenance](#documentation-and-provenance) | 10 | 10 | 0 |
-| [External-write consistency](#external-write-consistency) | 3 | 0 | 3 |
+| [External-write consistency](#external-write-consistency) | 3 | 3 | 0 |
 | [Quality thresholds and gates](#quality-thresholds-and-gates) | 6 | 0 | 6 |
 | [UI contracts and verification](#ui-contracts-and-verification) | 4 | 0 | 4 |
 | [Investigation and source evidence](#investigation-and-source-evidence) | 7 | 7 | 0 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **207** | **37** |
+| **Total** | **244** | **210** | **34** |
 
 ## Completion checks
 
@@ -387,9 +387,9 @@ Does the document explain the right thing clearly while preserving facts, eviden
 
 Is the external action based on trusted, deduplicated evidence, and can partial writes be compensated?
 
-- [ ] **Freeze report provenance and deduplicate before filing tickets** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
-- [ ] **Gate automatic bug fixing on a trusted triage verdict and ownership checks** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
-- [ ] **Compensate cross-system ticket writes when the final handoff fails** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
+- [x] **Freeze report provenance and deduplicate before filing tickets** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md)
+- [x] **Gate automatic bug fixing on a trusted triage verdict and ownership checks** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md)
+- [x] **Compensate cross-system ticket writes when the final handoff fails** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md)
 
 ## Quality thresholds and gates
 

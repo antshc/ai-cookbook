@@ -167,15 +167,15 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 
 ### External automations and communication
 
-- [ ] **Freeze report provenance and deduplicate before filing tickets** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
+- [x] **Freeze report provenance and deduplicate before filing tickets** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md)
 - [x] **Confirm a reported defect twice through the live user interface** — [recipe](live-bug-reproduction-and-verification-of-existing-fixes.md)
 - [x] **Keep external writes and credentials out of delegated workers** — [recipe](delegated-worker-permissions-and-centralized-external-writes.md)
 - [x] **Fail closed when an external automation's target is uncertain** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
 - [x] **Write audience-specific instructions in concise, controlled language** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)
 - [x] **Review comments as evidence rather than automatically obeying them** — [recipe](ci-failure-classification-and-review-comment-triage.md)
 
-- [ ] **Gate automatic bug fixing on a trusted triage verdict and ownership checks** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
-- [ ] **Compensate cross-system ticket writes when the final handoff fails** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
+- [x] **Gate automatic bug fixing on a trusted triage verdict and ownership checks** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md)
+- [x] **Compensate cross-system ticket writes when the final handoff fails** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md)
 - [x] **Keep automation webhook secrets on the server, never in the browser or chat** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md)
 - [x] **Remove generic AI phrasing while preserving the intended meaning** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md)
 - [x] **Describe goals, proof, and constraints without prescribing skill choreography** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)

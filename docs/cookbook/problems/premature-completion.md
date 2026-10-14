@@ -40,6 +40,7 @@ Define observable completion and account for every obligation.
 - [Pressure Tests for Instruction Compliance](../pressure-tests-for-instruction-compliance.md)
 - [Concise Delivery Reports for Users and Maintainers](../concise-delivery-reports-for-users-and-maintainers.md)
 - [Code-Path Investigation and Evidence-Calibrated Rationale](../code-path-investigation-and-evidence-calibrated-rationale.md)
+- [Trusted Triage, Provenance, Deduplication, and Compensating Writes](../trusted-triage-provenance-deduplication-and-compensating-writes.md)
 
 ## References
 
@@ -53,7 +54,6 @@ Define observable completion and account for every obligation.
 
 ## Principles awaiting recipes
 
-- [Gate automatic bug fixing on a trusted triage verdict and ownership checks](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md)
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Detect attempts to weaken checks, tests, suppressions, or quality thresholds](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Implement complete vertical slices with test, verification, and commit gates](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)

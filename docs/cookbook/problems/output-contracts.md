@@ -20,6 +20,7 @@ Define what the consumer receives and who owns its format.
 - [Audience-Focused Documentation, Clear Prose, and Preserved Facts](../audience-focused-documentation-clear-prose-and-preserved-facts.md)
 - [Concise Delivery Reports for Users and Maintainers](../concise-delivery-reports-for-users-and-maintainers.md)
 - [Code-Path Investigation and Evidence-Calibrated Rationale](../code-path-investigation-and-evidence-calibrated-rationale.md)
+- [Trusted Triage, Provenance, Deduplication, and Compensating Writes](../trusted-triage-provenance-deduplication-and-compensating-writes.md)
 
 ## References
 
@@ -45,6 +46,7 @@ Define what the consumer receives and who owns its format.
 
 ## Principles awaiting recipes
 
-- [Freeze report provenance and deduplicate before filing tickets](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
+No materials yet.
+
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

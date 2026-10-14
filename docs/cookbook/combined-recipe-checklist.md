@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 69/82 recipes complete; 207/244 principles covered.**
+**Progress: 70/82 recipes complete; 210/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -120,7 +120,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R69. Scoped Evidence Collection, Query Logs, and Contradictions** — NEW (2 principles). [recipe](scoped-evidence-collection-query-logs-and-contradictions.md).
 ### External writes and quality
 
-- [ ] **R70. Trusted Triage, Provenance, Deduplication, and Compensating Writes** — NEW (3 principles).
+- [x] **R70. Trusted Triage, Provenance, Deduplication, and Compensating Writes** — NEW (3 principles). [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md).
 - [ ] **R71. Quality Floors, Measurable Thresholds, and Controlled Exceptions** — NEW (3 principles).
 - [ ] **R72. Non-Bypassable Quality Gates and Fail-Closed Verification** — NEW (3 principles).
 ### UI verification
@@ -700,9 +700,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Freeze report provenance and deduplicate before filing tickets** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md).
-- [ ] **Gate automatic bug fixing on a trusted triage verdict and ownership checks** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md).
-- [ ] **Compensate cross-system ticket writes when the final handoff fails** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md).
+- [x] **Freeze report provenance and deduplicate before filing tickets** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md).
+- [x] **Gate automatic bug fixing on a trusted triage verdict and ownership checks** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md).
+- [x] **Compensate cross-system ticket writes when the final handoff fails** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md).
 
 ### R71. Quality Floors, Measurable Thresholds, and Controlled Exceptions
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 207 |
-| Principles still awaiting coverage | 37 |
+| Already covered principles | 210 |
+| Principles still awaiting coverage | 34 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

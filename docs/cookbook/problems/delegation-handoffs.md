@@ -14,6 +14,7 @@ Define bounded assignments and verifiable handoff contracts.
 - [Pilot Runs, Rolling Worker Windows, and Progress Monitoring](../pilot-runs-rolling-worker-windows-and-progress-monitoring.md)
 - [Single Coordinator for Shared PR Stack Topology](../single-coordinator-for-shared-pr-stack-topology.md)
 - [Isolated Worktrees and Safe Workspace Cleanup](../isolated-worktrees-and-safe-workspace-cleanup.md)
+- [Trusted Triage, Provenance, Deduplication, and Compensating Writes](../trusted-triage-provenance-deduplication-and-compensating-writes.md)
 
 ## References
 
@@ -27,6 +28,5 @@ Define bounded assignments and verifiable handoff contracts.
 ## Principles awaiting recipes
 
 - [Validate multi-phase plans with an executable checker before handoff](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md)
-- [Compensate cross-system ticket writes when the final handoff fails](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)
