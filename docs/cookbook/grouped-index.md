@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 210 covered, 34 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 213 covered, 31 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -40,7 +40,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Skill evaluation](#skill-evaluation) | 6 | 6 | 0 |
 | [Documentation and provenance](#documentation-and-provenance) | 10 | 10 | 0 |
 | [External-write consistency](#external-write-consistency) | 3 | 3 | 0 |
-| [Quality thresholds and gates](#quality-thresholds-and-gates) | 6 | 0 | 6 |
+| [Quality thresholds and gates](#quality-thresholds-and-gates) | 6 | 3 | 3 |
 | [UI contracts and verification](#ui-contracts-and-verification) | 4 | 0 | 4 |
 | [Investigation and source evidence](#investigation-and-source-evidence) | 7 | 7 | 0 |
 | [Safe simplification](#safe-simplification) | 8 | 0 | 8 |
@@ -48,7 +48,7 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **210** | **34** |
+| **Total** | **244** | **213** | **31** |
 
 ## Completion checks
 
@@ -395,12 +395,12 @@ Is the external action based on trusted, deduplicated evidence, and can partial 
 
 Which quality floor applies, are exceptions controlled, and did every required gate actually run?
 
-- [ ] **Define measurable project quality thresholds and record exceptions with owners and expiry** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
-- [ ] **Apply a minimum quality floor in noninteractive runs when project thresholds are absent** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
+- [x] **Define measurable project quality thresholds and record exceptions with owners and expiry** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md)
+- [x] **Apply a minimum quality floor in noninteractive runs when project thresholds are absent** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md)
 - [ ] **Detect attempts to weaken checks, tests, suppressions, or quality thresholds** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [ ] **Treat a quality guard that could not run as a blocking failure rather than a clean result** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)
 - [ ] **Run non-bypassable CI quality gates and feed failures back into agent correction** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
-- [ ] **Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/adoption-guide.md)
+- [x] **Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md)
 
 ## UI contracts and verification
 

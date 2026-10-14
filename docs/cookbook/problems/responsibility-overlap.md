@@ -16,6 +16,7 @@ Give each procedure and responsibility one clear owner.
 - [Architecture Sketches, Structural Red Flags, and Design Rationale](../architecture-sketches-structural-red-flags-and-design-rationale.md)
 - [Independent Evidence-Based Review, Severity, and Reconciliation](../independent-evidence-based-review-severity-and-reconciliation.md)
 - [Trusted Triage, Provenance, Deduplication, and Compensating Writes](../trusted-triage-provenance-deduplication-and-compensating-writes.md)
+- [Quality Floors, Measurable Thresholds, and Controlled Exceptions](../quality-floors-measurable-thresholds-and-controlled-exceptions.md)
 
 ## References
 
@@ -32,7 +33,6 @@ No materials yet.
 - [Prefer the smallest change and shallowest useful abstraction](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-laziness-protocol/SKILL.md)
 - [Separate shared mutable state before using locks](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md)
 - [Approve the capability dependency map before specifying a multi-module initiative](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
-- [Define measurable project quality thresholds and record exceptions with owners and expiry](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Define a reference-grounded UI design contract before implementation](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 70/82 recipes complete; 210/244 principles covered.**
+**Progress: 71/82 recipes complete; 213/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -121,7 +121,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### External writes and quality
 
 - [x] **R70. Trusted Triage, Provenance, Deduplication, and Compensating Writes** — NEW (3 principles). [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md).
-- [ ] **R71. Quality Floors, Measurable Thresholds, and Controlled Exceptions** — NEW (3 principles).
+- [x] **R71. Quality Floors, Measurable Thresholds, and Controlled Exceptions** — NEW (3 principles). [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md).
 - [ ] **R72. Non-Bypassable Quality Gates and Fail-Closed Verification** — NEW (3 principles).
 ### UI verification
 
@@ -708,9 +708,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Define measurable project quality thresholds and record exceptions with owners and expiry** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md).
-- [ ] **Apply a minimum quality floor in noninteractive runs when project thresholds are absent** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md).
-- [ ] **Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/adoption-guide.md).
+- [x] **Define measurable project quality thresholds and record exceptions with owners and expiry** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md).
+- [x] **Apply a minimum quality floor in noninteractive runs when project thresholds are absent** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md).
+- [x] **Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md).
 
 ### R72. Non-Bypassable Quality Gates and Fail-Closed Verification
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 210 |
-| Principles still awaiting coverage | 34 |
+| Already covered principles | 213 |
+| Principles still awaiting coverage | 31 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

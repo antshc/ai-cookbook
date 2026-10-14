@@ -1110,82 +1110,6 @@
       "related": []
     },
     {
-      "id": "principle-define-measurable-project-quality-thresholds-and-record-exceptions-with-owners-and-expiry",
-      "title": "Define measurable project quality thresholds and record exceptions with owners and expiry",
-      "principle": "Define measurable project quality thresholds and record exceptions with owners and expiry",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap",
-        "continuity"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "define",
-        "measurable",
-        "project",
-        "quality",
-        "thresholds",
-        "and",
-        "record",
-        "exceptions",
-        "with",
-        "owners",
-        "and",
-        "expiry"
-      ],
-      "use_when": "Use when defining agent behavior to define measurable project quality thresholds and record exceptions with owners and expiry.",
-      "provides": [
-        "Define measurable project quality thresholds and record exceptions with owners and expiry"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-apply-a-minimum-quality-floor-in-noninteractive-runs-when-project-thresholds-are-absent",
-      "title": "Apply a minimum quality floor in noninteractive runs when project thresholds are absent",
-      "principle": "Apply a minimum quality floor in noninteractive runs when project thresholds are absent",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "apply",
-        "a",
-        "minimum",
-        "quality",
-        "floor",
-        "in",
-        "noninteractive",
-        "runs",
-        "when",
-        "project",
-        "thresholds",
-        "are",
-        "absent"
-      ],
-      "use_when": "Use when defining agent behavior to apply a minimum quality floor in noninteractive runs when project thresholds are absent.",
-      "provides": [
-        "Apply a minimum quality floor in noninteractive runs when project thresholds are absent"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-detect-attempts-to-weaken-checks-tests-suppressions-or-quality-thresholds",
       "title": "Detect attempts to weaken checks, tests, suppressions, or quality thresholds",
       "principle": "Detect attempts to weaken checks, tests, suppressions, or quality thresholds",
@@ -1658,46 +1582,6 @@
       "use_when": "Use when defining agent behavior to run non-bypassable CI quality gates and feed failures back into agent correction.",
       "provides": [
         "Run non-bypassable CI quality gates and feed failures back into agent correction"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-introduce-quality-checks-incrementally-in-legacy-projects-rather-than-enabling-the-entire-lifecycle-at-once",
-      "title": "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once",
-      "principle": "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/docs/adoption-guide.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "introduce",
-        "quality",
-        "checks",
-        "incrementally",
-        "in",
-        "legacy",
-        "projects",
-        "rather",
-        "than",
-        "enabling",
-        "the",
-        "entire",
-        "lifecycle",
-        "at",
-        "once"
-      ],
-      "use_when": "Use when defining agent behavior to introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once.",
-      "provides": [
-        "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once"
       ],
       "related": []
     },
@@ -4276,6 +4160,41 @@
         "Freeze report provenance and deduplicate before filing tickets",
         "Gate automatic bug fixing on a trusted triage verdict and ownership checks",
         "Compensate cross-system ticket writes when the final handoff fails"
+      ],
+      "related": []
+    },
+    {
+      "id": "quality-floors-measurable-thresholds-and-controlled-exceptions",
+      "title": "Quality Floors, Measurable Thresholds, and Controlled Exceptions",
+      "path": "quality-floors-measurable-thresholds-and-controlled-exceptions.md",
+      "kind": "recipe",
+      "problems": [
+        "continuity",
+        "instruction-compliance",
+        "responsibility-overlap"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "quality",
+        "floors",
+        "measurable",
+        "thresholds",
+        "and",
+        "controlled",
+        "exceptions"
+      ],
+      "use_when": "An autonomous agent can ship work against an undefined quality bar, invent arbitrary thresholds, or apply an entire new lifecycle to a fragile legacy system at once. Quality constraints need a working baseline and controlled exceptions.",
+      "provides": [
+        "Define measurable project quality thresholds and record exceptions with owners and expiry",
+        "Apply a minimum quality floor in noninteractive runs when project thresholds are absent",
+        "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once"
       ],
       "related": []
     }

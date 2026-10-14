@@ -47,6 +47,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Question-Driven Telemetry, Correlation, and Actionable Alerts](../question-driven-telemetry-correlation-and-actionable-alerts.md)
 - [Audience-Focused Documentation, Clear Prose, and Preserved Facts](../audience-focused-documentation-clear-prose-and-preserved-facts.md)
 - [Append-Only Decision Trails, Audit, and Independent Review](../append-only-decision-trails-audit-and-independent-review.md)
+- [Quality Floors, Measurable Thresholds, and Controlled Exceptions](../quality-floors-measurable-thresholds-and-controlled-exceptions.md)
 
 ## References
 
@@ -70,12 +71,10 @@ No materials yet.
 - [Pin existing behavior before structural refactoring](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Update the living specification before implementing changed decisions](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
-- [Apply a minimum quality floor in noninteractive runs when project thresholds are absent](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Build dependency-ordered, verifiable task slices without implementing during planning](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
 - [Treat a quality guard that could not run as a blocking failure rather than a clean result](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)
 - [Understand why existing code exists before simplifying or deleting it](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Automate wide mechanical refactors instead of hand-editing large change sets](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
-- [Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once](https://github.com/addyosmani/agent-skills/blob/main/docs/adoption-guide.md)
 - [Check existing skills, active proposals, and rejected changes before introducing a new skill](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

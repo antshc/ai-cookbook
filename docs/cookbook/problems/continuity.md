@@ -21,6 +21,7 @@ Preserve useful lessons and resume from verified state.
 - [Append-Only Decision Trails, Audit, and Independent Review](../append-only-decision-trails-audit-and-independent-review.md)
 - [Architecture Decision Records, Alternatives, and Supersession](../architecture-decision-records-alternatives-and-supersession.md)
 - [Scoped Evidence Collection, Query Logs, and Contradictions](../scoped-evidence-collection-query-logs-and-contradictions.md)
+- [Quality Floors, Measurable Thresholds, and Controlled Exceptions](../quality-floors-measurable-thresholds-and-controlled-exceptions.md)
 
 ## References
 
@@ -34,7 +35,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Define measurable project quality thresholds and record exceptions with owners and expiry](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)
