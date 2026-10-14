@@ -27,6 +27,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Authors & Sources](../authors-and-sources.md)
 - [Grouped principle checklist](../grouped-index.md)
 - [Combined Recipe Checklist](../combined-recipe-checklist.md)
+- [20 Instruction Patterns for Agent Skills](../instruction-patterns.md)
 
 ## Templates
 

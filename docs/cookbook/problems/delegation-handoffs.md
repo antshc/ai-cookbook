@@ -12,6 +12,7 @@ Define bounded assignments and verifiable handoff contracts.
 
 - [Grouped principle checklist](../grouped-index.md)
 - [Combined Recipe Checklist](../combined-recipe-checklist.md)
+- [20 Instruction Patterns for Agent Skills](../instruction-patterns.md)
 
 ## Templates
 
