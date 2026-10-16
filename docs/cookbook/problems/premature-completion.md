@@ -44,6 +44,7 @@ Define observable completion and account for every obligation.
 - [Non-Bypassable Quality Gates and Fail-Closed Verification](../non-bypassable-quality-gates-and-fail-closed-verification.md)
 - [Live Browser Evidence, Accessibility, and UI State Coverage](../live-browser-evidence-accessibility-and-ui-state-coverage.md)
 - [Behavior-Preserving Refactoring and Protected Source Blocks](../behavior-preserving-refactoring-and-protected-source-blocks.md)
+- [Approved Specifications, Capability Dependencies, and Living Decisions](../approved-specifications-capability-dependencies-and-living-decisions.md)
 
 ## References
 
@@ -57,7 +58,6 @@ Define observable completion and account for every obligation.
 
 ## Principles awaiting recipes
 
-- [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Implement complete vertical slices with test, verification, and commit gates](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

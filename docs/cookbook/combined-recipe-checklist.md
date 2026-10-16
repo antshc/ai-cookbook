@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 80/82 recipes complete; 237/244 principles covered.**
+**Progress: 81/82 recipes complete; 240/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -137,7 +137,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Skill maintenance and delivery slices
 
 - [x] **R80. Skill Validation, Proposal Checks, and Rejected-Change Ledgers** — NEW (3 principles). [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md).
-- [ ] **R81. Approved Specifications, Capability Dependencies, and Living Decisions** — NEW (3 principles).
+- [x] **R81. Approved Specifications, Capability Dependencies, and Living Decisions** — NEW (3 principles). [recipe](approved-specifications-capability-dependencies-and-living-decisions.md).
 - [ ] **R82. Dependency-Ordered Vertical Slices and Executable Plan Checks** — NEW (4 principles).
 
 ## Exact principle-to-recipe mapping
@@ -785,9 +785,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Approve the capability dependency map before specifying a multi-module initiative** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md).
-- [ ] **Write a specification before implementation and stop for approval before planning** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md).
-- [ ] **Update the living specification before implementing changed decisions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md).
+- [x] **Approve the capability dependency map before specifying a multi-module initiative** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md).
+- [x] **Write a specification before implementation and stop for approval before planning** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md).
+- [x] **Update the living specification before implementing changed decisions** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md).
 
 ### R82. Dependency-Ordered Vertical Slices and Executable Plan Checks
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 237 |
-| Principles still awaiting coverage | 7 |
+| Already covered principles | 240 |
+| Principles still awaiting coverage | 4 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

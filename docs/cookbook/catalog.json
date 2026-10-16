@@ -649,113 +649,6 @@
       "related": []
     },
     {
-      "id": "principle-approve-the-capability-dependency-map-before-specifying-a-multi-module-initiative",
-      "title": "Approve the capability dependency map before specifying a multi-module initiative",
-      "principle": "Approve the capability dependency map before specifying a multi-module initiative",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "responsibility-overlap"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "approve",
-        "the",
-        "capability",
-        "dependency",
-        "map",
-        "before",
-        "specifying",
-        "a",
-        "multi",
-        "module",
-        "initiative"
-      ],
-      "use_when": "Use when defining agent behavior to approve the capability dependency map before specifying a multi-module initiative.",
-      "provides": [
-        "Approve the capability dependency map before specifying a multi-module initiative"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-write-a-specification-before-implementation-and-stop-for-approval-before-planning",
-      "title": "Write a specification before implementation and stop for approval before planning",
-      "principle": "Write a specification before implementation and stop for approval before planning",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance",
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning",
-        "implementation"
-      ],
-      "keywords": [
-        "write",
-        "a",
-        "specification",
-        "before",
-        "implementation",
-        "and",
-        "stop",
-        "for",
-        "approval",
-        "before",
-        "planning"
-      ],
-      "use_when": "Use when defining agent behavior to write a specification before implementation and stop for approval before planning.",
-      "provides": [
-        "Write a specification before implementation and stop for approval before planning"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-update-the-living-specification-before-implementing-changed-decisions",
-      "title": "Update the living specification before implementing changed decisions",
-      "principle": "Update the living specification before implementing changed decisions",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "update",
-        "the",
-        "living",
-        "specification",
-        "before",
-        "implementing",
-        "changed",
-        "decisions"
-      ],
-      "use_when": "Use when defining agent behavior to update the living specification before implementing changed decisions.",
-      "provides": [
-        "Update the living specification before implementing changed decisions"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-build-dependency-ordered-verifiable-task-slices-without-implementing-during-planning",
       "title": "Build dependency-ordered, verifiable task slices without implementing during planning",
       "principle": "Build dependency-ordered, verifiable task slices without implementing during planning",
@@ -3671,6 +3564,43 @@
         "Validate authored skills, referenced files, and structural examples",
         "Check existing skills, active proposals, and rejected changes before introducing a new skill",
         "Record rejected skill changes with evaluation evidence in an append-only ledger"
+      ],
+      "related": []
+    },
+    {
+      "id": "approved-specifications-capability-dependencies-and-living-decisions",
+      "title": "Approved Specifications, Capability Dependencies, and Living Decisions",
+      "path": "approved-specifications-capability-dependencies-and-living-decisions.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "premature-completion",
+        "responsibility-overlap"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "planning",
+        "review"
+      ],
+      "keywords": [
+        "approved",
+        "specifications",
+        "capability",
+        "dependencies",
+        "and",
+        "living",
+        "decisions"
+      ],
+      "use_when": "Implementation drifts when agents plan before requirements are approved, hide module dependencies inside code, or leave changed decisions only in conversation. Gate each phase on an approved, versioned specification that stays current.",
+      "provides": [
+        "Approve the capability dependency map before specifying a multi-module initiative",
+        "Write a specification before implementation and stop for approval before planning",
+        "Update the living specification before implementing changed decisions"
       ],
       "related": []
     }

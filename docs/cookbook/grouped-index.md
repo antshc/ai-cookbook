@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 237 covered, 7 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 240 covered, 4 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -47,8 +47,8 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Retries and shared state](#retries-and-shared-state) | 3 | 3 | 0 |
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 2 | 0 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 3 | 0 |
-| [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **237** | **7** |
+| [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 3 | 4 |
+| **Total** | **244** | **240** | **4** |
 
 ## Completion checks
 
@@ -465,8 +465,8 @@ Which approved specification and dependency order define independently verifiabl
 
 - [ ] **Sequence changes as independently verifiable units** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
 - [ ] **Validate multi-phase plans with an executable checker before handoff** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md)
-- [ ] **Approve the capability dependency map before specifying a multi-module initiative** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
-- [ ] **Write a specification before implementation and stop for approval before planning** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
-- [ ] **Update the living specification before implementing changed decisions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
+- [x] **Approve the capability dependency map before specifying a multi-module initiative** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md)
+- [x] **Write a specification before implementation and stop for approval before planning** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md)
+- [x] **Update the living specification before implementing changed decisions** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md)
 - [ ] **Build dependency-ordered, verifiable task slices without implementing during planning** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
 - [ ] **Implement complete vertical slices with test, verification, and commit gates** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
