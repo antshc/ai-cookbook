@@ -50,6 +50,21 @@ class BuildTests(unittest.TestCase):
                 self.assertEqual(m['covered_principles'],[])
         self.assertEqual(sum(len(m['covered_principles']) for m in index['materials']), sum(r['covered'] for r in builder.coverage().values()))
 
+    def test_complete_browser_hides_recipe_needed_ui(self):
+        data=builder.derived(self.catalog,builder.coverage())
+        body=builder.browser_body(self.catalog,data)
+        self.assertNotIn('<option value="source-only">Recipe needed</option>',body)
+        self.assertNotIn('“Recipe needed” entries link to source evidence.',body)
+
+    def test_browser_shows_recipe_needed_ui_when_sources_remain(self):
+        data={'materials':[{
+            'kind':'source-only','title':'Pending practice','url':'https://example.com/source',
+            'use_when':'Use when coverage is pending.','problems':['skill-routing']
+        }]}
+        body=builder.browser_body(self.catalog,data)
+        self.assertIn('<option value="source-only">Recipe needed</option>',body)
+        self.assertIn('“Recipe needed” entries link to source evidence.',body)
+
     def test_duplicate_ids_fail_validation(self):
         catalog=copy.deepcopy(self.catalog)
         catalog['materials'].append(catalog['materials'][0])

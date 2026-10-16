@@ -199,6 +199,7 @@ def page(title, body, dest, catalog, default_problem=''):
 
 def browser_body(catalog, data, problem=''):
     chosen = next((p for p in catalog['problems'] if p['id'] == problem), None)
+    has_source_only = any(m['kind'] == 'source-only' for m in data['materials'])
     heading = chosen['title'] if chosen else 'Better instructions.\nMore reliable agents.'
     desc = chosen['description'] if chosen else 'A practical cookbook for engineers writing skills, agents, instructions, and templates. Start with the problem you need to solve.'
     body = '<section class="hero"><p class="eyebrow">THE ENGINEER’S FIELD GUIDE</p><h1>' + escape(heading).replace('\n','<br>') + '</h1><p class="intro">' + escape(desc) + '</p></section>'
@@ -207,9 +208,15 @@ def browser_body(catalog, data, problem=''):
         for i,p in enumerate(catalog['problems'],1):
             body += f'<a class="chapter" href="problems/{p["id"]}.html"><span class="chapter-no">{i:02}</span><span>{escape(p["title"])}</span><span aria-hidden="true">↗</span></a>'
         body += '</section>'
-    body += '<section class="library" aria-labelledby="library-title"><div class="section-heading"><h2 id="library-title">Find a practice</h2><a href="{{ROOT}}docs/cookbook/index.html">Coverage checklist ↗</a></div><p class="hint">Recipes contain actionable instructions. “Recipe needed” entries link to source evidence.</p>'
+    hint = 'Recipes contain actionable instructions.'
+    if has_source_only:
+        hint += ' “Recipe needed” entries link to source evidence.'
+    body += '<section class="library" aria-labelledby="library-title"><div class="section-heading"><h2 id="library-title">Find a practice</h2><a href="{{ROOT}}docs/cookbook/index.html">Coverage checklist ↗</a></div><p class="hint">' + hint + '</p>'
     body += '<form id="filters" role="search"><label class="search-label">Search practices<input id="search" name="q" type="search" placeholder="Try triggers, handoffs, or completion…" autocomplete="off"></label><div class="filter-row">'
-    for id,label,options in [('problem','Problem',[(p['id'],p['title']) for p in catalog['problems']]),('artifact','Artifact',[(a,a.title()) for a in catalog['artifact_types']]),('task','Task type',[(t,t.title()) for t in catalog['task_types']]),('kind','Material',[('recipe','Recipes'),('reference','References'),('template','Templates'),('source-only','Recipe needed')])]:
+    material_options = [('recipe','Recipes'),('reference','References'),('template','Templates')]
+    if has_source_only:
+        material_options.append(('source-only','Recipe needed'))
+    for id,label,options in [('problem','Problem',[(p['id'],p['title']) for p in catalog['problems']]),('artifact','Artifact',[(a,a.title()) for a in catalog['artifact_types']]),('task','Task type',[(t,t.title()) for t in catalog['task_types']]),('kind','Material',material_options)]:
         body += f'<label>{label}<select id="{id}" name="{id}"><option value="">All {label.lower()}s</option>' + ''.join(f'<option value="{escape(v)}"'+(' selected' if id=='problem' and v==problem else '')+f'>{escape(t)}</option>' for v,t in options) + '</select></label>'
     body += '</div><button id="reset" class="text-button" type="button">Clear filters</button></form><p id="count" role="status" aria-live="polite"></p><div id="results" class="cards">'
     records = [m for m in data['materials'] if not problem or problem in m['problems']]
