@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 77/82 recipes complete; 231/244 principles covered.**
+**Progress: 78/82 recipes complete; 232/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -132,7 +132,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R75. Behavior-Preserving Refactoring and Protected Source Blocks** — NEW (5 principles). [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
 - [x] **R76. Subtract Complexity, Reduce Reader Load, and Fix Suppressions** — NEW (4 principles). [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
 - [x] **R77. Idempotent Operations, Retry Keys, and Unknown Outcomes** — NEW (2 principles). [recipe](idempotent-operations-retry-keys-and-unknown-outcomes.md).
-- [ ] **R78. Separate Shared Mutable State before Locking** — NEW (1 principles).
+- [x] **R78. Separate Shared Mutable State before Locking** — NEW (1 principles). [recipe](separate-shared-mutable-state-before-locking.md).
 - [ ] **R79. Rerunnable Tools and Automated Mechanical Refactors** — NEW (2 principles).
 ### Skill maintenance and delivery slices
 
@@ -764,7 +764,7 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Separate shared mutable state before using locks** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md).
+- [x] **Separate shared mutable state before using locks** — [recipe](separate-shared-mutable-state-before-locking.md).
 
 ### R79. Rerunnable Tools and Automated Mechanical Refactors
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 231 |
-| Principles still awaiting coverage | 13 |
+| Already covered principles | 232 |
+| Principles still awaiting coverage | 12 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

@@ -68,7 +68,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Optimize planned migrations for a verified final state** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [x] **Prove the real artifact rather than trusting proxies or reports** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [x] **Redesign new requirements as foundational constraints** — [recipe](domain-models-foundational-constraints-and-invalid-states.md)
-- [ ] **Separate shared mutable state before using locks** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md)
+- [x] **Separate shared mutable state before using locks** — [recipe](separate-shared-mutable-state-before-locking.md)
 - [ ] **Sequence changes as independently verifiable units** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
 - [x] **Remove dead or redundant complexity before additions** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md)
 - [x] **Test observable behavior with exact expected results** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)

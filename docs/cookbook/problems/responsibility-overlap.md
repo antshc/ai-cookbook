@@ -19,6 +19,7 @@ Give each procedure and responsibility one clear owner.
 - [Quality Floors, Measurable Thresholds, and Controlled Exceptions](../quality-floors-measurable-thresholds-and-controlled-exceptions.md)
 - [Reference-Grounded UI Contracts and Visual Parity](../reference-grounded-ui-contracts-and-visual-parity.md)
 - [Subtract Complexity, Reduce Reader Load, and Fix Suppressions](../subtract-complexity-reduce-reader-load-and-fix-suppressions.md)
+- [Separate Shared Mutable State before Locking](../separate-shared-mutable-state-before-locking.md)
 
 ## References
 
@@ -32,7 +33,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Separate shared mutable state before using locks](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md)
 - [Approve the capability dependency map before specifying a multi-module initiative](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)
