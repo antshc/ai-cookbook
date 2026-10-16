@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 74/82 recipes complete; 220/244 principles covered.**
+**Progress: 75/82 recipes complete; 225/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -129,7 +129,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R74. Live Browser Evidence, Accessibility, and UI State Coverage** — NEW (2 principles). [recipe](live-browser-evidence-accessibility-and-ui-state-coverage.md).
 ### Simplification and repeatability
 
-- [ ] **R75. Behavior-Preserving Refactoring and Protected Source Blocks** — NEW (5 principles).
+- [x] **R75. Behavior-Preserving Refactoring and Protected Source Blocks** — NEW (5 principles). [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
 - [ ] **R76. Subtract Complexity, Reduce Reader Load, and Fix Suppressions** — NEW (4 principles).
 - [ ] **R77. Idempotent Operations, Retry Keys, and Unknown Outcomes** — NEW (2 principles).
 - [ ] **R78. Separate Shared Mutable State before Locking** — NEW (1 principles).
@@ -738,11 +738,11 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Pin existing behavior before structural refactoring** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md).
-- [ ] **Behavior-preserving agent review** — [source](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md).
-- [ ] **Understand why existing code exists before simplifying or deleting it** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md).
-- [ ] **Refactor incrementally without changing test expectations to force a pass** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md).
-- [ ] **Mask protected source blocks during agent simplification and restore them from verified placeholders or backups** — [source](https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md).
+- [x] **Pin existing behavior before structural refactoring** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
+- [x] **Behavior-preserving agent review** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
+- [x] **Understand why existing code exists before simplifying or deleting it** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
+- [x] **Refactor incrementally without changing test expectations to force a pass** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
+- [x] **Mask protected source blocks during agent simplification and restore them from verified placeholders or backups** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
 
 ### R76. Subtract Complexity, Reduce Reader Load, and Fix Suppressions
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 220 |
-| Principles still awaiting coverage | 24 |
+| Already covered principles | 225 |
+| Principles still awaiting coverage | 19 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

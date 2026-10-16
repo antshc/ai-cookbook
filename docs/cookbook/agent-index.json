@@ -1127,38 +1127,6 @@
       ]
     },
     {
-      "id": "principle-behavior-preserving-agent-review",
-      "title": "Behavior-preserving agent review",
-      "principle": "Behavior-preserving agent review",
-      "path": "https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "behavior",
-        "preserving",
-        "agent",
-        "review"
-      ],
-      "use_when": "Use when defining agent behavior to behavior-preserving agent review.",
-      "provides": [
-        "Behavior-preserving agent review"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-build-a-rerunnable-tool-for-nontrivial-work",
       "title": "Build a rerunnable tool for nontrivial work",
       "principle": "Build a rerunnable tool for nontrivial work",
@@ -1478,40 +1446,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-pin-existing-behavior-before-structural-refactoring",
-      "title": "Pin existing behavior before structural refactoring",
-      "principle": "Pin existing behavior before structural refactoring",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "pin",
-        "existing",
-        "behavior",
-        "before",
-        "structural",
-        "refactoring"
-      ],
-      "use_when": "Use when defining agent behavior to pin existing behavior before structural refactoring.",
-      "provides": [
-        "Pin existing behavior before structural refactoring"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-validate-multi-phase-plans-with-an-executable-checker-before-handoff",
       "title": "Validate multi-phase plans with an executable checker before handoff",
       "principle": "Validate multi-phase plans with an executable checker before handoff",
@@ -1781,82 +1715,6 @@
       "covered_principles": []
     },
     {
-      "id": "principle-understand-why-existing-code-exists-before-simplifying-or-deleting-it",
-      "title": "Understand why existing code exists before simplifying or deleting it",
-      "principle": "Understand why existing code exists before simplifying or deleting it",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "understand",
-        "why",
-        "existing",
-        "code",
-        "exists",
-        "before",
-        "simplifying",
-        "or",
-        "deleting",
-        "it"
-      ],
-      "use_when": "Use when defining agent behavior to understand why existing code exists before simplifying or deleting it.",
-      "provides": [
-        "Understand why existing code exists before simplifying or deleting it"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-refactor-incrementally-without-changing-test-expectations-to-force-a-pass",
-      "title": "Refactor incrementally without changing test expectations to force a pass",
-      "principle": "Refactor incrementally without changing test expectations to force a pass",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "refactor",
-        "incrementally",
-        "without",
-        "changing",
-        "test",
-        "expectations",
-        "to",
-        "force",
-        "a",
-        "pass"
-      ],
-      "use_when": "Use when defining agent behavior to refactor incrementally without changing test expectations to force a pass.",
-      "provides": [
-        "Refactor incrementally without changing test expectations to force a pass"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md",
-      "covered_principles": []
-    },
-    {
       "id": "principle-automate-wide-mechanical-refactors-instead-of-hand-editing-large-change-sets",
       "title": "Automate wide mechanical refactors instead of hand-editing large change sets",
       "principle": "Automate wide mechanical refactors instead of hand-editing large change sets",
@@ -1893,49 +1751,6 @@
       "related": [],
       "status": "recipe-needed",
       "url": "https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md",
-      "covered_principles": []
-    },
-    {
-      "id": "principle-mask-protected-source-blocks-during-agent-simplification-and-restore-them-from-verified-placeholders-or-backups",
-      "title": "Mask protected source blocks during agent simplification and restore them from verified placeholders or backups",
-      "principle": "Mask protected source blocks during agent simplification and restore them from verified placeholders or backups",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "mask",
-        "protected",
-        "source",
-        "blocks",
-        "during",
-        "agent",
-        "simplification",
-        "and",
-        "restore",
-        "them",
-        "from",
-        "verified",
-        "placeholders",
-        "or",
-        "backups"
-      ],
-      "use_when": "Use when defining agent behavior to mask protected source blocks during agent simplification and restore them from verified placeholders or backups.",
-      "provides": [
-        "Mask protected source blocks during agent simplification and restore them from verified placeholders or backups"
-      ],
-      "related": [],
-      "status": "recipe-needed",
-      "url": "https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md",
       "covered_principles": []
     },
     {
@@ -5163,6 +4978,53 @@
       "covered_principles": [
         "Verify responsive and accessible UI states including empty, loading, and error flows",
         "Verify browser changes against live DOM, console, network, and before-after screenshots"
+      ]
+    },
+    {
+      "id": "behavior-preserving-refactoring-and-protected-source-blocks",
+      "title": "Behavior-Preserving Refactoring and Protected Source Blocks",
+      "path": "docs/cookbook/behavior-preserving-refactoring-and-protected-source-blocks.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "missing-context",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "behavior",
+        "preserving",
+        "refactoring",
+        "and",
+        "protected",
+        "source",
+        "blocks"
+      ],
+      "use_when": "Refactoring agents can mistake structural cleanup for permission to change behavior, delete intentional complexity, or rewrite protected performance-sensitive code. Pin the contract first, limit edits to proven cleanup, and mask protected blocks.",
+      "provides": [
+        "Pin existing behavior before structural refactoring",
+        "Behavior-preserving agent review",
+        "Understand why existing code exists before simplifying or deleting it",
+        "Refactor incrementally without changing test expectations to force a pass",
+        "Mask protected source blocks during agent simplification and restore them from verified placeholders or backups"
+      ],
+      "related": [],
+      "status": "recipe",
+      "url": "docs/cookbook/behavior-preserving-refactoring-and-protected-source-blocks.html",
+      "covered_principles": [
+        "Behavior-preserving agent review",
+        "Pin existing behavior before structural refactoring",
+        "Understand why existing code exists before simplifying or deleting it",
+        "Refactor incrementally without changing test expectations to force a pass",
+        "Mask protected source blocks during agent simplification and restore them from verified placeholders or backups"
       ]
     }
   ]

@@ -16,7 +16,7 @@ Tracks reusable AI-agent practices found in this repository and explicitly scann
 - [x] **Improvement flywheel (classify and fix observed failures)** — [recipe](improvement-flywheel-and-enforced-lessons.md)
 - [x] **Canary rule verification** — [recipe](instruction-loading-and-canary-checks.md)
 - [x] **Focused functional-slice testing** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
-- [ ] **Behavior-preserving agent review** — [source](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md)
+- [x] **Behavior-preserving agent review** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md)
 
 ## Instructions and drafting
 
@@ -112,7 +112,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 
 ### Testing and delivery workflows
 
-- [ ] **Pin existing behavior before structural refactoring** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md)
+- [x] **Pin existing behavior before structural refactoring** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md)
 - [x] **Run a failing regression check before fixing a bug** — [recipe](red-green-refactor-and-failing-regression-tests.md)
 - [x] **Create a repository-specific live verification harness** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md)
 - [x] **Maintain verification feature maps with source and live checks** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md)
@@ -258,14 +258,14 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Review correctness, readability, architecture, security, and performance, reading tests first** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
 - [x] **Classify review findings by severity and lead with required, evidenced changes** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
 - [x] **Keep review changes cohesive and consider total file size as well as diff size** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
-- [ ] **Understand why existing code exists before simplifying or deleting it** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
-- [ ] **Refactor incrementally without changing test expectations to force a pass** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
+- [x] **Understand why existing code exists before simplifying or deleting it** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md)
+- [x] **Refactor incrementally without changing test expectations to force a pass** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md)
 - [ ] **Automate wide mechanical refactors instead of hand-editing large change sets** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [x] **Parallelize independent specialist reviews, but keep aggregation with the orchestrator** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md)
 - [x] **Do not make agent personas invoke other personas or add routing-only hops** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 
 - [x] **Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md)
-- [ ] **Mask protected source blocks during agent simplification and restore them from verified placeholders or backups** — [source](https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md)
+- [x] **Mask protected source blocks during agent simplification and restore them from verified placeholders or backups** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md)
 
 ### Security and trust boundaries
 
