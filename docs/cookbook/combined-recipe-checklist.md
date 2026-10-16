@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 2/82 recipes complete; 8/244 principles covered.**
+**Progress: 82/82 recipes complete; 244/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -55,90 +55,90 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Ownership and delegation
 
 - [x] **R24. Bounded Agent Roles, Single Ownership, and Composition** — NEW (5 principles). [recipe](bounded-agent-roles-single-ownership-and-composition.md).
-- [ ] **R25. Template Ownership of Rendering** — NEW (1 principles).
-- [ ] **R26. Skill-Owned Code and Supporting Files** — NEW (1 principles).
-- [ ] **R27. Repository Adapters, Resource Access, and Portable Skills** — NEW (6 principles).
-- [ ] **R28. Agent-Agnostic Contracts and Structured CLI Handoffs** — NEW (2 principles).
-- [ ] **R29. Scoped Parallel Workers, Bounded Implementation, and Aggregation** — NEW (4 principles).
-- [ ] **R30. Delegated Worker Permissions and Centralized External Writes** — NEW (1 principles).
+- [x] **R25. Template Ownership of Rendering** — NEW (1 principles). [recipe](template-ownership-of-rendering.md).
+- [x] **R26. Skill-Owned Code and Supporting Files** — NEW (1 principles). [recipe](skill-owned-code-and-supporting-files.md).
+- [x] **R27. Repository Adapters, Resource Access, and Portable Skills** — NEW (6 principles). [recipe](repository-adapters-resource-access-and-portable-skills.md).
+- [x] **R28. Agent-Agnostic Contracts and Structured CLI Handoffs** — NEW (2 principles). [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md).
+- [x] **R29. Scoped Parallel Workers, Bounded Implementation, and Aggregation** — NEW (4 principles). [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md).
+- [x] **R30. Delegated Worker Permissions and Centralized External Writes** — NEW (1 principles). [recipe](delegated-worker-permissions-and-centralized-external-writes.md).
 ### Worker lifecycle and autonomy
 
-- [ ] **R31. Worker Configuration, Fresh Sessions, and Standing Orders** — NEW (3 principles).
-- [ ] **R32. Pilot Runs, Rolling Worker Windows, and Progress Monitoring** — NEW (4 principles).
-- [ ] **R33. Single Coordinator for Shared PR Stack Topology** — NEW (1 principles).
-- [ ] **R34. Fixed Stop Conditions and Immediate Stop Propagation** — NEW (2 principles).
-- [ ] **R35. Reversible Autonomy, Approval Gates, and Uncertain Targets** — NEW (6 principles).
+- [x] **R31. Worker Configuration, Fresh Sessions, and Standing Orders** — NEW (3 principles). [recipe](worker-configuration-fresh-sessions-and-standing-orders.md).
+- [x] **R32. Pilot Runs, Rolling Worker Windows, and Progress Monitoring** — NEW (4 principles). [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
+- [x] **R33. Single Coordinator for Shared PR Stack Topology** — NEW (1 principles). [recipe](single-coordinator-for-shared-pr-stack-topology.md).
+- [x] **R34. Fixed Stop Conditions and Immediate Stop Propagation** — NEW (2 principles). [recipe](fixed-stop-conditions-and-immediate-stop-propagation.md).
+- [x] **R35. Reversible Autonomy, Approval Gates, and Uncertain Targets** — NEW (6 principles). [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
 ### Intent and design
 
-- [ ] **R36. Clarify Intent, Surface Assumptions, and Challenge Scope** — NEW (5 principles).
-- [ ] **R37. Explore Alternatives and Test MVP Assumptions** — NEW (2 principles).
-- [ ] **R38. Consumer-First Design, Public Contracts, and Usage Guides** — NEW (4 principles).
-- [ ] **R39. Domain Models, Foundational Constraints, and Invalid States** — NEW (4 principles).
-- [ ] **R40. Competing Designs, Prototype Experiments, and Cross-Judging** — NEW (3 principles).
-- [ ] **R41. Architecture Sketches, Structural Red Flags, and Design Rationale** — NEW (3 principles).
+- [x] **R36. Clarify Intent, Surface Assumptions, and Challenge Scope** — NEW (5 principles). [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
+- [x] **R37. Explore Alternatives and Test MVP Assumptions** — NEW (2 principles). [recipe](explore-alternatives-and-test-mvp-assumptions.md).
+- [x] **R38. Consumer-First Design, Public Contracts, and Usage Guides** — NEW (4 principles). [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
+- [x] **R39. Domain Models, Foundational Constraints, and Invalid States** — NEW (4 principles). [recipe](domain-models-foundational-constraints-and-invalid-states.md).
+- [x] **R40. Competing Designs, Prototype Experiments, and Cross-Judging** — NEW (3 principles). [recipe](competing-designs-prototype-experiments-and-cross-judging.md).
+- [x] **R41. Architecture Sketches, Structural Red Flags, and Design Rationale** — NEW (3 principles). [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md).
 ### Review
 
-- [ ] **R42. Independent Evidence-Based Review, Severity, and Reconciliation** — NEW (7 principles).
-- [ ] **R43. CI Failure Classification and Review Comment Triage** — NEW (2 principles).
+- [x] **R42. Independent Evidence-Based Review, Severity, and Reconciliation** — NEW (7 principles). [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **R43. CI Failure Classification and Review Comment Triage** — NEW (2 principles). [recipe](ci-failure-classification-and-review-comment-triage.md).
 ### Performance
 
-- [ ] **R44. Reproducible Benchmarks, Frozen Baselines, and Honest Metrics** — NEW (5 principles).
-- [ ] **R45. User-Visible Bottlenecks, Work Elimination, and Regression Monitoring** — NEW (3 principles).
+- [x] **R44. Reproducible Benchmarks, Frozen Baselines, and Honest Metrics** — NEW (5 principles). [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
+- [x] **R45. User-Visible Bottlenecks, Work Elimination, and Regression Monitoring** — NEW (3 principles). [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md).
 ### Trust and security
 
-- [ ] **R46. Untrusted Content and Prompt Injection Boundaries** — NEW (3 principles).
-- [ ] **R47. Boundary Validation, Threat Models, and Abuse Cases** — NEW (3 principles).
-- [ ] **R48. Secret Protection, Resource Authorization, and Personal Data Minimization** — NEW (4 principles).
-- [ ] **R49. Isolated Browser Profiles and Read-Only Inspection** — NEW (2 principles).
-- [ ] **R50. Safe Destructive Paths and Dependency Install Controls** — NEW (2 principles).
+- [x] **R46. Untrusted Content and Prompt Injection Boundaries** — NEW (3 principles). [recipe](untrusted-content-and-prompt-injection-boundaries.md).
+- [x] **R47. Boundary Validation, Threat Models, and Abuse Cases** — NEW (3 principles). [recipe](boundary-validation-threat-models-and-abuse-cases.md).
+- [x] **R48. Secret Protection, Resource Authorization, and Personal Data Minimization** — NEW (4 principles). [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md).
+- [x] **R49. Isolated Browser Profiles and Read-Only Inspection** — NEW (2 principles). [recipe](isolated-browser-profiles-and-read-only-inspection.md).
+- [x] **R50. Safe Destructive Paths and Dependency Install Controls** — NEW (2 principles). [recipe](safe-destructive-paths-and-dependency-install-controls.md).
 ### Configuration and Git
 
-- [ ] **R51. Repository Configuration, Local Edits, and Committed Automation Files** — NEW (3 principles).
-- [ ] **R52. Least-Privilege Tool Restrictions versus Preapproval** — NEW (1 principles).
-- [ ] **R53. Version-Matched Official Sources and Cache Revalidation** — NEW (3 principles).
-- [ ] **R54. Task-Scoped Staging and Atomic Verified Commits** — NEW (3 principles).
-- [ ] **R55. Isolated Worktrees and Safe Workspace Cleanup** — NEW (2 principles).
+- [x] **R51. Repository Configuration, Local Edits, and Committed Automation Files** — NEW (3 principles). [recipe](repository-configuration-local-edits-and-committed-automation-files.md).
+- [x] **R52. Least-Privilege Tool Restrictions versus Preapproval** — NEW (1 principles). [recipe](least-privilege-tool-restrictions-versus-preapproval.md).
+- [x] **R53. Version-Matched Official Sources and Cache Revalidation** — NEW (3 principles). [recipe](version-matched-official-sources-and-cache-revalidation.md).
+- [x] **R54. Task-Scoped Staging and Atomic Verified Commits** — NEW (3 principles). [recipe](task-scoped-staging-and-atomic-verified-commits.md).
+- [x] **R55. Isolated Worktrees and Safe Workspace Cleanup** — NEW (2 principles). [recipe](isolated-worktrees-and-safe-workspace-cleanup.md).
 ### Migration and release
 
-- [ ] **R56. Consumer Migration, Safe Deprecation, and Legacy Retirement** — NEW (4 principles).
-- [ ] **R57. Additive Schema Migration and Tested Rollback** — NEW (1 principles).
-- [ ] **R58. Safe Feature Flags and Post-Rollout Cleanup** — NEW (2 principles).
-- [ ] **R59. Semantic Releases, Tags, and Human Changelogs** — NEW (1 principles).
-- [ ] **R60. Launch Gates, Staged Rollout, Health Checks, and Rollback** — NEW (3 principles).
+- [x] **R56. Consumer Migration, Safe Deprecation, and Legacy Retirement** — NEW (4 principles). [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
+- [x] **R57. Additive Schema Migration and Tested Rollback** — NEW (1 principles). [recipe](additive-schema-migration-and-tested-rollback.md).
+- [x] **R58. Safe Feature Flags and Post-Rollout Cleanup** — NEW (2 principles). [recipe](safe-feature-flags-and-post-rollout-cleanup.md).
+- [x] **R59. Semantic Releases, Tags, and Human Changelogs** — NEW (1 principles). [recipe](semantic-releases-tags-and-human-changelogs.md).
+- [x] **R60. Launch Gates, Staged Rollout, Health Checks, and Rollback** — NEW (3 principles). [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md).
 ### Operations and evaluation
 
-- [ ] **R61. Question-Driven Telemetry, Correlation, and Actionable Alerts** — NEW (3 principles).
-- [ ] **R62. Controlled Skill Evaluations, Observable Traces, and Repeated Trials** — NEW (5 principles).
-- [ ] **R63. Pressure Tests for Instruction Compliance** — NEW (1 principles).
+- [x] **R61. Question-Driven Telemetry, Correlation, and Actionable Alerts** — NEW (3 principles). [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md).
+- [x] **R62. Controlled Skill Evaluations, Observable Traces, and Repeated Trials** — NEW (5 principles). [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
+- [x] **R63. Pressure Tests for Instruction Compliance** — NEW (1 principles). [recipe](pressure-tests-for-instruction-compliance.md).
 ### Documentation and evidence
 
-- [ ] **R64. Audience-Focused Documentation, Clear Prose, and Preserved Facts** — NEW (4 principles).
-- [ ] **R65. Concise Delivery Reports for Users and Maintainers** — NEW (2 principles).
-- [ ] **R66. Append-Only Decision Trails, Audit, and Independent Review** — NEW (3 principles).
-- [ ] **R67. Architecture Decision Records, Alternatives, and Supersession** — NEW (1 principles).
-- [ ] **R68. Code-Path Investigation and Evidence-Calibrated Rationale** — NEW (3 principles).
-- [ ] **R69. Scoped Evidence Collection, Query Logs, and Contradictions** — NEW (2 principles).
+- [x] **R64. Audience-Focused Documentation, Clear Prose, and Preserved Facts** — NEW (4 principles). [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
+- [x] **R65. Concise Delivery Reports for Users and Maintainers** — NEW (2 principles). [recipe](concise-delivery-reports-for-users-and-maintainers.md).
+- [x] **R66. Append-Only Decision Trails, Audit, and Independent Review** — NEW (3 principles). [recipe](append-only-decision-trails-audit-and-independent-review.md).
+- [x] **R67. Architecture Decision Records, Alternatives, and Supersession** — NEW (1 principles). [recipe](architecture-decision-records-alternatives-and-supersession.md).
+- [x] **R68. Code-Path Investigation and Evidence-Calibrated Rationale** — NEW (3 principles). [recipe](code-path-investigation-and-evidence-calibrated-rationale.md).
+- [x] **R69. Scoped Evidence Collection, Query Logs, and Contradictions** — NEW (2 principles). [recipe](scoped-evidence-collection-query-logs-and-contradictions.md).
 ### External writes and quality
 
-- [ ] **R70. Trusted Triage, Provenance, Deduplication, and Compensating Writes** — NEW (3 principles).
-- [ ] **R71. Quality Floors, Measurable Thresholds, and Controlled Exceptions** — NEW (3 principles).
-- [ ] **R72. Non-Bypassable Quality Gates and Fail-Closed Verification** — NEW (3 principles).
+- [x] **R70. Trusted Triage, Provenance, Deduplication, and Compensating Writes** — NEW (3 principles). [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md).
+- [x] **R71. Quality Floors, Measurable Thresholds, and Controlled Exceptions** — NEW (3 principles). [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md).
+- [x] **R72. Non-Bypassable Quality Gates and Fail-Closed Verification** — NEW (3 principles). [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md).
 ### UI verification
 
-- [ ] **R73. Reference-Grounded UI Contracts and Visual Parity** — NEW (2 principles).
-- [ ] **R74. Live Browser Evidence, Accessibility, and UI State Coverage** — NEW (2 principles).
+- [x] **R73. Reference-Grounded UI Contracts and Visual Parity** — NEW (2 principles). [recipe](reference-grounded-ui-contracts-and-visual-parity.md).
+- [x] **R74. Live Browser Evidence, Accessibility, and UI State Coverage** — NEW (2 principles). [recipe](live-browser-evidence-accessibility-and-ui-state-coverage.md).
 ### Simplification and repeatability
 
-- [ ] **R75. Behavior-Preserving Refactoring and Protected Source Blocks** — NEW (5 principles).
-- [ ] **R76. Subtract Complexity, Reduce Reader Load, and Fix Suppressions** — NEW (4 principles).
-- [ ] **R77. Idempotent Operations, Retry Keys, and Unknown Outcomes** — NEW (2 principles).
-- [ ] **R78. Separate Shared Mutable State before Locking** — NEW (1 principles).
-- [ ] **R79. Rerunnable Tools and Automated Mechanical Refactors** — NEW (2 principles).
+- [x] **R75. Behavior-Preserving Refactoring and Protected Source Blocks** — NEW (5 principles). [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
+- [x] **R76. Subtract Complexity, Reduce Reader Load, and Fix Suppressions** — NEW (4 principles). [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
+- [x] **R77. Idempotent Operations, Retry Keys, and Unknown Outcomes** — NEW (2 principles). [recipe](idempotent-operations-retry-keys-and-unknown-outcomes.md).
+- [x] **R78. Separate Shared Mutable State before Locking** — NEW (1 principles). [recipe](separate-shared-mutable-state-before-locking.md).
+- [x] **R79. Rerunnable Tools and Automated Mechanical Refactors** — NEW (2 principles). [recipe](rerunnable-tools-and-automated-mechanical-refactors.md).
 ### Skill maintenance and delivery slices
 
-- [ ] **R80. Skill Validation, Proposal Checks, and Rejected-Change Ledgers** — NEW (3 principles).
-- [ ] **R81. Approved Specifications, Capability Dependencies, and Living Decisions** — NEW (3 principles).
-- [ ] **R82. Dependency-Ordered Vertical Slices and Executable Plan Checks** — NEW (4 principles).
+- [x] **R80. Skill Validation, Proposal Checks, and Rejected-Change Ledgers** — NEW (3 principles). [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md).
+- [x] **R81. Approved Specifications, Capability Dependencies, and Living Decisions** — NEW (3 principles). [recipe](approved-specifications-capability-dependencies-and-living-decisions.md).
+- [x] **R82. Dependency-Ordered Vertical Slices and Executable Plan Checks** — NEW (4 principles). [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md).
 
 ## Exact principle-to-recipe mapping
 
@@ -345,458 +345,458 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Template ownership of rendering** — [source](https://github.com/antshc/brain/blob/main/.github/instructions/agent-skills.instructions.md).
+- [x] **Template ownership of rendering** — [recipe](template-ownership-of-rendering.md).
 
 ### R26. Skill-Owned Code and Supporting Files
 
 **Action:** Write new recipe.
 
-- [ ] **Skill-owned code** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-skill-owned-code.md).
+- [x] **Skill-owned code** — [recipe](skill-owned-code-and-supporting-files.md).
 
 ### R27. Repository Adapters, Resource Access, and Portable Skills
 
 **Action:** Write new recipe.
 
-- [ ] **Repository adapter skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-repository-adapter-skill.md).
-- [ ] **Resource access skills** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/structure-resource-access-skill.md).
-- [ ] **Keep reusable skills separate from repository-specific agent instructions during installation** — [source](https://github.com/addyosmani/agent-skills/blob/main/AGENTS.md).
-- [ ] **Include required shared references when distributing an individual skill outside its original pack** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/getting-started.md).
-- [ ] **Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md).
-- [ ] **Validate that equivalent host command adapters stay semantically aligned** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/developer-onboarding.md).
+- [x] **Repository adapter skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
+- [x] **Resource access skills** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
+- [x] **Keep reusable skills separate from repository-specific agent instructions during installation** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
+- [x] **Include required shared references when distributing an individual skill outside its original pack** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
+- [x] **Keep vendor runtime settings in per-agent adapters or permitted metadata, not portable skill frontmatter** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
+- [x] **Validate that equivalent host command adapters stay semantically aligned** — [recipe](repository-adapters-resource-access-and-portable-skills.md).
 
 ### R28. Agent-Agnostic Contracts and Structured CLI Handoffs
 
 **Action:** Write new recipe.
 
-- [ ] **Agent-agnostic handoff contracts** — [source](https://github.com/antshc/brain/blob/main/docs/adr/ralph-is-agent-agnostic.md).
-- [ ] **CLI JSON handoff** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/str-cli-json-handoff.md).
+- [x] **Agent-agnostic handoff contracts** — [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md).
+- [x] **CLI JSON handoff** — [recipe](agent-agnostic-contracts-and-structured-cli-handoffs.md).
 
 ### R29. Scoped Parallel Workers, Bounded Implementation, and Aggregation
 
 **Action:** Write new recipe.
 
-- [ ] **Decompose parallel work into scoped workers and aggregate results** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/swarm/SKILL.md).
-- [ ] **Delegate implementation with bounded files and success criteria, then review the diff** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/feature.md).
-- [ ] **Parallelize independent specialist reviews, but keep aggregation with the orchestrator** — [source](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md).
-- [ ] **Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out** — [source](https://github.com/addyosmani/agent-skills/blob/main/references/orchestration-patterns.md).
+- [x] **Decompose parallel work into scoped workers and aggregate results** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md).
+- [x] **Delegate implementation with bounded files and success criteria, then review the diff** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md).
+- [x] **Parallelize independent specialist reviews, but keep aggregation with the orchestrator** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md).
+- [x] **Use communicating agent teams for competing-hypothesis investigations and independent subagents for report fan-out** — [recipe](scoped-parallel-workers-bounded-implementation-and-aggregation.md).
 
 ### R30. Delegated Worker Permissions and Centralized External Writes
 
 **Action:** Write new recipe.
 
-- [ ] **Keep external writes and credentials out of delegated workers** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md).
+- [x] **Keep external writes and credentials out of delegated workers** — [recipe](delegated-worker-permissions-and-centralized-external-writes.md).
 
 ### R31. Worker Configuration, Fresh Sessions, and Standing Orders
 
 **Action:** Write new recipe.
 
-- [ ] **Configure model selection per agent responsibility** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/setup-pstack/SKILL.md).
-- [ ] **Start fresh subagents with consolidated instructions unless local state requires a resume** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md).
-- [ ] **Carry immutable standing orders into every worker spawn and resume** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md).
+- [x] **Configure model selection per agent responsibility** — [recipe](worker-configuration-fresh-sessions-and-standing-orders.md).
+- [x] **Start fresh subagents with consolidated instructions unless local state requires a resume** — [recipe](worker-configuration-fresh-sessions-and-standing-orders.md).
+- [x] **Carry immutable standing orders into every worker spawn and resume** — [recipe](worker-configuration-fresh-sessions-and-standing-orders.md).
 
 ### R32. Pilot Runs, Rolling Worker Windows, and Progress Monitoring
 
 **Action:** Write new recipe.
 
-- [ ] **Pilot a full work unit before scaling a multi-agent program** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md).
-- [ ] **Refill a rolling worker window instead of waiting for whole batches** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/orchestrate.md).
-- [ ] **Judge agent progress by actual side effects and replace stalled workers** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md).
-- [ ] **Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md).
+- [x] **Pilot a full work unit before scaling a multi-agent program** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
+- [x] **Refill a rolling worker window instead of waiting for whole batches** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
+- [x] **Judge agent progress by actual side effects and replace stalled workers** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
+- [x] **Prefer event-based agent wakeups with a heartbeat fallback over unnecessary polling** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md).
 
 ### R33. Single Coordinator for Shared PR Stack Topology
 
 **Action:** Write new recipe.
 
-- [ ] **Keep stack topology updates under one coordinator while PR owners work in parallel** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md).
+- [x] **Keep stack topology updates under one coordinator while PR owners work in parallel** — [recipe](single-coordinator-for-shared-pr-stack-topology.md).
 
 ### R34. Fixed Stop Conditions and Immediate Stop Propagation
 
 **Action:** Write new recipe.
 
-- [ ] **Propagate operator stop orders to all active agents as an immediate no-writes hold** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-full.md).
-- [ ] **Keep autonomous iterations bound to an unchanged stop predicate** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autonomous-run.md).
+- [x] **Propagate operator stop orders to all active agents as an immediate no-writes hold** — [recipe](fixed-stop-conditions-and-immediate-stop-propagation.md).
+- [x] **Keep autonomous iterations bound to an unchanged stop predicate** — [recipe](fixed-stop-conditions-and-immediate-stop-propagation.md).
 
 ### R35. Reversible Autonomy, Approval Gates, and Uncertain Targets
 
 **Action:** Write new recipe.
 
-- [ ] **Proceed on reversible work without human blocking** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-never-block-on-the-human/SKILL.md).
-- [ ] **Wait for an explicit operator go before executing an approved plan** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md).
-- [ ] **Keep verified stacked PRs unmerged until explicitly authorized** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/autopilot-stack.md).
-- [ ] **Fail closed when an external automation's target is uncertain** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md).
-- [ ] **Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md).
-- [ ] **Require explicit authorization for each external cross-model review invocation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md).
+- [x] **Proceed on reversible work without human blocking** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
+- [x] **Wait for an explicit operator go before executing an approved plan** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
+- [x] **Keep verified stacked PRs unmerged until explicitly authorized** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
+- [x] **Fail closed when an external automation's target is uncertain** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
+- [x] **Escalate irreversible or high-risk work for fresh human approval even during an approved autonomous run** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
+- [x] **Require explicit authorization for each external cross-model review invocation** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md).
 
 ### R36. Clarify Intent, Surface Assumptions, and Challenge Scope
 
 **Action:** Write new recipe.
 
-- [ ] **Reject unnecessary scope instead of reflexively agreeing** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md).
-- [ ] **Surface assumptions and stop when requirements conflict or remain uncertain** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md).
-- [ ] **Challenge unwarranted scope or complexity while leaving informed decisions to the user** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/using-agent-skills/SKILL.md).
-- [ ] **Interview for intent one question and one explicit guess at a time** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/interview-me/SKILL.md).
-- [ ] **Require explicit confirmation of the restated intent and stop before downstream work** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/interview-me/SKILL.md).
+- [x] **Reject unnecessary scope instead of reflexively agreeing** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
+- [x] **Surface assumptions and stop when requirements conflict or remain uncertain** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
+- [x] **Challenge unwarranted scope or complexity while leaving informed decisions to the user** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
+- [x] **Interview for intent one question and one explicit guess at a time** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
+- [x] **Require explicit confirmation of the restated intent and stop before downstream work** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md).
 
 ### R37. Explore Alternatives and Test MVP Assumptions
 
 **Action:** Write new recipe.
 
-- [ ] **Diverge into alternatives before converging on an evaluated idea** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md).
-- [ ] **Record and test key idea assumptions before committing to an MVP** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/idea-refine/SKILL.md).
+- [x] **Diverge into alternatives before converging on an evaluated idea** — [recipe](explore-alternatives-and-test-mvp-assumptions.md).
+- [x] **Record and test key idea assumptions before committing to an MVP** — [recipe](explore-alternatives-and-test-mvp-assumptions.md).
 
 ### R38. Consumer-First Design, Public Contracts, and Usage Guides
 
 **Action:** Write new recipe.
 
-- [ ] **Prioritize consumer experience over implementation convenience** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-experience-first/SKILL.md).
-- [ ] **Derive architecture contracts from caller usage before implementing** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md).
-- [ ] **Write a consumer usage guide before implementing a shared API** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-help/references/prompting.md).
-- [ ] **Define public contracts before implementation and preserve observable consumer behavior** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md).
+- [x] **Prioritize consumer experience over implementation convenience** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
+- [x] **Derive architecture contracts from caller usage before implementing** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
+- [x] **Write a consumer usage guide before implementing a shared API** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
+- [x] **Define public contracts before implementation and preserve observable consumer behavior** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md).
 
 ### R39. Domain Models, Foundational Constraints, and Invalid States
 
 **Action:** Write new recipe.
 
-- [ ] **Choose core data shapes and shared foundations before features** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-foundational-thinking/SKILL.md).
-- [ ] **Represent domain invariants in explicit data structures** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-model-the-domain/SKILL.md).
-- [ ] **Redesign new requirements as foundational constraints** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-redesign-from-first-principles/SKILL.md).
-- [ ] **Use types to exclude invalid states and exhaust variants** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-type-system-discipline/SKILL.md).
+- [x] **Choose core data shapes and shared foundations before features** — [recipe](domain-models-foundational-constraints-and-invalid-states.md).
+- [x] **Represent domain invariants in explicit data structures** — [recipe](domain-models-foundational-constraints-and-invalid-states.md).
+- [x] **Redesign new requirements as foundational constraints** — [recipe](domain-models-foundational-constraints-and-invalid-states.md).
+- [x] **Use types to exclude invalid states and exhaust variants** — [recipe](domain-models-foundational-constraints-and-invalid-states.md).
 
 ### R40. Competing Designs, Prototype Experiments, and Cross-Judging
 
 **Action:** Write new recipe.
 
-- [ ] **Compare competing prototypes for novel designs** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-exhaust-the-design-space/SKILL.md).
-- [ ] **Compare independent design candidates with cross-judging** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/arena/SKILL.md).
-- [ ] **Resolve observable decisions with throwaway experiments** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/prototype.md).
+- [x] **Compare competing prototypes for novel designs** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md).
+- [x] **Compare independent design candidates with cross-judging** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md).
+- [x] **Resolve observable decisions with throwaway experiments** — [recipe](competing-designs-prototype-experiments-and-cross-judging.md).
 
 ### R41. Architecture Sketches, Structural Red Flags, and Design Rationale
 
 **Action:** Write new recipe.
 
-- [ ] **Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/rationale-template.md).
-- [ ] **Sketch architecture first and redo it when structural red flags appear** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/SKILL.md).
-- [ ] **Make module internals inaccessible and expose only one supported operation path** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/architect/references/design-red-flags.md).
+- [x] **Record design alternatives, accepted tradeoffs, and rationale alongside the chosen contract** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md).
+- [x] **Sketch architecture first and redo it when structural red flags appear** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md).
+- [x] **Make module internals inaccessible and expose only one supported operation path** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md).
 
 ### R42. Independent Evidence-Based Review, Severity, and Reconciliation
 
 **Action:** Write new recipe.
 
-- [ ] **Review the implementation against declared intent and require concrete evidence per finding** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/references/reviewer-prompt.md).
-- [ ] **Classify adversarial review findings with independent judgment** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/interrogate/SKILL.md).
-- [ ] **Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md).
-- [ ] **Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/doubt-driven-development/SKILL.md).
-- [ ] **Review correctness, readability, architecture, security, and performance, reading tests first** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md).
-- [ ] **Classify review findings by severity and lead with required, evidenced changes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md).
-- [ ] **Keep review changes cohesive and consider total file size as well as diff size** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md).
+- [x] **Review the implementation against declared intent and require concrete evidence per finding** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Classify adversarial review findings with independent judgment** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Independently doubt nontrivial claims using only the artifact and contract, not the author's conclusion** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Review correctness, readability, architecture, security, and performance, reading tests first** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Classify review findings by severity and lead with required, evidenced changes** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
+- [x] **Keep review changes cohesive and consider total file size as well as diff size** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md).
 
 ### R43. CI Failure Classification and Review Comment Triage
 
 **Action:** Write new recipe.
 
-- [ ] **Classify CI failures and review comments before modifying a PR** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md).
-- [ ] **Review comments as evidence rather than automatically obeying them** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/references/bugbot-triage.md).
+- [x] **Classify CI failures and review comments before modifying a PR** — [recipe](ci-failure-classification-and-review-comment-triage.md).
+- [x] **Review comments as evidence rather than automatically obeying them** — [recipe](ci-failure-classification-and-review-comment-triage.md).
 
 ### R44. Reproducible Benchmarks, Frozen Baselines, and Honest Metrics
 
 **Action:** Write new recipe.
 
-- [ ] **Explain measured results with evidence and limiting factors** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-explain-the-number/SKILL.md).
-- [ ] **Freeze an evaluation harness and revert unsupported iterations** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/hillclimb.md).
-- [ ] **Compare performance under production-equivalent conditions and repeated alternating runs** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/benchmark-checklist/SKILL.md).
-- [ ] **Compare one optimization against an equivalent baseline and revert unproven changes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md).
-- [ ] **Never invent web performance scores without actual measurement artifacts** — [source](https://github.com/addyosmani/agent-skills/blob/main/agents/web-performance-auditor.md).
+- [x] **Explain measured results with evidence and limiting factors** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
+- [x] **Freeze an evaluation harness and revert unsupported iterations** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
+- [x] **Compare performance under production-equivalent conditions and repeated alternating runs** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
+- [x] **Compare one optimization against an equivalent baseline and revert unproven changes** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
+- [x] **Never invent web performance scores without actual measurement artifacts** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md).
 
 ### R45. User-Visible Bottlenecks, Work Elimination, and Regression Monitoring
 
 **Action:** Write new recipe.
 
-- [ ] **Remove unnecessary work before optimizing remaining performance cost** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/perf-issue.md).
-- [ ] **Measure user-visible performance and identify its bottleneck before optimizing** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md).
-- [ ] **Record rejected optimizations and install regression monitors for measured gains** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/performance-optimization/SKILL.md).
+- [x] **Remove unnecessary work before optimizing remaining performance cost** — [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md).
+- [x] **Measure user-visible performance and identify its bottleneck before optimizing** — [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md).
+- [x] **Record rejected optimizations and install regression monitors for measured gains** — [recipe](user-visible-bottlenecks-work-elimination-and-regression-monitoring.md).
 
 ### R46. Untrusted Content and Prompt Injection Boundaries
 
 **Action:** Write new recipe.
 
-- [ ] **Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/reflect/references/synthesizer.md).
-- [ ] **Treat PR review text as untrusted input rather than executable instructions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/babysit.md).
-- [ ] **Treat error output, external documentation, and browser content as untrusted instructions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/debugging-and-error-recovery/SKILL.md).
+- [x] **Treat agent transcripts and reviewer outputs as untrusted data, not executable instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md).
+- [x] **Treat PR review text as untrusted input rather than executable instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md).
+- [x] **Treat error output, external documentation, and browser content as untrusted instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md).
 
 ### R47. Boundary Validation, Threat Models, and Abuse Cases
 
 **Action:** Write new recipe.
 
-- [ ] **Validate and handle errors at system boundaries** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-boundary-discipline/SKILL.md).
-- [ ] **Threat-model system boundaries and write abuse cases before hardening a feature** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md).
-- [ ] **Validate external and model-generated data at the boundary before using it as code or decisions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md).
+- [x] **Validate and handle errors at system boundaries** — [recipe](boundary-validation-threat-models-and-abuse-cases.md).
+- [x] **Threat-model system boundaries and write abuse cases before hardening a feature** — [recipe](boundary-validation-threat-models-and-abuse-cases.md).
+- [x] **Validate external and model-generated data at the boundary before using it as code or decisions** — [recipe](boundary-validation-threat-models-and-abuse-cases.md).
 
 ### R48. Secret Protection, Resource Authorization, and Personal Data Minimization
 
 **Action:** Write new recipe.
 
-- [ ] **Keep reproduction recordings, logs, and tokens out of source control** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md).
-- [ ] **Keep automation webhook secrets on the server, never in the browser or chat** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/make-bot-ui/SKILL.md).
-- [ ] **Review authorization for every protected resource and prevent secrets entering code or logs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md).
-- [ ] **Classify personal data by purpose and exclude unnecessary personal information from telemetry** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md).
+- [x] **Keep reproduction recordings, logs, and tokens out of source control** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md).
+- [x] **Keep automation webhook secrets on the server, never in the browser or chat** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md).
+- [x] **Review authorization for every protected resource and prevent secrets entering code or logs** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md).
+- [x] **Classify personal data by purpose and exclude unnecessary personal information from telemetry** — [recipe](secret-protection-resource-authorization-and-personal-data-minimization.md).
 
 ### R49. Isolated Browser Profiles and Read-Only Inspection
 
 **Action:** Write new recipe.
 
-- [ ] **Isolate automated browser tests from personal signed-in browser profiles** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md).
-- [ ] **Keep browser JavaScript inspection read-only unless mutations are explicitly authorized** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md).
+- [x] **Isolate automated browser tests from personal signed-in browser profiles** — [recipe](isolated-browser-profiles-and-read-only-inspection.md).
+- [x] **Keep browser JavaScript inspection read-only unless mutations are explicitly authorized** — [recipe](isolated-browser-profiles-and-read-only-inspection.md).
 
 ### R50. Safe Destructive Paths and Dependency Install Controls
 
 **Action:** Write new recipe.
 
-- [ ] **Guard destructive operations against paths controlled by untrusted upstream processes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md).
-- [ ] **Block unreviewed dependency install scripts and audit the committed lockfile** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/security-and-hardening/SKILL.md).
+- [x] **Guard destructive operations against paths controlled by untrusted upstream processes** — [recipe](safe-destructive-paths-and-dependency-install-controls.md).
+- [x] **Block unreviewed dependency install scripts and audit the committed lockfile** — [recipe](safe-destructive-paths-and-dependency-install-controls.md).
 
 ### R51. Repository Configuration, Local Edits, and Committed Automation Files
 
 **Action:** Write new recipe.
 
-- [ ] **Per-repository configuration resolution** — [source](https://github.com/antshc/brain/blob/main/docs/concepts/ops-per-repo-config-resolution.md).
-- [ ] **Preserve locally edited managed files and keep user configuration outside automation packs** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md).
-- [ ] **Run automations from committed operational files rather than copied instructions or caches** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/setup-benny/SKILL.md).
+- [x] **Per-repository configuration resolution** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md).
+- [x] **Preserve locally edited managed files and keep user configuration outside automation packs** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md).
+- [x] **Run automations from committed operational files rather than copied instructions or caches** — [recipe](repository-configuration-local-edits-and-committed-automation-files.md).
 
 ### R52. Least-Privilege Tool Restrictions versus Preapproval
 
 **Action:** Write new recipe.
 
-- [ ] **Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/advanced-per-agent-configuration.md).
+- [x] **Distinguish tool preapproval from true tool restrictions when configuring least-privilege agents** — [recipe](least-privilege-tool-restrictions-versus-preapproval.md).
 
 ### R53. Version-Matched Official Sources and Cache Revalidation
 
 **Action:** Write new recipe.
 
-- [ ] **Revalidate cached official documentation with origin validators before using it across sessions** — [source](https://github.com/addyosmani/agent-skills/blob/main/hooks/SDD-CACHE.md).
-- [ ] **Verify framework-specific decisions against version-matched official documentation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md).
-- [ ] **Cite authoritative implementation sources and label unverifiable patterns explicitly** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/source-driven-development/SKILL.md).
+- [x] **Revalidate cached official documentation with origin validators before using it across sessions** — [recipe](version-matched-official-sources-and-cache-revalidation.md).
+- [x] **Verify framework-specific decisions against version-matched official documentation** — [recipe](version-matched-official-sources-and-cache-revalidation.md).
+- [x] **Cite authoritative implementation sources and label unverifiable patterns explicitly** — [recipe](version-matched-official-sources-and-cache-revalidation.md).
 
 ### R54. Task-Scoped Staging and Atomic Verified Commits
 
 **Action:** Write new recipe.
 
-- [ ] **Inspect working-tree changes before autonomous execution and stop on unrelated dirty files** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md).
-- [ ] **Stage only files belonging to the current autonomous task rather than blindly staging every change** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/build.md).
-- [ ] **Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md).
+- [x] **Inspect working-tree changes before autonomous execution and stop on unrelated dirty files** — [recipe](task-scoped-staging-and-atomic-verified-commits.md).
+- [x] **Stage only files belonging to the current autonomous task rather than blindly staging every change** — [recipe](task-scoped-staging-and-atomic-verified-commits.md).
+- [x] **Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit** — [recipe](task-scoped-staging-and-atomic-verified-commits.md).
 
 ### R55. Isolated Worktrees and Safe Workspace Cleanup
 
 **Action:** Write new recipe.
 
-- [ ] **Audit live sessions and uncommitted changes before removing worktrees** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/worktree-cleanup.md).
-- [ ] **Use isolated worktrees when parallel agents would otherwise share a working tree** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md).
+- [x] **Audit live sessions and uncommitted changes before removing worktrees** — [recipe](isolated-worktrees-and-safe-workspace-cleanup.md).
+- [x] **Use isolated worktrees when parallel agents would otherwise share a working tree** — [recipe](isolated-worktrees-and-safe-workspace-cleanup.md).
 
 ### R56. Consumer Migration, Safe Deprecation, and Legacy Retirement
 
 **Action:** Write new recipe.
 
-- [ ] **Migrate callers and delete obsolete internal APIs together** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md).
-- [ ] **Optimize planned migrations for a verified final state** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-outcome-oriented-execution/SKILL.md).
-- [ ] **Prefer advisory deprecation and provide a production-proven replacement plus migration guidance** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md).
-- [ ] **Verify old consumers are inactive before deleting a deprecated interface or system** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md).
+- [x] **Migrate callers and delete obsolete internal APIs together** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
+- [x] **Optimize planned migrations for a verified final state** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
+- [x] **Prefer advisory deprecation and provide a production-proven replacement plus migration guidance** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
+- [x] **Verify old consumers are inactive before deleting a deprecated interface or system** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md).
 
 ### R57. Additive Schema Migration and Tested Rollback
 
 **Action:** Write new recipe.
 
-- [ ] **Migrate schemas additively before destructive changes and test the rollback path** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/deprecation-and-migration/SKILL.md).
+- [x] **Migrate schemas additively before destructive changes and test the rollback path** — [recipe](additive-schema-migration-and-tested-rollback.md).
 
 ### R58. Safe Feature Flags and Post-Rollout Cleanup
 
 **Action:** Write new recipe.
 
-- [ ] **Remove feature flags and dead branches after their rollout finishes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md).
-- [ ] **Keep incomplete capabilities behind safe defaults or feature flags** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md).
+- [x] **Remove feature flags and dead branches after their rollout finishes** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md).
+- [x] **Keep incomplete capabilities behind safe defaults or feature flags** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md).
 
 ### R59. Semantic Releases, Tags, and Human Changelogs
 
 **Action:** Write new recipe.
 
-- [ ] **Version consumer-facing releases with tags, semantic versions, and human changelogs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/git-workflow-and-versioning/SKILL.md).
+- [x] **Version consumer-facing releases with tags, semantic versions, and human changelogs** — [recipe](semantic-releases-tags-and-human-changelogs.md).
 
 ### R60. Launch Gates, Staged Rollout, Health Checks, and Rollback
 
 **Action:** Write new recipe.
 
-- [ ] **Use prelaunch gates, staged rollout thresholds, and tested rollback triggers** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md).
-- [ ] **Verify critical user flows and health signals after deployment** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/shipping-and-launch/SKILL.md).
-- [ ] **Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk** — [source](https://github.com/addyosmani/agent-skills/blob/main/.claude/commands/ship.md).
+- [x] **Use prelaunch gates, staged rollout thresholds, and tested rollback triggers** — [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md).
+- [x] **Verify critical user flows and health signals after deployment** — [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md).
+- [x] **Default launch decisions to NO-GO for unresolved critical findings unless the operator explicitly accepts the risk** — [recipe](launch-gates-staged-rollout-health-checks-and-rollback.md).
 
 ### R61. Question-Driven Telemetry, Correlation, and Actionable Alerts
 
 **Action:** Write new recipe.
 
-- [ ] **Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md).
-- [ ] **Propagate correlation and entry-point identity while bounding telemetry label cardinality** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md).
-- [ ] **Make alerts actionable with runbooks and verify telemetry and notification delivery** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/observability-and-instrumentation/SKILL.md).
+- [x] **Choose telemetry from explicit on-call questions instead of instrumenting indiscriminately** — [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md).
+- [x] **Propagate correlation and entry-point identity while bounding telemetry label cardinality** — [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md).
+- [x] **Make alerts actionable with runbooks and verify telemetry and notification delivery** — [recipe](question-driven-telemetry-correlation-and-actionable-alerts.md).
 
 ### R62. Controlled Skill Evaluations, Observable Traces, and Repeated Trials
 
 **Action:** Write new recipe.
 
-- [ ] **Evaluate agent instructions with blinded candidates and judges** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/eval.md).
-- [ ] **Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
-- [ ] **Use dialogue-only evaluations only when conversation itself is the skill's deliverable** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
-- [ ] **Run skill-on versus skill-off evaluations and score observable output rather than invocation alone** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
-- [ ] **Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
+- [x] **Evaluate agent instructions with blinded candidates and judges** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
+- [x] **Evaluate skill behavior using isolated executable fixtures and full tool traces rather than claimed intentions** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
+- [x] **Use dialogue-only evaluations only when conversation itself is the skill's deliverable** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
+- [x] **Run skill-on versus skill-off evaluations and score observable output rather than invocation alone** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
+- [x] **Pin model and runtime versions and repeat trials before drawing conclusions from stochastic skill routing** — [recipe](controlled-skill-evaluations-observable-traces-and-repeated-trials.md).
 
 ### R63. Pressure Tests for Instruction Compliance
 
 **Action:** Write new recipe.
 
-- [ ] **Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost** — [source](https://github.com/addyosmani/agent-skills/blob/main/evals/README.md).
+- [x] **Pressure-test skill compliance against shortcuts justified by urgency, authority, or sunk cost** — [recipe](pressure-tests-for-instruction-compliance.md).
 
 ### R64. Audience-Focused Documentation, Clear Prose, and Preserved Facts
 
 **Action:** Write new recipe.
 
-- [ ] **Teach behavior and rationale through incremental explanations and diagrams** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/teach/SKILL.md).
-- [ ] **Select documentation structure by tutorial, how-to, reference, or explanation purpose** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/technical-writing/SKILL.md).
-- [ ] **Remove generic AI phrasing while preserving the intended meaning** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/unslop/SKILL.md).
-- [ ] **Preserve factual details and uncertainty when simplifying documentation prose** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md).
+- [x] **Teach behavior and rationale through incremental explanations and diagrams** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
+- [x] **Select documentation structure by tutorial, how-to, reference, or explanation purpose** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
+- [x] **Remove generic AI phrasing while preserving the intended meaning** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
+- [x] **Preserve factual details and uncertainty when simplifying documentation prose** — [recipe](audience-focused-documentation-clear-prose-and-preserved-facts.md).
 
 ### R65. Concise Delivery Reports for Users and Maintainers
 
 **Action:** Write new recipe.
 
-- [ ] **Keep PR summaries short with observable verification evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/opening-a-pr.md).
-- [ ] **Frame agent delivery for both the user and the future maintainer** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/SKILL.md).
+- [x] **Keep PR summaries short with observable verification evidence** — [recipe](concise-delivery-reports-for-users-and-maintainers.md).
+- [x] **Frame agent delivery for both the user and the future maintainer** — [recipe](concise-delivery-reports-for-users-and-maintainers.md).
 
 ### R66. Append-Only Decision Trails, Audit, and Independent Review
 
 **Action:** Write new recipe.
 
-- [ ] **Keep append-only decision records linked to real evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md).
-- [ ] **Audit decision logs against transcripts and correct false or omitted claims by appending rows** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md).
-- [ ] **Independently review long-running decision trails with a different model family** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/show-me-your-work/SKILL.md).
+- [x] **Keep append-only decision records linked to real evidence** — [recipe](append-only-decision-trails-audit-and-independent-review.md).
+- [x] **Audit decision logs against transcripts and correct false or omitted claims by appending rows** — [recipe](append-only-decision-trails-audit-and-independent-review.md).
+- [x] **Independently review long-running decision trails with a different model family** — [recipe](append-only-decision-trails-audit-and-independent-review.md).
 
 ### R67. Architecture Decision Records, Alternatives, and Supersession
 
 **Action:** Write new recipe.
 
-- [ ] **Record architecture decisions with alternatives and supersede rather than erase old ADRs** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/documentation-and-adrs/SKILL.md).
+- [x] **Record architecture decisions with alternatives and supersede rather than erase old ADRs** — [recipe](architecture-decision-records-alternatives-and-supersession.md).
 
 ### R68. Code-Path Investigation and Evidence-Calibrated Rationale
 
 **Action:** Write new recipe.
 
-- [ ] **Investigate the current code path before explaining it** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md).
-- [ ] **Reconstruct design rationale across independent evidence sources** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md).
-- [ ] **Calibrate rationale claims to direct, supported, inferred, or unknown evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/epistemics.md).
+- [x] **Investigate the current code path before explaining it** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md).
+- [x] **Reconstruct design rationale across independent evidence sources** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md).
+- [x] **Calibrate rationale claims to direct, supported, inferred, or unknown evidence** — [recipe](code-path-investigation-and-evidence-calibrated-rationale.md).
 
 ### R69. Scoped Evidence Collection, Query Logs, and Contradictions
 
 **Action:** Write new recipe.
 
-- [ ] **Separate evidence collection from synthesis and keep investigators within their assigned sources** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md).
-- [ ] **Record exact investigation queries, empty results, and contradictory evidence** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/why/references/investigator-prompt.md).
+- [x] **Separate evidence collection from synthesis and keep investigators within their assigned sources** — [recipe](scoped-evidence-collection-query-logs-and-contradictions.md).
+- [x] **Record exact investigation queries, empty results, and contradictory evidence** — [recipe](scoped-evidence-collection-query-logs-and-contradictions.md).
 
 ### R70. Trusted Triage, Provenance, Deduplication, and Compensating Writes
 
 **Action:** Write new recipe.
 
-- [ ] **Freeze report provenance and deduplicate before filing tickets** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md).
-- [ ] **Gate automatic bug fixing on a trusted triage verdict and ownership checks** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/reproduce-and-fix-issues/SKILL.md).
-- [ ] **Compensate cross-system ticket writes when the final handoff fails** — [source](https://github.com/cursor/plugins/blob/main/pstack/automations/benny/skills/triage-issue-reports/SKILL.md).
+- [x] **Freeze report provenance and deduplicate before filing tickets** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md).
+- [x] **Gate automatic bug fixing on a trusted triage verdict and ownership checks** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md).
+- [x] **Compensate cross-system ticket writes when the final handoff fails** — [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md).
 
 ### R71. Quality Floors, Measurable Thresholds, and Controlled Exceptions
 
 **Action:** Write new recipe.
 
-- [ ] **Define measurable project quality thresholds and record exceptions with owners and expiry** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md).
-- [ ] **Apply a minimum quality floor in noninteractive runs when project thresholds are absent** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md).
-- [ ] **Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once** — [source](https://github.com/addyosmani/agent-skills/blob/main/docs/adoption-guide.md).
+- [x] **Define measurable project quality thresholds and record exceptions with owners and expiry** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md).
+- [x] **Apply a minimum quality floor in noninteractive runs when project thresholds are absent** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md).
+- [x] **Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md).
 
 ### R72. Non-Bypassable Quality Gates and Fail-Closed Verification
 
 **Action:** Write new recipe.
 
-- [ ] **Detect attempts to weaken checks, tests, suppressions, or quality thresholds** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md).
-- [ ] **Treat a quality guard that could not run as a blocking failure rather than a clean result** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md).
-- [ ] **Run non-bypassable CI quality gates and feed failures back into agent correction** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md).
+- [x] **Detect attempts to weaken checks, tests, suppressions, or quality thresholds** — [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md).
+- [x] **Treat a quality guard that could not run as a blocking failure rather than a clean result** — [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md).
+- [x] **Run non-bypassable CI quality gates and feed failures back into agent correction** — [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md).
 
 ### R73. Reference-Grounded UI Contracts and Visual Parity
 
 **Action:** Write new recipe.
 
-- [ ] **Prove visual parity against an unchanged screenshot baseline** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md).
-- [ ] **Define a reference-grounded UI design contract before implementation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md).
+- [x] **Prove visual parity against an unchanged screenshot baseline** — [recipe](reference-grounded-ui-contracts-and-visual-parity.md).
+- [x] **Define a reference-grounded UI design contract before implementation** — [recipe](reference-grounded-ui-contracts-and-visual-parity.md).
 
 ### R74. Live Browser Evidence, Accessibility, and UI State Coverage
 
 **Action:** Write new recipe.
 
-- [ ] **Verify responsive and accessible UI states including empty, loading, and error flows** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md).
-- [ ] **Verify browser changes against live DOM, console, network, and before-after screenshots** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md).
+- [x] **Verify responsive and accessible UI states including empty, loading, and error flows** — [recipe](live-browser-evidence-accessibility-and-ui-state-coverage.md).
+- [x] **Verify browser changes against live DOM, console, network, and before-after screenshots** — [recipe](live-browser-evidence-accessibility-and-ui-state-coverage.md).
 
 ### R75. Behavior-Preserving Refactoring and Protected Source Blocks
 
 **Action:** Write new recipe.
 
-- [ ] **Pin existing behavior before structural refactoring** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/refactoring.md).
-- [ ] **Behavior-preserving agent review** — [source](https://github.com/antshc/brain/blob/main/plugins/crew/agents/chorey.agent.md).
-- [ ] **Understand why existing code exists before simplifying or deleting it** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md).
-- [ ] **Refactor incrementally without changing test expectations to force a pass** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md).
-- [ ] **Mask protected source blocks during agent simplification and restore them from verified placeholders or backups** — [source](https://github.com/addyosmani/agent-skills/blob/main/hooks/SIMPLIFY-IGNORE.md).
+- [x] **Pin existing behavior before structural refactoring** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
+- [x] **Behavior-preserving agent review** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
+- [x] **Understand why existing code exists before simplifying or deleting it** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
+- [x] **Refactor incrementally without changing test expectations to force a pass** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
+- [x] **Mask protected source blocks during agent simplification and restore them from verified placeholders or backups** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
 
 ### R76. Subtract Complexity, Reduce Reader Load, and Fix Suppressions
 
 **Action:** Write new recipe.
 
-- [ ] **Prefer the smallest change and shallowest useful abstraction** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-laziness-protocol/SKILL.md).
-- [ ] **Minimize reader load from indirection and mutable state** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-minimize-reader-load/SKILL.md).
-- [ ] **Remove dead or redundant complexity before additions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-subtract-before-you-add/SKILL.md).
-- [ ] **Replace redundant comments and unsafe suppressions with code fixes** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/no-comments/SKILL.md).
+- [x] **Prefer the smallest change and shallowest useful abstraction** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
+- [x] **Minimize reader load from indirection and mutable state** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
+- [x] **Remove dead or redundant complexity before additions** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
+- [x] **Replace redundant comments and unsafe suppressions with code fixes** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
 
 ### R77. Idempotent Operations, Retry Keys, and Unknown Outcomes
 
 **Action:** Write new recipe.
 
-- [ ] **Make state-changing operations converge across retries** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-make-operations-idempotent/SKILL.md).
-- [ ] **Honor idempotency keys across retries, payload mismatches, and unknown outcomes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md).
+- [x] **Make state-changing operations converge across retries** — [recipe](idempotent-operations-retry-keys-and-unknown-outcomes.md).
+- [x] **Honor idempotency keys across retries, payload mismatches, and unknown outcomes** — [recipe](idempotent-operations-retry-keys-and-unknown-outcomes.md).
 
 ### R78. Separate Shared Mutable State before Locking
 
 **Action:** Write new recipe.
 
-- [ ] **Separate shared mutable state before using locks** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md).
+- [x] **Separate shared mutable state before using locks** — [recipe](separate-shared-mutable-state-before-locking.md).
 
 ### R79. Rerunnable Tools and Automated Mechanical Refactors
 
 **Action:** Write new recipe.
 
-- [ ] **Build a rerunnable tool for nontrivial work** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md).
-- [ ] **Automate wide mechanical refactors instead of hand-editing large change sets** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md).
+- [x] **Build a rerunnable tool for nontrivial work** — [recipe](rerunnable-tools-and-automated-mechanical-refactors.md).
+- [x] **Automate wide mechanical refactors instead of hand-editing large change sets** — [recipe](rerunnable-tools-and-automated-mechanical-refactors.md).
 
 ### R80. Skill Validation, Proposal Checks, and Rejected-Change Ledgers
 
 **Action:** Write new recipe.
 
-- [ ] **Validate authored skills, referenced files, and structural examples** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md).
-- [ ] **Check existing skills, active proposals, and rejected changes before introducing a new skill** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md).
-- [ ] **Record rejected skill changes with evaluation evidence in an append-only ledger** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md).
+- [x] **Validate authored skills, referenced files, and structural examples** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md).
+- [x] **Check existing skills, active proposals, and rejected changes before introducing a new skill** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md).
+- [x] **Record rejected skill changes with evaluation evidence in an append-only ledger** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md).
 
 ### R81. Approved Specifications, Capability Dependencies, and Living Decisions
 
 **Action:** Write new recipe.
 
-- [ ] **Approve the capability dependency map before specifying a multi-module initiative** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md).
-- [ ] **Write a specification before implementation and stop for approval before planning** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md).
-- [ ] **Update the living specification before implementing changed decisions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md).
+- [x] **Approve the capability dependency map before specifying a multi-module initiative** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md).
+- [x] **Write a specification before implementation and stop for approval before planning** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md).
+- [x] **Update the living specification before implementing changed decisions** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md).
 
 ### R82. Dependency-Ordered Vertical Slices and Executable Plan Checks
 
 **Action:** Write new recipe.
 
-- [ ] **Sequence changes as independently verifiable units** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md).
-- [ ] **Validate multi-phase plans with an executable checker before handoff** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md).
-- [ ] **Build dependency-ordered, verifiable task slices without implementing during planning** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md).
-- [ ] **Implement complete vertical slices with test, verification, and commit gates** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md).
+- [x] **Sequence changes as independently verifiable units** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md).
+- [x] **Validate multi-phase plans with an executable checker before handoff** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md).
+- [x] **Build dependency-ordered, verifiable task slices without implementing during planning** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md).
+- [x] **Implement complete vertical slices with test, verification, and commit gates** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md).
 
 ## Coverage audit
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 77 |
-| Principles still awaiting coverage | 167 |
+| Already covered principles | 244 |
+| Principles still awaiting coverage | 0 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
