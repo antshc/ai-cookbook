@@ -4608,6 +4608,59 @@
         "Build dependency-ordered, verifiable task slices without implementing during planning",
         "Implement complete vertical slices with test, verification, and commit gates"
       ]
+    },
+    {
+      "id": "instruction-patterns",
+      "title": "20 Instruction Patterns for Agent Skills",
+      "path": "docs/cookbook/instruction-patterns.md",
+      "kind": "reference",
+      "problems": [
+        "instruction-compliance",
+        "skill-routing",
+        "delegation-handoffs",
+        "output-contracts",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "skill",
+        "agent",
+        "instruction"
+      ],
+      "task_types": [
+        "planning",
+        "review",
+        "implementation",
+        "research"
+      ],
+      "keywords": [
+        "instruction",
+        "precision",
+        "trigger",
+        "invariant",
+        "mechanism",
+        "rationale",
+        "failure",
+        "delegation",
+        "evidence",
+        "completion",
+        "handoff"
+      ],
+      "use_when": "Use when writing or auditing agent instructions for predictable triggers, mandatory mechanisms, recovery, evidence, and handoffs.",
+      "provides": [
+        "20 reusable instruction patterns",
+        "failure-mode selection guide",
+        "illustrative AI instruction wording",
+        "instruction-strength guidance"
+      ],
+      "related": [
+        "constraint-first-instructions-and-anti-rationalization-rules",
+        "concise-instructions-explicit-goals-and-model-neutral-procedures",
+        "delegate-bulk-exploration-to-preserve-context",
+        "verification-exit-criteria-and-completeness-sweep"
+      ],
+      "status": "reference",
+      "url": "docs/cookbook/instruction-patterns.html",
+      "covered_principles": []
     }
   ]
 }

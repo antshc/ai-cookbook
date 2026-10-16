@@ -51,6 +51,7 @@ Define observable completion and account for every obligation.
 
 - [Grouped principle checklist](../grouped-index.md)
 - [Combined Recipe Checklist](../combined-recipe-checklist.md)
+- [20 Instruction Patterns for Agent Skills](../instruction-patterns.md)
 
 ## Templates
 

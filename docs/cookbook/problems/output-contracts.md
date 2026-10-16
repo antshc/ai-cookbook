@@ -27,6 +27,7 @@ Define what the consumer receives and who owns its format.
 - [Skill Template Categories](../skill-template-categories.md)
 - [Grouped principle checklist](../grouped-index.md)
 - [Combined Recipe Checklist](../combined-recipe-checklist.md)
+- [20 Instruction Patterns for Agent Skills](../instruction-patterns.md)
 
 ## Templates
 
