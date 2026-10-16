@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 73/82 recipes complete; 218/244 principles covered.**
+**Progress: 74/82 recipes complete; 220/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -126,7 +126,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### UI verification
 
 - [x] **R73. Reference-Grounded UI Contracts and Visual Parity** — NEW (2 principles). [recipe](reference-grounded-ui-contracts-and-visual-parity.md).
-- [ ] **R74. Live Browser Evidence, Accessibility, and UI State Coverage** — NEW (2 principles).
+- [x] **R74. Live Browser Evidence, Accessibility, and UI State Coverage** — NEW (2 principles). [recipe](live-browser-evidence-accessibility-and-ui-state-coverage.md).
 ### Simplification and repeatability
 
 - [ ] **R75. Behavior-Preserving Refactoring and Protected Source Blocks** — NEW (5 principles).
@@ -731,8 +731,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Verify responsive and accessible UI states including empty, loading, and error flows** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md).
-- [ ] **Verify browser changes against live DOM, console, network, and before-after screenshots** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md).
+- [x] **Verify responsive and accessible UI states including empty, loading, and error flows** — [recipe](live-browser-evidence-accessibility-and-ui-state-coverage.md).
+- [x] **Verify browser changes against live DOM, console, network, and before-after screenshots** — [recipe](live-browser-evidence-accessibility-and-ui-state-coverage.md).
 
 ### R75. Behavior-Preserving Refactoring and Protected Source Blocks
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 218 |
-| Principles still awaiting coverage | 26 |
+| Already covered principles | 220 |
+| Principles still awaiting coverage | 24 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

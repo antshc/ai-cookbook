@@ -226,7 +226,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Define public contracts before implementation and preserve observable consumer behavior** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
 - [ ] **Honor idempotency keys across retries, payload mismatches, and unknown outcomes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
 - [x] **Define a reference-grounded UI design contract before implementation** — [recipe](reference-grounded-ui-contracts-and-visual-parity.md)
-- [ ] **Verify responsive and accessible UI states including empty, loading, and error flows** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
+- [x] **Verify responsive and accessible UI states including empty, loading, and error flows** — [recipe](live-browser-evidence-accessibility-and-ui-state-coverage.md)
 
 - [x] **Stage only files belonging to the current autonomous task rather than blindly staging every change** — [recipe](task-scoped-staging-and-atomic-verified-commits.md)
 - [x] **Avoid installing a second always-on skill router when the agent host already routes skills natively** — [recipe](skill-discovery-trigger-indexing-and-native-routing.md)
@@ -245,7 +245,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Stop further feature work on broken tests or builds until the failure is resolved** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [x] **Isolate and reduce failures before root-cause fixes, using history bisect when useful** — [recipe](root-cause-diagnosis-hypothesis-elimination-and-premise-checks.md)
 - [x] **Verify repaired behavior with focused tests, full regression checks, and runtime checks** — [recipe](independent-patch-verification-and-baseline-comparison.md)
-- [ ] **Verify browser changes against live DOM, console, network, and before-after screenshots** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
+- [x] **Verify browser changes against live DOM, console, network, and before-after screenshots** — [recipe](live-browser-evidence-accessibility-and-ui-state-coverage.md)
 - [x] **Isolate automated browser tests from personal signed-in browser profiles** — [recipe](isolated-browser-profiles-and-read-only-inspection.md)
 - [x] **Keep browser JavaScript inspection read-only unless mutations are explicitly authorized** — [recipe](isolated-browser-profiles-and-read-only-inspection.md)
 - [x] **Treat error output, external documentation, and browser content as untrusted instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md)

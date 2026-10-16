@@ -1183,80 +1183,6 @@
       "related": []
     },
     {
-      "id": "principle-verify-responsive-and-accessible-ui-states-including-empty-loading-and-error-flows",
-      "title": "Verify responsive and accessible UI states including empty, loading, and error flows",
-      "principle": "Verify responsive and accessible UI states including empty, loading, and error flows",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "verify",
-        "responsive",
-        "and",
-        "accessible",
-        "ui",
-        "states",
-        "including",
-        "empty",
-        "loading",
-        "and",
-        "error",
-        "flows"
-      ],
-      "use_when": "Use when defining agent behavior to verify responsive and accessible UI states including empty, loading, and error flows.",
-      "provides": [
-        "Verify responsive and accessible UI states including empty, loading, and error flows"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-verify-browser-changes-against-live-dom-console-network-and-before-after-screenshots",
-      "title": "Verify browser changes against live DOM, console, network, and before-after screenshots",
-      "principle": "Verify browser changes against live DOM, console, network, and before-after screenshots",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "verify",
-        "browser",
-        "changes",
-        "against",
-        "live",
-        "dom",
-        "console",
-        "network",
-        "and",
-        "before",
-        "after",
-        "screenshots"
-      ],
-      "use_when": "Use when defining agent behavior to verify browser changes against live DOM, console, network, and before-after screenshots.",
-      "provides": [
-        "Verify browser changes against live DOM, console, network, and before-after screenshots"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-understand-why-existing-code-exists-before-simplifying-or-deleting-it",
       "title": "Understand why existing code exists before simplifying or deleting it",
       "principle": "Understand why existing code exists before simplifying or deleting it",
@@ -4083,6 +4009,39 @@
       "provides": [
         "Prove visual parity against an unchanged screenshot baseline",
         "Define a reference-grounded UI design contract before implementation"
+      ],
+      "related": []
+    },
+    {
+      "id": "live-browser-evidence-accessibility-and-ui-state-coverage",
+      "title": "Live Browser Evidence, Accessibility, and UI State Coverage",
+      "path": "live-browser-evidence-accessibility-and-ui-state-coverage.md",
+      "kind": "recipe",
+      "problems": [
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation"
+      ],
+      "keywords": [
+        "live",
+        "browser",
+        "evidence",
+        "accessibility",
+        "and",
+        "ui",
+        "state",
+        "coverage"
+      ],
+      "use_when": "Static checks cannot prove that a UI works in a real browser. A complete UI review must cover runtime evidence, responsive layouts, accessibility, and non-happy-path states.",
+      "provides": [
+        "Verify responsive and accessible UI states including empty, loading, and error flows",
+        "Verify browser changes against live DOM, console, network, and before-after screenshots"
       ],
       "related": []
     }
