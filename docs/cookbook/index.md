@@ -117,7 +117,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Create a repository-specific live verification harness** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md)
 - [x] **Maintain verification feature maps with source and live checks** — [recipe](live-verification-harness-feature-maps-and-instance-lifecycle.md)
 - [x] **Freeze an evaluation harness and revert unsupported iterations** — [recipe](reproducible-benchmarks-frozen-baselines-and-honest-metrics.md)
-- [ ] **Prove visual parity against an unchanged screenshot baseline** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md)
+- [x] **Prove visual parity against an unchanged screenshot baseline** — [recipe](reference-grounded-ui-contracts-and-visual-parity.md)
 - [x] **Verify each PR independently at the reviewed patch before merging** — [recipe](independent-patch-verification-and-baseline-comparison.md)
 - [x] **Classify CI failures and review comments before modifying a PR** — [recipe](ci-failure-classification-and-review-comment-triage.md)
 - [x] **Keep PR summaries short with observable verification evidence** — [recipe](concise-delivery-reports-for-users-and-maintainers.md)
@@ -225,7 +225,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Require explicit authorization for each external cross-model review invocation** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
 - [x] **Define public contracts before implementation and preserve observable consumer behavior** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
 - [ ] **Honor idempotency keys across retries, payload mismatches, and unknown outcomes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
-- [ ] **Define a reference-grounded UI design contract before implementation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
+- [x] **Define a reference-grounded UI design contract before implementation** — [recipe](reference-grounded-ui-contracts-and-visual-parity.md)
 - [ ] **Verify responsive and accessible UI states including empty, loading, and error flows** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 
 - [x] **Stage only files belonging to the current autonomous task rather than blindly staging every change** — [recipe](task-scoped-staging-and-atomic-verified-commits.md)

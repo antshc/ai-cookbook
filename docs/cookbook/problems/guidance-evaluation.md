@@ -14,6 +14,7 @@ Evaluate observable behavior and improve guidance from evidence.
 - [Version-Matched Official Sources and Cache Revalidation](../version-matched-official-sources-and-cache-revalidation.md)
 - [Controlled Skill Evaluations, Observable Traces, and Repeated Trials](../controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 - [Pressure Tests for Instruction Compliance](../pressure-tests-for-instruction-compliance.md)
+- [Reference-Grounded UI Contracts and Visual Parity](../reference-grounded-ui-contracts-and-visual-parity.md)
 
 ## References
 
@@ -28,7 +29,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Prove visual parity against an unchanged screenshot baseline](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md)
 - [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

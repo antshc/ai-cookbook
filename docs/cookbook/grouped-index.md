@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 216 covered, 28 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 218 covered, 26 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -41,14 +41,14 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Documentation and provenance](#documentation-and-provenance) | 10 | 10 | 0 |
 | [External-write consistency](#external-write-consistency) | 3 | 3 | 0 |
 | [Quality thresholds and gates](#quality-thresholds-and-gates) | 6 | 6 | 0 |
-| [UI contracts and verification](#ui-contracts-and-verification) | 4 | 0 | 4 |
+| [UI contracts and verification](#ui-contracts-and-verification) | 4 | 2 | 2 |
 | [Investigation and source evidence](#investigation-and-source-evidence) | 7 | 7 | 0 |
 | [Safe simplification](#safe-simplification) | 8 | 0 | 8 |
 | [Retries and shared state](#retries-and-shared-state) | 3 | 0 | 3 |
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **216** | **28** |
+| **Total** | **244** | **218** | **26** |
 
 ## Completion checks
 
@@ -406,8 +406,8 @@ Which quality floor applies, are exceptions controlled, and did every required g
 
 Does the interface match its visual contract and support responsive, accessible, and failure states?
 
-- [ ] **Prove visual parity against an unchanged screenshot baseline** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md)
-- [ ] **Define a reference-grounded UI design contract before implementation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
+- [x] **Prove visual parity against an unchanged screenshot baseline** — [recipe](reference-grounded-ui-contracts-and-visual-parity.md)
+- [x] **Define a reference-grounded UI design contract before implementation** — [recipe](reference-grounded-ui-contracts-and-visual-parity.md)
 - [ ] **Verify responsive and accessible UI states including empty, loading, and error flows** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 - [ ] **Verify browser changes against live DOM, console, network, and before-after screenshots** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 

@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 72/82 recipes complete; 216/244 principles covered.**
+**Progress: 73/82 recipes complete; 218/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -125,7 +125,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R72. Non-Bypassable Quality Gates and Fail-Closed Verification** — NEW (3 principles). [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md).
 ### UI verification
 
-- [ ] **R73. Reference-Grounded UI Contracts and Visual Parity** — NEW (2 principles).
+- [x] **R73. Reference-Grounded UI Contracts and Visual Parity** — NEW (2 principles). [recipe](reference-grounded-ui-contracts-and-visual-parity.md).
 - [ ] **R74. Live Browser Evidence, Accessibility, and UI State Coverage** — NEW (2 principles).
 ### Simplification and repeatability
 
@@ -724,8 +724,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Prove visual parity against an unchanged screenshot baseline** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/visual-parity.md).
-- [ ] **Define a reference-grounded UI design contract before implementation** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md).
+- [x] **Prove visual parity against an unchanged screenshot baseline** — [recipe](reference-grounded-ui-contracts-and-visual-parity.md).
+- [x] **Define a reference-grounded UI design contract before implementation** — [recipe](reference-grounded-ui-contracts-and-visual-parity.md).
 
 ### R74. Live Browser Evidence, Accessibility, and UI State Coverage
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 216 |
-| Principles still awaiting coverage | 28 |
+| Already covered principles | 218 |
+| Principles still awaiting coverage | 26 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |
