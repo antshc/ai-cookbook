@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 232 covered, 12 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 234 covered, 10 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -45,10 +45,10 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Investigation and source evidence](#investigation-and-source-evidence) | 7 | 7 | 0 |
 | [Safe simplification](#safe-simplification) | 8 | 8 | 0 |
 | [Retries and shared state](#retries-and-shared-state) | 3 | 3 | 0 |
-| [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
+| [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 2 | 0 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **232** | **12** |
+| **Total** | **244** | **234** | **10** |
 
 ## Completion checks
 
@@ -448,8 +448,8 @@ Do retries converge safely, and can independent actors avoid conflicting writes?
 
 Can a repeatable tool perform or prove work more reliably than manual edits?
 
-- [ ] **Build a rerunnable tool for nontrivial work** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md)
-- [ ] **Automate wide mechanical refactors instead of hand-editing large change sets** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
+- [x] **Build a rerunnable tool for nontrivial work** — [recipe](rerunnable-tools-and-automated-mechanical-refactors.md)
+- [x] **Automate wide mechanical refactors instead of hand-editing large change sets** — [recipe](rerunnable-tools-and-automated-mechanical-refactors.md)
 
 ## Skill authoring and maintenance
 

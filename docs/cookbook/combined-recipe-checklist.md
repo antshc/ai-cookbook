@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 78/82 recipes complete; 232/244 principles covered.**
+**Progress: 79/82 recipes complete; 234/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -133,7 +133,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R76. Subtract Complexity, Reduce Reader Load, and Fix Suppressions** — NEW (4 principles). [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
 - [x] **R77. Idempotent Operations, Retry Keys, and Unknown Outcomes** — NEW (2 principles). [recipe](idempotent-operations-retry-keys-and-unknown-outcomes.md).
 - [x] **R78. Separate Shared Mutable State before Locking** — NEW (1 principles). [recipe](separate-shared-mutable-state-before-locking.md).
-- [ ] **R79. Rerunnable Tools and Automated Mechanical Refactors** — NEW (2 principles).
+- [x] **R79. Rerunnable Tools and Automated Mechanical Refactors** — NEW (2 principles). [recipe](rerunnable-tools-and-automated-mechanical-refactors.md).
 ### Skill maintenance and delivery slices
 
 - [ ] **R80. Skill Validation, Proposal Checks, and Rejected-Change Ledgers** — NEW (3 principles).
@@ -770,8 +770,8 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Build a rerunnable tool for nontrivial work** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md).
-- [ ] **Automate wide mechanical refactors instead of hand-editing large change sets** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md).
+- [x] **Build a rerunnable tool for nontrivial work** — [recipe](rerunnable-tools-and-automated-mechanical-refactors.md).
+- [x] **Automate wide mechanical refactors instead of hand-editing large change sets** — [recipe](rerunnable-tools-and-automated-mechanical-refactors.md).
 
 ### R80. Skill Validation, Proposal Checks, and Rejected-Change Ledgers
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 232 |
-| Principles still awaiting coverage | 12 |
+| Already covered principles | 234 |
+| Principles still awaiting coverage | 10 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

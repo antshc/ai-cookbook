@@ -583,38 +583,6 @@
       ]
     },
     {
-      "id": "principle-build-a-rerunnable-tool-for-nontrivial-work",
-      "title": "Build a rerunnable tool for nontrivial work",
-      "principle": "Build a rerunnable tool for nontrivial work",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "build",
-        "a",
-        "rerunnable",
-        "tool",
-        "for",
-        "nontrivial",
-        "work"
-      ],
-      "use_when": "Use when defining agent behavior to build a rerunnable tool for nontrivial work.",
-      "provides": [
-        "Build a rerunnable tool for nontrivial work"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-sequence-changes-as-independently-verifiable-units",
       "title": "Sequence changes as independently verifiable units",
       "principle": "Sequence changes as independently verifiable units",
@@ -888,42 +856,6 @@
       "use_when": "Use when defining agent behavior to implement complete vertical slices with test, verification, and commit gates.",
       "provides": [
         "Implement complete vertical slices with test, verification, and commit gates"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-automate-wide-mechanical-refactors-instead-of-hand-editing-large-change-sets",
-      "title": "Automate wide mechanical refactors instead of hand-editing large change sets",
-      "principle": "Automate wide mechanical refactors instead of hand-editing large change sets",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "automate",
-        "wide",
-        "mechanical",
-        "refactors",
-        "instead",
-        "of",
-        "hand",
-        "editing",
-        "large",
-        "change",
-        "sets"
-      ],
-      "use_when": "Use when defining agent behavior to automate wide mechanical refactors instead of hand-editing large change sets.",
-      "provides": [
-        "Automate wide mechanical refactors instead of hand-editing large change sets"
       ],
       "related": []
     },
@@ -3779,6 +3711,38 @@
       "use_when": "Concurrent agents that write the same file, branch, key, or state object create intermittent races. Adding a lock too early preserves unnecessary coupling and makes independent work wait.",
       "provides": [
         "Separate shared mutable state before using locks"
+      ],
+      "related": []
+    },
+    {
+      "id": "rerunnable-tools-and-automated-mechanical-refactors",
+      "title": "Rerunnable Tools and Automated Mechanical Refactors",
+      "path": "rerunnable-tools-and-automated-mechanical-refactors.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "review"
+      ],
+      "keywords": [
+        "rerunnable",
+        "tools",
+        "and",
+        "automated",
+        "mechanical",
+        "refactors"
+      ],
+      "use_when": "Large or nontrivial hand edits are inconsistent, hard to review, and expensive to reproduce. A small deterministic tool makes the transformation repeatable and turns the procedure into inspectable evidence.",
+      "provides": [
+        "Build a rerunnable tool for nontrivial work",
+        "Automate wide mechanical refactors instead of hand-editing large change sets"
       ],
       "related": []
     }
