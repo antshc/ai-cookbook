@@ -41,6 +41,7 @@ Define observable completion and account for every obligation.
 - [Concise Delivery Reports for Users and Maintainers](../concise-delivery-reports-for-users-and-maintainers.md)
 - [Code-Path Investigation and Evidence-Calibrated Rationale](../code-path-investigation-and-evidence-calibrated-rationale.md)
 - [Trusted Triage, Provenance, Deduplication, and Compensating Writes](../trusted-triage-provenance-deduplication-and-compensating-writes.md)
+- [Non-Bypassable Quality Gates and Fail-Closed Verification](../non-bypassable-quality-gates-and-fail-closed-verification.md)
 
 ## References
 
@@ -55,11 +56,9 @@ Define observable completion and account for every obligation.
 ## Principles awaiting recipes
 
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
-- [Detect attempts to weaken checks, tests, suppressions, or quality thresholds](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
 - [Implement complete vertical slices with test, verification, and commit gates](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
 - [Verify responsive and accessible UI states including empty, loading, and error flows](https://github.com/addyosmani/agent-skills/blob/main/skills/frontend-ui-engineering/SKILL.md)
 - [Verify browser changes against live DOM, console, network, and before-after screenshots](https://github.com/addyosmani/agent-skills/blob/main/skills/browser-testing-with-devtools/SKILL.md)
 - [Refactor incrementally without changing test expectations to force a pass](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
-- [Run non-bypassable CI quality gates and feed failures back into agent correction](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

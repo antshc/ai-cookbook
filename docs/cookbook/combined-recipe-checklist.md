@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 71/82 recipes complete; 213/244 principles covered.**
+**Progress: 72/82 recipes complete; 216/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -122,7 +122,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 
 - [x] **R70. Trusted Triage, Provenance, Deduplication, and Compensating Writes** — NEW (3 principles). [recipe](trusted-triage-provenance-deduplication-and-compensating-writes.md).
 - [x] **R71. Quality Floors, Measurable Thresholds, and Controlled Exceptions** — NEW (3 principles). [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md).
-- [ ] **R72. Non-Bypassable Quality Gates and Fail-Closed Verification** — NEW (3 principles).
+- [x] **R72. Non-Bypassable Quality Gates and Fail-Closed Verification** — NEW (3 principles). [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md).
 ### UI verification
 
 - [ ] **R73. Reference-Grounded UI Contracts and Visual Parity** — NEW (2 principles).
@@ -716,9 +716,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Detect attempts to weaken checks, tests, suppressions, or quality thresholds** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md).
-- [ ] **Treat a quality guard that could not run as a blocking failure rather than a clean result** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md).
-- [ ] **Run non-bypassable CI quality gates and feed failures back into agent correction** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md).
+- [x] **Detect attempts to weaken checks, tests, suppressions, or quality thresholds** — [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md).
+- [x] **Treat a quality guard that could not run as a blocking failure rather than a clean result** — [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md).
+- [x] **Run non-bypassable CI quality gates and feed failures back into agent correction** — [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md).
 
 ### R73. Reference-Grounded UI Contracts and Visual Parity
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 213 |
-| Principles still awaiting coverage | 31 |
+| Already covered principles | 216 |
+| Principles still awaiting coverage | 28 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

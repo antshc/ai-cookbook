@@ -48,6 +48,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Audience-Focused Documentation, Clear Prose, and Preserved Facts](../audience-focused-documentation-clear-prose-and-preserved-facts.md)
 - [Append-Only Decision Trails, Audit, and Independent Review](../append-only-decision-trails-audit-and-independent-review.md)
 - [Quality Floors, Measurable Thresholds, and Controlled Exceptions](../quality-floors-measurable-thresholds-and-controlled-exceptions.md)
+- [Non-Bypassable Quality Gates and Fail-Closed Verification](../non-bypassable-quality-gates-and-fail-closed-verification.md)
 
 ## References
 
@@ -72,7 +73,6 @@ No materials yet.
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Update the living specification before implementing changed decisions](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Build dependency-ordered, verifiable task slices without implementing during planning](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
-- [Treat a quality guard that could not run as a blocking failure rather than a clean result](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)
 - [Understand why existing code exists before simplifying or deleting it](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Automate wide mechanical refactors instead of hand-editing large change sets](https://github.com/addyosmani/agent-skills/blob/main/skills/code-simplification/SKILL.md)
 - [Check existing skills, active proposals, and rejected changes before introducing a new skill](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)

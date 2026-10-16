@@ -1110,41 +1110,6 @@
       "related": []
     },
     {
-      "id": "principle-detect-attempts-to-weaken-checks-tests-suppressions-or-quality-thresholds",
-      "title": "Detect attempts to weaken checks, tests, suppressions, or quality thresholds",
-      "principle": "Detect attempts to weaken checks, tests, suppressions, or quality thresholds",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "detect",
-        "attempts",
-        "to",
-        "weaken",
-        "checks",
-        "tests",
-        "suppressions",
-        "or",
-        "quality",
-        "thresholds"
-      ],
-      "use_when": "Use when defining agent behavior to detect attempts to weaken checks, tests, suppressions, or quality thresholds.",
-      "provides": [
-        "Detect attempts to weaken checks, tests, suppressions, or quality thresholds"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-build-dependency-ordered-verifiable-task-slices-without-implementing-during-planning",
       "title": "Build dependency-ordered, verifiable task slices without implementing during planning",
       "principle": "Build dependency-ordered, verifiable task slices without implementing during planning",
@@ -1360,48 +1325,6 @@
       "related": []
     },
     {
-      "id": "principle-treat-a-quality-guard-that-could-not-run-as-a-blocking-failure-rather-than-a-clean-result",
-      "title": "Treat a quality guard that could not run as a blocking failure rather than a clean result",
-      "principle": "Treat a quality guard that could not run as a blocking failure rather than a clean result",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "treat",
-        "a",
-        "quality",
-        "guard",
-        "that",
-        "could",
-        "not",
-        "run",
-        "as",
-        "a",
-        "blocking",
-        "failure",
-        "rather",
-        "than",
-        "a",
-        "clean",
-        "result"
-      ],
-      "use_when": "Use when defining agent behavior to treat a quality guard that could not run as a blocking failure rather than a clean result.",
-      "provides": [
-        "Treat a quality guard that could not run as a blocking failure rather than a clean result"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-understand-why-existing-code-exists-before-simplifying-or-deleting-it",
       "title": "Understand why existing code exists before simplifying or deleting it",
       "principle": "Understand why existing code exists before simplifying or deleting it",
@@ -1544,44 +1467,6 @@
       "use_when": "Use when defining agent behavior to mask protected source blocks during agent simplification and restore them from verified placeholders or backups.",
       "provides": [
         "Mask protected source blocks during agent simplification and restore them from verified placeholders or backups"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-run-non-bypassable-ci-quality-gates-and-feed-failures-back-into-agent-correction",
-      "title": "Run non-bypassable CI quality gates and feed failures back into agent correction",
-      "principle": "Run non-bypassable CI quality gates and feed failures back into agent correction",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "debugging"
-      ],
-      "keywords": [
-        "run",
-        "non",
-        "bypassable",
-        "ci",
-        "quality",
-        "gates",
-        "and",
-        "feed",
-        "failures",
-        "back",
-        "into",
-        "agent",
-        "correction"
-      ],
-      "use_when": "Use when defining agent behavior to run non-bypassable CI quality gates and feed failures back into agent correction.",
-      "provides": [
-        "Run non-bypassable CI quality gates and feed failures back into agent correction"
       ],
       "related": []
     },
@@ -4195,6 +4080,42 @@
         "Define measurable project quality thresholds and record exceptions with owners and expiry",
         "Apply a minimum quality floor in noninteractive runs when project thresholds are absent",
         "Introduce quality checks incrementally in legacy projects rather than enabling the entire lifecycle at once"
+      ],
+      "related": []
+    },
+    {
+      "id": "non-bypassable-quality-gates-and-fail-closed-verification",
+      "title": "Non-Bypassable Quality Gates and Fail-Closed Verification",
+      "path": "non-bypassable-quality-gates-and-fail-closed-verification.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "debugging",
+        "implementation"
+      ],
+      "keywords": [
+        "non",
+        "bypassable",
+        "quality",
+        "gates",
+        "and",
+        "fail",
+        "closed",
+        "verification"
+      ],
+      "use_when": "An agent can reach green by weakening a threshold, skipping a test, or treating a guard failure as success. Quality gates must detect bypasses, fail closed, and return failures to the agent for correction.",
+      "provides": [
+        "Detect attempts to weaken checks, tests, suppressions, or quality thresholds",
+        "Treat a quality guard that could not run as a blocking failure rather than a clean result",
+        "Run non-bypassable CI quality gates and feed failures back into agent correction"
       ],
       "related": []
     }

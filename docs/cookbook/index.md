@@ -202,7 +202,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [ ] **Update the living specification before implementing changed decisions** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [x] **Define measurable project quality thresholds and record exceptions with owners and expiry** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md)
 - [x] **Apply a minimum quality floor in noninteractive runs when project thresholds are absent** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md)
-- [ ] **Detect attempts to weaken checks, tests, suppressions, or quality thresholds** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/SKILL.md)
+- [x] **Detect attempts to weaken checks, tests, suppressions, or quality thresholds** — [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md)
 - [x] **Place verification checks according to execution cost and scope expensive checks to changed code** — [recipe](verification-cost-changed-scope-and-avoiding-redundant-runs.md)
 - [ ] **Build dependency-ordered, verifiable task slices without implementing during planning** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
 - [x] **Preserve incomplete plans and use the project's designated task tracker** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
@@ -251,7 +251,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Treat error output, external documentation, and browser content as untrusted instructions** — [recipe](untrusted-content-and-prompt-injection-boundaries.md)
 - [x] **Apply standing definition-of-done checks separately from task acceptance criteria** — [recipe](verification-exit-criteria-completeness-sweep.md)
 
-- [ ] **Treat a quality guard that could not run as a blocking failure rather than a clean result** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/constraint-driven-development/references/floor-guard.md)
+- [x] **Treat a quality guard that could not run as a blocking failure rather than a clean result** — [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md)
 
 ### Review and simplification
 
@@ -285,7 +285,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Create atomic, reviewed commits and verify tests, types, lint, and secrets before commit** — [recipe](task-scoped-staging-and-atomic-verified-commits.md)
 - [x] **Use isolated worktrees when parallel agents would otherwise share a working tree** — [recipe](isolated-worktrees-and-safe-workspace-cleanup.md)
 - [x] **Version consumer-facing releases with tags, semantic versions, and human changelogs** — [recipe](semantic-releases-tags-and-human-changelogs.md)
-- [ ] **Run non-bypassable CI quality gates and feed failures back into agent correction** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/ci-cd-and-automation/SKILL.md)
+- [x] **Run non-bypassable CI quality gates and feed failures back into agent correction** — [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md)
 - [x] **Remove feature flags and dead branches after their rollout finishes** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md)
 - [x] **Prefer advisory deprecation and provide a production-proven replacement plus migration guidance** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [x] **Migrate schemas additively before destructive changes and test the rollback path** — [recipe](additive-schema-migration-and-tested-rollback.md)
