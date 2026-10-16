@@ -18,6 +18,7 @@ Give each procedure and responsibility one clear owner.
 - [Trusted Triage, Provenance, Deduplication, and Compensating Writes](../trusted-triage-provenance-deduplication-and-compensating-writes.md)
 - [Quality Floors, Measurable Thresholds, and Controlled Exceptions](../quality-floors-measurable-thresholds-and-controlled-exceptions.md)
 - [Reference-Grounded UI Contracts and Visual Parity](../reference-grounded-ui-contracts-and-visual-parity.md)
+- [Subtract Complexity, Reduce Reader Load, and Fix Suppressions](../subtract-complexity-reduce-reader-load-and-fix-suppressions.md)
 
 ## References
 
@@ -31,7 +32,6 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Prefer the smallest change and shallowest useful abstraction](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-laziness-protocol/SKILL.md)
 - [Separate shared mutable state before using locks](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md)
 - [Approve the capability dependency map before specifying a multi-module initiative](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 

@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 75/82 recipes complete; 225/244 principles covered.**
+**Progress: 76/82 recipes complete; 229/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -130,7 +130,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 ### Simplification and repeatability
 
 - [x] **R75. Behavior-Preserving Refactoring and Protected Source Blocks** — NEW (5 principles). [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md).
-- [ ] **R76. Subtract Complexity, Reduce Reader Load, and Fix Suppressions** — NEW (4 principles).
+- [x] **R76. Subtract Complexity, Reduce Reader Load, and Fix Suppressions** — NEW (4 principles). [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
 - [ ] **R77. Idempotent Operations, Retry Keys, and Unknown Outcomes** — NEW (2 principles).
 - [ ] **R78. Separate Shared Mutable State before Locking** — NEW (1 principles).
 - [ ] **R79. Rerunnable Tools and Automated Mechanical Refactors** — NEW (2 principles).
@@ -748,10 +748,10 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Prefer the smallest change and shallowest useful abstraction** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-laziness-protocol/SKILL.md).
-- [ ] **Minimize reader load from indirection and mutable state** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-minimize-reader-load/SKILL.md).
-- [ ] **Remove dead or redundant complexity before additions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-subtract-before-you-add/SKILL.md).
-- [ ] **Replace redundant comments and unsafe suppressions with code fixes** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/no-comments/SKILL.md).
+- [x] **Prefer the smallest change and shallowest useful abstraction** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
+- [x] **Minimize reader load from indirection and mutable state** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
+- [x] **Remove dead or redundant complexity before additions** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
+- [x] **Replace redundant comments and unsafe suppressions with code fixes** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md).
 
 ### R77. Idempotent Operations, Retry Keys, and Unknown Outcomes
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 225 |
-| Principles still awaiting coverage | 19 |
+| Already covered principles | 229 |
+| Principles still awaiting coverage | 15 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

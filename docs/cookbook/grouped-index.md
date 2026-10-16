@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 225 covered, 19 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 229 covered, 15 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -43,12 +43,12 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Quality thresholds and gates](#quality-thresholds-and-gates) | 6 | 6 | 0 |
 | [UI contracts and verification](#ui-contracts-and-verification) | 4 | 4 | 0 |
 | [Investigation and source evidence](#investigation-and-source-evidence) | 7 | 7 | 0 |
-| [Safe simplification](#safe-simplification) | 8 | 4 | 4 |
+| [Safe simplification](#safe-simplification) | 8 | 8 | 0 |
 | [Retries and shared state](#retries-and-shared-state) | 3 | 0 | 3 |
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **225** | **19** |
+| **Total** | **244** | **229** | **15** |
 
 ## Completion checks
 
@@ -428,10 +428,10 @@ Which sources and queries support an explanation, and what remains inferred, con
 Which complexity can be removed while preserving behavior, conventions, and protected content?
 
 - [x] **Behavior-preserving agent review** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md)
-- [ ] **Prefer the smallest change and shallowest useful abstraction** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-laziness-protocol/SKILL.md)
-- [ ] **Minimize reader load from indirection and mutable state** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-minimize-reader-load/SKILL.md)
-- [ ] **Remove dead or redundant complexity before additions** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-subtract-before-you-add/SKILL.md)
-- [ ] **Replace redundant comments and unsafe suppressions with code fixes** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/no-comments/SKILL.md)
+- [x] **Prefer the smallest change and shallowest useful abstraction** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md)
+- [x] **Minimize reader load from indirection and mutable state** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md)
+- [x] **Remove dead or redundant complexity before additions** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md)
+- [x] **Replace redundant comments and unsafe suppressions with code fixes** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md)
 - [x] **Understand why existing code exists before simplifying or deleting it** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md)
 - [x] **Refactor incrementally without changing test expectations to force a pass** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md)
 - [x] **Mask protected source blocks during agent simplification and restore them from verified placeholders or backups** — [recipe](behavior-preserving-refactoring-and-protected-source-blocks.md)
