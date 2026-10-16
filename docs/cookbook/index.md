@@ -60,7 +60,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Choose core data shapes and shared foundations before features** — [recipe](domain-models-foundational-constraints-and-invalid-states.md)
 - [x] **Preserve agent context by delegating bulk exploration** — [recipe](delegate-bulk-exploration-to-preserve-context.md)
 - [x] **Prefer the smallest change and shallowest useful abstraction** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md)
-- [ ] **Make state-changing operations converge across retries** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-make-operations-idempotent/SKILL.md)
+- [x] **Make state-changing operations converge across retries** — [recipe](idempotent-operations-retry-keys-and-unknown-outcomes.md)
 - [x] **Migrate callers and delete obsolete internal APIs together** — [recipe](consumer-migration-safe-deprecation-and-legacy-retirement.md)
 - [x] **Minimize reader load from indirection and mutable state** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md)
 - [x] **Represent domain invariants in explicit data structures** — [recipe](domain-models-foundational-constraints-and-invalid-states.md)
@@ -224,7 +224,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Reconcile reviewer findings rather than accepting them verbatim, with a bounded review loop** — [recipe](independent-evidence-based-review-severity-and-reconciliation.md)
 - [x] **Require explicit authorization for each external cross-model review invocation** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
 - [x] **Define public contracts before implementation and preserve observable consumer behavior** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
-- [ ] **Honor idempotency keys across retries, payload mismatches, and unknown outcomes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
+- [x] **Honor idempotency keys across retries, payload mismatches, and unknown outcomes** — [recipe](idempotent-operations-retry-keys-and-unknown-outcomes.md)
 - [x] **Define a reference-grounded UI design contract before implementation** — [recipe](reference-grounded-ui-contracts-and-visual-parity.md)
 - [x] **Verify responsive and accessible UI states including empty, loading, and error flows** — [recipe](live-browser-evidence-accessibility-and-ui-state-coverage.md)
 

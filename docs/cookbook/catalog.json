@@ -615,38 +615,6 @@
       "related": []
     },
     {
-      "id": "principle-make-state-changing-operations-converge-across-retries",
-      "title": "Make state-changing operations converge across retries",
-      "principle": "Make state-changing operations converge across retries",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-make-operations-idempotent/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "make",
-        "state",
-        "changing",
-        "operations",
-        "converge",
-        "across",
-        "retries"
-      ],
-      "use_when": "Use when defining agent behavior to make state-changing operations converge across retries.",
-      "provides": [
-        "Make state-changing operations converge across retries"
-      ],
-      "related": []
-    },
-    {
       "id": "principle-separate-shared-mutable-state-before-using-locks",
       "title": "Separate shared mutable state before using locks",
       "principle": "Separate shared mutable state before using locks",
@@ -952,41 +920,6 @@
       "use_when": "Use when defining agent behavior to implement complete vertical slices with test, verification, and commit gates.",
       "provides": [
         "Implement complete vertical slices with test, verification, and commit gates"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-honor-idempotency-keys-across-retries-payload-mismatches-and-unknown-outcomes",
-      "title": "Honor idempotency keys across retries, payload mismatches, and unknown outcomes",
-      "principle": "Honor idempotency keys across retries, payload mismatches, and unknown outcomes",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "missing-context"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "review"
-      ],
-      "keywords": [
-        "honor",
-        "idempotency",
-        "keys",
-        "across",
-        "retries",
-        "payload",
-        "mismatches",
-        "and",
-        "unknown",
-        "outcomes"
-      ],
-      "use_when": "Use when defining agent behavior to honor idempotency keys across retries, payload mismatches, and unknown outcomes.",
-      "provides": [
-        "Honor idempotency keys across retries, payload mismatches, and unknown outcomes"
       ],
       "related": []
     },
@@ -3815,6 +3748,39 @@
         "Minimize reader load from indirection and mutable state",
         "Remove dead or redundant complexity before additions",
         "Replace redundant comments and unsafe suppressions with code fixes"
+      ],
+      "related": []
+    },
+    {
+      "id": "idempotent-operations-retry-keys-and-unknown-outcomes",
+      "title": "Idempotent Operations, Retry Keys, and Unknown Outcomes",
+      "path": "idempotent-operations-retry-keys-and-unknown-outcomes.md",
+      "kind": "recipe",
+      "problems": [
+        "instruction-compliance",
+        "missing-context"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "review"
+      ],
+      "keywords": [
+        "idempotent",
+        "operations",
+        "retry",
+        "keys",
+        "and",
+        "unknown",
+        "outcomes"
+      ],
+      "use_when": "Retries after timeouts or partial crashes can duplicate state changes because failure and unknown outcome are treated as the same. Operations must reconcile existing state and bind every retry to the original intent.",
+      "provides": [
+        "Make state-changing operations converge across retries",
+        "Honor idempotency keys across retries, payload mismatches, and unknown outcomes"
       ],
       "related": []
     }

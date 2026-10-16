@@ -50,6 +50,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Quality Floors, Measurable Thresholds, and Controlled Exceptions](../quality-floors-measurable-thresholds-and-controlled-exceptions.md)
 - [Non-Bypassable Quality Gates and Fail-Closed Verification](../non-bypassable-quality-gates-and-fail-closed-verification.md)
 - [Behavior-Preserving Refactoring and Protected Source Blocks](../behavior-preserving-refactoring-and-protected-source-blocks.md)
+- [Idempotent Operations, Retry Keys, and Unknown Outcomes](../idempotent-operations-retry-keys-and-unknown-outcomes.md)
 
 ## References
 
@@ -66,7 +67,6 @@ No materials yet.
 ## Principles awaiting recipes
 
 - [Build a rerunnable tool for nontrivial work](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-build-the-lever/SKILL.md)
-- [Make state-changing operations converge across retries](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-make-operations-idempotent/SKILL.md)
 - [Sequence changes as independently verifiable units](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
 - [Validate authored skills, referenced files, and structural examples](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md)
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)

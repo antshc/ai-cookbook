@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 229 covered, 15 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 231 covered, 13 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -44,11 +44,11 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [UI contracts and verification](#ui-contracts-and-verification) | 4 | 4 | 0 |
 | [Investigation and source evidence](#investigation-and-source-evidence) | 7 | 7 | 0 |
 | [Safe simplification](#safe-simplification) | 8 | 8 | 0 |
-| [Retries and shared state](#retries-and-shared-state) | 3 | 0 | 3 |
+| [Retries and shared state](#retries-and-shared-state) | 3 | 2 | 1 |
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 0 | 2 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **229** | **15** |
+| **Total** | **244** | **231** | **13** |
 
 ## Completion checks
 
@@ -440,9 +440,9 @@ Which complexity can be removed while preserving behavior, conventions, and prot
 
 Do retries converge safely, and can independent actors avoid conflicting writes?
 
-- [ ] **Make state-changing operations converge across retries** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-make-operations-idempotent/SKILL.md)
+- [x] **Make state-changing operations converge across retries** — [recipe](idempotent-operations-retry-keys-and-unknown-outcomes.md)
 - [ ] **Separate shared mutable state before using locks** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-separate-before-serializing-shared-state/SKILL.md)
-- [ ] **Honor idempotency keys across retries, payload mismatches, and unknown outcomes** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
+- [x] **Honor idempotency keys across retries, payload mismatches, and unknown outcomes** — [recipe](idempotent-operations-retry-keys-and-unknown-outcomes.md)
 
 ## Rerunnable tools and mechanical changes
 

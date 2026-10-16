@@ -31,6 +31,7 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Code-Path Investigation and Evidence-Calibrated Rationale](../code-path-investigation-and-evidence-calibrated-rationale.md)
 - [Scoped Evidence Collection, Query Logs, and Contradictions](../scoped-evidence-collection-query-logs-and-contradictions.md)
 - [Behavior-Preserving Refactoring and Protected Source Blocks](../behavior-preserving-refactoring-and-protected-source-blocks.md)
+- [Idempotent Operations, Retry Keys, and Unknown Outcomes](../idempotent-operations-retry-keys-and-unknown-outcomes.md)
 
 ## References
 
@@ -43,7 +44,6 @@ Specify inputs, configuration, evidence and resource resolution.
 
 ## Principles awaiting recipes
 
-- [Honor idempotency keys across retries, payload mismatches, and unknown outcomes](https://github.com/addyosmani/agent-skills/blob/main/skills/api-and-interface-design/SKILL.md)
 - [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)
