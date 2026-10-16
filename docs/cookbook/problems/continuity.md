@@ -22,6 +22,7 @@ Preserve useful lessons and resume from verified state.
 - [Architecture Decision Records, Alternatives, and Supersession](../architecture-decision-records-alternatives-and-supersession.md)
 - [Scoped Evidence Collection, Query Logs, and Contradictions](../scoped-evidence-collection-query-logs-and-contradictions.md)
 - [Quality Floors, Measurable Thresholds, and Controlled Exceptions](../quality-floors-measurable-thresholds-and-controlled-exceptions.md)
+- [Skill Validation, Proposal Checks, and Rejected-Change Ledgers](../skill-validation-proposal-checks-and-rejected-change-ledgers.md)
 
 ## References
 
@@ -35,6 +36,7 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
+No materials yet.
+
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

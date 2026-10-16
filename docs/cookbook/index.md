@@ -78,7 +78,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Write a consumer usage guide before implementing a shared API** — [recipe](consumer-first-design-public-contracts-and-usage-guides.md)
 - [x] **Reject unnecessary scope instead of reflexively agreeing** — [recipe](clarify-intent-surface-assumptions-and-challenge-scope.md)
 - [x] **Replace redundant comments and unsafe suppressions with code fixes** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md)
-- [ ] **Validate authored skills, referenced files, and structural examples** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md)
+- [x] **Validate authored skills, referenced files, and structural examples** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md)
 - [x] **Repair broken workflow skills in a separate PR from feature work** — [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md)
 
 - [x] **Make module internals inaccessible and expose only one supported operation path** — [recipe](architecture-sketches-structural-red-flags-and-design-rationale.md)
@@ -304,8 +304,8 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 
 ### Skill authoring and evaluation (second pass)
 
-- [ ] **Check existing skills, active proposals, and rejected changes before introducing a new skill** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
-- [ ] **Record rejected skill changes with evaluation evidence in an append-only ledger** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
+- [x] **Check existing skills, active proposals, and rejected changes before introducing a new skill** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md)
+- [x] **Record rejected skill changes with evaluation evidence in an append-only ledger** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md)
 - [x] **Write skill procedures in model-neutral capabilities instead of model-specific workarounds** — [recipe](concise-instructions-explicit-goals-and-model-neutral-procedures.md)
 - [x] **Include concrete anti-rationalization rebuttals, misuse red flags, and evidence-based exit checks in skills** — [recipe](constraint-first-instructions-and-anti-rationalization-rules.md)
 - [x] **Test skill routing with realistic positive triggers and neighboring negative triggers** — [recipe](positive-and-negative-skill-routing-tests.md)

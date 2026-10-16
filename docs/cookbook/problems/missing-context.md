@@ -32,6 +32,7 @@ Specify inputs, configuration, evidence and resource resolution.
 - [Scoped Evidence Collection, Query Logs, and Contradictions](../scoped-evidence-collection-query-logs-and-contradictions.md)
 - [Behavior-Preserving Refactoring and Protected Source Blocks](../behavior-preserving-refactoring-and-protected-source-blocks.md)
 - [Idempotent Operations, Retry Keys, and Unknown Outcomes](../idempotent-operations-retry-keys-and-unknown-outcomes.md)
+- [Skill Validation, Proposal Checks, and Rejected-Change Ledgers](../skill-validation-proposal-checks-and-rejected-change-ledgers.md)
 
 ## References
 
@@ -44,6 +45,7 @@ Specify inputs, configuration, evidence and resource resolution.
 
 ## Principles awaiting recipes
 
-- [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
+No materials yet.
+
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

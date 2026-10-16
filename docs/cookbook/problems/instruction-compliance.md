@@ -52,6 +52,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Behavior-Preserving Refactoring and Protected Source Blocks](../behavior-preserving-refactoring-and-protected-source-blocks.md)
 - [Idempotent Operations, Retry Keys, and Unknown Outcomes](../idempotent-operations-retry-keys-and-unknown-outcomes.md)
 - [Rerunnable Tools and Automated Mechanical Refactors](../rerunnable-tools-and-automated-mechanical-refactors.md)
+- [Skill Validation, Proposal Checks, and Rejected-Change Ledgers](../skill-validation-proposal-checks-and-rejected-change-ledgers.md)
 
 ## References
 
@@ -68,10 +69,8 @@ No materials yet.
 ## Principles awaiting recipes
 
 - [Sequence changes as independently verifiable units](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
-- [Validate authored skills, referenced files, and structural examples](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md)
 - [Write a specification before implementation and stop for approval before planning](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Update the living specification before implementing changed decisions](https://github.com/addyosmani/agent-skills/blob/main/skills/spec-driven-development/SKILL.md)
 - [Build dependency-ordered, verifiable task slices without implementing during planning](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
-- [Check existing skills, active proposals, and rejected changes before introducing a new skill](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

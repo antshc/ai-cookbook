@@ -1,6 +1,6 @@
 # Combined Recipe Checklist
 
-**Progress: 79/82 recipes complete; 234/244 principles covered.**
+**Progress: 80/82 recipes complete; 237/244 principles covered.**
 
 This backlog maps all 244 original principles exactly once. Coverage is checked only after the assigned recipe contains actionable instructions.
 
@@ -136,7 +136,7 @@ A recipe must remain usable with one or two examples under the [draft-recipe ski
 - [x] **R79. Rerunnable Tools and Automated Mechanical Refactors** — NEW (2 principles). [recipe](rerunnable-tools-and-automated-mechanical-refactors.md).
 ### Skill maintenance and delivery slices
 
-- [ ] **R80. Skill Validation, Proposal Checks, and Rejected-Change Ledgers** — NEW (3 principles).
+- [x] **R80. Skill Validation, Proposal Checks, and Rejected-Change Ledgers** — NEW (3 principles). [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md).
 - [ ] **R81. Approved Specifications, Capability Dependencies, and Living Decisions** — NEW (3 principles).
 - [ ] **R82. Dependency-Ordered Vertical Slices and Executable Plan Checks** — NEW (4 principles).
 
@@ -777,9 +777,9 @@ Every original principle appears below once. Links retain the original recipe or
 
 **Action:** Write new recipe.
 
-- [ ] **Validate authored skills, referenced files, and structural examples** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md).
-- [ ] **Check existing skills, active proposals, and rejected changes before introducing a new skill** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md).
-- [ ] **Record rejected skill changes with evaluation evidence in an append-only ledger** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md).
+- [x] **Validate authored skills, referenced files, and structural examples** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md).
+- [x] **Check existing skills, active proposals, and rejected changes before introducing a new skill** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md).
+- [x] **Record rejected skill changes with evaluation evidence in an append-only ledger** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md).
 
 ### R81. Approved Specifications, Capability Dependencies, and Living Decisions
 
@@ -806,8 +806,8 @@ Every original principle appears below once. Links retain the original recipe or
 | Assigned principles | 244 |
 | Duplicate assignments | 0 |
 | Unassigned principles | 0 |
-| Already covered principles | 234 |
-| Principles still awaiting coverage | 10 |
+| Already covered principles | 237 |
+| Principles still awaiting coverage | 7 |
 | Proposed total recipes | 82 |
 | New recipes | 79 |
 | Existing recipes to extend | 2 |

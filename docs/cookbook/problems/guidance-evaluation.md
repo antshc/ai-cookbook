@@ -15,6 +15,7 @@ Evaluate observable behavior and improve guidance from evidence.
 - [Controlled Skill Evaluations, Observable Traces, and Repeated Trials](../controlled-skill-evaluations-observable-traces-and-repeated-trials.md)
 - [Pressure Tests for Instruction Compliance](../pressure-tests-for-instruction-compliance.md)
 - [Reference-Grounded UI Contracts and Visual Parity](../reference-grounded-ui-contracts-and-visual-parity.md)
+- [Skill Validation, Proposal Checks, and Rejected-Change Ledgers](../skill-validation-proposal-checks-and-rejected-change-ledgers.md)
 
 ## References
 
@@ -29,6 +30,7 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Record rejected skill changes with evaluation evidence in an append-only ledger](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
+No materials yet.
+
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 234 covered, 10 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 237 covered, 7 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -46,9 +46,9 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Safe simplification](#safe-simplification) | 8 | 8 | 0 |
 | [Retries and shared state](#retries-and-shared-state) | 3 | 3 | 0 |
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 2 | 0 |
-| [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 0 | 3 |
+| [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 3 | 0 |
 | [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 0 | 7 |
-| **Total** | **244** | **234** | **10** |
+| **Total** | **244** | **237** | **7** |
 
 ## Completion checks
 
@@ -455,9 +455,9 @@ Can a repeatable tool perform or prove work more reliably than manual edits?
 
 Does the skill have a justified owner, valid supporting files, and evidence for accepted or rejected changes?
 
-- [ ] **Validate authored skills, referenced files, and structural examples** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/authoring-a-skill.md)
-- [ ] **Check existing skills, active proposals, and rejected changes before introducing a new skill** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
-- [ ] **Record rejected skill changes with evaluation evidence in an append-only ledger** — [source](https://github.com/addyosmani/agent-skills/blob/main/CONTRIBUTING.md)
+- [x] **Validate authored skills, referenced files, and structural examples** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md)
+- [x] **Check existing skills, active proposals, and rejected changes before introducing a new skill** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md)
+- [x] **Record rejected skill changes with evaluation evidence in an append-only ledger** — [recipe](skill-validation-proposal-checks-and-rejected-change-ledgers.md)
 
 ## Specifications and verifiable slices
 
