@@ -63,7 +63,11 @@ class BuildTests(unittest.TestCase):
 
     def test_stale_coverage_mapping_fails_validation(self):
         catalog=copy.deepcopy(self.catalog)
-        source=next(m for m in catalog['materials'] if m['kind']=='source-only')
+        source=next((m for m in catalog['materials'] if m['kind']=='source-only'), None)
+        if source is None:
+            source=next(m for m in catalog['materials'] if m['kind']=='recipe' and m.get('provides'))
+            source['kind']='source-only'
+            source['principle']=source['provides'][0]
         source['path']='https://example.com/stale'
         with self.assertRaisesRegex(AssertionError,'Stale coverage'):
             builder.validate(catalog)
@@ -95,11 +99,11 @@ class BuildTests(unittest.TestCase):
 
     def test_grouped_checklist_tracks_coverage_updates(self):
         cov = copy.deepcopy(builder.coverage())
-        principle = next(t for t,r in cov.items() if not r['covered'])
-        cov[principle] = {'covered': True, 'path': 'new-recipe.md'}
+        principle = next(iter(cov))
+        cov[principle] = {'covered': False, 'path': 'https://example.com/source'}
         text = builder.grouped_checklist(self.catalog['principle_groups'], cov)
-        self.assertIn(f'- [x] **{principle}** — [recipe](new-recipe.md)', text)
-        self.assertNotIn(f'- [ ] **{principle}**', text)
+        self.assertIn(f'- [ ] **{principle}** — [source](https://example.com/source)', text)
+        self.assertNotIn(f'- [x] **{principle}**', text)
 
 if __name__=='__main__':unittest.main()
 

@@ -54,6 +54,7 @@ Write instructions that survive ambiguity, shortcuts and pressure.
 - [Rerunnable Tools and Automated Mechanical Refactors](../rerunnable-tools-and-automated-mechanical-refactors.md)
 - [Skill Validation, Proposal Checks, and Rejected-Change Ledgers](../skill-validation-proposal-checks-and-rejected-change-ledgers.md)
 - [Approved Specifications, Capability Dependencies, and Living Decisions](../approved-specifications-capability-dependencies-and-living-decisions.md)
+- [Dependency-Ordered Vertical Slices and Executable Plan Checks](../dependency-ordered-vertical-slices-and-executable-plan-checks.md)
 
 ## References
 
@@ -69,7 +70,7 @@ No materials yet.
 
 ## Principles awaiting recipes
 
-- [Sequence changes as independently verifiable units](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
-- [Build dependency-ordered, verifiable task slices without implementing during planning](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
+No materials yet.
+
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

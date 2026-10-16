@@ -583,143 +583,6 @@
       ]
     },
     {
-      "id": "principle-sequence-changes-as-independently-verifiable-units",
-      "title": "Sequence changes as independently verifiable units",
-      "principle": "Sequence changes as independently verifiable units",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "sequence",
-        "changes",
-        "as",
-        "independently",
-        "verifiable",
-        "units"
-      ],
-      "use_when": "Use when defining agent behavior to sequence changes as independently verifiable units.",
-      "provides": [
-        "Sequence changes as independently verifiable units"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-validate-multi-phase-plans-with-an-executable-checker-before-handoff",
-      "title": "Validate multi-phase plans with an executable checker before handoff",
-      "principle": "Validate multi-phase plans with an executable checker before handoff",
-      "path": "https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md",
-      "kind": "source-only",
-      "problems": [
-        "delegation-handoffs"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning"
-      ],
-      "keywords": [
-        "validate",
-        "multi",
-        "phase",
-        "plans",
-        "with",
-        "an",
-        "executable",
-        "checker",
-        "before",
-        "handoff"
-      ],
-      "use_when": "Use when defining agent behavior to validate multi-phase plans with an executable checker before handoff.",
-      "provides": [
-        "Validate multi-phase plans with an executable checker before handoff"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-build-dependency-ordered-verifiable-task-slices-without-implementing-during-planning",
-      "title": "Build dependency-ordered, verifiable task slices without implementing during planning",
-      "principle": "Build dependency-ordered, verifiable task slices without implementing during planning",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "instruction-compliance"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "planning",
-        "implementation"
-      ],
-      "keywords": [
-        "build",
-        "dependency",
-        "ordered",
-        "verifiable",
-        "task",
-        "slices",
-        "without",
-        "implementing",
-        "during",
-        "planning"
-      ],
-      "use_when": "Use when defining agent behavior to build dependency-ordered, verifiable task slices without implementing during planning.",
-      "provides": [
-        "Build dependency-ordered, verifiable task slices without implementing during planning"
-      ],
-      "related": []
-    },
-    {
-      "id": "principle-implement-complete-vertical-slices-with-test-verification-and-commit-gates",
-      "title": "Implement complete vertical slices with test, verification, and commit gates",
-      "principle": "Implement complete vertical slices with test, verification, and commit gates",
-      "path": "https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md",
-      "kind": "source-only",
-      "problems": [
-        "premature-completion"
-      ],
-      "applies_to": [
-        "skill",
-        "agent",
-        "instruction"
-      ],
-      "task_types": [
-        "implementation"
-      ],
-      "keywords": [
-        "implement",
-        "complete",
-        "vertical",
-        "slices",
-        "with",
-        "test",
-        "verification",
-        "and",
-        "commit",
-        "gates"
-      ],
-      "use_when": "Use when defining agent behavior to implement complete vertical slices with test, verification, and commit gates.",
-      "provides": [
-        "Implement complete vertical slices with test, verification, and commit gates"
-      ],
-      "related": []
-    },
-    {
       "id": "authors-and-sources",
       "title": "Authors & Sources",
       "path": "authors-and-sources.md",
@@ -3601,6 +3464,44 @@
         "Approve the capability dependency map before specifying a multi-module initiative",
         "Write a specification before implementation and stop for approval before planning",
         "Update the living specification before implementing changed decisions"
+      ],
+      "related": []
+    },
+    {
+      "id": "dependency-ordered-vertical-slices-and-executable-plan-checks",
+      "title": "Dependency-Ordered Vertical Slices and Executable Plan Checks",
+      "path": "dependency-ordered-vertical-slices-and-executable-plan-checks.md",
+      "kind": "recipe",
+      "problems": [
+        "delegation-handoffs",
+        "instruction-compliance",
+        "premature-completion"
+      ],
+      "applies_to": [
+        "agent",
+        "instruction",
+        "skill"
+      ],
+      "task_types": [
+        "implementation",
+        "planning"
+      ],
+      "keywords": [
+        "dependency",
+        "ordered",
+        "vertical",
+        "slices",
+        "and",
+        "executable",
+        "plan",
+        "checks"
+      ],
+      "use_when": "Large plans fail when tasks are ordered by technical layer, omit proof, or depend on prose review alone. Sequence independently verifiable vertical slices by dependency and validate the plan mechanically before execution.",
+      "provides": [
+        "Sequence changes as independently verifiable units",
+        "Validate multi-phase plans with an executable checker before handoff",
+        "Build dependency-ordered, verifiable task slices without implementing during planning",
+        "Implement complete vertical slices with test, verification, and commit gates"
       ],
       "related": []
     }

@@ -2,7 +2,7 @@
 
 Each original principle belongs to exactly one group. Related practices remain separate checklist items; a group is a planning aid, not proof that one recipe covers every item.
 
-**Coverage:** 244 principles in 35 groups; 240 covered, 4 awaiting recipes.
+**Coverage:** 244 principles in 35 groups; 244 covered, 0 awaiting recipes.
 
 [Original coverage checklist](index.md) owns titles, coverage status, and recipe/source links. Group assignments live in `catalog.json`. This page is generated; update those inputs and run `python scripts/build_cookbook.py`.
 
@@ -47,8 +47,8 @@ Each original principle belongs to exactly one group. Related practices remain s
 | [Retries and shared state](#retries-and-shared-state) | 3 | 3 | 0 |
 | [Rerunnable tools and mechanical changes](#rerunnable-tools-and-mechanical-changes) | 2 | 2 | 0 |
 | [Skill authoring and maintenance](#skill-authoring-and-maintenance) | 3 | 3 | 0 |
-| [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 3 | 4 |
-| **Total** | **244** | **240** | **4** |
+| [Specifications and verifiable slices](#specifications-and-verifiable-slices) | 7 | 7 | 0 |
+| **Total** | **244** | **244** | **0** |
 
 ## Completion checks
 
@@ -463,10 +463,10 @@ Does the skill have a justified owner, valid supporting files, and evidence for 
 
 Which approved specification and dependency order define independently verifiable implementation units?
 
-- [ ] **Sequence changes as independently verifiable units** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
-- [ ] **Validate multi-phase plans with an executable checker before handoff** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md)
+- [x] **Sequence changes as independently verifiable units** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md)
+- [x] **Validate multi-phase plans with an executable checker before handoff** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md)
 - [x] **Approve the capability dependency map before specifying a multi-module initiative** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md)
 - [x] **Write a specification before implementation and stop for approval before planning** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md)
 - [x] **Update the living specification before implementing changed decisions** — [recipe](approved-specifications-capability-dependencies-and-living-decisions.md)
-- [ ] **Build dependency-ordered, verifiable task slices without implementing during planning** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
-- [ ] **Implement complete vertical slices with test, verification, and commit gates** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
+- [x] **Build dependency-ordered, verifiable task slices without implementing during planning** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md)
+- [x] **Implement complete vertical slices with test, verification, and commit gates** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md)

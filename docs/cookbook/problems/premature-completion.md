@@ -45,6 +45,7 @@ Define observable completion and account for every obligation.
 - [Live Browser Evidence, Accessibility, and UI State Coverage](../live-browser-evidence-accessibility-and-ui-state-coverage.md)
 - [Behavior-Preserving Refactoring and Protected Source Blocks](../behavior-preserving-refactoring-and-protected-source-blocks.md)
 - [Approved Specifications, Capability Dependencies, and Living Decisions](../approved-specifications-capability-dependencies-and-living-decisions.md)
+- [Dependency-Ordered Vertical Slices and Executable Plan Checks](../dependency-ordered-vertical-slices-and-executable-plan-checks.md)
 
 ## References
 
@@ -58,6 +59,7 @@ Define observable completion and account for every obligation.
 
 ## Principles awaiting recipes
 
-- [Implement complete vertical slices with test, verification, and commit gates](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
+No materials yet.
+
 
 [All problems](../README.md) · [Agent index](../agent-index.json)

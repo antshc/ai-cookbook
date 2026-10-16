@@ -69,7 +69,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Prove the real artifact rather than trusting proxies or reports** — [recipe](direct-evidence-safety-assumptions-and-risk-based-verification.md)
 - [x] **Redesign new requirements as foundational constraints** — [recipe](domain-models-foundational-constraints-and-invalid-states.md)
 - [x] **Separate shared mutable state before using locks** — [recipe](separate-shared-mutable-state-before-locking.md)
-- [ ] **Sequence changes as independently verifiable units** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-sequence-verifiable-units/SKILL.md)
+- [x] **Sequence changes as independently verifiable units** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md)
 - [x] **Remove dead or redundant complexity before additions** — [recipe](subtract-complexity-reduce-reader-load-and-fix-suppressions.md)
 - [x] **Test observable behavior with exact expected results** — [recipe](functional-slice-tests-observable-results-and-test-boundaries.md)
 - [x] **Use types to exclude invalid states and exhaust variants** — [recipe](domain-models-foundational-constraints-and-invalid-states.md)
@@ -154,7 +154,7 @@ Source: [cursor/plugins/pstack](https://github.com/cursor/plugins/tree/main/psta
 - [x] **Keep orchestration and code-writing responsibilities with separate owners** — [recipe](bounded-agent-roles-single-ownership-and-composition.md)
 - [x] **Refill a rolling worker window instead of waiting for whole batches** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md)
 - [x] **Judge agent progress by actual side effects and replace stalled workers** — [recipe](pilot-runs-rolling-worker-windows-and-progress-monitoring.md)
-- [ ] **Validate multi-phase plans with an executable checker before handoff** — [source](https://github.com/cursor/plugins/blob/main/pstack/skills/poteto-mode/playbooks/multi-phase-plan.md)
+- [x] **Validate multi-phase plans with an executable checker before handoff** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md)
 - [x] **Wait for an explicit operator go before executing an approved plan** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
 - [x] **Keep verified stacked PRs unmerged until explicitly authorized** — [recipe](reversible-autonomy-approval-gates-and-uncertain-targets.md)
 - [x] **Apply retrospective changes to shared agent instructions only with approval** — [recipe](evidence-based-retrospectives-and-approved-guidance-repairs.md)
@@ -204,7 +204,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 - [x] **Apply a minimum quality floor in noninteractive runs when project thresholds are absent** — [recipe](quality-floors-measurable-thresholds-and-controlled-exceptions.md)
 - [x] **Detect attempts to weaken checks, tests, suppressions, or quality thresholds** — [recipe](non-bypassable-quality-gates-and-fail-closed-verification.md)
 - [x] **Place verification checks according to execution cost and scope expensive checks to changed code** — [recipe](verification-cost-changed-scope-and-avoiding-redundant-runs.md)
-- [ ] **Build dependency-ordered, verifiable task slices without implementing during planning** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/planning-and-task-breakdown/SKILL.md)
+- [x] **Build dependency-ordered, verifiable task slices without implementing during planning** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md)
 - [x] **Preserve incomplete plans and use the project's designated task tracker** — [recipe](session-ledger-open-questions-and-restartable-handoffs.md)
 
 - [x] **Inspect working-tree changes before autonomous execution and stop on unrelated dirty files** — [recipe](task-scoped-staging-and-atomic-verified-commits.md)
@@ -212,7 +212,7 @@ Source: [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills), s
 
 ### Implementation, context, and independent judgment
 
-- [ ] **Implement complete vertical slices with test, verification, and commit gates** — [source](https://github.com/addyosmani/agent-skills/blob/main/skills/incremental-implementation/SKILL.md)
+- [x] **Implement complete vertical slices with test, verification, and commit gates** — [recipe](dependency-ordered-vertical-slices-and-executable-plan-checks.md)
 - [x] **Keep incomplete capabilities behind safe defaults or feature flags** — [recipe](safe-feature-flags-and-post-rollout-cleanup.md)
 - [x] **Do not repeat unchanged verification commands without intervening changes** — [recipe](verification-cost-changed-scope-and-avoiding-redundant-runs.md)
 - [x] **Load relevant implementation, tests, types, and precedent instead of entire context dumps** — [recipe](progressive-disclosure-targeted-context-and-safe-trimming.md)
